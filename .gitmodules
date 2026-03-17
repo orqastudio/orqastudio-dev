@@ -16,3 +16,18 @@
 [submodule "libs/graph-visualiser"]
 	path = libs/graph-visualiser
 	url = git@github.com:orqastudio/orqastudio-graph-visualiser.git
+[submodule "libs/brand"]
+	path = libs/brand
+	url = git@github.com:orqastudio/orqastudio-brand.git
+[submodule "libs/eslint-config"]
+	path = libs/eslint-config
+	url = git@github.com:orqastudio/orqastudio-eslint-config.git
+[submodule "libs/test-config"]
+	path = libs/test-config
+	url = git@github.com:orqastudio/orqastudio-test-config.git
+[submodule "libs/plugin-template"]
+	path = libs/plugin-template
+	url = git@github.com:orqastudio/orqastudio-plugin-template.git
+[submodule "plugins/claude-plugin"]
+	path = plugins/claude-plugin
+	url = git@github.com:orqastudio/orqastudio-claude-plugin.git
