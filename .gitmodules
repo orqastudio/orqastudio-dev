@@ -49,3 +49,6 @@
 [submodule "registry/community"]
 	path = registry/community
 	url = git@github.com:orqastudio/orqastudio-community-plugins.git
+[submodule "plugins/software-project"]
+	path = plugins/software-project
+	url = git@github.com:orqastudio/orqastudio-plugin-software.git
