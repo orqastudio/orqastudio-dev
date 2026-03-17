@@ -42,8 +42,8 @@ git clone --recurse-submodules git@github.com:orqastudio/orqastudio-dev.git
 # Wire up npm links between libraries and app
 bash scripts/link-all.sh
 
-# Start the dev environment
-cd app && make dev
+# Start the dev environment (from repo root)
+make dev
 ```
 
 ## Repository Ecosystem

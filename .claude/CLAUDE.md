@@ -112,8 +112,8 @@ Project relationships (e.g. `depends-on`/`depended-on-by`) defined in `project.j
 ## Development Workflow
 
 ```bash
-# Start the app
-cd app && make dev
+# Start the app (from dev repo root)
+make dev
 
 # Run all checks
 make verify
