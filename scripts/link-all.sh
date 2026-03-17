@@ -15,7 +15,25 @@ npm install
 npx tsc
 npm link
 
-# 2. Install and build SDK (depends on types)
+# 2. Install and build CLI (depends on types)
+echo ""
+echo "--- libs/cli ---"
+cd "$ROOT/libs/cli"
+npm install
+npm link @orqastudio/types
+npx tsc
+npm link
+
+# 3. Install and build claude-code-cli (depends on types + cli)
+echo ""
+echo "--- libs/claude-code-cli ---"
+cd "$ROOT/libs/claude-code-cli"
+npm install
+npm link @orqastudio/types @orqastudio/cli
+npx tsc
+npm link
+
+# 4. Install and build SDK (depends on types)
 echo ""
 echo "--- libs/sdk ---"
 cd "$ROOT/libs/sdk"
@@ -24,7 +42,7 @@ npm link @orqastudio/types
 npx tsc
 npm link
 
-# 3. Install and build integrity-validator (depends on types)
+# 5. Install and build integrity-validator (depends on types)
 echo ""
 echo "--- libs/integrity-validator ---"
 cd "$ROOT/libs/integrity-validator"
@@ -33,7 +51,7 @@ npm link @orqastudio/types
 npx tsc
 npm link
 
-# 4. Install and build svelte-components (depends on types)
+# 6. Install and build svelte-components (depends on types)
 echo ""
 echo "--- libs/svelte-components ---"
 cd "$ROOT/libs/svelte-components"
@@ -43,7 +61,7 @@ npm run build
 
 npm link
 
-# 5. Install and build graph-visualiser (depends on types)
+# 7. Install and build graph-visualiser (depends on types)
 echo ""
 echo "--- libs/graph-visualiser ---"
 cd "$ROOT/libs/graph-visualiser"
@@ -52,15 +70,15 @@ npm link @orqastudio/types
 npm run build
 npm link
 
-# 6. Install app UI and link all libs
+# 8. Install app UI and link all libs
 echo ""
 echo "--- app/ui ---"
 cd "$ROOT/app/ui"
 npm install
-npm link @orqastudio/types @orqastudio/sdk @orqastudio/integrity-validator @orqastudio/svelte-components @orqastudio/graph-visualiser
+npm link @orqastudio/types @orqastudio/sdk @orqastudio/cli @orqastudio/claude-code-cli @orqastudio/integrity-validator @orqastudio/svelte-components @orqastudio/graph-visualiser
 npx svelte-kit sync
 
-# 7. Build UI (needed for Rust compilation)
+# 9. Build UI (needed for Rust compilation)
 echo ""
 echo "--- app/ui build ---"
 npm run build

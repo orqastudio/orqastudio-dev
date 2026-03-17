@@ -2,12 +2,18 @@
 
 .DEFAULT_GOAL := help
 
+VERSION := $(shell cat VERSION 2>/dev/null | tr -d '[:space:]' || echo "0.1.0-dev")
+
 .PHONY: setup \
         dev start stop kill restart-tauri restart-vite restart status \
-        verify verify-integrity verify-rust verify-app verify-types verify-sdk \
+        verify verify-integrity verify-rust verify-app verify-types verify-sdk verify-cli \
         lint-rust fmt-rust \
         test-rust \
         build-ui \
+        sync-versions bump-version \
+        commit-all push-all pull-all \
+        submodule-status submodule-update \
+        release-check \
         help
 
 # ── Setup ────────────────────────────────────────────────────────────────────
@@ -43,7 +49,7 @@ status: ## Show dev controller and process status
 
 # ── Verification ─────────────────────────────────────────────────────────────
 
-verify: verify-integrity verify-rust verify-app verify-types verify-sdk ## Run all verification checks
+verify: verify-integrity verify-rust verify-app verify-types verify-sdk verify-cli ## Run all verification checks
 
 verify-integrity: ## Artifact graph integrity (links, inverses, dependencies)
 	cd app/ui && npx orqa-integrity ../..
@@ -59,6 +65,10 @@ verify-types: ## TypeScript check on types lib
 
 verify-sdk: ## TypeScript check on SDK
 	cd libs/sdk && npx tsc --noEmit
+
+verify-cli: ## TypeScript check on CLI and claude-code-cli
+	cd libs/cli && npx tsc --noEmit
+	cd libs/claude-code-cli && npx tsc --noEmit
 
 # ── Quality ──────────────────────────────────────────────────────────────────
 
@@ -77,6 +87,71 @@ test-rust: build-ui ## Run Rust tests
 
 build-ui: ## Build frontend (required before Rust compilation)
 	cd app/ui && npm run build
+
+# ── Version Management ───────────────────────────────────────────────────────
+
+sync-versions: ## Sync VERSION file across all submodules
+	@echo "Current version: $(VERSION)"
+	bash scripts/sync-versions.sh
+
+bump-version: ## Bump version interactively: make bump-version V=0.2.0-dev
+	@if [ -z "$(V)" ]; then echo "Usage: make bump-version V=0.2.0-dev"; exit 1; fi
+	@echo "$(V)" > VERSION
+	bash scripts/sync-versions.sh "$(V)"
+
+# ── Submodule Operations ─────────────────────────────────────────────────────
+
+submodule-status: ## Show status of all submodules (branch, dirty, version)
+	@echo "=== Submodule Status ==="
+	@echo "Canonical version: $(VERSION)"
+	@echo ""
+	@git submodule foreach --quiet 'printf "%-35s %-12s %s\n" "$$sm_path" "$$(git branch --show-current 2>/dev/null || echo detached)" "$$(git log --oneline -1 2>/dev/null | cut -c1-50)"'
+
+submodule-update: ## Pull latest from all submodule remotes
+	git submodule update --remote --merge
+	@echo "All submodules updated to latest remote."
+
+commit-all: ## Commit staged changes in all dirty submodules + dev repo
+	@echo "=== Committing across submodules ==="
+	@git submodule foreach --quiet 'if [ -n "$$(git status --porcelain)" ]; then echo "Committing: $$sm_path"; git add -A && git commit -m "Sync to $(VERSION)" || true; fi'
+	@echo ""
+	@echo "=== Committing dev repo ==="
+	git add -A && git commit -m "Sync all submodules to $(VERSION)" || echo "Nothing to commit in dev repo."
+
+push-all: ## Push all submodules + dev repo to origin
+	@echo "=== Pushing submodules ==="
+	git submodule foreach 'git push || true'
+	@echo ""
+	@echo "=== Pushing dev repo ==="
+	git push
+
+pull-all: ## Pull all submodules + dev repo from origin
+	git pull
+	git submodule update --remote --merge
+
+release-check: ## Pre-release check: verify all submodules are clean and on main
+	@echo "=== Release Readiness Check ==="
+	@echo "Version: $(VERSION)"
+	@echo ""
+	@ERRORS=0; \
+	git submodule foreach --quiet ' \
+		BRANCH=$$(git branch --show-current 2>/dev/null); \
+		DIRTY=$$(git status --porcelain | wc -l | tr -d " "); \
+		if [ "$$BRANCH" != "main" ]; then \
+			printf "  ✗ %-35s branch: %s (expected main)\n" "$$sm_path" "$$BRANCH"; \
+			ERRORS=$$((ERRORS+1)); \
+		elif [ "$$DIRTY" -gt 0 ]; then \
+			printf "  ✗ %-35s %s uncommitted changes\n" "$$sm_path" "$$DIRTY"; \
+			ERRORS=$$((ERRORS+1)); \
+		else \
+			printf "  ✓ %-35s clean on main\n" "$$sm_path"; \
+		fi'; \
+	echo ""; \
+	if [ -n "$$(git status --porcelain)" ]; then \
+		echo "  ✗ dev repo has uncommitted changes"; \
+	else \
+		echo "  ✓ dev repo clean"; \
+	fi
 
 # ── Help ─────────────────────────────────────────────────────────────────────
 
