@@ -24,10 +24,10 @@ npm link @orqastudio/types
 npx tsc
 npm link
 
-# 3. Install and build claude-code-cli (depends on types + cli)
+# 3. Install and build claude-code connector (depends on types + cli)
 echo ""
-echo "--- libs/claude-code-cli ---"
-cd "$ROOT/libs/claude-code-cli"
+echo "--- connectors/claude-code ---"
+cd "$ROOT/connectors/claude-code"
 npm install
 npm link @orqastudio/types @orqastudio/cli
 npx tsc
@@ -75,7 +75,7 @@ echo ""
 echo "--- app/ui ---"
 cd "$ROOT/app/ui"
 npm install
-npm link @orqastudio/types @orqastudio/sdk @orqastudio/cli @orqastudio/claude-code-cli @orqastudio/integrity-validator @orqastudio/svelte-components @orqastudio/graph-visualiser
+npm link @orqastudio/types @orqastudio/sdk @orqastudio/cli @orqastudio/connector-claude-code @orqastudio/integrity-validator @orqastudio/svelte-components @orqastudio/graph-visualiser
 npx svelte-kit sync
 
 # 9. Build UI (needed for Rust compilation)

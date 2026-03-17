@@ -3,55 +3,55 @@
 	url = git@github.com:orqastudio/orqastudio-app.git
 [submodule "libs/types"]
 	path = libs/types
-	url = git@github.com:orqastudio/orqastudio-types.git
+	url = git@github.com:orqastudio/orqastudio-lib-types.git
 [submodule "libs/sdk"]
 	path = libs/sdk
-	url = git@github.com:orqastudio/orqastudio-sdk.git
+	url = git@github.com:orqastudio/orqastudio-lib-sdk.git
 [submodule "libs/integrity-validator"]
 	path = libs/integrity-validator
-	url = git@github.com:orqastudio/orqastudio-integrity-validator.git
+	url = git@github.com:orqastudio/orqastudio-lib-integrity-validator.git
 [submodule "libs/svelte-components"]
 	path = libs/svelte-components
-	url = git@github.com:orqastudio/orqastudio-svelte-components.git
+	url = git@github.com:orqastudio/orqastudio-lib-svelte-components.git
 [submodule "libs/graph-visualiser"]
 	path = libs/graph-visualiser
-	url = git@github.com:orqastudio/orqastudio-graph-visualiser.git
+	url = git@github.com:orqastudio/orqastudio-lib-graph-visualiser.git
 [submodule "libs/brand"]
 	path = libs/brand
-	url = git@github.com:orqastudio/orqastudio-brand.git
+	url = git@github.com:orqastudio/orqastudio-lib-brand.git
 [submodule "libs/eslint-config"]
 	path = libs/eslint-config
-	url = git@github.com:orqastudio/orqastudio-eslint-config.git
+	url = git@github.com:orqastudio/orqastudio-lib-eslint-config.git
 [submodule "libs/test-config"]
 	path = libs/test-config
-	url = git@github.com:orqastudio/orqastudio-test-config.git
-[submodule "libs/plugin-template"]
-	path = libs/plugin-template
-	url = git@github.com:orqastudio/orqastudio-plugin-template.git
-[submodule "tools/debug-tool"]
-	path = tools/debug-tool
-	url = git@github.com:orqastudio/orqastudio-debug-tool.git
-[submodule "plugins/claude-integration"]
-	path = plugins/claude-integration
-	url = git@github.com:orqastudio/orqastudio-plugin-claude.git
+	url = git@github.com:orqastudio/orqastudio-lib-test-config.git
 [submodule "libs/cli"]
 	path = libs/cli
-	url = git@github.com:orqastudio/orqastudio-cli.git
-[submodule "libs/claude-code-cli"]
-	path = libs/claude-code-cli
-	url = git@github.com:orqastudio/claude-code-cli-plugin.git
+	url = git@github.com:orqastudio/orqastudio-lib-cli.git
 [submodule ".github-org"]
 	path = .github-org
 	url = git@github.com:orqastudio/.github.git
 [submodule "registry/official"]
 	path = registry/official
-	url = git@github.com:orqastudio/orqastudio-official-plugins.git
+	url = git@github.com:orqastudio/orqastudio-registry-official.git
 [submodule "registry/community"]
 	path = registry/community
-	url = git@github.com:orqastudio/orqastudio-community-plugins.git
-[submodule "plugins/software-project"]
-	path = plugins/software-project
-	url = git@github.com:orqastudio/orqastudio-plugin-software.git
+	url = git@github.com:orqastudio/orqastudio-registry-community.git
 [submodule "plugins/cli"]
 	path = plugins/cli
 	url = git@github.com:orqastudio/orqastudio-plugin-cli.git
+[submodule "plugins/claude"]
+	path = plugins/claude
+	url = git@github.com:orqastudio/orqastudio-plugin-claude.git
+[submodule "plugins/software"]
+	path = plugins/software
+	url = git@github.com:orqastudio/orqastudio-plugin-software.git
+[submodule "connectors/claude-code"]
+	path = connectors/claude-code
+	url = git@github.com:orqastudio/orqastudio-connector-claude-code.git
+[submodule "tools/debug"]
+	path = tools/debug
+	url = git@github.com:orqastudio/orqastudio-tool-debug.git
+[submodule "templates"]
+	path = templates
+	url = git@github.com:orqastudio/orqastudio-templates.git

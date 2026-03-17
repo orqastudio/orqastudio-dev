@@ -24,28 +24,28 @@ setup: ## First-time setup: install deps, build libs, link everything
 # ── Development ──────────────────────────────────────────────────────────────
 
 dev: ## Start dev environment (spawns controller, waits for ready, exits)
-	@cd app && node ../tools/debug-tool/dev.mjs dev
+	@cd app && node ../tools/debug/dev.mjs dev
 
 start: ## Start dev controller in foreground (long-running, unified output)
-	@cd app && node ../tools/debug-tool/dev.mjs start
+	@cd app && node ../tools/debug/dev.mjs start
 
 stop: ## Stop controller gracefully
-	@cd app && node ../tools/debug-tool/dev.mjs stop
+	@cd app && node ../tools/debug/dev.mjs stop
 
 kill: ## Force-kill all OrqaStudio processes
-	@cd app && node ../tools/debug-tool/dev.mjs kill
+	@cd app && node ../tools/debug/dev.mjs kill
 
 restart-tauri: ## Restart Tauri app only — recompile Rust, Vite stays alive
-	@cd app && node ../tools/debug-tool/dev.mjs restart-tauri
+	@cd app && node ../tools/debug/dev.mjs restart-tauri
 
 restart-vite: ## Restart Vite dev server only
-	@cd app && node ../tools/debug-tool/dev.mjs restart-vite
+	@cd app && node ../tools/debug/dev.mjs restart-vite
 
 restart: ## Restart Vite + Tauri (controller stays alive)
-	@cd app && node ../tools/debug-tool/dev.mjs restart
+	@cd app && node ../tools/debug/dev.mjs restart
 
 status: ## Show dev controller and process status
-	@cd app && node ../tools/debug-tool/dev.mjs status
+	@cd app && node ../tools/debug/dev.mjs status
 
 # ── Verification ─────────────────────────────────────────────────────────────
 
@@ -66,9 +66,9 @@ verify-types: ## TypeScript check on types lib
 verify-sdk: ## TypeScript check on SDK
 	cd libs/sdk && npx tsc --noEmit
 
-verify-cli: ## TypeScript check on CLI and claude-code-cli
+verify-cli: ## TypeScript check on CLI and connector
 	cd libs/cli && npx tsc --noEmit
-	cd libs/claude-code-cli && npx tsc --noEmit
+	cd connectors/claude-code && npx tsc --noEmit
 
 # ── Quality ──────────────────────────────────────────────────────────────────
 

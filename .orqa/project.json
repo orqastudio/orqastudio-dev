@@ -7,7 +7,7 @@
     { "name": "types", "path": "libs/types" },
     { "name": "sdk", "path": "libs/sdk" },
     { "name": "cli", "path": "libs/cli" },
-    { "name": "claude-code-cli", "path": "libs/claude-code-cli" },
+    { "name": "connector-claude-code", "path": "connectors/claude-code" },
     { "name": "integrity", "path": "libs/integrity-validator" },
     { "name": "components", "path": "libs/svelte-components" },
     { "name": "visualiser", "path": "libs/graph-visualiser" }
