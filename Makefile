@@ -51,8 +51,11 @@ status: ## Show dev controller and process status
 
 verify: verify-integrity verify-rust verify-app verify-types verify-sdk verify-cli ## Run all checks
 
-verify-integrity: ## Artifact graph integrity
-	npx orqa validate
+verify-integrity: ## Artifact graph integrity + version + license + readme
+	orqa validate
+	orqa version check
+	orqa repo license
+	orqa repo readme
 
 verify-rust: build-ui ## Rust backend tests
 	cd app/backend/src-tauri && cargo test
