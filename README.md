@@ -1,5 +1,9 @@
 ![License](https://img.shields.io/badge/license-BSL%201.1-blue)
 ![Status](https://img.shields.io/badge/status-pre--release-orange)
+![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?logo=svelte&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?logo=gnubash&logoColor=white)
 
 ![OrqaStudio](https://github.com/orqastudio/orqastudio-brand/blob/main/assets/banners/banner-1680x240.png?raw=1)
 
@@ -7,72 +11,46 @@
 
 > **Pre-release** — APIs and interfaces may change without notice until v1.0.0.
 
-Organisation-mode development environment for OrqaStudio. Aggregates all sub-repositories via git submodules and provides product-level governance artifacts.
+## Prerequisites
 
-## Repository Structure
+- **Git** — [git-scm.com](https://git-scm.com/)
 
-```
-orqastudio-dev/
-├── .orqa/                        # Product-level governance artifacts
-├── app/                          # Tauri v2 desktop app (Rust + Svelte 5 + SQLite)
-├── libs/
-│   ├── types/                    # @orqastudio/types — shared TypeScript types
-│   ├── sdk/                      # @orqastudio/sdk — Svelte 5 stores, graph SDK
-│   ├── integrity-validator/      # @orqastudio/integrity-validator — CLI integrity checker
-│   ├── svelte-components/        # @orqastudio/svelte-components — shared UI components
-│   ├── graph-visualiser/         # @orqastudio/graph-visualiser — Cytoscape graph viz
-│   ├── brand/                    # @orqastudio/brand — branding assets
-│   ├── eslint-config/            # @orqastudio/eslint-config — shared ESLint config
-│   ├── test-config/              # @orqastudio/test-config — shared test config
-│   └── plugin-template/          # @orqastudio/plugin-template — plugin starter
-├── plugins/
-│   └── claude-plugin/            # OrqaStudio Claude Code plugin
-├── tools/
-│   └── debug-tool/               # Dev controller and dashboard
-├── scripts/link-all.sh           # npm link setup (run for fresh checkout)
-└── Makefile                      # verify, build, test targets
-```
+Node.js 22+ and Rust are checked and installed automatically during setup.
 
-## Getting Started
+## Setup
 
 ```bash
-# Clone with submodules
-git clone --recurse-submodules git@github.com:orqastudio/orqastudio-dev.git
-
-# Wire up npm links between libraries and app
-bash scripts/link-all.sh
-
-# Start the dev environment (from repo root)
-make dev
+git clone git@github.com:orqastudio/orqastudio-dev.git
+cd orqastudio-dev
+make install
 ```
 
-## Repository Ecosystem
+This runs the full bootstrap:
 
-| Repository | Purpose |
-|------------|---------|
-| [orqastudio-app](https://github.com/orqastudio/orqastudio-app) | Desktop application (Tauri v2 + Svelte 5) |
-| [orqastudio-types](https://github.com/orqastudio/orqastudio-types) | Shared TypeScript type definitions |
-| [orqastudio-sdk](https://github.com/orqastudio/orqastudio-sdk) | Svelte 5 stores, graph SDK, plugin registry |
-| [orqastudio-integrity-validator](https://github.com/orqastudio/orqastudio-integrity-validator) | CLI artifact graph integrity checker |
-| [orqastudio-svelte-components](https://github.com/orqastudio/orqastudio-svelte-components) | Shared Svelte UI components |
-| [orqastudio-graph-visualiser](https://github.com/orqastudio/orqastudio-graph-visualiser) | Cytoscape-based graph visualisation |
-| [orqastudio-brand](https://github.com/orqastudio/orqastudio-brand) | Branding assets and guidelines |
-| [orqastudio-debug-tool](https://github.com/orqastudio/orqastudio-debug-tool) | Dev controller and web dashboard |
-| [orqastudio-claude-plugin](https://github.com/orqastudio/orqastudio-claude-plugin) | Claude Code plugin for OrqaStudio |
+1. **Prereqs** — checks git, node, npm, rust, cargo. Offers to install Node (via fnm) and Rust (via rustup) if missing.
+2. **Submodules** — inits all git submodules recursively.
+3. **Dependencies** — `npm install` for all packages, `cargo fetch` for Rust.
+4. **Build & link** — builds all libraries, `npm link` into the app, svelte-kit sync, UI build.
+5. **Smoke test** — verifies the CLI responds, artifact graph builds, `cargo check` compiles, and `svelte-check` passes.
 
----
+After install, the `orqa` CLI is on your PATH.
+
+## Daily Use
+
+```bash
+orqa install              # Re-run full setup (or individual: prereqs, submodules, deps, link)
+orqa verify               # Governance checks (integrity, version, license, readme)
+orqa check                # Code quality (lint, typecheck, format) — or: orqa check rust, orqa check app
+orqa test                 # Run test suites — or: orqa test rust, orqa test app
+orqa validate             # Integrity validation only
+orqa version check        # Check for version drift
+orqa version bump 0.2.0   # Bump version across all repos
+orqa plugin install <src> # Install a plugin
+orqa graph --stats        # Artifact graph statistics
+```
 
 ## License
 
-Copyright (c) 2026 Bobbi Byrne-Graham
+BSL-1.1 with Ethical Use Addendum — see [LICENSE](app/LICENSE) and [CHANGE-LICENSE](app/CHANGE-LICENSE).
 
-[BSL 1.1](LICENSE) — converts to Apache 2.0 four years after each version release. Internal business use, non-commercial use, plugin development, and evaluation are expressly permitted.
-
----
-
-## Trademark Notice
-
-**OrqaStudio** is a trademark of Bobbi Byrne-Graham.
-
-- **Domains:** [orqastudio.com](https://orqastudio.com), [orqastudio.ai](https://orqastudio.ai)
-- **Namespace:** [github.com/orqastudio](https://github.com/orqastudio)
+All documentation lives within the app at `.orqa/`.
