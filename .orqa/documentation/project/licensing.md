@@ -98,9 +98,14 @@ The project remains independent. We're beholden to the mission, not to any corpo
 
 ## The Change Date
 
-Every release starts a 4-year clock. When it expires, that release's code becomes **Apache 2.0** — the same license used by most of the open-source ecosystem. No restrictions, no grants needed, fully open.
+Every release starts a 4-year clock. When it expires, that release's code converts to **Apache 2.0 with an Ethical Use Addendum**.
 
-This means OrqaStudio is on a path to being fully open-source. The BSL-1.1 window protects the project's sustainability during active development while guaranteeing that everything eventually becomes free for everyone.
+This means after 4 years:
+- You get full Apache 2.0 freedoms — use, modify, distribute, commercial use
+- The ethical protections **remain permanently** — the Prohibited Purpose clause (protected characteristics, SaaS hosting) never expires
+- The code is effectively open-source, except for organisations that actively harm marginalised communities
+
+We acknowledge this is not an OSI-approved license. OSI-approved licenses don't permit use restrictions based on who the user is. We believe protecting vulnerable communities is more important than OSI approval. The trade-off is explicit and intentional.
 
 ## Summary Table
 
