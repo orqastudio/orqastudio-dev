@@ -18,8 +18,13 @@
 
 # ── Setup ────────────────────────────────────────────────────────────────────
 
-setup: ## First-time setup: install deps, build libs, link everything
+install: setup verify-integrity ## Full bootstrap: setup + verify everything passes
+	@echo ""
+	@echo "=== Install complete. Run 'make dev' to start developing. ==="
+
+setup: ## Install deps, build libs, link everything, add orqa to PATH
 	bash scripts/link-all.sh
+	@orqa --version > /dev/null 2>&1 && echo "orqa CLI: $$(orqa --version)" || echo "WARNING: orqa not on PATH — run 'cd libs/cli && npm link'"
 
 # ── Development ──────────────────────────────────────────────────────────────
 
