@@ -22,7 +22,8 @@ install: setup verify-integrity ## Full bootstrap: setup + verify everything pas
 	@echo ""
 	@echo "=== Install complete. Run 'make dev' to start developing. ==="
 
-setup: ## Install deps, build libs, link everything, add orqa to PATH
+setup: ## Init submodules, install deps, build libs, link everything, add orqa to PATH
+	git submodule update --init --recursive
 	bash scripts/link-all.sh
 	@orqa --version > /dev/null 2>&1 && echo "orqa CLI: $$(orqa --version)" || echo "WARNING: orqa not on PATH — run 'cd libs/cli && npm link'"
 
