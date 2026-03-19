@@ -151,6 +151,23 @@ This means an agent can manage coding standards on behalf of the user: "Make Typ
 
 Each skill has a paired documentation artifact (`synchronised-with`) so humans can understand the same concepts: how enforcement entries work, how to override standards for a sub-project, how the config merge hierarchy works, what each tool checks and why.
 
+### Plugin Agents
+
+Each plugin ships dedicated agents that are NOT conversational — they're scoped task agents that run, produce structured output, and return:
+
+**Assessment agents** (read-only, return structured findings):
+- `svelte-standards-assessor` — scans a project, returns a structured report of violations against configured rules. No conversation, no suggestions — just facts.
+- `tauri-standards-assessor` — same for Rust/Tauri.
+
+**Configuration agents** (write, scoped to specific tasks):
+- `svelte-standards-configurator` — reads the project's coding standards rules, generates/updates ESLint + svelte-check + Vitest config files. Does the job and exits.
+- `tauri-standards-configurator` — same for clippy + rustfmt + cargo test config.
+
+**Installation agent** (one-time setup):
+- `plugin-installer` — detects languages, recommends sub-projects, adds dependencies, generates initial config. Interactive during setup, then done.
+
+These agents have constrained tool access (file read/write, no shell, no web), a defined output schema, and no memory between runs. They're implementation tools, not thinking partners. The orchestrator delegates to them for specific jobs — they don't participate in conversations.
+
 ## orqa check
 
 `orqa check` becomes the single command that:
