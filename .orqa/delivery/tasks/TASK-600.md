@@ -1,16 +1,16 @@
 ---
-id: TASK-600
+id: TASK-1b4f95d3
 type: task
 title: "Download ONNX embedding model for dev environment"
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
-  - target: EPIC-096
+  - target: EPIC-cdb03816
     type: delivers
 ---
 
-# TASK-600: ONNX Model Download
+# TASK-1b4f95d3: ONNX Model Download
 
 ## Acceptance Criteria
 

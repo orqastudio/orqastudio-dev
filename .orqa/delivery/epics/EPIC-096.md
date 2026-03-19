@@ -1,5 +1,5 @@
 ---
-id: EPIC-096
+id: EPIC-cdb03816
 type: epic
 title: "Pre-connector switch — native search MCP, skill consolidation, connector cleanup"
 description: "System architecture work needed before switching to the Claude Code connector plugin. Consolidates search skills, exposes native search as MCP, refactors skill sync to proactive-only, and ensures the connector is production-ready."
@@ -9,21 +9,21 @@ updated: 2026-03-19
 relationships:
   - target: MS-654badde
     type: fulfils
-  - target: TASK-596
+  - target: TASK-9fb85edf
     type: delivered-by
-  - target: TASK-597
+  - target: TASK-6827dc2b
     type: delivered-by
-  - target: TASK-598
+  - target: TASK-945e12fa
     type: delivered-by
-  - target: TASK-599
+  - target: TASK-15a03760
     type: delivered-by
-  - target: TASK-600
+  - target: TASK-1b4f95d3
     type: delivered-by
-  - target: TASK-601
+  - target: TASK-52a123bd
     type: delivered-by
 ---
 
-# EPIC-096: Pre-Connector Switch — System Architecture
+# EPIC-cdb03816: Pre-Connector Switch — System Architecture
 
 ## Goal
 

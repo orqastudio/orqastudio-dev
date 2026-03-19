@@ -1,18 +1,18 @@
 ---
-id: TASK-597
+id: TASK-6827dc2b
 type: task
 title: "Implement code_research compound search tool"
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
-  - target: EPIC-096
+  - target: EPIC-cdb03816
     type: delivers
-  - target: TASK-596
+  - target: TASK-9fb85edf
     type: depends-on
 ---
 
-# TASK-597: code_research Compound Search
+# TASK-6827dc2b: code_research Compound Search
 
 ## Acceptance Criteria
 

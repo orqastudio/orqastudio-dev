@@ -1,18 +1,18 @@
 ---
-id: TASK-598
+id: TASK-945e12fa
 type: task
 title: "Consolidate search skills — merge chunkhound, orqa-code-search, orqa-native-search into search"
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
-  - target: EPIC-096
+  - target: EPIC-cdb03816
     type: delivers
-  - target: TASK-597
+  - target: TASK-6827dc2b
     type: depends-on
 ---
 
-# TASK-598: Search Skill Consolidation
+# TASK-945e12fa: Search Skill Consolidation
 
 ## Acceptance Criteria
 

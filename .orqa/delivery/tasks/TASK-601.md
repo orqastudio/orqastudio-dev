@@ -1,18 +1,18 @@
 ---
-id: TASK-601
+id: TASK-52a123bd
 type: task
 title: "Final connector audit and cleanup before switch"
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
-  - target: EPIC-096
+  - target: EPIC-cdb03816
     type: delivers
-  - target: TASK-599
+  - target: TASK-15a03760
     type: depends-on
 ---
 
-# TASK-601: Final Connector Audit
+# TASK-52a123bd: Final Connector Audit
 
 ## Acceptance Criteria
 

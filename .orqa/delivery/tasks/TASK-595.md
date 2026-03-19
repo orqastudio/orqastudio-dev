@@ -1,5 +1,5 @@
 ---
-id: TASK-595
+id: TASK-b9c91655
 type: task
 title: "Skill sync — auto-generate Claude Code skills from OrqaStudio skills"
 status: completed
@@ -10,7 +10,7 @@ relationships:
     type: delivers
 ---
 
-# TASK-595: Skill Sync
+# TASK-b9c91655: Skill Sync
 
 ## Context
 

@@ -1,5 +1,5 @@
 ---
-id: IDEA-130
+id: IDEA-66d2cbeb
 type: idea
 title: "Native ONNX embeddings server — hardware-accelerated search + pre-processing MCP service"
 description: "A persistent ONNX embeddings server running on best available hardware (NPU → DirectML GPU → CUDA → CPU). Exposed as MCP tools for search, skill matching, and code_research. Pre-processes artifacts on save for instant semantic queries. Replaces ChunkHound dependency. Enables smarter orchestrator delegation via semantic skill matching."
@@ -13,7 +13,7 @@ relationships:
     type: grounded-by
 ---
 
-# IDEA-130: Native ONNX Embeddings Server
+# IDEA-66d2cbeb: Native ONNX Embeddings Server
 
 ## Problem
 

@@ -1,18 +1,18 @@
 ---
-id: TASK-599
+id: TASK-15a03760
 type: task
 title: "Refactor skill sync to proactive-only — coding standards and agent preloads"
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
-  - target: EPIC-096
+  - target: EPIC-cdb03816
     type: delivers
-  - target: TASK-598
+  - target: TASK-945e12fa
     type: depends-on
 ---
 
-# TASK-599: Skill Sync Refactor
+# TASK-15a03760: Skill Sync Refactor
 
 ## Acceptance Criteria
 
