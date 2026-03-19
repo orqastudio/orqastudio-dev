@@ -52,3 +52,6 @@
 [submodule "plugins/tauri"]
 	path = plugins/tauri
 	url = git@github.com:orqastudio/orqastudio-plugin-tauri.git
+[submodule "plugins/typescript"]
+	path = plugins/typescript
+	url = git@github.com:orqastudio/orqastudio-plugin-typescript.git
