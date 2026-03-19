@@ -19,6 +19,8 @@ relationships:
     rationale: Coding standards as visible governance artifacts with traceable decisions — not hidden config files
   - target: PERSONA-002
     type: benefits
+  - target: EPIC-090
+    type: realises
 ---
 
 # Coding Standards as Rules

@@ -52,3 +52,9 @@
 [submodule "templates"]
 	path = templates
 	url = git@github.com:orqastudio/orqastudio-templates.git
+[submodule "plugins/svelte"]
+	path = plugins/svelte
+	url = git@github.com:orqastudio/orqastudio-plugin-svelte.git
+[submodule "plugins/tauri"]
+	path = plugins/tauri
+	url = git@github.com:orqastudio/orqastudio-plugin-tauri.git
