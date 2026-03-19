@@ -1,5 +1,5 @@
 ---
-id: IDEA-087
+id: IDEA-cc13aea9
 title: Linter integration plugins for lint suppression governance
 description: "Replace the pre-commit lint suppression scanner with native linter plugins (clippy plugin, ESLint plugin) that validate AD-NNN decision references at lint time, providing IDE-level feedback. Software-project-specific plugin."
 status: captured
@@ -13,12 +13,12 @@ research-needed:
   - "Should this be a standalone plugin or part of the software project type preset?"
   - "How does this interact with IDE integration — can suppression violations show as warnings in the editor?"
 relationships:
-  - target: AD-047
+  - target: AD-aa6b409a
     type: crystallises
-    rationale: "AD-047 defines the // AD-NNN pattern these plugins would consume"
-  - target: PILLAR-002
+    rationale: "AD-aa6b409a defines the // AD-NNN pattern these plugins would consume"
+  - target: PILLAR-cdf756ff
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

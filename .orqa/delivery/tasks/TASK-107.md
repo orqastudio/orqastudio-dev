@@ -1,5 +1,5 @@
 ---
-id: TASK-107
+id: TASK-1581f02c
 title: Define MVP feature set
 description: "Bounded the set of capabilities that constitute the minimum viable product, distinguishing MVP features from future work."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Every MVP feature traces to at least one pillar
   - Excluded features are documented with rationale
 relationships:
-  - target: EPIC-027
+  - target: EPIC-1f21b578
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-317
+  - target: TASK-a88d16bb
     type: depended-on-by
 ---
 ## What

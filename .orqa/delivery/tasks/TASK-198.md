@@ -1,5 +1,5 @@
 ---
-id: TASK-198
+id: TASK-8232a533
 title: Implement evidence-before-done + learn-after-doing gates
 description: |
   Process gates that fire at task completion without verification evidence or
@@ -12,14 +12,14 @@ acceptance:
   - learn-after-doing gate fires at Stop when significant work done but no lessons checked
   - Gates return systemMessage reminders
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-195
+  - target: TASK-ff48daa1
     type: depends-on
-  - target: TASK-207
+  - target: TASK-34007190
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

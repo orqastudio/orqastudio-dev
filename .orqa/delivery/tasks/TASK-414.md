@@ -1,5 +1,5 @@
 ---
-id: TASK-414
+id: TASK-70762a1f
 title: Integration test — verify all declared enforcement entries are consumed
 description: Audit all enforcement entries across all rules and verify each one is actually evaluated by the plugin (CLI) or app (Rust). Produce a coverage report showing declared vs. implemented enforcement.
 status: completed
@@ -20,16 +20,16 @@ acceptance:
   - "Coverage report: number of declared entries vs. number consumed, per event type"
   - Any entry that is declared but not consumed is flagged as a gap
 relationships:
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: delivers
     rationale: Verification task — confirms the bootstrapping gap is closed
-  - target: TASK-411
+  - target: TASK-ab9fa5f9
     type: depends-on
-  - target: TASK-412
+  - target: TASK-528bba63
     type: depends-on
-  - target: TASK-413
+  - target: TASK-419e65f4
     type: depends-on
-  - target: TASK-415
+  - target: TASK-84e27636
     type: depended-on-by
 ---
 
@@ -42,9 +42,9 @@ relationships:
 3. For each event type, verify the plugin hook that handles it:
    - `file` → PreToolUse hook → rule-engine.mjs
    - `bash` → PreToolUse hook → rule-engine.mjs
-   - `stop` → Stop hook → rule-engine.mjs (after TASK-411)
+   - `stop` → Stop hook → rule-engine.mjs (after TASK-ab9fa5f9)
    - `lint` → Declarative only (verify documented as such)
-4. For each `action: inject` entry, verify skill content is loaded (after TASK-412)
+4. For each `action: inject` entry, verify skill content is loaded (after TASK-528bba63)
 5. Produce coverage report
 
 ### Expected Output

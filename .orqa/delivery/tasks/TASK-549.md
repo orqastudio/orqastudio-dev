@@ -1,10 +1,10 @@
 ---
-id: TASK-549
-title: "Create SKILL-055 Licensing Decisions"
+id: TASK-cf67e6e8
+title: "Create SKILL-12ed4953 Licensing Decisions"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-087
+  - target: EPIC-74c5cd5e
     type: delivers
 ---

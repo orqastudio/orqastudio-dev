@@ -1,5 +1,5 @@
 ---
-id: EPIC-009
+id: EPIC-5dbece66
 title: Codebase Test Coverage
 description: "Achieve comprehensive test coverage across the entire codebase — frontend (Vitest), backend (cargo test + tarpaulin), and IPC contract verification. Close the frontend test gap (zero tests vs 465 Rust tests) and establish coverage measurement and enforcement."
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
 ---
@@ -34,7 +34,7 @@ relationships:
 ### Backend (465 tests → measured coverage)
 
 - [ ] Set up cargo tarpaulin for coverage measurement
-- [ ] Identify and fill coverage gaps in untested command modules (per EPIC-057 findings)
+- [ ] Identify and fill coverage gaps in untested command modules (per EPIC-4726cb3b findings)
 - [ ] Add integration tests for cross-module flows (artifact graph, search, streaming)
 
 ### Coverage infrastructure
@@ -45,4 +45,4 @@ relationships:
 
 ## Implementation Design
 
-Implementation approach to be defined during planning. See [IDEA-086](IDEA-086) for the longer-term vision of coverage enforcement as a plugin/integrity check.
+Implementation approach to be defined during planning. See [IDEA-64f9ef1c](IDEA-64f9ef1c) for the longer-term vision of coverage enforcement as a plugin/integrity check.

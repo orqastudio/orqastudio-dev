@@ -1,5 +1,5 @@
 ---
-id: TASK-479
+id: TASK-2e078ea2
 title: Build MilestoneContextCard and new dashboard layout shell
 description: "Replace the existing dashboard layout with a narrative flow structure: milestone context at top, three columns (Where You Are, How You're Improving, What's Next), and a collapsible section at the bottom. Build the MilestoneContextCard component showing the active milestone."
 status: completed
@@ -16,15 +16,15 @@ acceptance:
   - "MilestoneContextCard shows active milestone title, gate question, P1 epic progress bar, and deadline"
   - "Empty state displayed when no active milestone exists, with link to Roadmap"
 relationships:
-  - target: EPIC-074
+  - target: EPIC-11561c51
     type: delivers
     rationale: Foundation layout task for the dashboard redesign
-  - target: TASK-480
+  - target: TASK-75f8d4bf
     type: depended-on-by
-  - target: TASK-481
+  - target: TASK-c68a16cf
     type: depended-on-by
-  - target: TASK-482
+  - target: TASK-79f51e7d
     type: depended-on-by
-  - target: TASK-483
+  - target: TASK-cae0706a
     type: depended-on-by
 ---

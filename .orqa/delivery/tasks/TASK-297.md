@@ -1,5 +1,5 @@
 ---
-id: TASK-297
+id: TASK-6e4fd8b9
 title: Documentation inventory
 description: "Audit documentation/: what docs NEED to exist vs what IS there. Identify stale content. Every remaining doc must be human-consumption content. Flag placeholder directories."
 status: completed
@@ -15,12 +15,12 @@ acceptance:
   - "Gap analysis: what docs are missing"
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-285
+  - target: TASK-5da55ccb
     type: depends-on
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

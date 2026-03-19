@@ -1,5 +1,5 @@
 ---
-id: DOC-059
+id: DOC-91c7dc26
 title: "Wireframe: Core Layout"
 description: "Wireframe specification for the core application layout with sidebar, panels, and toolbar."
 created: 2026-03-02
@@ -8,12 +8,12 @@ sort: 1
 relationships: []
 ---
 
-<!-- FRESHNESS NOTE (2026-03-15): The "Zone Relationship to PaneForge" section is stale — the implementation uses shadcn-svelte Resizable (PaneGroup/Pane/Handle) not PaneForge. The three-zone structure, Activity Bar, Nav Sub-Panel, and Status Bar descriptions remain accurate. The Project Dashboard section in the wireframe (shown as a wireframe view) reflects an earlier vision — the actual dashboard is now the narrative flow layout (see EPIC-074 and the dashboard wireframe). -->
+<!-- FRESHNESS NOTE (2026-03-15): The "Zone Relationship to PaneForge" section is stale — the implementation uses shadcn-svelte Resizable (PaneGroup/Pane/Handle) not PaneForge. The three-zone structure, Activity Bar, Nav Sub-Panel, and Status Bar descriptions remain accurate. The Project Dashboard section in the wireframe (shown as a wireframe view) reflects an earlier vision — the actual dashboard is now the narrative flow layout (see EPIC-11561c51 and the dashboard wireframe). -->
 
 
-**Date:** 2026-03-02 | **Informed by:** Information Architecture, [Frontend Research](RES-004), Design System
+**Date:** 2026-03-02 | **Informed by:** Information Architecture, [Frontend Research](RES-df5560cb), Design System
 
-The main window structure showing all zones: Activity Bar, Nav Sub-Panel, Explorer Panel, and Chat Panel, plus Toolbar and Status Bar. This replaces the previous four-zone layout with a three-zone + nav sub-panel design [AD-019](AD-019).
+The main window structure showing all zones: Activity Bar, Nav Sub-Panel, Explorer Panel, and Chat Panel, plus Toolbar and Status Bar. This replaces the previous four-zone layout with a three-zone + nav sub-panel design [AD-4f5277f0](AD-4f5277f0).
 
 ---
 

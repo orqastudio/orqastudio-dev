@@ -1,5 +1,5 @@
 ---
-id: IDEA-055
+id: IDEA-68d4e688
 title: Plugin-Based Tool Architecture
 description: "Redesign the tool system so tools are implemented as plugins rather than hardcoded Rust functions — enabling user-created tools, community tool packs, and dynamic tool registration without app rebuilds."
 status: surpassed
@@ -12,22 +12,22 @@ research-needed:
   - "Could tools be defined as WASM modules, external scripts, or MCP servers instead of Rust functions?"
   - "How does MCP's tool protocol relate to this? (MCP already defines a tool interface — could native tools use the same protocol?)"
   - "What security boundaries are needed for user-created tools? (file system access, network, process spawning)"
-  - "How does this relate to AD-010 (Tool Implementation as MCP) and the existing plugin system ideas (IDEA-038)?"
+  - "How does this relate to AD-0dbba717 (Tool Implementation as MCP) and the existing plugin system ideas (IDEA-b77e2955)?"
   - "What's the migration path from hardcoded tools to plugin tools without breaking existing functionality?"
 relationships:
   - type: merged-into
-    target: IDEA-110
+    target: IDEA-2dfe18ae
   - type: realises
-    target: EPIC-080
-  - target: AD-055
+    target: EPIC-3f65c703
+  - target: AD-c6abc8e6
     type: crystallises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 
-> **Surpassed 2026-03-16**: Plugin architecture concept merged into EPIC-080 via AD-055. Runtime tool registration (WASM/MCP/script formats, capability-based permissions) split into IDEA-110 as architecturally distinct from artifact/view plugins.
+> **Surpassed 2026-03-16**: Plugin architecture concept merged into EPIC-3f65c703 via AD-c6abc8e6. Runtime tool registration (WASM/MCP/script formats, capability-based permissions) split into IDEA-2dfe18ae as architecturally distinct from artifact/view plugins.
 
 ## Motivation
 
@@ -37,7 +37,7 @@ If tools used a plugin interface:
 
 1. **Users could create custom tools** — project-specific file processors, API integrators, domain-specific validators
 2. **Community tool packs** — shared tool collections installable without app rebuilds
-3. **Tool skills become tool documentation** — each plugin tool ships with its companion skill (IDEA-053)
+3. **Tool skills become tool documentation** — each plugin tool ships with its companion skill (IDEA-59ce25c3)
 4. **MCP alignment** — MCP already defines a tool protocol. If native tools used the same interface, internal and external tools would be interchangeable
 5. **Composability** — tools become small, swappable units with defined interfaces, exactly matching the composability principle
 
@@ -48,4 +48,4 @@ If tools used a plugin interface:
 - Tool registry: runtime discovery from a tools directory, not compile-time registration
 - Security: capability-based permissions per tool (read-only tools vs write tools vs network tools)
 - Migration: existing Rust tools wrapped in the plugin interface, new tools can be either native or plugin
-- Relates to [AD-010](AD-010) (MCP tools), [IDEA-038](IDEA-038) (plugin system), [IDEA-053](IDEA-053) (tool-linked skills)
+- Relates to [AD-0dbba717](AD-0dbba717) (MCP tools), [IDEA-b77e2955](IDEA-b77e2955) (plugin system), [IDEA-59ce25c3](IDEA-59ce25c3) (tool-linked skills)

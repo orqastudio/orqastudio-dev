@@ -1,5 +1,5 @@
 ---
-id: TASK-250
+id: TASK-aadbf15a
 title: Unified logging — OrqaDev dashboard + production error surfacing
 description: "Two-tier logging: (1) in dev mode, stream info-level logs from backend, sidecar, frontend, and file watchers to the existing OrqaDev web dashboard (port 3001); (2) in all modes, surface errors in the app UI."
 status: completed
@@ -18,10 +18,10 @@ acceptance:
   - "ALL MODES: File watcher errors displayed in the app UI"
   - Log entries have source tags and severity levels
 relationships:
-  - target: EPIC-055
+  - target: EPIC-5f9fcf48
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-345
+  - target: TASK-389af55e
     type: depended-on-by
 ---
 

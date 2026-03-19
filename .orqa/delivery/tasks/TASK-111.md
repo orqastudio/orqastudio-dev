@@ -1,5 +1,5 @@
 ---
-id: TASK-111
+id: TASK-3d9d4b18
 title: Design artifact browser wireframes
 description: "Created wireframes for the artifact browser including navigation tree, content panel, and frontmatter display."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - All component states are specified
   - Navigation supports nested directories
 relationships:
-  - target: EPIC-028
+  - target: EPIC-5573bb70
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-318
+  - target: TASK-34fa0772
     type: depended-on-by
 ---
 ## What

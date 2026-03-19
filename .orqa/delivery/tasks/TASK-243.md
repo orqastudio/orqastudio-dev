@@ -1,5 +1,5 @@
 ---
-id: TASK-243
+id: TASK-d88b98c2
 title: Complete stream_commands.rs domain extraction
 description: "stream_commands.rs is 2,497 lines with ~1,200 duplicated in domain modules. Complete the extraction so the command file is ~150-200 lines delegating to stream_loop.rs, tool_executor.rs, and system_prompt.rs."
 status: completed
@@ -11,10 +11,10 @@ acceptance:
   - Existing 42 tests still pass (moved or adapted as needed)
   - make check passes with zero warnings
 relationships:
-  - target: EPIC-055
+  - target: EPIC-5f9fcf48
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-345
+  - target: TASK-389af55e
     type: depended-on-by
 ---
 

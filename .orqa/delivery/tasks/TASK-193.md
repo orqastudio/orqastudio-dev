@@ -1,5 +1,5 @@
 ---
-id: TASK-193
+id: TASK-49c63248
 title: Add inject action to enforcement schema
 description: |
   Add a new 'inject' action type to the enforcement schema, the plugin
@@ -14,18 +14,18 @@ acceptance:
   - Plugin rule-engine.mjs handles inject action
   - Rust enforcement engine handles Inject variant
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-195
+  - target: TASK-ff48daa1
     type: depended-on-by
-  - target: TASK-199
+  - target: TASK-6cd46196
     type: depended-on-by
-  - target: TASK-200
+  - target: TASK-439fa554
     type: depended-on-by
-  - target: TASK-206
+  - target: TASK-965b2b81
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

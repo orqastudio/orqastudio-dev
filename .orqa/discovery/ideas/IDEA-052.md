@@ -1,5 +1,5 @@
 ---
-id: IDEA-052
+id: IDEA-770dc935
 title: Unified Search Tool with Flexible Parameters
 description: "Combine the app's three search tools (search_regex, search_semantic, code_research) into a single flexible Search tool that accepts different parameters to control search mode, scope, and output format."
 status: captured
@@ -13,9 +13,9 @@ research-needed:
   - "What backward compatibility is needed for existing tool calls in skills and rules?"
   - "How does this relate to MCP tool naming conventions?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 

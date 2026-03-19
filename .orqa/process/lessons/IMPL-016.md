@@ -1,7 +1,7 @@
 ---
-id: IMPL-016
+id: IMPL-f40a935f
 title: Orchestrator deferred scoped deliverable instead of implementing
-description: "The orchestrator marked an epic as nearly complete while deferring a task's implementation work to a future epic, violating RULE-019."
+description: "The orchestrator marked an epic as nearly complete while deferring a task's implementation work to a future epic, violating RULE-e120bb70."
 status: active
 created: 2026-03-12
 updated: 2026-03-12
@@ -12,7 +12,7 @@ relationships: []
 
 ## Pattern
 
-During [EPIC-057](EPIC-057), the orchestrator reported [TASK-270](TASK-270) (AD-032 SQLite governance table removal) as documentation-only and deferred the actual table removal to a future epic. This violated [RULE-019](RULE-019) (no deferred deliverables) — the task's acceptance criteria explicitly included removing the tables, not just documenting the violation.
+During [EPIC-4726cb3b](EPIC-4726cb3b), the orchestrator reported [TASK-c75be77c](TASK-c75be77c) (AD-2aa4d6db SQLite governance table removal) as documentation-only and deferred the actual table removal to a future epic. This violated [RULE-e120bb70](RULE-e120bb70) (no deferred deliverables) — the task's acceptance criteria explicitly included removing the tables, not just documenting the violation.
 
 The root cause: the orchestrator treated "document the gap" as equivalent to "resolve the gap" when the acceptance criteria clearly required resolution.
 
@@ -20,4 +20,4 @@ The root cause: the orchestrator treated "document the gap" as equivalent to "re
 
 1. Always read acceptance criteria literally — if it says "removed from SQLite", the tables must be removed
 2. If a task's implementation scope is larger than expected, report the scope to the user and ask for direction — do not silently reduce scope
-3. [RULE-019](RULE-019) already covers this pattern; the violation was a compliance failure, not a missing rule
+3. [RULE-e120bb70](RULE-e120bb70) already covers this pattern; the violation was a compliance failure, not a missing rule

@@ -1,6 +1,6 @@
 ---
-id: TASK-301
-title: "Research: relationship and metadata display UX (RES-049)"
+id: TASK-7b8ded48
+title: "Research: relationship and metadata display UX (RES-07667737)"
 description: "UX review investigating how artifacts should present their relationships, pipeline stage, and metadata to users in the app. Produces design recommendations for a future implementation epic."
 status: completed
 created: 2026-03-13
@@ -8,7 +8,7 @@ updated: 2026-03-13
 assignee: null
 docs: []
 acceptance:
-  - RES-049 is complete with findings and recommendations
+  - RES-07667737 is complete with findings and recommendations
   - Current metadata display audited with specific issues identified
   - Recommendations for relationship visualization
   - Recommendations for pipeline stage representation
@@ -16,18 +16,18 @@ acceptance:
   - Design recommendations suitable for informing a future implementation epic
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-292
+  - target: TASK-b3aadbcd
     type: depends-on
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 
 ## What
 
-Complete the [RES-049](RES-049) research document investigating how artifacts should present relationships and metadata to users.
+Complete the [RES-07667737](RES-07667737) research document investigating how artifacts should present relationships and metadata to users.
 
 ## How
 
@@ -36,10 +36,10 @@ Complete the [RES-049](RES-049) research document investigating how artifacts sh
 3. Consider pipeline stage visualization approaches
 4. Consider how the three-level structure should influence navigation
 5. Produce design recommendations (textual wireframes, not code)
-6. Update [RES-049](RES-049) with findings
+6. Update [RES-07667737](RES-07667737) with findings
 
 ## Verification
 
-- [RES-049](RES-049) status updated to complete
+- [RES-07667737](RES-07667737) status updated to complete
 - All six research questions answered
 - Actionable design recommendations documented

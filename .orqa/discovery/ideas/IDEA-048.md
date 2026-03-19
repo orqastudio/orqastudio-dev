@@ -1,5 +1,5 @@
 ---
-id: IDEA-048
+id: IDEA-bfa5ca93
 title: Security Audit — Prompt Injection and Encoded Asset Protection
 description: "Comprehensive security audit covering prompt injection attack vectors, encoded asset vulnerabilities, and defense mechanisms. Protect against malicious content in governance artifacts, tool outputs, and user inputs that could manipulate AI agent behavior."
 status: captured
@@ -14,9 +14,9 @@ research-needed:
   - "What defense mechanisms are effective (input sanitization, output validation, sandboxing)?"
   - "How do other AI-assisted tools (Cursor, Copilot, Claude Code) handle prompt injection?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation
@@ -27,7 +27,7 @@ OrqaStudio reads governance artifacts, user-authored markdown, and tool outputs 
 2. **Tool outputs** — file read results, search results, and external data could contain injection payloads
 3. **Encoded assets** — base64-encoded content, unicode tricks, or invisible characters could bypass input validation
 4. **Cross-session persistence** — injected content in SQLite (session history) could affect future sessions
-5. **Plugin attack surface** — future plugin system (AD-015) opens additional vectors
+5. **Plugin attack surface** — future plugin system (AD-69072318) opens additional vectors
 
 A structured security audit would identify vulnerabilities, implement defenses, and establish security testing patterns.
 

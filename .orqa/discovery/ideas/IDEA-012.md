@@ -1,7 +1,7 @@
 ---
-id: IDEA-012
+id: IDEA-167c0362
 title: Session Intelligence
-description: "Make AI conversations smarter over time with summarisation, context-aware suggestions, session branching, and proactive PILLAR-002."
+description: "Make AI conversations smarter over time with summarisation, context-aware suggestions, session branching, and proactive PILLAR-cdf756ff."
 status: captured
 created: 2026-03-07
 updated: 2026-03-13
@@ -9,11 +9,11 @@ horizon: someday
 research-needed:
   - Conversation summarisation approaches
   - Session branching data model
-  - Proactive PILLAR-002 pattern matching
+  - Proactive PILLAR-cdf756ff pattern matching
 relationships:
-  - target: PILLAR-003
+  - target: PILLAR-94b281db
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Candidate Items

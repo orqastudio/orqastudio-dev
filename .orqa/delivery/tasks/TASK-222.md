@@ -1,28 +1,28 @@
 ---
-id: TASK-222
-title: Audit existing architecture decisions against AD-038/039/040
-description: "Review AD-001 through AD-037 to identify which decisions are superseded, affected, or made defunct by the graph-based knowledge injection (AD-038), core graph firmware (AD-039), and task-first audit trail (AD-040) decisions."
+id: TASK-4bc73133
+title: Audit existing architecture decisions against AD-2783985c/039/040
+description: "Review AD-e513c9e4 through AD-0f6286cd to identify which decisions are superseded, affected, or made defunct by the graph-based knowledge injection (AD-2783985c), core graph firmware (AD-e8ab8572), and task-first audit trail (AD-6dfbba70) decisions."
 status: completed
 created: 2026-03-12
 updated: 2026-03-12
 docs:
-  - DOC-036
+  - DOC-01ddd8aa
 acceptance:
-  - Every AD from AD-001 to AD-037 has been reviewed
+  - Every AD from AD-e513c9e4 to AD-0f6286cd has been reviewed
   - Superseded decisions have status superseded and superseded-by set
-  - New decisions (AD-038/039/040) have supersedes set where applicable
-  - No one-sided supersessions exist (RULE-004 compliance)
+  - New decisions (AD-2783985c/039/040) have supersedes set where applicable
+  - No one-sided supersessions exist (RULE-7b770593 compliance)
   - "Summary table of audit findings exists in this task's body"
 relationships:
-  - target: EPIC-053
+  - target: EPIC-dc1e3e4b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: depended-on-by
 ---
 ## What
 
-[AD-038](AD-038) (graph-based knowledge injection), [AD-039](AD-039) (core graph firmware), and [AD-040](AD-040)
+[AD-2783985c](AD-2783985c) (graph-based knowledge injection), [AD-e8ab8572](AD-e8ab8572) (core graph firmware), and [AD-6dfbba70](AD-6dfbba70)
 (task-first audit trail with configurable epic requirement) represent a significant
 architectural shift. Several earlier decisions may now be:
 
@@ -32,25 +32,25 @@ architectural shift. Several earlier decisions may now be:
 
 ## Known Candidates for Review
 
-These decisions are likely affected based on what [AD-038](AD-038)/039/040 change:
+These decisions are likely affected based on what [AD-2783985c](AD-2783985c)/039/040 change:
 
 | Decision | Title | Likely Impact |
 |----------|-------|---------------|
-| [AD-028](AD-028) | Three-tier skill model | May be affected by graph-based skill discovery |
-| [AD-029](AD-029) | Universal agent roles | Likely unaffected — roles are orthogonal to injection |
-| [AD-032](AD-032) | SQLite for conversations only | Likely unaffected — governance stays file-based |
-| [AD-033](AD-033) | Enforcement engine | May be affected by graph-based enforcement |
-| [AD-034](AD-034) | Plugin architecture | May be affected by plugin reading graph |
-| [AD-035](AD-035) | Companion plugin | Likely affected — plugin now reads graph |
-| [AD-036](AD-036) | Rule enforcement entries | May be affected by self-enforcing rules |
-| [AD-037](AD-037) | Capability-based agents | Likely unaffected — orthogonal to injection |
+| [AD-53e80192](AD-53e80192) | Three-tier skill model | May be affected by graph-based skill discovery |
+| [AD-774cc3d0](AD-774cc3d0) | Universal agent roles | Likely unaffected — roles are orthogonal to injection |
+| [AD-2aa4d6db](AD-2aa4d6db) | SQLite for conversations only | Likely unaffected — governance stays file-based |
+| [AD-0291fa65](AD-0291fa65) | Enforcement engine | May be affected by graph-based enforcement |
+| [AD-89391ab6](AD-89391ab6) | Plugin architecture | May be affected by plugin reading graph |
+| [AD-2f1991c2](AD-2f1991c2) | Companion plugin | Likely affected — plugin now reads graph |
+| [AD-d8ea4d2b](AD-d8ea4d2b) | Rule enforcement entries | May be affected by self-enforcing rules |
+| [AD-0f6286cd](AD-0f6286cd) | Capability-based agents | Likely unaffected — orthogonal to injection |
 
 All other ADs should still be reviewed for completeness.
 
 ## How
 
-1. Read each AD from [AD-001](AD-001) through [AD-037](AD-037)
-2. Evaluate against [AD-038](AD-038)/039/040 changes
+1. Read each AD from [AD-e513c9e4](AD-e513c9e4) through [AD-0f6286cd](AD-0f6286cd)
+2. Evaluate against [AD-2783985c](AD-2783985c)/039/040 changes
 3. Mark superseded decisions with proper status and cross-references
 4. Update both sides of any supersession in the same commit
 
@@ -62,44 +62,44 @@ All other ADs should still be reviewed for completeness.
 
 ## Output
 
-No full supersessions found. [AD-038](AD-038)/039/040 are additive/evolutionary, not replacements. Six ADs are partially affected:
+No full supersessions found. [AD-2783985c](AD-2783985c)/039/040 are additive/evolutionary, not replacements. Six ADs are partially affected:
 
 | AD | Title | Verdict | Notes |
 |----|-------|---------|-------|
-| [AD-001](AD-001) | Thick Backend Architecture | Unaffected | |
-| [AD-002](AD-002) | IPC Boundary Design | Unaffected | |
-| [AD-003](AD-003) | Error Propagation via Result Types | Unaffected | |
-| [AD-004](AD-004) | Svelte 5 Runes Only | Unaffected | |
-| [AD-005](AD-005) | SQLite for All Structured Persistence | Already superseded | By [AD-032](AD-032) prior to this audit |
-| [AD-006](AD-006) | Component Purity | Unaffected | |
-| [AD-007](AD-007) | Agent SDK Sidecar Integration | Unaffected | |
-| [AD-008](AD-008) | Max Subscription Authentication | Unaffected | |
-| [AD-009](AD-009) | Streaming Pipeline | Unaffected | |
-| [AD-010](AD-010) | Tool Implementation as MCP | Unaffected | |
-| [AD-011](AD-011) | Security Model | Unaffected | |
-| [AD-012](AD-012) | Tauri Plugin Selections | Unaffected | |
-| [AD-013](AD-013) | Frontend Library Selections | Unaffected | |
-| [AD-014](AD-014) | Persistence Architecture | Already superseded | By [AD-032](AD-032) prior to this audit |
-| [AD-015](AD-015) | Governance Artifact Format | Already superseded | By [AD-021](AD-021) prior to this audit |
-| [AD-016](AD-016) | Onboarding Strategy | Unaffected | |
-| [AD-017](AD-017) | Composability Principle | Unaffected | |
-| [AD-018](AD-018) | Four-Zone Layout | Already superseded | By [AD-019](AD-019) prior to this audit |
-| [AD-019](AD-019) | Three-Zone + Nav Sub-Panel Layout | Unaffected | |
-| [AD-020](AD-020) | Filesystem-Driven Doc Browsing | Unaffected | |
-| [AD-021](AD-021) | .orqa/ as Single Source of Truth | Partially affected | [AD-039](AD-039) adds firmware/project layering — core artifacts within .orqa/ are read-only firmware |
-| [AD-022](AD-022) | Config-Driven Artifact Scanning | Partially affected | [AD-038](AD-038) adds docs/skills/sources schema fields the scanner must surface |
-| [AD-023](AD-023) | Plans Merged Into Research Schema | Partially affected | [AD-038](AD-038) adds sources field to research schema |
-| [AD-024](AD-024) | Native Search Engine | Unaffected | |
-| [AD-025](AD-025) | Provider-Agnostic AI Integration | Unaffected | |
-| [AD-026](AD-026) | Domain Service Extraction Pattern | Unaffected | |
-| [AD-027](AD-027) | Vision Evolution | Unaffected | |
-| [AD-028](AD-028) | Three-Tier Skill Loading | Partially affected | Tier 2 mechanism changes from orchestrator table to graph edges (task.docs/skills) |
-| [AD-029](AD-029) | Universal Roles, Domain-Specific Skills | Unaffected | |
-| [AD-030](AD-030) | Skill-Driven Project Initialisation | Partially affected | Must now configure workflow.epics-required during setup (AD-040) |
-| [AD-031](AD-031) | Pillars as First-Class Planning Artifacts | Unaffected | |
-| [AD-032](AD-032) | SQLite for Conversation Persistence Only | Unaffected | |
-| [AD-033](AD-033) | Core UI Boundary | Unaffected | |
-| [AD-034](AD-034) | Schema-Driven Artifact Filtering | Partially affected | New schema fields from [AD-038](AD-038) appear as filter options; core schemas protected per [AD-039](AD-039) |
-| [AD-035](AD-035) | Config-Driven Navigation Defaults | Unaffected | |
-| [AD-036](AD-036) | Cross-Linking as Default Behaviour | Unaffected | |
-| [AD-037](AD-037) | AI-Driven Cross-Artifact Search | Unaffected | |
+| [AD-e513c9e4](AD-e513c9e4) | Thick Backend Architecture | Unaffected | |
+| [AD-a334623b](AD-a334623b) | IPC Boundary Design | Unaffected | |
+| [AD-1ad08e5f](AD-1ad08e5f) | Error Propagation via Result Types | Unaffected | |
+| [AD-8d552e96](AD-8d552e96) | Svelte 5 Runes Only | Unaffected | |
+| [AD-dffc3d30](AD-dffc3d30) | SQLite for All Structured Persistence | Already superseded | By [AD-2aa4d6db](AD-2aa4d6db) prior to this audit |
+| [AD-61087142](AD-61087142) | Component Purity | Unaffected | |
+| [AD-dc919e52](AD-dc919e52) | Agent SDK Sidecar Integration | Unaffected | |
+| [AD-22650b3b](AD-22650b3b) | Max Subscription Authentication | Unaffected | |
+| [AD-fcd55d44](AD-fcd55d44) | Streaming Pipeline | Unaffected | |
+| [AD-0dbba717](AD-0dbba717) | Tool Implementation as MCP | Unaffected | |
+| [AD-5d9ac6bd](AD-5d9ac6bd) | Security Model | Unaffected | |
+| [AD-834fc71a](AD-834fc71a) | Tauri Plugin Selections | Unaffected | |
+| [AD-afc78f6e](AD-afc78f6e) | Frontend Library Selections | Unaffected | |
+| [AD-8b91f5a4](AD-8b91f5a4) | Persistence Architecture | Already superseded | By [AD-2aa4d6db](AD-2aa4d6db) prior to this audit |
+| [AD-69072318](AD-69072318) | Governance Artifact Format | Already superseded | By [AD-6ce44025](AD-6ce44025) prior to this audit |
+| [AD-4047ceb1](AD-4047ceb1) | Onboarding Strategy | Unaffected | |
+| [AD-1d928079](AD-1d928079) | Composability Principle | Unaffected | |
+| [AD-40b3de0a](AD-40b3de0a) | Four-Zone Layout | Already superseded | By [AD-4f5277f0](AD-4f5277f0) prior to this audit |
+| [AD-4f5277f0](AD-4f5277f0) | Three-Zone + Nav Sub-Panel Layout | Unaffected | |
+| [AD-8b7c4ac5](AD-8b7c4ac5) | Filesystem-Driven Doc Browsing | Unaffected | |
+| [AD-6ce44025](AD-6ce44025) | .orqa/ as Single Source of Truth | Partially affected | [AD-e8ab8572](AD-e8ab8572) adds firmware/project layering — core artifacts within .orqa/ are read-only firmware |
+| [AD-0c56aa90](AD-0c56aa90) | Config-Driven Artifact Scanning | Partially affected | [AD-2783985c](AD-2783985c) adds docs/skills/sources schema fields the scanner must surface |
+| [AD-c3700062](AD-c3700062) | Plans Merged Into Research Schema | Partially affected | [AD-2783985c](AD-2783985c) adds sources field to research schema |
+| [AD-99c2a969](AD-99c2a969) | Native Search Engine | Unaffected | |
+| [AD-ff88ecea](AD-ff88ecea) | Provider-Agnostic AI Integration | Unaffected | |
+| [AD-6cd1ff6f](AD-6cd1ff6f) | Domain Service Extraction Pattern | Unaffected | |
+| [AD-44a033cf](AD-44a033cf) | Vision Evolution | Unaffected | |
+| [AD-53e80192](AD-53e80192) | Three-Tier Skill Loading | Partially affected | Tier 2 mechanism changes from orchestrator table to graph edges (task.docs/skills) |
+| [AD-774cc3d0](AD-774cc3d0) | Universal Roles, Domain-Specific Skills | Unaffected | |
+| [AD-6f0dea5e](AD-6f0dea5e) | Skill-Driven Project Initialisation | Partially affected | Must now configure workflow.epics-required during setup (AD-6dfbba70) |
+| [AD-47c41f0c](AD-47c41f0c) | Pillars as First-Class Planning Artifacts | Unaffected | |
+| [AD-2aa4d6db](AD-2aa4d6db) | SQLite for Conversation Persistence Only | Unaffected | |
+| [AD-0291fa65](AD-0291fa65) | Core UI Boundary | Unaffected | |
+| [AD-89391ab6](AD-89391ab6) | Schema-Driven Artifact Filtering | Partially affected | New schema fields from [AD-2783985c](AD-2783985c) appear as filter options; core schemas protected per [AD-e8ab8572](AD-e8ab8572) |
+| [AD-2f1991c2](AD-2f1991c2) | Config-Driven Navigation Defaults | Unaffected | |
+| [AD-d8ea4d2b](AD-d8ea4d2b) | Cross-Linking as Default Behaviour | Unaffected | |
+| [AD-0f6286cd](AD-0f6286cd) | AI-Driven Cross-Artifact Search | Unaffected | |

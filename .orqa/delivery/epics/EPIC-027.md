@@ -1,5 +1,5 @@
 ---
-id: EPIC-027
+id: EPIC-1f21b578
 title: Product Definition
 description: "The complete product specification: personas, user journeys, information architecture, glossary, and MVP feature set."
 status: completed
@@ -13,25 +13,25 @@ scoring:
   complexity: 3
   dependencies: 5
 relationships:
-  - target: MS-000
+  - target: MS-85b9269b
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-103
+  - target: TASK-b1763d80
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-104
+  - target: TASK-acbe6489
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-105
+  - target: TASK-8f37b70c
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-106
+  - target: TASK-ac63f1fd
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-107
+  - target: TASK-1581f02c
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-317
+  - target: TASK-a88d16bb
     type: delivered-by
     rationale: Epic contains this task
 ---
@@ -65,8 +65,8 @@ Implementation approach to be defined during planning.
 
 ## Tasks
 
-- [TASK-103](TASK-103): Define product glossary
-- [TASK-104](TASK-104): Define user personas
-- [TASK-105](TASK-105): Define user journeys
-- [TASK-106](TASK-106): Define information architecture
-- [TASK-107](TASK-107): Define MVP feature set
+- [TASK-b1763d80](TASK-b1763d80): Define product glossary
+- [TASK-acbe6489](TASK-acbe6489): Define user personas
+- [TASK-8f37b70c](TASK-8f37b70c): Define user journeys
+- [TASK-ac63f1fd](TASK-ac63f1fd): Define information architecture
+- [TASK-1581f02c](TASK-1581f02c): Define MVP feature set

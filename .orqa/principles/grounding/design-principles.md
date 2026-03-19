@@ -1,5 +1,5 @@
 ---
-id: DOC-067
+id: DOC-6b733de8
 title: Design Principles — Agent Grounding
 description: Concise grounding document for the Designer role. Injected into agent context at initialization.
 created: 2026-03-14

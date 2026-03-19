@@ -1,5 +1,5 @@
 ---
-id: TASK-166
+id: TASK-d05c56ea
 title: "Frontend: TypeScript types for schema metadata and navigation config"
 description: "Add TypeScript interfaces matching the new Rust types for FilterableField, SortableField, NavigationConfig, and extend DocNode/NavType interfaces."
 status: completed
@@ -9,14 +9,14 @@ acceptance:
   - All TypeScript interfaces match Rust struct shapes exactly
   - make typecheck passes
 relationships:
-  - target: EPIC-005
+  - target: EPIC-6787bb93
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-165
+  - target: TASK-e6d10f6f
     type: depends-on
-  - target: TASK-167
+  - target: TASK-cc68b8df
     type: depended-on-by
-  - target: TASK-312
+  - target: TASK-3b119193
     type: depended-on-by
 ---
 

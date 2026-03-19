@@ -1,10 +1,10 @@
 ---
-id: TASK-569
+id: TASK-2ae1177d
 title: "Integrate router into NavigationStore"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-089
+  - target: EPIC-a80f16b4
     type: delivers
 ---

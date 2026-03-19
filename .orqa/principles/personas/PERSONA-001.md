@@ -1,164 +1,164 @@
 ---
-id: PERSONA-001
+id: PERSONA-cda6edd6
 title: "Alex — The Lead"
 description: "Senior product manager or tech lead who turns ambiguity into clarity. Uses AI as a thinking partner for structured reasoning and governance."
 status: active
 created: 2026-03-07
 updated: 2026-03-18
 relationships:
-  - target: IDEA-002
+  - target: IDEA-3ff06133
     type: benefited-by
-  - target: IDEA-004
+  - target: IDEA-db339134
     type: benefited-by
-  - target: IDEA-006
+  - target: IDEA-02c70c90
     type: benefited-by
-  - target: IDEA-007
+  - target: IDEA-0540dcd6
     type: benefited-by
-  - target: IDEA-008
+  - target: IDEA-11688d04
     type: benefited-by
-  - target: IDEA-009
+  - target: IDEA-9713910f
     type: benefited-by
-  - target: IDEA-011
+  - target: IDEA-9ccb91a2
     type: benefited-by
-  - target: IDEA-012
+  - target: IDEA-167c0362
     type: benefited-by
-  - target: IDEA-013
+  - target: IDEA-bfeda324
     type: benefited-by
-  - target: IDEA-015
+  - target: IDEA-af73e0af
     type: benefited-by
-  - target: IDEA-016
+  - target: IDEA-d2567a13
     type: benefited-by
-  - target: IDEA-017
+  - target: IDEA-5fb79e8b
     type: benefited-by
-  - target: IDEA-019
+  - target: IDEA-efc3e79c
     type: benefited-by
-  - target: IDEA-021
+  - target: IDEA-b30da6b5
     type: benefited-by
-  - target: IDEA-023
+  - target: IDEA-76b657e4
     type: benefited-by
-  - target: IDEA-024
+  - target: IDEA-f3a08e7a
     type: benefited-by
-  - target: IDEA-025
+  - target: IDEA-b153fabd
     type: benefited-by
-  - target: IDEA-026
+  - target: IDEA-adce6c86
     type: benefited-by
-  - target: IDEA-028
+  - target: IDEA-e92d424a
     type: benefited-by
-  - target: IDEA-029
+  - target: IDEA-9e91c17f
     type: benefited-by
-  - target: IDEA-031
+  - target: IDEA-8a9283e7
     type: benefited-by
-  - target: IDEA-033
+  - target: IDEA-464ab876
     type: benefited-by
-  - target: IDEA-035
+  - target: IDEA-14f3874c
     type: benefited-by
-  - target: IDEA-036
+  - target: IDEA-75424fb8
     type: benefited-by
-  - target: IDEA-037
+  - target: IDEA-a99c270e
     type: benefited-by
-  - target: IDEA-039
+  - target: IDEA-0b05f1fd
     type: benefited-by
-  - target: IDEA-043
+  - target: IDEA-8868a71c
     type: benefited-by
-  - target: IDEA-044
+  - target: IDEA-93f86ece
     type: benefited-by
-  - target: IDEA-045
+  - target: IDEA-325a4ddc
     type: benefited-by
-  - target: IDEA-046
+  - target: IDEA-2e9d2045
     type: benefited-by
-  - target: IDEA-048
+  - target: IDEA-bfa5ca93
     type: benefited-by
-  - target: IDEA-049
+  - target: IDEA-c3b01bfd
     type: benefited-by
-  - target: IDEA-050
+  - target: IDEA-c08c67c8
     type: benefited-by
-  - target: IDEA-051
+  - target: IDEA-6bb711d4
     type: benefited-by
-  - target: IDEA-053
+  - target: IDEA-59ce25c3
     type: benefited-by
-  - target: IDEA-056
+  - target: IDEA-25cfa2e0
     type: benefited-by
-  - target: IDEA-057
+  - target: IDEA-889dffd4
     type: benefited-by
-  - target: IDEA-058
+  - target: IDEA-3293309b
     type: benefited-by
-  - target: IDEA-060
+  - target: IDEA-0915667e
     type: benefited-by
-  - target: IDEA-061
+  - target: IDEA-c773575b
     type: benefited-by
-  - target: IDEA-063
+  - target: IDEA-95654649
     type: benefited-by
-  - target: IDEA-064
+  - target: IDEA-6522afe2
     type: benefited-by
-  - target: IDEA-065
+  - target: IDEA-9bfb9012
     type: benefited-by
-  - target: IDEA-068
+  - target: IDEA-d9c48c83
     type: benefited-by
-  - target: IDEA-070
+  - target: IDEA-d21b99f1
     type: benefited-by
-  - target: IDEA-073
+  - target: IDEA-bcf96889
     type: benefited-by
-  - target: IDEA-074
+  - target: IDEA-46dee261
     type: benefited-by
-  - target: IDEA-075
+  - target: IDEA-d145c669
     type: benefited-by
-  - target: IDEA-076
+  - target: IDEA-1db13693
     type: benefited-by
-  - target: IDEA-077
+  - target: IDEA-289ecd64
     type: benefited-by
-  - target: IDEA-078
+  - target: IDEA-3c8085b6
     type: benefited-by
-  - target: IDEA-079
+  - target: IDEA-29bdf6cf
     type: benefited-by
-  - target: IDEA-082
+  - target: IDEA-11dfa751
     type: benefited-by
-  - target: IDEA-083
+  - target: IDEA-7b76c23e
     type: benefited-by
-  - target: IDEA-086
+  - target: IDEA-64f9ef1c
     type: benefited-by
-  - target: IDEA-087
+  - target: IDEA-cc13aea9
     type: benefited-by
-  - target: IDEA-088
+  - target: IDEA-a56a0b94
     type: benefited-by
-  - target: IDEA-090
+  - target: IDEA-e0aa14a3
     type: benefited-by
-  - target: IDEA-092
+  - target: IDEA-a620e1f5
     type: benefited-by
-  - target: IDEA-095
+  - target: IDEA-93949f43
     type: benefited-by
-  - target: IDEA-096
+  - target: IDEA-a5f04c5c
     type: benefited-by
-  - target: IDEA-097
+  - target: IDEA-f0caec95
     type: benefited-by
-  - target: IDEA-099
+  - target: IDEA-744c341a
     type: benefited-by
-  - target: IDEA-100
+  - target: IDEA-50d6e149
     type: benefited-by
-  - target: IDEA-102
+  - target: IDEA-6f1d94a8
     type: benefited-by
-  - target: IDEA-104
+  - target: IDEA-d6ec2210
     type: benefited-by
-  - target: IDEA-105
+  - target: IDEA-461e7f09
     type: benefited-by
-  - target: IDEA-106
+  - target: IDEA-8b056951
     type: benefited-by
-  - target: IDEA-112
+  - target: IDEA-4e095061
     type: benefited-by
-  - target: IDEA-113
+  - target: IDEA-d8c14add
     type: benefited-by
-  - target: IDEA-114
+  - target: IDEA-0f1f39ca
     type: benefited-by
-  - target: IDEA-115
+  - target: IDEA-791c9641
     type: benefited-by
-  - target: IDEA-116
+  - target: IDEA-c40febb6
     type: benefited-by
-  - target: IDEA-117
+  - target: IDEA-c1364d60
     type: benefited-by
-  - target: IDEA-118
+  - target: IDEA-5c25ac99
     type: benefited-by
-  - target: IDEA-119
+  - target: IDEA-b1953a83
     type: benefited-by
-  - target: IDEA-120
+  - target: IDEA-50f18707
     type: benefited-by
 ---
 

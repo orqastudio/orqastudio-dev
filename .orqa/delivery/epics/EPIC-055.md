@@ -1,8 +1,8 @@
 ---
-id: EPIC-055
+id: EPIC-5f9fcf48
 title: Codebase Quality and Composability Alignment
 description: |
-  Address critical code quality issues found by RES-043: eliminate stream_commands.rs
+  Address critical code quality issues found by RES-55eb9e55: eliminate stream_commands.rs
   duplication, add frontend and search test coverage, fix error handling gaps, and
   audit orphaned backend commands.
 status: completed
@@ -17,45 +17,45 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: RES-043
+  - target: RES-55eb9e55
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-043
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-55eb9e55
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-243
+  - target: TASK-d88b98c2
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-244
+  - target: TASK-7dd0d161
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-245
+  - target: TASK-86293118
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-246
+  - target: TASK-23af5ea6
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-247
+  - target: TASK-da26ead7
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-248
+  - target: TASK-c5865668
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-249
+  - target: TASK-0fb46344
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-250
+  - target: TASK-aadbf15a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-345
+  - target: TASK-389af55e
     type: delivered-by
     rationale: Epic contains this task
-  - target: RES-043
+  - target: RES-55eb9e55
     type: guided-by
 ---
 ## Context
 
-[RES-043](RES-043) audited the entire codebase (23k lines Rust, 15k lines Svelte/TS, 4k lines
+[RES-55eb9e55](RES-55eb9e55) audited the entire codebase (23k lines Rust, 15k lines Svelte/TS, 4k lines
 sidecar) against composability principles, error handling standards, IPC boundary discipline,
 test coverage, and security. The architecture is fundamentally sound, but several quality
 issues need addressing.
@@ -120,34 +120,34 @@ Add tests where gaps are highest-risk:
 
 | ID | Title |
 |----|-------|
-| [TASK-243](TASK-243) | Complete stream_commands.rs domain extraction |
+| [TASK-d88b98c2](TASK-d88b98c2) | Complete stream_commands.rs domain extraction |
 
 ### Phase 2: Test Coverage
 
 | ID | Title |
 |----|-------|
-| [TASK-244](TASK-244) | Add frontend store unit tests (all 10 stores) |
-| [TASK-245](TASK-245) | Add search module tests (embedder.rs + store.rs) |
+| [TASK-7dd0d161](TASK-7dd0d161) | Add frontend store unit tests (all 10 stores) |
+| [TASK-86293118](TASK-86293118) | Add search module tests (embedder.rs + store.rs) |
 
 ### Phase 3: Error Handling
 
 | ID | Title |
 |----|-------|
-| [TASK-246](TASK-246) | Add From<duckdb::Error> to OrqaError and fix search error propagation |
-| [TASK-247](TASK-247) | Fix db.rs migration error handling (.unwrap_or patterns) |
+| [TASK-23af5ea6](TASK-23af5ea6) | Add From<duckdb::Error> to OrqaError and fix search error propagation |
+| [TASK-da26ead7](TASK-da26ead7) | Fix db.rs migration error handling (.unwrap_or patterns) |
 
 ### Phase 4: Cleanup
 
 | ID | Title |
 |----|-------|
-| [TASK-248](TASK-248) | Audit backend-only commands — identify and remove orphaned code |
-| [TASK-249](TASK-249) | Decompose AppState into grouped sub-structs |
+| [TASK-c5865668](TASK-c5865668) | Audit backend-only commands — identify and remove orphaned code |
+| [TASK-0fb46344](TASK-0fb46344) | Decompose AppState into grouped sub-structs |
 
 ### Phase 5: Dev Tooling
 
 | ID | Title |
 |----|-------|
-| [TASK-250](TASK-250) | Unified dev logging — stream all info/error logs to OrqaDev Compose UI |
+| [TASK-aadbf15a](TASK-aadbf15a) | Unified dev logging — stream all info/error logs to OrqaDev Compose UI |
 
 ---
 

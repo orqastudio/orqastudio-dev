@@ -1,5 +1,5 @@
 ---
-id: TASK-388
+id: TASK-2ffc45f7
 title: Extend ArtifactRef with relationship_type and process relationships array
 description: "Add relationship_type field to ArtifactRef in Rust and TypeScript. Update collect_forward_refs to process the relationships array from frontmatter, creating typed edges with relationship_type populated from each relationship's type field."
 status: completed
@@ -12,12 +12,12 @@ acceptance:
   - make check passes with zero errors
   - Graph stats show increased edge count reflecting relationships array edges
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-389
+  - target: TASK-ce651394
     type: depended-on-by
-  - target: TASK-397
+  - target: TASK-d624db8f
     type: depended-on-by
 ---
 
@@ -39,7 +39,7 @@ Extend the artifact graph to treat `relationships` array entries as first-class 
 
 - `make check` passes
 - Run app, check GraphStats — edge count should increase (relationships array edges now counted)
-- `artifactGraphSDK.referencesFrom("AD-029")` should include `enforced-by` edges with `relationship_type` populated
+- `artifactGraphSDK.referencesFrom("AD-774cc3d0")` should include `enforced-by` edges with `relationship_type` populated
 
 ## Lessons
 

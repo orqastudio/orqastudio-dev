@@ -1,5 +1,5 @@
 ---
-id: TASK-429
+id: TASK-e9219bfd
 title: "Enrich graph nodes with status, title, priority as first-class fields"
 description: "Update ArtifactNode to expose status, title, description, priority as direct fields instead of requiring frontmatter JSON parsing."
 status: completed
@@ -19,20 +19,20 @@ acceptance:
   - SDK and frontend can read these fields without parsing frontmatter JSON
   - Existing consumers updated to use direct fields instead of frontmatter parsing
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: delivers
     rationale: Enriched graph nodes are the foundation for all artifact viewer improvements
-  - target: TASK-432
+  - target: TASK-41df15c4
     type: depended-on-by
-  - target: TASK-433
+  - target: TASK-c744d86a
     type: depended-on-by
-  - target: TASK-437
+  - target: TASK-e0165bca
     type: depended-on-by
-  - target: TASK-438
+  - target: TASK-a00f73cf
     type: depended-on-by
-  - target: TASK-448
+  - target: TASK-c4de13e1
     type: depended-on-by
-  - target: TASK-456
+  - target: TASK-7fcdc743
     type: depended-on-by
 ---
 

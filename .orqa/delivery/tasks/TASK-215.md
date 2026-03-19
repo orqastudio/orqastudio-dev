@@ -1,5 +1,5 @@
 ---
-id: TASK-215
+id: TASK-e7fd64ce
 title: Plugin reads skill scope fields for path-based injection
 description: "Update the companion plugin to read skill scope/layer fields and auto-inject skills when agents touch matching file paths, replacing the hardcoded injection table."
 status: completed
@@ -11,12 +11,12 @@ acceptance:
   - No hardcoded path→skill table in plugin or orchestrator
   - Skill discovery is dynamic — adding a new skill with scope auto-enables injection
 relationships:
-  - target: EPIC-053
+  - target: EPIC-dc1e3e4b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-219
+  - target: TASK-61776521
     type: depended-on-by
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: depended-on-by
 ---
 

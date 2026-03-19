@@ -1,5 +1,5 @@
 ---
-id: TASK-489
+id: TASK-bad2c95f
 title: Add grounding/ to project.json + create chapter READMEs
 description: "Register the grounding/ directory in the project.json artifact config so it is scannable. Create README.md files for each new chapter directory (about, how-to, reference) with icon, label, and description frontmatter for the nav tree."
 status: completed
@@ -18,9 +18,9 @@ acceptance:
   - "README.md created for reference/ chapter with icon, label, description frontmatter"
   - All chapters scannable in the artifact browser after changes
 relationships:
-  - target: EPIC-075
+  - target: EPIC-2a6e2567
     type: delivers
     rationale: Chapter registration and nav metadata for the reorganised documentation structure
-  - target: TASK-486
+  - target: TASK-96db8fb0
     type: depends-on
 ---

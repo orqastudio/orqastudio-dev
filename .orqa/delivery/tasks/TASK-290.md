@@ -1,5 +1,5 @@
 ---
-id: TASK-290
+id: TASK-c42dac0c
 title: Create verification artifact type
 description: "Create the VER-NNN artifact type under delivery/verification/ with schema, README, and project.json registration."
 status: completed
@@ -14,10 +14,10 @@ acceptance:
   - Registered in project.json artifacts array
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

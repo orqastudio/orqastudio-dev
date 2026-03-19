@@ -1,5 +1,5 @@
 ---
-id: TASK-113
+id: TASK-3054bb34
 title: Define component inventory
 description: "Catalogued all reusable UI components with their states, variants, and composition patterns."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Each component has defined variants and states
   - Composition patterns are documented
 relationships:
-  - target: EPIC-028
+  - target: EPIC-5573bb70
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-318
+  - target: TASK-34fa0772
     type: depended-on-by
 ---
 ## What

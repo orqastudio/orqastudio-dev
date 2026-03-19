@@ -1,10 +1,10 @@
 ---
-id: TASK-537
-title: "Create SKILL-CLI-006 and SKILL-CLI-007"
+id: TASK-68fc93b3
+title: "Create SKILL-CLI-9466a88a and SKILL-CLI-4cc73a12"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-086
+  - target: EPIC-00e54475
     type: delivers
 ---

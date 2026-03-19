@@ -1,5 +1,5 @@
 ---
-id: EPIC-036
+id: EPIC-de088896
 title: "Rebrand: Forge → OrqaStudio"
 description: "Product rebrand from \"Forge\" to \"Orqa Studio\": name, directory structure (src/ → ui/), brand assets, documentation, and build configuration updates."
 status: completed
@@ -13,19 +13,19 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: RES-015
+  - target: RES-0a797991
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-015
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-0a797991
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-018
+  - target: TASK-0ea0bf38
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-326
+  - target: TASK-7582d9b2
     type: delivered-by
     rationale: Epic contains this task
-  - target: RES-015
+  - target: RES-0a797991
     type: guided-by
 ---
 ## Implementation Design
@@ -42,7 +42,7 @@ relationships:
 
 ## Produced Decision
 
-[AD-027](AD-027) (Vision Evolution)
+[AD-44a033cf](AD-44a033cf) (Vision Evolution)
 
 ## Git Evidence
 

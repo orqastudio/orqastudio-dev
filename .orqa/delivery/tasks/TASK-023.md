@@ -1,11 +1,11 @@
 ---
-id: TASK-023
+id: TASK-faffc209
 title: Streaming and Conversation UX Fixes
 description: "Fixes a set of UX issues found during early dogfooding: broken streaming, unreadable tool output, cluttered tool display, unnamed sessions, and a generic titlebar."
 status: completed
 created: 2026-03-06
 updated: 2026-03-09
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - NDJSON streaming handles partial messages correctly
   - "Tool output truncated at 500 chars with \"Show more"
@@ -13,10 +13,10 @@ acceptance:
   - Sessions auto-named after first response
   - Custom branded titlebar
 relationships:
-  - target: EPIC-038
+  - target: EPIC-bdf61169
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-328
+  - target: TASK-16a4b326
     type: depended-on-by
 ---
 ## What

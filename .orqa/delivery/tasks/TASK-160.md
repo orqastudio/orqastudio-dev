@@ -1,5 +1,5 @@
 ---
-id: TASK-160
+id: TASK-44de1cec
 title: Create rule for session management and overnight mode
 description: Formalize the session management and overnight mode conventions from orchestrator.md into a dedicated rule with enforceable constraints.
 status: completed
@@ -12,10 +12,10 @@ acceptance:
   - FORBIDDEN section with concrete violations
   - Orchestrator.md references the rule
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What

@@ -1,5 +1,5 @@
 ---
-id: TASK-434
+id: TASK-0905e285
 title: Migrate scope fields to relationships array (rules + skills)
 description: Replace scope fields on rules and skills with relationships array entries using scoped-to/scoped-by types.
 status: completed
@@ -17,7 +17,7 @@ acceptance:
   - Migration script backfills existing artifacts
   - Integrity validator updated
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: delivers
     rationale: Normalizing scope into relationships simplifies the graph model
 ---

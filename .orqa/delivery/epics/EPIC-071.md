@@ -1,5 +1,5 @@
 ---
-id: EPIC-071
+id: EPIC-7d587280
 title: "Documentation improvements — content, ordering, rendering"
 description: "Fix docs navigation (no status for docs), populate Guide section, audit doc ordering for reading flow, add mermaid/PlantUML rendering, and review doc-to-artifact relationships."
 status: completed
@@ -14,22 +14,22 @@ updated: 2026-03-14
 deadline: null
 horizon: next
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-451
+  - target: TASK-0d04a7ba
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-452
+  - target: TASK-ddf99463
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-453
+  - target: TASK-48be3b08
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-454
+  - target: TASK-e36ca6c0
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-455
+  - target: TASK-464eadf4
     type: delivered-by
     rationale: Epic contains this task
 ---
@@ -39,11 +39,11 @@ UAT round 2 found documentation navigation shows status (irrelevant for docs), G
 
 ## Tasks
 
-- [TASK-451](TASK-451): Fix docs nav — show top-level categories instead of status
-- [TASK-452](TASK-452): Populate Guide section — icon, move appropriate articles, add SDK docs
-- [TASK-453](TASK-453): Audit and reorder documentation for structured reading flow
-- [TASK-454](TASK-454): Mermaid and PlantUML rendering in markdown, themed to match app
-- [TASK-455](TASK-455): Documentation relationship audit — add documents/documented-by edges
+- [TASK-0d04a7ba](TASK-0d04a7ba): Fix docs nav — show top-level categories instead of status
+- [TASK-ddf99463](TASK-ddf99463): Populate Guide section — icon, move appropriate articles, add SDK docs
+- [TASK-48be3b08](TASK-48be3b08): Audit and reorder documentation for structured reading flow
+- [TASK-e36ca6c0](TASK-e36ca6c0): Mermaid and PlantUML rendering in markdown, themed to match app
+- [TASK-464eadf4](TASK-464eadf4): Documentation relationship audit — add documents/documented-by edges
 
 ## Out of Scope
 

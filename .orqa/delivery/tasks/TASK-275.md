@@ -1,5 +1,5 @@
 ---
-id: TASK-275
+id: TASK-4eb0c231
 title: Backfill skills with category and relationships
 description: Use backfill tooling to add category (methodology/domain/tool) and grounded relationships to all 48 skills.
 status: completed
@@ -14,16 +14,16 @@ acceptance:
   - Null targets have rationale and intended field
   - Human reviewed and approved all proposals
 rule-overrides:
-  - "rule: RULE-032"
+  - "rule: RULE-a764b2ae"
 relationships:
-  - target: EPIC-058
+  - target: EPIC-ca7b398b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-274
+  - target: TASK-fedfd82a
     type: depends-on
-  - target: TASK-276
+  - target: TASK-da2965a2
     type: depended-on-by
-  - target: TASK-348
+  - target: TASK-508cf6cd
     type: depended-on-by
 ---
 

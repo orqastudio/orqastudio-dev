@@ -1,5 +1,5 @@
 ---
-id: IDEA-040
+id: IDEA-57537993
 title: Identifiable app processes in task manager
 description: "Make OrqaStudio's spawned processes (Tauri app, Vite dev server, sidecar, cargo builds) easily identifiable in the OS task manager so developers can quickly find and kill them when needed."
 status: captured
@@ -13,9 +13,9 @@ research-needed:
   - Sidecar process naming — Bun process identification in task manager
   - "make stop reliability — why do zombie handles persist after taskkill on Windows?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-003
+  - target: PERSONA-a4b15450
     type: benefits
 ---
 

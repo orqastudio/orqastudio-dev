@@ -1,5 +1,5 @@
 ---
-id: TASK-205
+id: TASK-2143a39a
 title: Add prompt-based injection to Rust system prompt builder
 description: |
   Implement prompt-based skill injection in the app's Rust system prompt builder
@@ -13,12 +13,12 @@ acceptance:
   - Top-N threshold prevents over-injection
   - Dedup against skills already in context
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-200
+  - target: TASK-439fa554
     type: depends-on
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

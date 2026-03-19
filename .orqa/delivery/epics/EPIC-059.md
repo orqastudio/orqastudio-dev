@@ -1,5 +1,5 @@
 ---
-id: EPIC-059
+id: EPIC-942c7678
 title: "Philosophy Alignment & Data Integrity"
 description: "Content migration and directory reorganization to express the Knowledge Maturity Pipeline philosophy. Moves artifacts to process/delivery/documentation structure, audits all content, integrates integrity checks, and ensures app layout picks up the new structure."
 status: completed
@@ -14,132 +14,132 @@ scoring:
   complexity: 4
   dependencies: 3
 rule-overrides:
-  - "rule: RULE-003"
-  - "rule: RULE-032"
+  - "rule: RULE-6c0496e0"
+  - "rule: RULE-a764b2ae"
 relationships:
-  - target: RES-049
+  - target: RES-07667737
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-049
-  - target: RES-048
+    rationale: Auto-generated inverse of informed-by relationship from RES-07667737
+  - target: RES-132fbb38
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-048
-  - target: RES-052
+    rationale: Auto-generated inverse of informed-by relationship from RES-132fbb38
+  - target: RES-cd3d33bf
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-052
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-cd3d33bf
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-281
+  - target: TASK-e7324438
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-282
+  - target: TASK-d5d3e417
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-283
+  - target: TASK-8954343c
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-284
+  - target: TASK-c4a7b6bb
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-285
+  - target: TASK-5da55ccb
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-286
+  - target: TASK-8b9c68ae
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-287
+  - target: TASK-4b293b82
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-288
+  - target: TASK-1dad83f7
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-289
+  - target: TASK-0cddbf9b
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-290
+  - target: TASK-c42dac0c
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-291
+  - target: TASK-191958e7
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-292
+  - target: TASK-b3aadbcd
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-293
+  - target: TASK-a86c3565
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-294
+  - target: TASK-b6b5c31c
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-295
+  - target: TASK-9f1f8b4b
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-296
+  - target: TASK-f6e9b767
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-297
+  - target: TASK-6e4fd8b9
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-298
+  - target: TASK-a0d3f53c
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-299
+  - target: TASK-c70b9d8a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-300
+  - target: TASK-7f5b6792
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-301
+  - target: TASK-7b8ded48
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-302
+  - target: TASK-2e138cb1
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-303
+  - target: TASK-7fbe6eca
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-304
+  - target: TASK-0e7221a8
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-305
+  - target: TASK-65f6b166
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-306
+  - target: TASK-0bcbb927
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-307
+  - target: TASK-53493d31
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-308
+  - target: TASK-bd4fb2bc
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-309
+  - target: TASK-cdfd039f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-310
+  - target: TASK-6dab59a2
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: delivered-by
     rationale: Epic contains this task
-  - target: AD-043
+  - target: AD-71d44f5c
     type: driven-by
-  - target: AD-044
+  - target: AD-8b3962f6
     type: driven-by
-  - target: RES-048
+  - target: RES-132fbb38
     type: guided-by
-  - target: RES-049
+  - target: RES-07667737
     type: guided-by
-  - target: RES-052
+  - target: RES-cd3d33bf
     type: guided-by
-  - target: AD-043
+  - target: AD-71d44f5c
     type: driven-by
-  - target: AD-044
+  - target: AD-8b3962f6
     type: driven-by
 ---
 ## Context
 
-[EPIC-058](EPIC-058) gave every governance artifact a `relationships` array and pipeline stage fields. That was the **schema migration**. This epic is the **content migration** — ensuring every artifact's body text, organizational placement, and cross-references actually express the Knowledge Maturity Pipeline philosophy.
+[EPIC-ca7b398b](EPIC-ca7b398b) gave every governance artifact a `relationships` array and pipeline stage fields. That was the **schema migration**. This epic is the **content migration** — ensuring every artifact's body text, organizational placement, and cross-references actually express the Knowledge Maturity Pipeline philosophy.
 
 **The schema says "here are the edges." This epic says "are the edges meaningful, are the nodes in the right places, and does the whole structure tell a coherent story?"**
 
@@ -190,7 +190,7 @@ After directory moves, `project.json` artifact config and all directory READMEs 
 
 ### Relationship & Metadata Display Research
 
-A research document ([RES-049](RES-049)) investigates how artifacts should present their relationships and metadata to users in the app, given the revised structure and pipeline philosophy.
+A research document ([RES-07667737](RES-07667737)) investigates how artifacts should present their relationships and metadata to users in the app, given the revised structure and pipeline philosophy.
 
 ## Implementation Design
 
@@ -202,11 +202,11 @@ Broken links and missing inverses mean the graph is lying. Nothing else starts u
 2. Add `make verify` targets
 3. Fix all broken links and frontmatter refs
 4. Backfill missing bidirectional inverses
-5. Codify as [RULE-045](RULE-045)
+5. Codify as [RULE-130f1f63](RULE-130f1f63)
 
 ### Phase 1: Directory Reorganization
 
-1. Create AD for directory reorganization ([AD-043](AD-043))
+1. Create AD for directory reorganization ([AD-71d44f5c](AD-71d44f5c))
 2. Move governance artifacts to `process/`
 3. Move team artifacts to `process/`
 4. Move pillars to `process/`, rename `planning/` to `delivery/`
@@ -224,56 +224,56 @@ Broken links and missing inverses mean the graph is lying. Nothing else starts u
 
 ### Phase 3: Pipeline Traceability
 
-1. Create AD for standards distribution pattern ([AD-044](AD-044))
+1. Create AD for standards distribution pattern ([AD-8b3962f6](AD-8b3962f6))
 2. README alignment audit — every directory README describes pipeline role
 3. Update all path references across codebase
-4. Research: relationship and metadata display UX ([RES-049](RES-049))
+4. Research: relationship and metadata display UX ([RES-07667737](RES-07667737))
 
 ## Tasks
 
 | ID | Title | Depends On | Phase |
 |----|-------|-----------|-------|
-| [TASK-281](TASK-281) | Integrate integrity checks into pre-commit hook | — | 0 |
-| [TASK-282](TASK-282) | Add make verify targets | — | 0 |
-| [TASK-283](TASK-283) | Fix all broken links and frontmatter refs | [TASK-281](TASK-281), [TASK-282](TASK-282) | 0 |
-| [TASK-284](TASK-284) | Backfill missing bidirectional inverses | [TASK-281](TASK-281), [TASK-282](TASK-282) | 0 |
-| [TASK-285](TASK-285) | Create data integrity rule (RULE-045) | [TASK-283](TASK-283), [TASK-284](TASK-284) | 0 |
-| [TASK-286](TASK-286) | Create AD for directory reorganization (AD-043) | — | 1 |
-| [TASK-287](TASK-287) | Move governance artifacts to process/ | [TASK-286](TASK-286) | 1 |
-| [TASK-288](TASK-288) | Move team artifacts to process/ | [TASK-286](TASK-286) | 1 |
-| [TASK-289](TASK-289) | Move pillars to process/ and rename planning to delivery | [TASK-286](TASK-286) | 1 |
-| [TASK-290](TASK-290) | Create verification artifact type | — | 1 |
-| [TASK-291](TASK-291) | Scope documentation to human-consumption content | [TASK-287](TASK-287), [TASK-288](TASK-288), [TASK-289](TASK-289) | 1 |
-| [TASK-292](TASK-292) | Update project.json, READMEs, and symlinks for app layout | [TASK-287](TASK-287), [TASK-288](TASK-288), [TASK-289](TASK-289) | 1 |
-| [TASK-293](TASK-293) | Rules content audit (44 rules) | [TASK-285](TASK-285) | 2 |
-| [TASK-294](TASK-294) | Skills content audit (48 skills) | [TASK-285](TASK-285) | 2 |
-| [TASK-295](TASK-295) | Agents content audit (7 agents) | [TASK-294](TASK-294) | 2 |
-| [TASK-296](TASK-296) | Lessons maturity review (16 lessons) | [TASK-285](TASK-285) | 2 |
-| [TASK-297](TASK-297) | Documentation inventory | [TASK-285](TASK-285) | 2 |
-| [TASK-298](TASK-298) | Create AD for standards distribution pattern (AD-044) | — | 3 |
-| [TASK-299](TASK-299) | README alignment audit | [TASK-292](TASK-292) | 3 |
-| [TASK-300](TASK-300) | Update all path references across codebase | [TASK-292](TASK-292) | 3 |
-| [TASK-301](TASK-301) | Research: relationship and metadata display UX (RES-049) | [TASK-292](TASK-292) | 3 |
+| [TASK-e7324438](TASK-e7324438) | Integrate integrity checks into pre-commit hook | — | 0 |
+| [TASK-d5d3e417](TASK-d5d3e417) | Add make verify targets | — | 0 |
+| [TASK-8954343c](TASK-8954343c) | Fix all broken links and frontmatter refs | [TASK-e7324438](TASK-e7324438), [TASK-d5d3e417](TASK-d5d3e417) | 0 |
+| [TASK-c4a7b6bb](TASK-c4a7b6bb) | Backfill missing bidirectional inverses | [TASK-e7324438](TASK-e7324438), [TASK-d5d3e417](TASK-d5d3e417) | 0 |
+| [TASK-5da55ccb](TASK-5da55ccb) | Create data integrity rule (RULE-130f1f63) | [TASK-8954343c](TASK-8954343c), [TASK-c4a7b6bb](TASK-c4a7b6bb) | 0 |
+| [TASK-8b9c68ae](TASK-8b9c68ae) | Create AD for directory reorganization (AD-71d44f5c) | — | 1 |
+| [TASK-4b293b82](TASK-4b293b82) | Move governance artifacts to process/ | [TASK-8b9c68ae](TASK-8b9c68ae) | 1 |
+| [TASK-1dad83f7](TASK-1dad83f7) | Move team artifacts to process/ | [TASK-8b9c68ae](TASK-8b9c68ae) | 1 |
+| [TASK-0cddbf9b](TASK-0cddbf9b) | Move pillars to process/ and rename planning to delivery | [TASK-8b9c68ae](TASK-8b9c68ae) | 1 |
+| [TASK-c42dac0c](TASK-c42dac0c) | Create verification artifact type | — | 1 |
+| [TASK-191958e7](TASK-191958e7) | Scope documentation to human-consumption content | [TASK-4b293b82](TASK-4b293b82), [TASK-1dad83f7](TASK-1dad83f7), [TASK-0cddbf9b](TASK-0cddbf9b) | 1 |
+| [TASK-b3aadbcd](TASK-b3aadbcd) | Update project.json, READMEs, and symlinks for app layout | [TASK-4b293b82](TASK-4b293b82), [TASK-1dad83f7](TASK-1dad83f7), [TASK-0cddbf9b](TASK-0cddbf9b) | 1 |
+| [TASK-a86c3565](TASK-a86c3565) | Rules content audit (44 rules) | [TASK-5da55ccb](TASK-5da55ccb) | 2 |
+| [TASK-b6b5c31c](TASK-b6b5c31c) | Skills content audit (48 skills) | [TASK-5da55ccb](TASK-5da55ccb) | 2 |
+| [TASK-9f1f8b4b](TASK-9f1f8b4b) | Agents content audit (7 agents) | [TASK-b6b5c31c](TASK-b6b5c31c) | 2 |
+| [TASK-f6e9b767](TASK-f6e9b767) | Lessons maturity review (16 lessons) | [TASK-5da55ccb](TASK-5da55ccb) | 2 |
+| [TASK-6e4fd8b9](TASK-6e4fd8b9) | Documentation inventory | [TASK-5da55ccb](TASK-5da55ccb) | 2 |
+| [TASK-a0d3f53c](TASK-a0d3f53c) | Create AD for standards distribution pattern (AD-8b3962f6) | — | 3 |
+| [TASK-c70b9d8a](TASK-c70b9d8a) | README alignment audit | [TASK-b3aadbcd](TASK-b3aadbcd) | 3 |
+| [TASK-7f5b6792](TASK-7f5b6792) | Update all path references across codebase | [TASK-b3aadbcd](TASK-b3aadbcd) | 3 |
+| [TASK-7b8ded48](TASK-7b8ded48) | Research: relationship and metadata display UX (RES-07667737) | [TASK-b3aadbcd](TASK-b3aadbcd) | 3 |
 
 ### Phase 4: Open Items & Process Gaps (discovered during implementation)
 
 | ID | Title | Depends On | Phase |
 |----|-------|-----------|-------|
-| [TASK-302](TASK-302) | Complete [RES-051](RES-051): behavioral directives research | — | 4 |
-| [TASK-303](TASK-303) | Clean up Claude memory files that duplicate artifact knowledge | [TASK-302](TASK-302) | 4 |
-| [TASK-304](TASK-304) | Remove ArtifactType::Hook dead code | — | 4 |
-| [TASK-305](TASK-305) | Fix broken forward-references to non-existent artifacts | — | 4 |
-| [TASK-306](TASK-306) | Investigate configurable .orqa/ paths (IMPL-018) | — | 4 |
-| [TASK-307](TASK-307) | Design plugin-sidecar pairing mechanism (IMPL-019, IMPL-020) | — | 4 |
-| [TASK-308](TASK-308) | Establish learning loop and completion discipline (IMPL-021 through 025) | — | 4 |
-| [TASK-309](TASK-309) | Triage [EPIC-059](EPIC-059) observations (IMPL-018 through IMPL-025) | [TASK-308](TASK-308) | 4 |
-| [TASK-310](TASK-310) | Plugin: maintain memory entries for unimplemented ADs | — | 4 |
+| [TASK-2e138cb1](TASK-2e138cb1) | Complete [RES-c4dd4c4d](RES-c4dd4c4d): behavioral directives research | — | 4 |
+| [TASK-7fbe6eca](TASK-7fbe6eca) | Clean up Claude memory files that duplicate artifact knowledge | [TASK-2e138cb1](TASK-2e138cb1) | 4 |
+| [TASK-0e7221a8](TASK-0e7221a8) | Remove ArtifactType::Hook dead code | — | 4 |
+| [TASK-65f6b166](TASK-65f6b166) | Fix broken forward-references to non-existent artifacts | — | 4 |
+| [TASK-0bcbb927](TASK-0bcbb927) | Investigate configurable .orqa/ paths (IMPL-c306b136) | — | 4 |
+| [TASK-53493d31](TASK-53493d31) | Design plugin-sidecar pairing mechanism (IMPL-e22b63b4, IMPL-a97eccb6) | — | 4 |
+| [TASK-bd4fb2bc](TASK-bd4fb2bc) | Establish learning loop and completion discipline (IMPL-97e2788f through 025) | — | 4 |
+| [TASK-cdfd039f](TASK-cdfd039f) | Triage [EPIC-942c7678](EPIC-942c7678) observations (IMPL-c306b136 through IMPL-257c8303) | [TASK-bd4fb2bc](TASK-bd4fb2bc) | 4 |
+| [TASK-6dab59a2](TASK-6dab59a2) | Plugin: maintain memory entries for unimplemented ADs | — | 4 |
 
 ## Out of Scope
 
 - Populating VER-NNN verification artifacts (this epic creates the type)
 - Building pipeline visualization in the app
-- Plugin ecosystem implementation (TASK-307 covers the design only, not implementation)
+- Plugin ecosystem implementation (TASK-53493d31 covers the design only, not implementation)
 - App UI changes for new directory structure (scanner handles it via config)
-- Implementing any UX changes from [RES-049](RES-049) (that's a future epic)
-- Implementing configurable paths runtime cache (TASK-306 investigates, implementation is a future epic if Option C is chosen)
+- Implementing any UX changes from [RES-07667737](RES-07667737) (that's a future epic)
+- Implementing configurable paths runtime cache (TASK-0bcbb927 investigates, implementation is a future epic if Option C is chosen)

@@ -1,5 +1,5 @@
 ---
-id: DOC-057
+id: DOC-99d7fbe5
 title: "Wireframe: Artifact Browser"
 description: Wireframe specification for the artifact browser view showing governance artifacts in a navigable list.
 created: 2026-03-02
@@ -8,11 +8,11 @@ sort: 3
 relationships: []
 ---
 
-<!-- FRESHNESS NOTE (2026-03-15): Section 6 "File Watching" refers to Tauri's `fs.watch` API — the implementation uses Tauri event listeners via the artifact graph SDK, not a direct `fs.watch` call. The viewer (Section 3) now includes additional panels not shown here: RelationshipsList, ReferencesPanel, PipelineStepper, ActionsNeeded, and AcceptanceCriteria (added in EPIC-065). The list item anatomy and empty state sections remain accurate. -->
+<!-- FRESHNESS NOTE (2026-03-15): Section 6 "File Watching" refers to Tauri's `fs.watch` API — the implementation uses Tauri event listeners via the artifact graph SDK, not a direct `fs.watch` call. The viewer (Section 3) now includes additional panels not shown here: RelationshipsList, ReferencesPanel, PipelineStepper, ActionsNeeded, and AcceptanceCriteria (added in EPIC-b67074cc). The list item anatomy and empty state sections remain accurate. -->
 
 
 
-**Date:** 2026-03-02 | **Informed by:** Information Architecture, [Frontend Research](RES-004), MVP Spec F-007, F-008
+**Date:** 2026-03-02 | **Informed by:** Information Architecture, [Frontend Research](RES-df5560cb), MVP Spec F-007, F-008
 
 The artifact browser surfaces governance artifacts as a navigation list in the Nav Sub-Panel and as a rendered/editable view in the Explorer Panel. Artifact categories are defined by the `artifacts` array in `.orqa/project.json` — the default set includes Docs, Agents, Rules, Skills, and Hooks, but this is configurable per project. The artifact list and viewer are split across two zones so the conversation remains visible in the Chat Panel — the core workflow is collaborating with the AI *on* artifacts. Artifacts are Markdown files with YAML frontmatter stored under `.orqa/`.
 
@@ -55,7 +55,7 @@ The default view when the Docs icon is active. The Nav Sub-Panel shows the struc
         Formal architecture decisions log.
         Each decision is numbered AD-NNN...
         ---
-        <b>AD-001: Thick Backend</b>
+        <b>AD-e513c9e4: Thick Backend</b>
         ---
         Rust owns the domain model...
         ---

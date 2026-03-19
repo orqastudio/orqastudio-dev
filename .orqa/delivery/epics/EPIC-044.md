@@ -1,5 +1,5 @@
 ---
-id: EPIC-044
+id: EPIC-31c9baca
 title: Three-Layer Governance Classification
 description: "Classify all governance artifacts (agents, skills, rules, hooks) into three layers: canon (platform principles), project (project-specific), and plugin (extensible/ecosystem). Add scope categorisation to agents (software-engineering, governance, general). This is foundational architecture enabling multi-project support."
 status: completed
@@ -13,22 +13,22 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-047
+  - target: TASK-23b3cca4
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-048
+  - target: TASK-520b31fc
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-049
+  - target: TASK-94566584
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-050
+  - target: TASK-d6d19456
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-334
+  - target: TASK-f578bc81
     type: delivered-by
     rationale: Epic contains this task
 ---
@@ -68,10 +68,10 @@ Most rules are `layer: core` (platform principles). Project-specific rules are `
 
 | Task | Title | Assignee |
 |------|-------|----------|
-| [TASK-047](TASK-047) | Classify agents with layer and scope fields | agent-maintainer |
-| [TASK-048](TASK-048) | Classify skills with layer field | agent-maintainer |
-| [TASK-049](TASK-049) | Classify rules and hooks with layer field | agent-maintainer |
-| [TASK-050](TASK-050) | Update artifact-framework with classification schema | agent-maintainer |
+| [TASK-23b3cca4](TASK-23b3cca4) | Classify agents with layer and scope fields | agent-maintainer |
+| [TASK-520b31fc](TASK-520b31fc) | Classify skills with layer field | agent-maintainer |
+| [TASK-94566584](TASK-94566584) | Classify rules and hooks with layer field | agent-maintainer |
+| [TASK-d6d19456](TASK-d6d19456) | Update artifact-framework with classification schema | agent-maintainer |
 
 ## Context
 

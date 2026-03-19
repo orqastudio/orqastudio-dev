@@ -1,5 +1,5 @@
 ---
-id: IDEA-089
+id: IDEA-f9bb2c66
 title: Sidecar-specific subagent mapping on agents
 description: "Agent subagent mappings are implementation-specific to the sidecar, not part of the universal agent model. The agent definition should declare capabilities and roles; how those map to subagent tool calls is a sidecar concern."
 status: captured
@@ -9,14 +9,14 @@ horizon: someday
 research-needed:
   - "How should sidecar-specific configuration be separated from the universal agent model?"
   - "Should subagent mappings live in a sidecar config file rather than agent frontmatter?"
-  - "Does this overlap with the provider-agnostic capabilities model (RULE-040)?"
+  - "Does this overlap with the provider-agnostic capabilities model (RULE-92dba0cb)?"
 relationships:
-  - target: EPIC-063
+  - target: EPIC-fd22ca6c
     type: realises
-    rationale: "Captured during EPIC-063 UAT as Finding #18"
-  - target: PILLAR-003
+    rationale: "Captured during EPIC-fd22ca6c UAT as Finding #18"
+  - target: PILLAR-94b281db
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 

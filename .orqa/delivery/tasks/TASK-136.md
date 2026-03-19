@@ -1,5 +1,5 @@
 ---
-id: TASK-136
+id: TASK-41cb6dda
 title: Implement recommendation review UI
 description: "Built the UI for reviewing, approving, and acting on governance recommendations."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Approve/dismiss actions update recommendation status
   - Recommendation state persists across sessions
 relationships:
-  - target: EPIC-031
+  - target: EPIC-b1b3f5db
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-321
+  - target: TASK-51007152
     type: depended-on-by
 ---
 ## What

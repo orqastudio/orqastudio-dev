@@ -1,11 +1,11 @@
 ---
-id: TASK-041
+id: TASK-066116ae
 title: Memory leak investigation and fix
 description: Identifies and resolves memory growth during extended artifact browsing sessions by cleaning up orphaned DOM event listeners and adding an eviction policy to the viewer cache.
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - MarkdownRenderer cleans up event listeners on content change and unmount
   - Artifact viewer cache has an eviction policy (e.g.
@@ -13,10 +13,10 @@ acceptance:
   - No observable memory growth after navigating 50+ artifacts in sequence
   - No crash or freeze during extended artifact browsing sessions
 relationships:
-  - target: EPIC-043
+  - target: EPIC-a2fa3068
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-333
+  - target: TASK-34eaf518
     type: depended-on-by
 ---
 ## Findings Addressed

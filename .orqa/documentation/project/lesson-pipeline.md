@@ -1,5 +1,5 @@
 ---
-id: DOC-006
+id: DOC-1ab26625
 title: Lesson Promotion Pipeline Architecture
 category: architecture
 description: Architecture of the lesson promotion pipeline that converts implementation lessons into enforced rules.
@@ -27,14 +27,14 @@ This location is intentional: `.orqa/` is the project-specific directory for Orq
 
 `<IMPL-NNN>.md` — lesson identifier matches the IMPL number displayed in the UI.
 
-Example: `.orqa/process/lessons/[IMPL-001](IMPL-001).md`
+Example: `.orqa/process/lessons/[IMPL-eb748de2](IMPL-eb748de2).md`
 
 ### YAML Frontmatter Schema
 
 ```yaml
 ---
 
-id: IMPL-001
+id: IMPL-eb748de2
 title: "Brief title describing the mistake"
 tags:
   - tauri
@@ -98,7 +98,7 @@ The `.orqa/process/lessons/*.md` files are the authoritative source. SQLite cach
 
 ```sql
 CREATE TABLE lessons (
-    id              TEXT PRIMARY KEY,      -- e.g. "IMPL-001"
+    id              TEXT PRIMARY KEY,      -- e.g. "IMPL-eb748de2"
     title           TEXT NOT NULL,
     category        TEXT NOT NULL,
     tags            TEXT NOT NULL,         -- JSON array

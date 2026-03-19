@@ -1,13 +1,13 @@
 ---
-id: TASK-188
+id: TASK-6f15cbb0
 title: Port enforcement engine to Rust backend
 description: Implement the rule enforcement engine in Rust for app-native enforcement.
 status: surpassed
 created: 2026-03-11
 updated: 2026-03-11
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 docs:
-  - DOC-021
+  - DOC-4b4fbc0f
 acceptance:
   - Rust module loads rules from .orqa/process/rules/
   - Module parses YAML frontmatter including enforcement array
@@ -15,14 +15,14 @@ acceptance:
   - Module returns block/warn/allow decisions
   - "Unit tests cover loading, parsing, and pattern matching"
 relationships:
-  - target: EPIC-050
+  - target: EPIC-3a8ad459
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-185
+  - target: TASK-11cf4c1d
     type: depends-on
-  - target: TASK-189
+  - target: TASK-4556173e
     type: depended-on-by
-  - target: TASK-340
+  - target: TASK-fa39671d
     type: depended-on-by
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: IDEA-038
+id: IDEA-b77e2955
 title: Plugin Distribution via Git Submodules
 description: "An official plugins repository under the GitHub org that embeds each plugin as a git submodule. The app reads the repository catalogue, pulls plugins based on user selection, and manages versioning/updates. Each plugin is its own repo with independent releases."
 status: surpassed
@@ -15,20 +15,20 @@ research-needed:
   - Plugin signing/trust — how to verify plugins from the official repo vs third-party
 relationships:
   - type: merged-into
-    target: IDEA-108
+    target: IDEA-ff21a84a
   - type: merged-into
-    target: IDEA-109
+    target: IDEA-2051515a
   - type: realises
-    target: EPIC-080
-  - target: AD-055
+    target: EPIC-3f65c703
+  - target: AD-c6abc8e6
     type: crystallises
-  - target: PILLAR-002
+  - target: PILLAR-cdf756ff
     type: grounded
-  - target: PERSONA-003
+  - target: PERSONA-a4b15450
     type: benefits
 ---
 
-> **Surpassed 2026-03-16**: Core plugin distribution mechanism merged into EPIC-080 via AD-055. Plugin catalogue/marketplace concept split into IDEA-108. User plugin development workflow split into IDEA-109.
+> **Surpassed 2026-03-16**: Core plugin distribution mechanism merged into EPIC-3f65c703 via AD-c6abc8e6. Plugin catalogue/marketplace concept split into IDEA-ff21a84a. User plugin development workflow split into IDEA-2051515a.
 
 ## Motivation
 
@@ -108,7 +108,7 @@ The barrier from "I had an idea" to "I have a working plugin" is a single conver
 
 ### Development Workflow
 
-Plugin development uses the `orqa-plugin-development` skill [TASK-081](TASK-081), which guides the AI to:
+Plugin development uses the `orqa-plugin-development` skill [TASK-30307a19](TASK-30307a19), which guides the AI to:
 
 1. Create the plugin in a **new standalone project** (not inside the user's production project)
 2. Generate **seed data** for testing (mock `.orqa/` directory with representative artifacts)

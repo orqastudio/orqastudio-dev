@@ -1,10 +1,10 @@
 ---
-id: TASK-540
+id: TASK-877af777
 title: "Create orqa install command with subcommands"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-086
+  - target: EPIC-00e54475
     type: delivers
 ---

@@ -1,22 +1,22 @@
 ---
-id: TASK-262
+id: TASK-0baf0584
 title: Set up frontend coverage tooling
 description: Configure Vitest coverage reporter with threshold enforcement.
 status: completed
 created: 2026-03-12
 updated: 2026-03-12
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - vitest.config.ts exists with coverage configuration
   - make coverage-frontend target exists and produces a coverage report
   - "Coverage threshold of 80% configured (warn, not fail, initially)"
 relationships:
-  - target: EPIC-057
+  - target: EPIC-4726cb3b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-264
+  - target: TASK-e0cbdfe2
     type: depended-on-by
-  - target: TASK-347
+  - target: TASK-91bc09f9
     type: depended-on-by
 ---
 

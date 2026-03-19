@@ -1,5 +1,5 @@
 ---
-id: IDEA-095
+id: IDEA-93949f43
 title: Documentation as graph-connected knowledge — restructure docs for agent grounding and graph traversal
 description: "Documentation is currently isolated from the artifact graph. Docs exist as browsable pages but lack relationships to the skills, rules, decisions, and agents that reference them. This means agents can't traverse from a skill to its deeper documentation, grounding documents can't be systematically injected, and documentation quality is uneven because there's no structural standard for what a doc should contain or how it connects to the system."
 status: completed
@@ -12,22 +12,22 @@ research-needed:
   - Map which skills need accompanying documentation and which docs are orphaned
   - "Design the relationship pattern between docs, skills, agents, and grounding"
 relationships:
-  - target: RES-063
+  - target: RES-9c90ef3d
     type: spawns
-    rationale: "Auto-generated inverse of informs relationship from RES-063"
-  - target: RES-062
+    rationale: "Auto-generated inverse of informs relationship from RES-9c90ef3d"
+  - target: RES-17a8e33f
     type: spawns
-    rationale: "Auto-generated inverse of informs relationship from RES-062"
-  - target: EPIC-075
+    rationale: "Auto-generated inverse of informs relationship from RES-17a8e33f"
+  - target: EPIC-2a6e2567
     type: realises
-    rationale: "Auto-generated inverse of informs relationship from EPIC-075"
-  - target: EPIC-064
+    rationale: "Auto-generated inverse of informs relationship from EPIC-2a6e2567"
+  - target: EPIC-915291e7
     type: realises
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation

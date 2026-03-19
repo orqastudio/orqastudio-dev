@@ -1,5 +1,5 @@
 ---
-id: IMPL-028
+id: IMPL-2f360a49
 title: AI provider requirements are bidirectional — providers need plugins too
 description: "Plugin-to-provider is only half the relationship. When a user selects an AI provider, the system should know which plugins are required to enable that provider to work correctly. This means AI providers themselves need a schema that declares their plugin requirements. The relationship is bidirectional: plugins declare which providers they support, providers declare which plugins they need."
 status: active
@@ -26,10 +26,10 @@ An AI provider schema might declare:
 - Required plugins (must be installed for the provider to work)
 - Optional plugins (enhance the experience)
 - Detection mechanism (how the system knows this provider is active)
-- Capability profile (what tools/features this provider supports — feeds into [RULE-040](RULE-040) capability resolution)
+- Capability profile (what tools/features this provider supports — feeds into [RULE-92dba0cb](RULE-92dba0cb) capability resolution)
 
 ## Fix
 
-Design an AI provider schema as app-native config in `.orqa/providers/<name>.json` (one file per provider). Provider definitions are NOT plugins — they are native to the app. This keeps them separate from plugins for now, while the file-per-provider pattern makes future convergence into plugins natural (see IDEA-069).
+Design an AI provider schema as app-native config in `.orqa/providers/<name>.json` (one file per provider). Provider definitions are NOT plugins — they are native to the app. This keeps them separate from plugins for now, while the file-per-provider pattern makes future convergence into plugins natural (see IDEA-1c7ebe74).
 
 The provider schema declares: identity, display name, detection mechanism, capabilities profile, required plugins, and optional plugins. This creates the bidirectional relationship: providers know what plugins they need, plugins know what providers they support.

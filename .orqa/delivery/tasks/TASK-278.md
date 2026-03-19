@@ -1,5 +1,5 @@
 ---
-id: TASK-278
+id: TASK-d40d7b76
 title: Make relationship fields required in schemas
 description: "Move relationships, maturity, and category from optional to required in all governance schemas. Update orchestrator prompt with relationship guidance."
 status: completed
@@ -16,14 +16,14 @@ acceptance:
   - All existing artifacts pass validation against updated schemas
 rule-overrides: []
 relationships:
-  - target: EPIC-058
+  - target: EPIC-ca7b398b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-277
+  - target: TASK-c4685a41
     type: depends-on
-  - target: TASK-279
+  - target: TASK-7b2f5ee7
     type: depended-on-by
-  - target: TASK-348
+  - target: TASK-508cf6cd
     type: depended-on-by
 ---
 

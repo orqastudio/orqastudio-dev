@@ -1,5 +1,5 @@
 ---
-id: IDEA-056
+id: IDEA-25cfa2e0
 title: Preserve Navigation State Across Refresh and HMR
 description: "Browser refresh, Vite HMR, and app rebuilds should restore the user to the same active screen (artifact, panel, scroll position) rather than resetting to the default view."
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - "Storage mechanism — sessionStorage vs URL hash vs SQLite?"
   - "How does Vite HMR interact with Svelte store state — does $state survive HMR or reset?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

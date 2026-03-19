@@ -1,5 +1,5 @@
 ---
-id: EPIC-013
+id: EPIC-70d925f5
 title: Learning Through Reflection
 description: Build the automated lesson capture and promotion pipeline on top of the existing lesson management CRUD and UI.
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
 ---

@@ -1,5 +1,5 @@
 ---
-id: IDEA-097
+id: IDEA-f0caec95
 title: Internal routing with back/forward/history navigation
 description: Add proper internal routing to the app so users can navigate back/forward through their browsing history like a web browser. Enables natural navigation patterns and reduces cognitive load when exploring the artifact graph.
 status: captured
@@ -10,9 +10,9 @@ research-needed:
   - How to implement client-side routing in a Tauri app without a URL bar
   - History stack design — what constitutes a navigation entry
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

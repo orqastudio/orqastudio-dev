@@ -1,6 +1,6 @@
 ---
-id: TASK-340
-title: Reconcile EPIC-050
+id: TASK-fa39671d
+title: Reconcile EPIC-3a8ad459
 description: "Standing reconciliation task — verify epic body accuracy: task table, pillars, docs-produced, scope."
 status: completed
 created: 2026-03-13
@@ -11,49 +11,49 @@ acceptance:
   - Epic docs-produced list matches actual documentation created/updated
   - Epic scope section accurately reflects what was in/out of scope
 relationships:
-  - target: EPIC-050
+  - target: EPIC-3a8ad459
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-177
+  - target: TASK-869c27b5
     type: depends-on
-  - target: TASK-178
+  - target: TASK-0b584382
     type: depends-on
-  - target: TASK-179
+  - target: TASK-2df410be
     type: depends-on
-  - target: TASK-180
+  - target: TASK-73f7e0fa
     type: depends-on
-  - target: TASK-181
+  - target: TASK-61be543f
     type: depends-on
-  - target: TASK-182
+  - target: TASK-18229566
     type: depends-on
-  - target: TASK-183
+  - target: TASK-b4c3c05d
     type: depends-on
-  - target: TASK-184
+  - target: TASK-bd0e805b
     type: depends-on
-  - target: TASK-185
+  - target: TASK-11cf4c1d
     type: depends-on
-  - target: TASK-186
+  - target: TASK-3fc8be56
     type: depends-on
-  - target: TASK-187
+  - target: TASK-c083a1c8
     type: depends-on
-  - target: TASK-188
+  - target: TASK-6f15cbb0
     type: depends-on
-  - target: TASK-189
+  - target: TASK-4556173e
     type: depends-on
-  - target: TASK-190
+  - target: TASK-7e02fb8e
     type: depends-on
 ---
 
 ## What
 
-Standing reconciliation task for [EPIC-050](EPIC-050). Ensures the epic body stays accurate as work evolves.
+Standing reconciliation task for [EPIC-3a8ad459](EPIC-3a8ad459). Ensures the epic body stays accurate as work evolves.
 
 ## Verification
 
-- Epic body task table matches actual tasks with `epic: [EPIC-050](EPIC-050)`
+- Epic body task table matches actual tasks with `epic: [EPIC-3a8ad459](EPIC-3a8ad459)`
 - Pillars array is accurate
 - docs-produced entries exist on disk
 
 ## Lessons
 
-- Backfilled per [RULE-004](RULE-004) epic reconciliation requirement
+- Backfilled per [RULE-7b770593](RULE-7b770593) epic reconciliation requirement

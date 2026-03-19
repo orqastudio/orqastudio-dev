@@ -1,12 +1,12 @@
 ---
-id: RULE-029
+id: RULE-f10bb5de
 title: Testing Standards
 description: "Test organisation, coverage requirements, mock boundaries, and isolation rules."
 status: active
 created: 2026-03-07
 updated: 2026-03-07
 relationships:
-  - target: AD-054
+  - target: AD-e156310d
     type: enforces
 ---
 **Source of Truth:** This file defines testing patterns. `.orqa/documentation/development/coding-standards.md` defines coverage requirements.
@@ -80,6 +80,6 @@ For the full command reference, see `.orqa/documentation/development/commands.md
 
 ## Related Rules
 
-- [RULE-006](RULE-006) (coding-standards) — function size limits apply to test helpers too
-- [RULE-020](RULE-020) (no-stubs) — test doubles are NOT stubs; they implement real traits
-- [RULE-012](RULE-012) (error-ownership) — failing tests are YOUR responsibility to fix
+- [RULE-b49142be](RULE-b49142be) (coding-standards) — function size limits apply to test helpers too
+- [RULE-e9c54567](RULE-e9c54567) (no-stubs) — test doubles are NOT stubs; they implement real traits
+- [RULE-57ccb4a3](RULE-57ccb4a3) (error-ownership) — failing tests are YOUR responsibility to fix

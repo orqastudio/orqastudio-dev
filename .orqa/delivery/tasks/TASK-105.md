@@ -1,5 +1,5 @@
 ---
-id: TASK-105
+id: TASK-8f37b70c
 title: Define user journeys
 description: "Documented end-to-end user flows for primary use cases including first-run, conversation, artifact browsing, and governance review."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Journeys cover happy path and error states
   - Journeys drive UI design decisions
 relationships:
-  - target: EPIC-027
+  - target: EPIC-1f21b578
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-317
+  - target: TASK-a88d16bb
     type: depended-on-by
 ---
 ## What

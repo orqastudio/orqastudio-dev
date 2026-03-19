@@ -1,20 +1,20 @@
 ---
-id: IDEA-112
+id: IDEA-4e095061
 title: "Multi-project security and integrity"
 status: captured
 horizon: someday
 created: 2026-03-16
 relationships:
   - type: merged-from
-    target: IDEA-085
-  - target: PILLAR-003
+    target: IDEA-34a6bbf5
+  - target: PILLAR-94b281db
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 
-# IDEA-112: Multi-project security and integrity
+# IDEA-4e095061: Multi-project security and integrity
 
-Extracted from IDEA-085 (Multi-repo product overview via git submodules).
+Extracted from IDEA-34a6bbf5 (Multi-repo product overview via git submodules).
 
 Permissions hierarchy in organisation mode: read-only vs read-write `.orqa/` access vs code access. Agent/skill scope boundaries ensuring agents stay within project boundaries. Cross-project integrity validation spanning submodules. Product owner UX with visibility into governance without code access. Important for enterprise adoption where teams have different access levels.

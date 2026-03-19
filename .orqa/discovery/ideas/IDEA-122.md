@@ -1,5 +1,5 @@
 ---
-id: IDEA-122
+id: IDEA-1fb76817
 title: "Remove embedded software plugin from app — load all plugins from disk"
 description: "The app currently has a TypeScript copy of the software plugin manifest compiled into the frontend. This is wrong — first-party plugins should be installed during project setup, not bundled in the binary. All plugins load the same way: from orqa-plugin.json on disk."
 status: captured
@@ -12,12 +12,12 @@ research-needed:
   - Should first-party plugins be pre-downloaded during orqa install (for dev) but not compiled into the app?
   - What happens if a project has no plugins? The app should still work — just no delivery artifacts
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
     rationale: Loading plugins uniformly from disk makes the plugin architecture visible and consistent — no hidden compiled-in exceptions
-  - target: PERSONA-003
+  - target: PERSONA-a4b15450
     type: benefits
-  - target: EPIC-089
+  - target: EPIC-a80f16b4
     type: realises
 ---
 
@@ -53,6 +53,6 @@ When a user creates a new project:
 2. Based on the conversation, AI recommends plugins (software, research, consulting, custom)
 3. Plugins are installed from the official registry (or created on the fly for custom use cases)
 4. `project.json` is configured with the installed plugins' navigation, delivery hierarchy, and relationships
-5. The setup skills (SKILL-021 through SKILL-024) guide this process
+5. The setup skills (SKILL-82ceb1bd through SKILL-819789ab) guide this process
 
 The app binary is domain-agnostic. Domain knowledge comes entirely from plugins.

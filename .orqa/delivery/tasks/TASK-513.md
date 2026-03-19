@@ -1,5 +1,5 @@
 ---
-id: TASK-513
+id: TASK-26acd796
 title: Project settings UI for managing delivery types and state machine
 description: "Add a settings section where users can configure delivery artifact types (add/edit/remove types, define parent-child hierarchy) and the status state machine (statuses, transitions, auto_rules, icons). Changes persist to project.json."
 status: ready
@@ -23,9 +23,9 @@ acceptance:
   - All changes persist to project.json
   - App refreshes to reflect new configuration without restart
 relationships:
-  - target: EPIC-078
+  - target: EPIC-ed09464b
     type: delivers
     rationale: Settings UI for managing the configurable delivery pipeline
-  - target: TASK-509
+  - target: TASK-bc24af0b
     type: depends-on
 ---

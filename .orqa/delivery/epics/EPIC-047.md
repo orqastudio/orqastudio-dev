@@ -1,7 +1,7 @@
 ---
-id: EPIC-047
+id: EPIC-39860e8b
 title: Git Workflow Enforcement Review
-description: "Review and strengthen git commit discipline enforcement after discovering 237 files uncommitted across multiple sessions. Update session hooks, git-workflow rule, and create a software project-type skill for commit discipline. Addresses IMPL-015."
+description: "Review and strengthen git commit discipline enforcement after discovering 237 files uncommitted across multiple sessions. Update session hooks, git-workflow rule, and create a software project-type skill for commit discipline. Addresses IMPL-2e30e4ab."
 status: completed
 priority: P1
 created: 2026-03-09
@@ -13,31 +13,31 @@ scoring:
   complexity: 2
   dependencies: 3
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-064
+  - target: TASK-80b08c75
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-065
+  - target: TASK-5a90e7e0
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-066
+  - target: TASK-58372e60
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-067
+  - target: TASK-e1d418de
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-068
+  - target: TASK-648a5a90
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-337
+  - target: TASK-5e116826
     type: delivered-by
     rationale: Epic contains this task
 ---
 ## Context
 
-[IMPL-015](IMPL-015) documents a governance gap: 237 files accumulated uncommitted across
+[IMPL-2e30e4ab](IMPL-2e30e4ab) documents a governance gap: 237 files accumulated uncommitted across
 multiple sessions because:
 - Session hooks don't check for uncommitted changes on main
 - Governance-only work is exempt from worktrees, creating no natural commit point
@@ -76,9 +76,9 @@ encodes commit discipline patterns:
 - Commit message conventions for governance vs code changes
 - Session-end commit checklist
 
-### 4. Promote [IMPL-015](IMPL-015)
+### 4. Promote [IMPL-2e30e4ab](IMPL-2e30e4ab)
 
-After enforcement artifacts are in place, update [IMPL-015](IMPL-015) with `evolves-into`
+After enforcement artifacts are in place, update [IMPL-2e30e4ab](IMPL-2e30e4ab) with `evolves-into`
 referencing the updated rule and new skill.
 
 ## Constraints
@@ -92,11 +92,11 @@ referencing the updated rule and new skill.
 
 | Task | Title | Depends On |
 |------|-------|------------|
-| [TASK-064](TASK-064) | Update session-start hook with uncommitted changes check | — |
-| [TASK-065](TASK-065) | Update pre-commit-reminder hook with commit prompt | — |
-| [TASK-066](TASK-066) | Update git-workflow rule for governance-only work patterns | — |
-| [TASK-067](TASK-067) | Create or update commit discipline skill | [TASK-066](TASK-066) |
-| [TASK-068](TASK-068) | Promote [IMPL-015](IMPL-015) to enforcement artifacts | [TASK-064](TASK-064), [TASK-065](TASK-065), [TASK-066](TASK-066), [TASK-067](TASK-067) |
+| [TASK-80b08c75](TASK-80b08c75) | Update session-start hook with uncommitted changes check | — |
+| [TASK-5a90e7e0](TASK-5a90e7e0) | Update pre-commit-reminder hook with commit prompt | — |
+| [TASK-58372e60](TASK-58372e60) | Update git-workflow rule for governance-only work patterns | — |
+| [TASK-e1d418de](TASK-e1d418de) | Create or update commit discipline skill | [TASK-58372e60](TASK-58372e60) |
+| [TASK-648a5a90](TASK-648a5a90) | Promote [IMPL-2e30e4ab](IMPL-2e30e4ab) to enforcement artifacts | [TASK-80b08c75](TASK-80b08c75), [TASK-5a90e7e0](TASK-5a90e7e0), [TASK-58372e60](TASK-58372e60), [TASK-e1d418de](TASK-e1d418de) |
 
 ## Implementation Design
 

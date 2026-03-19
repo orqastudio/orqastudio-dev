@@ -1,5 +1,5 @@
 ---
-id: EPIC-043
+id: EPIC-a2fa3068
 title: Dogfood Readiness Verification
 description: "First round of user acceptance testing. The user exercises the app end-to-end, testing conversation flow, artifact browsing, governance visibility, settings, and streaming behaviour. Findings are captured as tasks within this epic."
 status: completed
@@ -13,40 +13,40 @@ scoring:
   complexity: 2
   dependencies: 3
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-037
+  - target: TASK-973496a4
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-038
+  - target: TASK-c740060f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-039
+  - target: TASK-3e2a9187
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-040
+  - target: TASK-32932be1
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-041
+  - target: TASK-066116ae
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-042
+  - target: TASK-a80d3862
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-043
+  - target: TASK-e74f41ca
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-044
+  - target: TASK-e99e01ba
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-045
+  - target: TASK-06914ff4
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-046
+  - target: TASK-71f6a74c
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-333
+  - target: TASK-34eaf518
     type: delivered-by
     rationale: Epic contains this task
 ---
@@ -74,7 +74,7 @@ Tasks are then prioritised and implemented following the structure-before-work r
 ### Task Creation Protocol
 
 For each UAT finding:
-1. Create `TASK-NNN.md` with `epic: [EPIC-043](EPIC-043)`
+1. Create `TASK-NNN.md` with `epic: [EPIC-a2fa3068](EPIC-a2fa3068)`
 2. Set `scope` to the files/components affected
 3. Set `acceptance` to describe the expected behaviour
 4. Classify: `bug` (broken), `ux` (works but poor experience), `missing` (not implemented)
@@ -97,7 +97,7 @@ For each UAT finding:
 | F5 | Research grouped by MVP milestone — inconsistent, should either group all by milestone or none (use `milestone:` YAML field instead) | data | Governance |
 | F6 | Lessons have code-reference titles (not human-readable) and some lack descriptions | data | Governance |
 | F7 | Rules don't all have descriptions | data | Governance |
-| F8 | [MS-000](MS-000) (Foundation & Scaffold) has unstructured phase content — should be restructured like [MS-001](MS-001) with phases backfilled as epics and tasks | data | Planning |
+| F8 | [MS-85b9269b](MS-85b9269b) (Foundation & Scaffold) has unstructured phase content — should be restructured like [MS-654badde](MS-654badde) with phases backfilled as epics and tasks | data | Planning |
 
 #### UX Improvements
 
@@ -148,7 +148,7 @@ The findings cluster around a few systemic issues rather than isolated bugs:
 
 | # | Finding | Type | Area |
 |---|---------|------|------|
-| F19 | Tasks still showing [TASK-002](TASK-002) etc in nav instead of title; not all have descriptions | bug | Artifact display |
+| F19 | Tasks still showing [TASK-df17333f](TASK-df17333f) etc in nav instead of title; not all have descriptions | bug | Artifact display |
 | F21 | Status dots/indicators not showing on artifact list items (DocNode lacks status from backend) | bug | Artifact display |
 | F28 | Hooks still not displayed in governance section | bug | Governance |
 
@@ -215,7 +215,7 @@ The findings cluster around a few systemic issues rather than isolated bugs:
 
 | # | Finding | Type | Area |
 |---|---------|------|------|
-| F36 | [TASK-002](TASK-002), [TASK-035](TASK-035), [TASK-038](TASK-038) still showing raw IDs as title in list despite having titles in file | bug | Artifact display |
+| F36 | [TASK-df17333f](TASK-df17333f), [TASK-429b41ad](TASK-429b41ad), [TASK-c740060f](TASK-c740060f) still showing raw IDs as title in list despite having titles in file | bug | Artifact display |
 | F37 | Most tasks missing descriptions in list view | data | Schema enforcement |
 | F38 | All artifacts of every type MUST have title + description fields — need schema enforcement | missing | Schema enforcement |
 | F39 | Status dots need 100% field coverage per type — every artifact must have the field that drives its status dot | data | Schema enforcement |
@@ -249,7 +249,7 @@ The findings cluster around a few systemic issues rather than isolated bugs:
 |---|---------|-----|
 | F34 | Research doc metadata not displaying | Fixed CRLF line ending issue in frontmatter.ts — Windows files had \\r breaking regex $ anchors |
 | F35 | Research doc formats inconsistent | Updated artifact-framework.md schema definitions |
-| F36 | [TASK-002](TASK-002)/035/038 showing raw IDs | Fixed invalid YAML quoting (embedded double quotes caused serde_yaml parse failure) |
+| F36 | [TASK-df17333f](TASK-df17333f)/035/038 showing raw IDs | Fixed invalid YAML quoting (embedded double quotes caused serde_yaml parse failure) |
 | F37 | Most tasks missing descriptions | Audit: all 50 tasks already have descriptions — no action needed |
 | F38 | Schema enforcement needed | Updated artifact-framework.md with required fields for lessons and rules |
 | F39 | Status dots need coverage | Lessons now have status field (Round 4); rules got status in Round 3 |
@@ -272,14 +272,14 @@ The findings cluster around a few systemic issues rather than isolated bugs:
 
 | # | Finding | Type | Area |
 |---|---------|------|------|
-| F47 | [TASK-031](TASK-031) missing description field in frontmatter | data | Tasks |
+| F47 | [TASK-4fb1b91f](TASK-4fb1b91f) missing description field in frontmatter | data | Tasks |
 
 ### Round 5 Fixes Applied
 
 | # | Finding | Fix |
 |---|---------|-----|
 | F46 | Long artifact titles | Shortened 23 titles across lessons, tasks, research, decisions, epics, and ideas. Added title guidelines to artifact-framework.md |
-| F47 | [TASK-031](TASK-031) missing description | Added description to frontmatter |
+| F47 | [TASK-4fb1b91f](TASK-4fb1b91f) missing description | Added description to frontmatter |
 
 ### Systemic Themes (Round 5)
 
@@ -292,7 +292,7 @@ The findings cluster around a few systemic issues rather than isolated bugs:
 - [ ] User has exercised all test areas
 - [x] Round 1 findings captured as tasks and fixed
 - [x] Round 2 findings captured as tasks and fixed
-- [x] Round 2 architectural concerns [EPIC-044](EPIC-044) implemented
+- [x] Round 2 architectural concerns [EPIC-31c9baca](EPIC-31c9baca) implemented
 - [x] Round 3 findings investigated and fixed
 - [x] Round 4 findings investigated and fixed
 - [ ] Non-critical findings prioritised for future sprints

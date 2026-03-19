@@ -1,5 +1,5 @@
 ---
-id: TASK-135
+id: TASK-1c443823
 title: Implement governance recommendations
 description: Built the recommendation engine that generates structured suggestions based on governance coverage analysis.
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - "Each recommendation has priority, category, and actionable text"
   - Recommendations persist across sessions
 relationships:
-  - target: EPIC-031
+  - target: EPIC-b1b3f5db
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-321
+  - target: TASK-51007152
     type: depended-on-by
 ---
 ## What

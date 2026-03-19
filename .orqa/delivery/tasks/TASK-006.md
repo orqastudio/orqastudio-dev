@@ -1,11 +1,11 @@
 ---
-id: TASK-006
+id: TASK-ac590adf
 title: Governance Vision Alignment Audit
 description: Audit governance rules (.claude/rules/) and agent definitions (.claude/agents/) for references that contradict the updated vision. These are the enforcement layer — they must accurately reflect .orqa/ as source of truth.
 status: completed
 created: 2026-03-08
 updated: 2026-03-08
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - Every rule file checked for .claude/ as source-of-truth references
   - Every agent definition checked for .claude/ path references
@@ -13,10 +13,10 @@ acceptance:
   - UI docs checked for Claude-specific branding
   - No rule or agent definition implies Claude is the product identity
 relationships:
-  - target: EPIC-033
+  - target: EPIC-4bbc3439
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-323
+  - target: TASK-88ccf38a
     type: depended-on-by
 ---
 ## What

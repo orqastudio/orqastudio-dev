@@ -1,5 +1,5 @@
 ---
-id: DOC-021
+id: DOC-4b4fbc0f
 title: Coding Standards
 category: reference
 description: "Coding standards for Rust and TypeScript/Svelte covering formatting, linting, error handling, and component patterns."
@@ -7,15 +7,15 @@ created: 2026-03-02
 updated: 2026-03-08
 sort: 3
 relationships:
-  - target: AD-004
+  - target: AD-8d552e96
     type: documents
-    rationale: Documentation page references AD-004
-  - target: RULE-020
+    rationale: Documentation page references AD-8d552e96
+  - target: RULE-e9c54567
     type: documents
-    rationale: Documentation page references RULE-020
-  - target: RULE-006
+    rationale: Documentation page references RULE-e9c54567
+  - target: RULE-b49142be
     type: documents
-    rationale: This document is the source-of-truth referenced by RULE-006 — it defines the specific standards that rule enforces
+    rationale: This document is the source-of-truth referenced by RULE-b49142be — it defines the specific standards that rule enforces
 ---
 ## Purpose
 
@@ -25,7 +25,7 @@ The standards below exist not to impose bureaucracy but to enforce the principle
 
 These standards serve **Clarity Through Structure** directly: a codebase that conforms to them is one where the expected form of every construct is checkable by machine, not negotiable by opinion. They serve **Purpose Through Continuity** because consistent standards allow agents across many sessions to work in the same codebase without re-learning local customs.
 
-The standards are enforced by `make check`. The principles behind them are governed by [RULE-006](RULE-006). This document is the reference for what those standards are — read [RULE-006](RULE-006) for why each one exists.
+The standards are enforced by `make check`. The principles behind them are governed by [RULE-b49142be](RULE-b49142be). This document is the reference for what those standards are — read [RULE-b49142be](RULE-b49142be) for why each one exists.
 
 ---
 
@@ -71,7 +71,7 @@ The standards are enforced by `make check`. The principles behind them are gover
 
 ## TypeScript / Svelte Standards
 
-### Svelte 5 Runes [AD-004](AD-004)
+### Svelte 5 Runes [AD-8d552e96](AD-8d552e96)
 
 - `$state()` for reactive state — never `let x = value` for reactive vars
 - `$derived()` for computed values — never `$:` reactive declarations
@@ -107,7 +107,7 @@ The standards are enforced by `make check`. The principles behind them are gover
 - **Coverage:** 80%+ test coverage, no exceptions without documented justification
 - **No TODO comments:** Track as task artifacts in `.orqa/delivery/tasks/`, not scattered across the codebase
 - **No commented-out code:** Delete it. Git history preserves it.
-- **No hardcoded fake data:** See [RULE-020](RULE-020)
+- **No hardcoded fake data:** See [RULE-e9c54567](RULE-e9c54567)
 - **Documentation-first:** Read governing docs before implementing
 
 ## Enforcement
@@ -115,5 +115,41 @@ The standards are enforced by `make check`. The principles behind them are gover
 ```bash
 make check
 ```
+  - target: SKILL-01a64d58
+    type: synchronised-with
+  - target: SKILL-c60144c1
+    type: synchronised-with
+  - target: SKILL-12ed4953
+    type: synchronised-with
+  - target: SKILL-025fc31d
+    type: synchronised-with
+  - target: SKILL-5ad0bf1b
+    type: synchronised-with
+  - target: SKILL-13ec986c
+    type: synchronised-with
+  - target: SKILL-58611337
+    type: synchronised-with
+  - target: SKILL-dac84f00
+    type: synchronised-with
+  - target: SKILL-8a821622
+    type: synchronised-with
+  - target: SKILL-282c0305
+    type: synchronised-with
+  - target: SKILL-49f495ff
+    type: synchronised-with
+  - target: SKILL-40addb7a
+    type: synchronised-with
+  - target: SKILL-2b6147c9
+    type: synchronised-with
+  - target: SKILL-a4b6310b
+    type: synchronised-with
+  - target: SKILL-1b990160
+    type: synchronised-with
+  - target: SKILL-65f5aa67
+    type: synchronised-with
+  - target: SKILL-3f34e682
+    type: synchronised-with
+  - target: SKILL-7a96b952
+    type: synchronised-with
 
 ---

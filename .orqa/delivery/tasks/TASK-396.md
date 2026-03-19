@@ -1,5 +1,5 @@
 ---
-id: TASK-396
+id: TASK-b155317a
 title: Audit components for invoke()-to-SDK migration opportunities
 description: "Audit all Svelte components in ui/src/lib/components/ for direct invoke() calls that could be replaced with artifactGraphSDK lookups. Finding: no migration needed — only invoke() in components is artifact_watch_start (a watcher command, not a graph query)."
 status: completed
@@ -10,12 +10,12 @@ acceptance:
   - Any graph-data invoke() calls identified for migration
   - Result documented
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-389
+  - target: TASK-ce651394
     type: depends-on
-  - target: TASK-397
+  - target: TASK-d624db8f
     type: depended-on-by
 ---
 

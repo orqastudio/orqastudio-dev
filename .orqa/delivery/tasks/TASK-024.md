@@ -1,11 +1,11 @@
 ---
-id: TASK-024
+id: TASK-320eb399
 title: Decompose stream commands into domain modules
 description: "Extracts business logic from the monolithic stream_commands.rs (2,425 lines) into four focused domain modules, leaving the command file as thin orchestration only."
 status: completed
 created: 2026-03-06
 updated: 2026-03-09
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - stream_commands.rs reduced from 2
   - 425 to ~280 lines
@@ -13,10 +13,10 @@ acceptance:
   - 385 tests pass
   - zero clippy warnings
 relationships:
-  - target: EPIC-039
+  - target: EPIC-897bbe8f
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-329
+  - target: TASK-fca01488
     type: depended-on-by
 ---
 ## What

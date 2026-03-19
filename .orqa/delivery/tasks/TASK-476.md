@@ -1,5 +1,5 @@
 ---
-id: TASK-476
+id: TASK-07e661cd
 title: Dashboard components use shared library
 description: "Replace native elements in dashboard with shared components: ScrollArea for pipeline health table, SelectMenu for category dropdown, proper toggle pattern for filter buttons."
 status: completed
@@ -17,7 +17,7 @@ acceptance:
   - Category dropdown uses SelectMenu component
   - Error/Warning filter toggles use a proper component pattern (mini-buttons or clickable badges)
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
     rationale: Dashboard polish (F30, F32, F33)
 ---

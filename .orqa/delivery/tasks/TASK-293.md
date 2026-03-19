@@ -1,5 +1,5 @@
 ---
-id: TASK-293
+id: TASK-a86c3565
 title: Rules content audit (44 rules)
 description: "Audit all 44 rules: fix deprecated references, ensure rules state constraints not methodology, review relationship rationales, ensure Related Rules sections match relationships arrays, absorb operational standards."
 status: completed
@@ -15,12 +15,12 @@ acceptance:
   - "Operational standards (DoD, DoR, coding standards) absorbed where appropriate"
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-285
+  - target: TASK-5da55ccb
     type: depends-on
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

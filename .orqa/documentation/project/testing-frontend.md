@@ -1,5 +1,5 @@
 ---
-id: DOC-074
+id: DOC-48ab2603
 title: "How To: Write Frontend Tests in OrqaStudio"
 category: how-to
 description: Practical guide for writing Vitest tests for Svelte 5 stores and components in OrqaStudio.
@@ -169,14 +169,14 @@ beforeEach(() => {
 });
 
 it("loads content via SDK", async () => {
-  vi.mocked(artifactGraphSDK.readContent).mockResolvedValueOnce("# EPIC-001\n...");
+  vi.mocked(artifactGraphSDK.readContent).mockResolvedValueOnce("# EPIC-e045ab6d\n...");
 
-  await artifactStore.loadContent(".orqa/delivery/epics/EPIC-001.md");
+  await artifactStore.loadContent(".orqa/delivery/epics/EPIC-e045ab6d.md");
 
   expect(artifactGraphSDK.readContent).toHaveBeenCalledWith(
-    ".orqa/delivery/epics/EPIC-001.md"
+    ".orqa/delivery/epics/EPIC-e045ab6d.md"
   );
-  expect(artifactStore.activeContent).toBe("# EPIC-001\n...");
+  expect(artifactStore.activeContent).toBe("# EPIC-e045ab6d\n...");
 });
 ```
 

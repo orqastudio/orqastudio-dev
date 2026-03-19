@@ -1,5 +1,5 @@
 ---
-id: TASK-465
+id: TASK-ca282ce0
 title: Define Governance Steward agent
 description: Create a specialist agent definition for all .orqa/ artifact creation and maintenance. The orchestrator delegates governance work to this agent instead of writing artifacts directly.
 status: completed
@@ -18,15 +18,15 @@ acceptance:
   - "Agent system prompt includes graph discipline (bidirectional relationships, schema compliance, pillar alignment)"
   - "Agent skills include orqa-governance, orqa-documentation, orqa-schema-compliance, migration-tooling"
   - "Agent capabilities include file_read, file_write, file_edit, file_search, content_search"
-  - RULE-001 updated to include Governance Steward in the delegation table
+  - RULE-532100d9 updated to include Governance Steward in the delegation table
   - Orchestrator prompt updated to reference Governance Steward for all .orqa/ artifact work
 relationships:
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: delivers
     rationale: Phase 2 — specialist agent for governance integrity
-  - target: TASK-463
+  - target: TASK-349bc911
     type: depends-on
-  - target: TASK-466
+  - target: TASK-f9f933b5
     type: depended-on-by
 ---
 
@@ -57,7 +57,7 @@ Create `.orqa/process/agents/governance-steward.md` with:
 
 ### Rule Updates
 
-Update RULE-001's delegation table to include:
+Update RULE-532100d9's delegation table to include:
 
 | Role | Purpose | Boundary |
 |------|---------|----------|

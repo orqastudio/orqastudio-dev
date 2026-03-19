@@ -1,5 +1,5 @@
 ---
-id: TASK-406
+id: TASK-e9059b0b
 title: "Enhance artifact viewer with unified relationships, actions needed, and pipeline position"
 description: Move all relationships to the relationships viewer across all artifact types. Add inferred Actions Needed box. Add pipeline position stepper. Auto-embed child artifacts. Display horizon field. Implement acceptance criteria checkboxes.
 status: completed
@@ -24,7 +24,7 @@ acceptance:
   - Task acceptance criteria render as checkboxes
   - All acceptance checkboxes must be checked before task status can transition to done
 relationships:
-  - target: EPIC-065
+  - target: EPIC-b67074cc
     type: delivers
     rationale: Artifact viewer enhancements — PipelineStepper, ActionsNeeded, AcceptanceCriteria, grouped relationships, horizon display
 ---

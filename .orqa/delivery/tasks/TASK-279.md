@@ -1,5 +1,5 @@
 ---
-id: TASK-279
+id: TASK-7b2f5ee7
 title: Remove deprecated fields from schemas and artifacts
 description: "Remove promoted-to from lessons, promoted-from from rules, research-refs from decisions. Data already migrated to relationships."
 status: completed
@@ -16,14 +16,14 @@ acceptance:
   - "No references to deprecated fields remain in rules, skills, or orchestrator prompt"
 rule-overrides: []
 relationships:
-  - target: EPIC-058
+  - target: EPIC-ca7b398b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-278
+  - target: TASK-d40d7b76
     type: depends-on
-  - target: TASK-280
+  - target: TASK-78abb39a
     type: depended-on-by
-  - target: TASK-348
+  - target: TASK-508cf6cd
     type: depended-on-by
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: IDEA-024
+id: IDEA-f3a08e7a
 title: "Git Integration & Worktree-Aware Workspace"
 description: "Git awareness for OrqaStudio including branch status, worktree visibility, and version control operations surfaced through the app UI."
 status: review
@@ -14,9 +14,9 @@ research-needed:
   - "How do branches/worktrees relate to the artifact lifecycle (tasks, epics)?"
   - "What git state is relevant for dogfooding (uncommitted changes, stale worktrees, merge conflicts)?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Problem
@@ -27,7 +27,7 @@ Worktrees are particularly important because the CLI uses them to give agents is
 
 ## Why It Matters for Dogfooding
 
-The gate question for [MS-001](MS-001) is: "Can we use this app instead of the terminal?" Git integration is a major piece of the CLI workflow. Without it, the user still needs the terminal for:
+The gate question for [MS-654badde](MS-654badde) is: "Can we use this app instead of the terminal?" Git integration is a major piece of the CLI workflow. Without it, the user still needs the terminal for:
 
 - Seeing uncommitted changes, branch status, stale stashes
 - Seeing active worktrees and their branches

@@ -1,5 +1,5 @@
 ---
-id: TASK-203
+id: TASK-2bbc5077
 title: Consolidate code-pattern rules to reference linters
 description: |
   Simplify rules that currently regex-match code patterns (unwrap, TODO, etc.)
@@ -13,20 +13,20 @@ acceptance:
   - bash enforcement entries for git safety remain unchanged
   - make check still catches all documented violations
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-202
+  - target: TASK-05357368
     type: depends-on
-  - target: TASK-207
+  - target: TASK-34007190
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 
 ## What
 
-Rules like [RULE-006](RULE-006) currently have enforcement entries that regex-match code
+Rules like [RULE-b49142be](RULE-b49142be) currently have enforcement entries that regex-match code
 patterns (unwrap, TODO comments, etc.). These patterns are already caught by
 clippy and ESLint. The regex enforcement should be replaced with `lint` event
 entries that document the linter delegation, and the regex entries removed.

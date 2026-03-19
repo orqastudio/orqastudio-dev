@@ -1,5 +1,5 @@
 ---
-id: DOC-063
+id: DOC-46ffe1d2
 title: Dev Controller and OrqaDev Dashboard
 category: architecture
 description: Architecture of the dev controller (debugger/dev.mjs) and the OrqaDev web dashboard for unified process management and log streaming during development.
@@ -18,7 +18,7 @@ process control panel accessible at `http://localhost:3001`.
 
 This replaces `cargo tauri dev` which has known issues with Vite process orphaning on
 crash, `taskkill` hangs on MSYS2/Git Bash, and no unified build visibility. See
-[RES-039](RES-039) for the original research.
+[RES-ed556ff3](RES-ed556ff3) for the original research.
 
 ## Architecture
 

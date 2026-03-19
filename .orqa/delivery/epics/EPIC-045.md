@@ -1,7 +1,7 @@
 ---
-id: EPIC-045
+id: EPIC-be023ed2
 title: Portable Governance Framework
-description: "Restructure agents from 16 software-specific roles to 7 universal roles, extract domain knowledge into skills, create project setup skills, update product documentation to reflect the PILLAR-001 engine identity and governance hub capability. Implements AD-029 and AD-030."
+description: "Restructure agents from 16 software-specific roles to 7 universal roles, extract domain knowledge into skills, create project setup skills, update product documentation to reflect the PILLAR-569581e0 engine identity and governance hub capability. Implements AD-774cc3d0 and AD-6f0dea5e."
 status: completed
 priority: P1
 created: 2026-03-09
@@ -13,50 +13,50 @@ scoring:
   complexity: 4
   dependencies: 4
 relationships:
-  - target: RES-010
+  - target: RES-658ab0b7
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-010
-  - target: MS-002
+    rationale: Auto-generated inverse of informed-by relationship from RES-658ab0b7
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-051
+  - target: TASK-7d550875
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-052
+  - target: TASK-4a2936f9
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-053
+  - target: TASK-f6850c71
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-054
+  - target: TASK-f1ada1f5
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-055
+  - target: TASK-58887d38
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-056
+  - target: TASK-2ac2d88f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-057
+  - target: TASK-3cb01b3f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-335
+  - target: TASK-0d8b4a06
     type: delivered-by
     rationale: Epic contains this task
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
-  - target: IDEA-025
+  - target: IDEA-b153fabd
     type: realised-by
-  - target: RES-010
+  - target: RES-658ab0b7
     type: guided-by
 ---
 ## Context
 
-[AD-029](AD-029) established that agents should represent universal roles (Orchestrator, Researcher,
+[AD-774cc3d0](AD-774cc3d0) established that agents should represent universal roles (Orchestrator, Researcher,
 Planner, Implementer, Reviewer, Writer, Designer) that work across any project type.
 Domain-specific knowledge lives in skills loaded at runtime.
 
-[AD-030](AD-030) established that project setup is skill-driven — no templates directory, no hardcoded
+[AD-6f0dea5e](AD-6f0dea5e) established that project setup is skill-driven — no templates directory, no hardcoded
 scaffolding. Setup skills contain the knowledge of what a project needs.
 
 Both decisions support OrqaStudio's identity as a clarity engine for structured thinking,
@@ -64,7 +64,7 @@ not an AI development tool.
 
 ## Implementation Scope
 
-### 1. Agent Restructuring [AD-029](AD-029)
+### 1. Agent Restructuring [AD-774cc3d0](AD-774cc3d0)
 
 Replace 16 software-specific agent files with 7 universal role definitions:
 
@@ -90,7 +90,7 @@ Replace 16 software-specific agent files with 7 universal role definitions:
 - debugger.md, refactor-agent.md → become skills only
 - agent-maintainer.md → becomes skill for Orchestrator
 
-### 2. Domain Skill Extraction [AD-029](AD-029)
+### 2. Domain Skill Extraction [AD-774cc3d0](AD-774cc3d0)
 
 Extract domain knowledge from old agents into loadable skills:
 
@@ -106,7 +106,7 @@ Extract domain knowledge from old agents into loadable skills:
 | test-engineer | `test-engineering` | TDD workflow, coverage, mock boundaries |
 | systems-architect | `architectural-evaluation` | Compliance checks, boundary verification |
 
-### 3. Project Setup Skills [AD-030](AD-030)
+### 3. Project Setup Skills [AD-6f0dea5e](AD-6f0dea5e)
 
 Create the four setup skills that replace templates:
 
@@ -117,9 +117,9 @@ Create the four setup skills that replace templates:
 
 ### 4. Product Documentation Update
 
-- Update `governance.md` with concept taxonomy from [AD-029](AD-029)
-- Create `governance-hub.md` for the distribution/coexistence model from [AD-030](AD-030)
-- Verify `artifact-framework.md` alignment with [AD-029](AD-029) concepts
+- Update `governance.md` with concept taxonomy from [AD-774cc3d0](AD-774cc3d0)
+- Create `governance-hub.md` for the distribution/coexistence model from [AD-6f0dea5e](AD-6f0dea5e)
+- Verify `artifact-framework.md` alignment with [AD-774cc3d0](AD-774cc3d0) concepts
 
 ## Constraints
 
@@ -138,24 +138,24 @@ Create the four setup skills that replace templates:
 
 | Task | Title | Depends On |
 |------|-------|------------|
-| [TASK-057](TASK-057) | Task Dependency Mechanism | — |
-| [TASK-051](TASK-051) | Create universal agent definitions | [TASK-057](TASK-057) |
-| [TASK-053](TASK-053) | Extract domain skills from old agents | [TASK-057](TASK-057), [TASK-051](TASK-051) |
-| [TASK-052](TASK-052) | Remove old software-specific agents | [TASK-051](TASK-051), [TASK-053](TASK-053) |
-| [TASK-054](TASK-054) | Create project setup skills | [TASK-057](TASK-057) |
-| [TASK-056](TASK-056) | Update rules for universal roles | [TASK-052](TASK-052), [TASK-053](TASK-053) |
-| [TASK-055](TASK-055) | Update product documentation | [TASK-052](TASK-052), [TASK-056](TASK-056) |
+| [TASK-3cb01b3f](TASK-3cb01b3f) | Task Dependency Mechanism | — |
+| [TASK-7d550875](TASK-7d550875) | Create universal agent definitions | [TASK-3cb01b3f](TASK-3cb01b3f) |
+| [TASK-f6850c71](TASK-f6850c71) | Extract domain skills from old agents | [TASK-3cb01b3f](TASK-3cb01b3f), [TASK-7d550875](TASK-7d550875) |
+| [TASK-4a2936f9](TASK-4a2936f9) | Remove old software-specific agents | [TASK-7d550875](TASK-7d550875), [TASK-f6850c71](TASK-f6850c71) |
+| [TASK-f1ada1f5](TASK-f1ada1f5) | Create project setup skills | [TASK-3cb01b3f](TASK-3cb01b3f) |
+| [TASK-2ac2d88f](TASK-2ac2d88f) | Update rules for universal roles | [TASK-4a2936f9](TASK-4a2936f9), [TASK-f6850c71](TASK-f6850c71) |
+| [TASK-58887d38](TASK-58887d38) | Update product documentation | [TASK-4a2936f9](TASK-4a2936f9), [TASK-2ac2d88f](TASK-2ac2d88f) |
 
 ## Dependency Chain
 
 ```
-TASK-057 (dependency mechanism)
-  ├── TASK-051 (create new agents)
-  │     └── TASK-053 (extract skills from old agents)
-  │           └── TASK-052 (remove old agents)
-  │                 └── TASK-056 (update rules)
-  │                       └── TASK-055 (update product docs)
-  └── TASK-054 (setup skills — independent track)
+TASK-3cb01b3f (dependency mechanism)
+  ├── TASK-7d550875 (create new agents)
+  │     └── TASK-f6850c71 (extract skills from old agents)
+  │           └── TASK-4a2936f9 (remove old agents)
+  │                 └── TASK-2ac2d88f (update rules)
+  │                       └── TASK-58887d38 (update product docs)
+  └── TASK-f1ada1f5 (setup skills — independent track)
 ```
 
 ## Implementation Design

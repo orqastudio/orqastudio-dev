@@ -1,5 +1,5 @@
 ---
-id: EPIC-007
+id: EPIC-03900ea5
 title: Composability Refactoring
 description: "Refactor monolithic service files into composable units while preserving existing store, IPC, and component boundaries."
 status: completed
@@ -13,19 +13,19 @@ scoring:
   complexity: 3
   dependencies: 2
 relationships:
-  - target: RES-020
+  - target: RES-45cffcbe
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-020
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-45cffcbe
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-313
+  - target: TASK-0672dd23
     type: delivered-by
     rationale: Epic contains this task
-  - target: RES-020
+  - target: RES-45cffcbe
     type: guided-by
 ---
-**Note:** This epic was superseded by [EPIC-039](EPIC-039), which completed the composability refactoring. The status remains `done` because the work was delivered through [EPIC-039](EPIC-039). The tasks listed below were not completed under this epic directly -- they were subsumed by [EPIC-039](EPIC-039)'s broader scope.
+**Note:** This epic was superseded by [EPIC-897bbe8f](EPIC-897bbe8f), which completed the composability refactoring. The status remains `done` because the work was delivered through [EPIC-897bbe8f](EPIC-897bbe8f). The tasks listed below were not completed under this epic directly -- they were subsumed by [EPIC-897bbe8f](EPIC-897bbe8f)'s broader scope.
 
 ## Why P2
 
@@ -40,8 +40,8 @@ Code health for sustained velocity. Functions individually pass size limits, but
 
 ## Context
 
-Superseded by [EPIC-039](EPIC-039) which completed the composability refactoring — domain service extraction pattern established, `StreamOrchestrator` decomposed, `Tool` trait implemented.
+Superseded by [EPIC-897bbe8f](EPIC-897bbe8f) which completed the composability refactoring — domain service extraction pattern established, `StreamOrchestrator` decomposed, `Tool` trait implemented.
 
 ## Implementation Design
 
-Completed via [EPIC-039](EPIC-039).
+Completed via [EPIC-897bbe8f](EPIC-897bbe8f).

@@ -1,5 +1,5 @@
 ---
-id: IDEA-009
+id: IDEA-9713910f
 title: Integration Ecosystem
 description: "Connect OrqaStudio with external tools and workflows including git, issue trackers, documentation platforms, and CI/CD."
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - Bidirectional sync architecture
   - Import format support
 relationships:
-  - target: PILLAR-002
+  - target: PILLAR-cdf756ff
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Candidate Items

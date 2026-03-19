@@ -1,5 +1,5 @@
 ---
-id: EPIC-001
+id: EPIC-e045ab6d
 title: AI Transparency Wiring
 description: "Wire the emission logic that connects existing AI transparency types, components, and store handling into a working end-to-end pipeline."
 status: completed
@@ -13,29 +13,29 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: RES-026
+  - target: RES-b126f17a
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-026
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-b126f17a
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-001
+  - target: TASK-58a9d218
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-002
+  - target: TASK-df17333f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-003
+  - target: TASK-fa777da9
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-311
+  - target: TASK-b6aa7a3b
     type: delivered-by
     rationale: Epic contains this task
-  - target: IDEA-013
+  - target: IDEA-bfeda324
     type: realised-by
-  - target: RES-026
+  - target: RES-b126f17a
     type: guided-by
-  - target: DOC-036
+  - target: DOC-01ddd8aa
     type: documented-by
 ---
 ## Why P1
@@ -52,17 +52,17 @@ Can't debug reasoning without seeing what's sent to the model. This is a reasoni
 
 ## Tasks
 
-- [x] [[TASK-001](TASK-001)] Emit `SystemPromptSent` event from `stream_commands.rs` (backend-engineer)
-- [x] [[TASK-002](TASK-002)] Verify end-to-end rendering (qa-tester)
-- [x] [[TASK-003](TASK-003)] Update streaming pipeline documentation (documentation-writer)
+- [x] [[TASK-58a9d218](TASK-58a9d218)] Emit `SystemPromptSent` event from `stream_commands.rs` (backend-engineer)
+- [x] [[TASK-df17333f](TASK-df17333f)] Verify end-to-end rendering (qa-tester)
+- [x] [[TASK-fa777da9](TASK-fa777da9)] Update streaming pipeline documentation (documentation-writer)
 
 ## Additional Completed Work
 
-- [x] [[TASK-004](TASK-004)] Emit `ContextInjected` event when prior messages exist in session (backend-engineer)
+- [x] [[TASK-5e893805](TASK-5e893805)] Emit `ContextInjected` event when prior messages exist in session (backend-engineer)
 
 ## Out of Scope (handled by other epics)
-- `show_thinking` project setting toggle — [EPIC-002](EPIC-002) (Settings UI)
-- Custom system prompt — [EPIC-002](EPIC-002) (Settings UI)
+- `show_thinking` project setting toggle — [EPIC-642234ba](EPIC-642234ba) (Settings UI)
+- Custom system prompt — [EPIC-642234ba](EPIC-642234ba) (Settings UI)
 
 ## Notes
 

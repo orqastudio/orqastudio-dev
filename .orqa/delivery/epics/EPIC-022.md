@@ -1,5 +1,5 @@
 ---
-id: EPIC-022
+id: EPIC-8ad2067a
 title: "Implementation Breakdown & Work Management"
 description: "Build epic-to-task hierarchy, plan-to-backlog breakdown, unified backlog view, status workflow, and progress dashboard."
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 4
   dependencies: 3
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
 ---

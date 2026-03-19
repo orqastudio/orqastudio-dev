@@ -1,5 +1,5 @@
 ---
-id: TASK-417
+id: TASK-e6732238
 title: "Create @orqastudio/types package"
 description: "Extract all 13 type files from ui/src/lib/types/ into a standalone @orqastudio/types package. Include shared constants (INVERSE_MAP, SINGLE_REF_FIELDS, ARRAY_REF_FIELDS). Set up GitHub repo, CI, and GitHub Packages publishing."
 status: completed
@@ -19,12 +19,12 @@ acceptance:
   - Package builds with zero errors
   - "Published to GitHub Packages as @orqastudio/types"
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: Foundation package — everything depends on this
-  - target: TASK-419
+  - target: TASK-248a0485
     type: depended-on-by
-  - target: TASK-420
+  - target: TASK-3b56186e
     type: depended-on-by
 ---
 

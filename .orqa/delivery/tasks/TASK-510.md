@@ -1,5 +1,5 @@
 ---
-id: TASK-510
+id: TASK-fcb7ddc4
 title: Replace hardcoded parent-child field references in integrity checks
 description: "Refactor the integrity check functions so they read the delivery type hierarchy from the project config instead of using hardcoded artifact type names such as 'epic' and 'milestone'. The checks must produce identical results for the current project while being driven entirely by config."
 status: completed
@@ -18,11 +18,11 @@ acceptance:
   - No hardcoded artifact type names in integrity check functions
   - All existing integrity checks still produce the same results
 relationships:
-  - target: EPIC-078
+  - target: EPIC-ed09464b
     type: delivers
-  - target: TASK-509
+  - target: TASK-bc24af0b
     type: depends-on
-  - target: TASK-512
+  - target: TASK-a5606ccd
     type: depended-on-by
 ---
 ## What

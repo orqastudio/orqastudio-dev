@@ -1,41 +1,41 @@
 ---
-id: TASK-053
+id: TASK-f6850c71
 title: Extract domain skills from old agents
 description: Read each old software-specific agent and extract its domain knowledge into a standalone skill file. These skills will be loaded into universal roles at runtime based on project context.
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
-  - SKILL-006 skill created (from debugger)
-  - SKILL-026 skill created (from refactor-agent)
-  - SKILL-028 skill created (from security-engineer)
-  - SKILL-007 skill created (from agent-maintainer)
-  - SKILL-004 skill created (from code-reviewer)
-  - SKILL-025 skill created (from qa-tester)
-  - SKILL-036 skill created (from ux-reviewer)
-  - SKILL-033 skill created (from test-engineer)
-  - SKILL-001 skill created (from systems-architect)
+  - SKILL-f5edb34d skill created (from debugger)
+  - SKILL-8c98ea98 skill created (from refactor-agent)
+  - SKILL-170c220e skill created (from security-engineer)
+  - SKILL-8d76c3c7 skill created (from agent-maintainer)
+  - SKILL-f0efaf83 skill created (from code-reviewer)
+  - SKILL-1b805150 skill created (from qa-tester)
+  - SKILL-5124e508 skill created (from ux-reviewer)
+  - SKILL-bcb42347 skill created (from test-engineer)
+  - SKILL-30a419dd skill created (from systems-architect)
   - Each skill captures the domain knowledge from its source agent
   - Each skill follows the SKILL.md format with proper frontmatter
 relationships:
-  - target: EPIC-045
+  - target: EPIC-be023ed2
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-057
+  - target: TASK-3cb01b3f
     type: depends-on
-  - target: TASK-051
+  - target: TASK-7d550875
     type: depends-on
-  - target: TASK-052
+  - target: TASK-4a2936f9
     type: depended-on-by
-  - target: TASK-056
+  - target: TASK-2ac2d88f
     type: depended-on-by
-  - target: TASK-335
+  - target: TASK-0d8b4a06
     type: depended-on-by
 ---
 ## Reference
 
-- [AD-029](AD-029) migration table shows which agents become which skills
+- [AD-774cc3d0](AD-774cc3d0) migration table shows which agents become which skills
 - universal-roles-ownership.md has the extraction mapping
 
 ## What

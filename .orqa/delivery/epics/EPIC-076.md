@@ -1,5 +1,5 @@
 ---
-id: EPIC-076
+id: EPIC-dbbbb5ac
 title: Graph analysis — Cytoscape algorithms powering governance insights
 description: "Use Cytoscape.js graph analysis algorithms to power dashboard health scoring, dependency chain tracing, impact analysis, knowledge gap detection, and artifact importance ranking. Replaces file-based integrity checks with graph-theoretic analysis."
 status: ready
@@ -14,25 +14,25 @@ updated: 2026-03-15
 deadline: null
 horizon: active
 relationships:
-  - target: RES-065
+  - target: RES-f0bd8d42
     type: guided-by
     rationale: Graph analysis research drives the design
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-498
+  - target: TASK-f8f9b6e7
     type: delivered-by
-  - target: TASK-499
+  - target: TASK-595ffcaf
     type: delivered-by
-  - target: TASK-500
+  - target: TASK-afe17917
     type: delivered-by
-  - target: TASK-501
+  - target: TASK-21decc93
     type: delivered-by
-  - target: TASK-502
+  - target: TASK-75917a42
     type: delivered-by
-  - target: TASK-503
+  - target: TASK-0190fabe
     type: delivered-by
-  - target: RES-065
+  - target: RES-f0bd8d42
     type: guided-by
 ---
 
@@ -66,9 +66,9 @@ Phase 5: Knowledge gap detection
 
 ## Tasks
 
-- [ ] [TASK-498](TASK-498): Build headless Cytoscape analysis in artifact graph SDK
-- [ ] [TASK-499](TASK-499): Replace GraphHealthWidget scoring with graph-theoretic metrics
-- [ ] [TASK-500](TASK-500): Add dependency chain tracing to artifact viewer
-- [ ] [TASK-501](TASK-501): Build impact analysis panel for pre-edit preview
-- [ ] [TASK-502](TASK-502): Add backbone artifacts widget to dashboard (PageRank)
-- [ ] [TASK-503](TASK-503): Knowledge gap detection in governance audit
+- [ ] [TASK-f8f9b6e7](TASK-f8f9b6e7): Build headless Cytoscape analysis in artifact graph SDK
+- [ ] [TASK-595ffcaf](TASK-595ffcaf): Replace GraphHealthWidget scoring with graph-theoretic metrics
+- [ ] [TASK-afe17917](TASK-afe17917): Add dependency chain tracing to artifact viewer
+- [ ] [TASK-21decc93](TASK-21decc93): Build impact analysis panel for pre-edit preview
+- [ ] [TASK-75917a42](TASK-75917a42): Add backbone artifacts widget to dashboard (PageRank)
+- [ ] [TASK-0190fabe](TASK-0190fabe): Knowledge gap detection in governance audit

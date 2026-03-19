@@ -1,5 +1,5 @@
 ---
-id: TASK-122
+id: TASK-3fd8a442
 title: Define error taxonomy
 description: Defined typed errors across the Rust/IPC/TypeScript boundary using thiserror on the Rust side and discriminated unions on the TypeScript side.
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - From implementations enable propagation across module boundaries
   - Error serialization produces meaningful messages for the frontend
 relationships:
-  - target: EPIC-029
+  - target: EPIC-f132980b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-319
+  - target: TASK-8dd8819a
     type: depended-on-by
 ---
 ## What

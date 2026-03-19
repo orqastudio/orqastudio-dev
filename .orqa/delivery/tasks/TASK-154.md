@@ -1,24 +1,24 @@
 ---
-id: TASK-154
+id: TASK-59ff2cfe
 title: Populate empty Related Rules sections on 5 rules
-description: "Fill in the empty Related Rules sections on RULE-002, RULE-013, RULE-021, RULE-025, and RULE-028 with accurate cross-references."
+description: "Fill in the empty Related Rules sections on RULE-65973a88, RULE-633e636d, RULE-39169bcd, RULE-1f30904a, and RULE-d90112d9 with accurate cross-references."
 status: completed
 created: 2026-03-11
 updated: 2026-03-11
 acceptance:
-  - "RULE-002, RULE-013, RULE-021, RULE-025, RULE-028 all have populated Related Rules sections"
+  - "RULE-65973a88, RULE-633e636d, RULE-39169bcd, RULE-1f30904a, RULE-d90112d9 all have populated Related Rules sections"
   - Each cross-reference is bidirectional where appropriate
   - No spurious references added just to fill the section
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What
 
-Five rules have a "Related Rules" heading with no content: [RULE-002](RULE-002), [RULE-013](RULE-013), [RULE-021](RULE-021), [RULE-025](RULE-025), [RULE-028](RULE-028). These should either be populated with genuine cross-references or have the empty heading removed.
+Five rules have a "Related Rules" heading with no content: [RULE-65973a88](RULE-65973a88), [RULE-633e636d](RULE-633e636d), [RULE-39169bcd](RULE-39169bcd), [RULE-1f30904a](RULE-1f30904a), [RULE-d90112d9](RULE-d90112d9). These should either be populated with genuine cross-references or have the empty heading removed.
 
 ## How
 

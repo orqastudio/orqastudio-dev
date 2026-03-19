@@ -1,5 +1,5 @@
 ---
-id: TASK-210
+id: TASK-ff26ebf3
 title: Backfill skills field on existing tasks from injection table
 description: "Populate the skills field on existing todo tasks using the orchestrator's current Tier 2 injection table, transferring injection logic from the prompt to the graph."
 status: completed
@@ -10,14 +10,14 @@ acceptance:
   - Skills entries match existing skill names in .orqa/process/skills/
   - "Injection table knowledge is now encoded in the graph, not the prompt"
 relationships:
-  - target: EPIC-053
+  - target: EPIC-dc1e3e4b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-208
+  - target: TASK-d8813639
     type: depends-on
-  - target: TASK-211
+  - target: TASK-0c6ac8d8
     type: depended-on-by
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: depended-on-by
 ---
 

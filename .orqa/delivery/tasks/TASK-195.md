@@ -1,5 +1,5 @@
 ---
-id: TASK-195
+id: TASK-ff48daa1
 title: Design WorkflowTracker domain type
 description: |
   Create a Rust struct that tracks session-level events to enable process gate
@@ -14,20 +14,20 @@ acceptance:
   - "Query methods for has_read_docs, has_searched, has_loaded_skills"
   - Unit tests pass for event recording and querying
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-193
+  - target: TASK-49c63248
     type: depends-on
-  - target: TASK-196
+  - target: TASK-15370e74
     type: depended-on-by
-  - target: TASK-197
+  - target: TASK-4fa7dd50
     type: depended-on-by
-  - target: TASK-198
+  - target: TASK-8232a533
     type: depended-on-by
-  - target: TASK-200
+  - target: TASK-439fa554
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

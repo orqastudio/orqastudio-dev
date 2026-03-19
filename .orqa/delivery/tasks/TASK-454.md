@@ -1,5 +1,5 @@
 ---
-id: TASK-454
+id: TASK-e36ca6c0
 title: Mermaid and PlantUML rendering in markdown
 description: "Render mermaid and plantuml code blocks as diagrams in the markdown renderer, styled to match the app theme."
 status: completed
@@ -16,7 +16,7 @@ acceptance:
   - Code blocks with language mermaid or plantuml render as diagrams
   - "Styled to match app theme (dark/light mode, fonts, colours)"
 relationships:
-  - target: EPIC-071
+  - target: EPIC-7d587280
     type: delivers
     rationale: Diagram rendering makes documentation more visual and self-contained
 ---

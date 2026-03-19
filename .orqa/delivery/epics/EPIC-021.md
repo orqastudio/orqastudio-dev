@@ -1,5 +1,5 @@
 ---
-id: EPIC-021
+id: EPIC-06c40d5d
 title: "Idea & Feedback Capture"
 description: "Build idea quick-capture from conversation and anywhere, idea inbox, promotion workflows, and duplicate detection."
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 3
   dependencies: 2
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
 ---

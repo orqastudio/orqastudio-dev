@@ -1,5 +1,5 @@
 ---
-id: TASK-436
+id: TASK-173d2618
 title: "Field display improvements — badges, checkbox icons, display order"
 description: "Improve frontmatter field display with badges for maturity/category/version, checkbox icons for booleans, and better field ordering."
 status: completed
@@ -18,7 +18,7 @@ acceptance:
   - Boolean fields show checkbox icon
   - All via FrontmatterHeader config
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: delivers
     rationale: Better field display improves artifact readability
 ---

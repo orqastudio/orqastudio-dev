@@ -1,5 +1,5 @@
 ---
-id: TASK-485
+id: TASK-28a2989f
 title: Move architecture/ → development/ and reference/ (18 files) + assign missing DOC IDs
 description: "Split the architecture/ chapter: move 13 files to development/ and 5 files to reference/. Assign DOC IDs to core-architecture.md and plugin-architecture.md which currently lack them. Remove the architecture key from project.json."
 status: completed
@@ -18,11 +18,11 @@ acceptance:
   - "project.json updated (architecture key removed, development and reference keys updated)"
   - No broken references to old architecture/ paths
 relationships:
-  - target: EPIC-075
+  - target: EPIC-2a6e2567
     type: delivers
     rationale: Architecture chapter migration phase of the documentation reorganisation
-  - target: TASK-484
+  - target: TASK-d51a5a7e
     type: depends-on
-  - target: TASK-486
+  - target: TASK-96db8fb0
     type: depended-on-by
 ---

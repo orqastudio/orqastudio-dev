@@ -1,12 +1,12 @@
 ---
-id: RULE-009
+id: RULE-6083347d
 title: Dogfood Mode
 description: "Project-level rule for when an app is editing itself. Provides agent context awareness, operational caution, and system prompt injection. Active when dogfood: true in project.json."
 status: active
 created: 2026-03-07
 updated: 2026-03-07
 relationships:
-  - target: AD-021
+  - target: AD-6ce44025
     type: enforces
 ---
 # Dogfood Mode (CONDITIONAL — only when `dogfood: true`)
@@ -121,6 +121,6 @@ Check `.orqa/project.json` for `"dogfood": true` at task start. **Context detect
 
 ## Related Rules
 
-- [RULE-028](RULE-028) (systems-thinking) — universal rule that applies to all projects; dogfood mode heightens its urgency
-- [RULE-007](RULE-007) (development-commands) — `make dev` and `make restart-tauri` commands
-- [RULE-006](RULE-006) (coding-standards) — general coding standards apply regardless of dogfood mode
+- [RULE-d90112d9](RULE-d90112d9) (systems-thinking) — universal rule that applies to all projects; dogfood mode heightens its urgency
+- [RULE-c71f1c3f](RULE-c71f1c3f) (development-commands) — `make dev` and `make restart-tauri` commands
+- [RULE-b49142be](RULE-b49142be) (coding-standards) — general coding standards apply regardless of dogfood mode

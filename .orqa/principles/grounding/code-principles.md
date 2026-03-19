@@ -1,5 +1,5 @@
 ---
-id: DOC-065
+id: DOC-4aec151e
 title: Code Principles — Agent Grounding
 description: Concise grounding document for Implementer and Reviewer roles. Injected into agent context at initialization.
 created: 2026-03-14

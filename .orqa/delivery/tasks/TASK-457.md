@@ -1,5 +1,5 @@
 ---
-id: TASK-457
+id: TASK-15e676d7
 title: Register roadmap view under Process navigation
 description: Make the roadmap kanban view accessible under Process in navigation and handle the static roadmap.md.
 status: completed
@@ -16,10 +16,10 @@ acceptance:
   - Roadmap view accessible under Process in navigation
   - Static roadmap.md doc removed or deprecated
 relationships:
-  - target: EPIC-072
+  - target: EPIC-85c55435
     type: delivers
     rationale: Navigation registration makes the roadmap view discoverable
-  - target: TASK-456
+  - target: TASK-7fcdc743
     type: depends-on
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-256
+id: TASK-50ed0c4a
 title: Move dev controller to debugger/
 description: Relocate scripts/dev.mjs and scripts/dev-dashboard.html to debugger/ and update Makefile and internal paths.
 status: completed
@@ -13,14 +13,14 @@ acceptance:
   - make dev starts successfully
   - scripts/ directory removed if empty
 relationships:
-  - target: EPIC-056
+  - target: EPIC-7b039d05
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-255
+  - target: TASK-8c23c140
     type: depends-on
-  - target: TASK-257
+  - target: TASK-7a35077d
     type: depended-on-by
-  - target: TASK-346
+  - target: TASK-03741ecb
     type: depended-on-by
 ---
 

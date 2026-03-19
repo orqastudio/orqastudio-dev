@@ -1,5 +1,5 @@
 ---
-id: IMPL-064
+id: IMPL-e5ddb8f2
 title: Priority without justification is noise
 description: "A P1 label without reasoning is an assertion, not a decision. Every priority assignment should have visible justification against defined criteria so stakeholders can evaluate and challenge it."
 status: active
@@ -8,9 +8,9 @@ updated: 2026-03-14
 recurrence: 1
 maturity: understanding
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: cautions
-    rationale: "TASK-459 surfaces prioritisation criteria and requires justification"
+    rationale: "TASK-47a4b670 surfaces prioritisation criteria and requires justification"
 ---
 
 ## Pattern

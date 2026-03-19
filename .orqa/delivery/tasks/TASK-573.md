@@ -1,10 +1,10 @@
 ---
-id: TASK-573
-title: "Create core installer agent (AGENT-009)"
+id: TASK-daef57b3
+title: "Create core installer agent (AGENT-bedeffd1)"
 status: completed
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
-  - target: EPIC-090
+  - target: EPIC-83b67d0f
     type: delivers
 ---

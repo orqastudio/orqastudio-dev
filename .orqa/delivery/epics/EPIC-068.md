@@ -1,5 +1,5 @@
 ---
-id: EPIC-068
+id: EPIC-6e774e50
 title: "Dashboard redesign — layout, widgets, and plugin extensibility"
 description: Redesign the dashboard from a vertical card stack to an information-dense layout. Architecture must support drag-and-drop positioning and plugin-provided custom widgets.
 status: completed
@@ -14,36 +14,36 @@ updated: 2026-03-14
 deadline: null
 horizon: active
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-439
+  - target: TASK-358020c9
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-440
+  - target: TASK-2fcf37c5
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-441
+  - target: TASK-869f3489
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-442
+  - target: TASK-07a0db5e
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-443
+  - target: TASK-181675c6
     type: delivered-by
     rationale: Epic contains this task
-  - target: IDEA-091
+  - target: IDEA-e41039bc
     type: realised-by
-  - target: IMPL-060
+  - target: IMPL-a5480219
     type: cautioned-by
-  - target: IMPL-062
+  - target: IMPL-bdc4e2bc
     type: cautioned-by
-  - target: IMPL-063
+  - target: IMPL-8c7da939
     type: cautioned-by
 ---
 ## Context
 
-UAT round 2 found the dashboard is a column of cards, not a dashboard. Health trends are underutilised, "all clear" wastes space, and refresh/re-index are duplicated. The knowledge pipeline flow model needs rethinking (IDEA-091).
+UAT round 2 found the dashboard is a column of cards, not a dashboard. Health trends are underutilised, "all clear" wastes space, and refresh/re-index are duplicated. The knowledge pipeline flow model needs rethinking (IDEA-e41039bc).
 
 ## Implementation Design
 
@@ -67,14 +67,14 @@ UAT round 2 found the dashboard is a column of cards, not a dashboard. Health tr
 
 ## Tasks
 
-- [TASK-439](TASK-439): Fix rescan stale data — refresh graph before integrity scan
-- [TASK-440](TASK-440): Pipeline health: collapse "all clear", remove Refresh button, auto-rescan after refresh
-- [TASK-441](TASK-441): Dashboard grid layout system (extensible for drag-drop and plugin widgets)
-- [TASK-442](TASK-442): Health trend widget redesign — more prominent, better integration with grid
-- [TASK-443](TASK-443): Knowledge pipeline flow model rethink (IDEA-091)
+- [TASK-358020c9](TASK-358020c9): Fix rescan stale data — refresh graph before integrity scan
+- [TASK-2fcf37c5](TASK-2fcf37c5): Pipeline health: collapse "all clear", remove Refresh button, auto-rescan after refresh
+- [TASK-869f3489](TASK-869f3489): Dashboard grid layout system (extensible for drag-drop and plugin widgets)
+- [TASK-07a0db5e](TASK-07a0db5e): Health trend widget redesign — more prominent, better integration with grid
+- [TASK-181675c6](TASK-181675c6): Knowledge pipeline flow model rethink (IDEA-e41039bc)
 
 ## Out of Scope
 
 - Drag-and-drop implementation (architecture supports it, not built yet)
 - Plugin widget registration (architecture supports it, not built yet)
-- Notification system (EPIC-069)
+- Notification system (EPIC-2649e450)

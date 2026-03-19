@@ -1,5 +1,5 @@
 ---
-id: IDEA-020
+id: IDEA-3354aefe
 title: Design Tool Integration
 description: "Integration with 3rd-party design tools including Figma MCP server, design token sync, and code-to-Figma backfill."
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - Design token sync architecture
   - Code-to-Figma backfill feasibility
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Candidate Items

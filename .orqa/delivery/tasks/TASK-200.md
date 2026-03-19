@@ -1,5 +1,5 @@
 ---
-id: TASK-200
+id: TASK-439fa554
 title: Implement skill injection in Rust enforcement engine
 description: |
   Add inject action handling to the Rust enforcement engine for use in the
@@ -12,18 +12,18 @@ acceptance:
   - Skill content returned in enforcement results
   - Deduplication works across calls within a session
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-193
+  - target: TASK-49c63248
     type: depends-on
-  - target: TASK-195
+  - target: TASK-ff48daa1
     type: depends-on
-  - target: TASK-205
+  - target: TASK-2143a39a
     type: depended-on-by
-  - target: TASK-207
+  - target: TASK-34007190
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

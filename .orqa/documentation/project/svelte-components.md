@@ -1,5 +1,5 @@
 ---
-id: DOC-016
+id: DOC-52bbfba5
 title: Svelte Component Tree
 description: Component tree structure and hierarchy of the Svelte 5 frontend application.
 created: 2026-03-02
@@ -13,24 +13,24 @@ tags:
   - architecture
 sort: 8
 relationships:
-  - target: AD-004
+  - target: AD-8d552e96
     type: documents
-    rationale: Documentation page references AD-004
-  - target: AD-006
+    rationale: Documentation page references AD-8d552e96
+  - target: AD-61087142
     type: documents
-    rationale: Documentation page references AD-006
-  - target: RULE-024
+    rationale: Documentation page references AD-61087142
+  - target: RULE-cb65b5d0
     type: documents
-    rationale: Documentation page references RULE-024
-  - target: AD-013
+    rationale: Documentation page references RULE-cb65b5d0
+  - target: AD-afc78f6e
     type: documents
-    rationale: Documentation page references AD-013
-  - target: AD-009
+    rationale: Documentation page references AD-afc78f6e
+  - target: AD-fcd55d44
     type: documents
-    rationale: Documentation page references AD-009
+    rationale: Documentation page references AD-fcd55d44
 ---
 
-**References:** [Frontend Research](RES-004), Information Architecture
+**References:** [Frontend Research](RES-df5560cb), Information Architecture
 
 Describes the Svelte component directory structure, store architecture, IPC wrapper pattern, and data flow for the OrqaStudio frontend.
 
@@ -230,7 +230,7 @@ ui/
 
 ## Store Architecture
 
-All stores use Svelte 5 runes exclusively [AD-004](AD-004). Store files use the `.svelte.ts` extension to enable runes outside of components. Each store is a class instance exported as a singleton.
+All stores use Svelte 5 runes exclusively [AD-8d552e96](AD-8d552e96). Store files use the `.svelte.ts` extension to enable runes outside of components. Each store is a class instance exported as a singleton.
 
 | Store | File | Purpose |
 |-------|------|---------|
@@ -265,7 +265,7 @@ There is no `commands/` directory — invoke calls are made directly from stores
 
 ### Container vs. Display
 
-Per [AD-006](AD-006), only containers and the route entry points call `invoke()`. Display components receive data via `$props()`.
+Per [AD-61087142](AD-61087142), only containers and the route entry points call `invoke()`. Display components receive data via `$props()`.
 
 | Boundary | Files |
 |----------|-------|
@@ -277,7 +277,7 @@ Display components communicate user intent upward via callback props (e.g., `onS
 
 ### Shared Component Usage
 
-Per [RULE-024](RULE-024), standard states must use shared components:
+Per [RULE-cb65b5d0](RULE-cb65b5d0), standard states must use shared components:
 
 - Empty states: always `<EmptyState>` from `shared/`
 - Loading states: always `<LoadingSpinner>` from `shared/`
@@ -322,14 +322,14 @@ File-system changes, sidecar lifecycle, and scan-complete notifications use Taur
 
 | Convention | Rule | Reference |
 |-----------|------|-----------|
-| Runes only | `$state`, `$derived`, `$effect`, `$props` everywhere. No `export let`, no `$:`, no `<slot>`. | [AD-004](AD-004) |
-| Component purity | `$lib/components/` files receive props only. No `invoke()` inside components. | [AD-006](AD-006) |
-| Stores call invoke | Stores are the only layer (besides routes) that call the `ipc/invoke` wrapper. | [AD-006](AD-006) |
-| Callback props | User intent flows up via callback props to stores or containers. | [AD-006](AD-006) |
-| shadcn-svelte | Use `$lib/components/ui/<name>` for primitives. Do not rewrite them. | [AD-013](AD-013) |
-| Store files | `.svelte.ts` extension, class-based with `$state` fields, exported singleton. | [AD-004](AD-004) |
-| Streaming | `Channel<T>` for token streams; `emit/listen` for app-level events. | [AD-009](AD-009) |
-| Snippets over slots | Use `{#snippet}` and `{@render}` for composition; never `<slot>`. | [AD-004](AD-004) |
+| Runes only | `$state`, `$derived`, `$effect`, `$props` everywhere. No `export let`, no `$:`, no `<slot>`. | [AD-8d552e96](AD-8d552e96) |
+| Component purity | `$lib/components/` files receive props only. No `invoke()` inside components. | [AD-61087142](AD-61087142) |
+| Stores call invoke | Stores are the only layer (besides routes) that call the `ipc/invoke` wrapper. | [AD-61087142](AD-61087142) |
+| Callback props | User intent flows up via callback props to stores or containers. | [AD-61087142](AD-61087142) |
+| shadcn-svelte | Use `$lib/components/ui/<name>` for primitives. Do not rewrite them. | [AD-afc78f6e](AD-afc78f6e) |
+| Store files | `.svelte.ts` extension, class-based with `$state` fields, exported singleton. | [AD-8d552e96](AD-8d552e96) |
+| Streaming | `Channel<T>` for token streams; `emit/listen` for app-level events. | [AD-fcd55d44](AD-fcd55d44) |
+| Snippets over slots | Use `{#snippet}` and `{@render}` for composition; never `<slot>`. | [AD-8d552e96](AD-8d552e96) |
 
 ---
 
@@ -414,5 +414,5 @@ Extensions to the markdown renderer for OrqaStudio-specific content types.
 ## Related Documents
 
 - Information Architecture — Layout model and navigation
-- Architecture Decisions — [AD-004](AD-004) (runes), [AD-006](AD-006) (purity), [AD-009](AD-009) (streaming)
+- Architecture Decisions — [AD-8d552e96](AD-8d552e96) (runes), [AD-61087142](AD-61087142) (purity), [AD-fcd55d44](AD-fcd55d44) (streaming)
 - SQLite Schema — Database tables backing the stores

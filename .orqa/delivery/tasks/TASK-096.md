@@ -1,5 +1,5 @@
 ---
-id: TASK-096
+id: TASK-a786d530
 title: Frontend library selection
 description: Evaluated frontend frameworks and selected Svelte 5 with shadcn-svelte as the component library and Tailwind CSS for styling.
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - shadcn-svelte confirmed as component library
   - Runes-based reactivity validated for the store pattern
 relationships:
-  - target: EPIC-025
+  - target: EPIC-a8a7e205
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-315
+  - target: TASK-03551f92
     type: depended-on-by
 ---
 ## What

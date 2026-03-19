@@ -1,5 +1,5 @@
 ---
-id: TASK-129
+id: TASK-8c45c6b4
 title: Implement conversation UI with streaming
 description: "Built the conversation view with message bubbles, streaming token display, message input, and real-time response rendering."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Streaming tokens appear in real-time
   - Input area supports multi-line text and Enter to send
 relationships:
-  - target: EPIC-030
+  - target: EPIC-cfd1ac79
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-320
+  - target: TASK-a5e7df28
     type: depended-on-by
 ---
 ## What

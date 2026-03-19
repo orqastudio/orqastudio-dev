@@ -1,5 +1,5 @@
 ---
-id: TASK-446
+id: TASK-c071d202
 title: Wire auto-fix and confirmations to toast
 description: Replace inline confirmation banners with toast notifications for auto-fix success and other confirmations.
 status: completed
@@ -16,10 +16,10 @@ acceptance:
   - Auto-fix success shows as concise toast
   - All inline confirmation banners replaced with toast
 relationships:
-  - target: EPIC-069
+  - target: EPIC-2649e450
     type: delivers
     rationale: Consistent toast usage replaces scattered inline confirmations
-  - target: TASK-445
+  - target: TASK-9d2545ba
     type: depends-on
 ---
 

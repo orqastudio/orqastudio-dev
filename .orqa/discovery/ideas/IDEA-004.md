@@ -1,7 +1,7 @@
 ---
-id: IDEA-004
+id: IDEA-db339134
 title: Structured Thinking Tools
-description: "Tools that operationalise the agile PILLAR-002 loop beyond conversation, including decision matrices, experiments, and assumption mapping."
+description: "Tools that operationalise the agile PILLAR-cdf756ff loop beyond conversation, including decision matrices, experiments, and assumption mapping."
 status: captured
 created: 2026-03-07
 updated: 2026-03-13
@@ -11,9 +11,9 @@ research-needed:
   - UX research for interactive decision matrices
   - Integration with artifact layer
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Candidate Items

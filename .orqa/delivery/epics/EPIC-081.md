@@ -1,22 +1,22 @@
 ---
-id: EPIC-081
+id: EPIC-3343ed49
 title: "Organisation-mode multi-project support"
 status: exploring
 created: 2026-03-16
 relationships:
   - type: driven-by
-    target: AD-055
+    target: AD-c6abc8e6
   - type: fulfils
-    target: MS-002
-  - target: IDEA-006
+    target: MS-eea45fa8
+  - target: IDEA-02c70c90
     type: realised-by
-  - target: IDEA-007
+  - target: IDEA-0540dcd6
     type: realised-by
-  - target: IDEA-085
+  - target: IDEA-34a6bbf5
     type: realised-by
 ---
 
-# EPIC-081: Organisation-mode multi-project support
+# EPIC-3343ed49: Organisation-mode multi-project support
 
 ## Goal
 
@@ -35,7 +35,7 @@ Enable a project to operate as an organisation that aggregates artifacts from mu
 - Then scans each child project's `.orqa/` directory
 - Each child's artifacts become a sub-graph with a `project` property on every node
 - Organisation root node connects to each child's sub-graph root
-- Cross-project relationships are resolved: `EPIC-001` in the SDK project can reference `TASK-042` in the app project via qualified IDs (`sdk:EPIC-001 → app:TASK-042`)
+- Cross-project relationships are resolved: `EPIC-e045ab6d` in the SDK project can reference `TASK-a80d3862` in the app project via qualified IDs (`sdk:EPIC-e045ab6d → app:TASK-a80d3862`)
 
 ### Phase 3: SDK multi-project traversal
 - `artifactGraphSDK.byType("epic")` returns epics from ALL projects (org view)

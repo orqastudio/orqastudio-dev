@@ -1,31 +1,31 @@
 ---
-id: EPIC-087
+id: EPIC-74c5cd5e
 title: "Ethical licensing model — BSL-1.1 with social use grants"
-description: "Created AD-056 licensing decision, DOC-088 licensing guide, SKILL-055 licensing skill. Updated LICENSE across all 12 BSL-1.1 repos with protected characteristics including gender identity. Created CHANGE-LICENSE (Apache 2.0 + Ethical Use Addendum). Tightened grants to close loopholes."
+description: "Created AD-fc646168 licensing decision, DOC-4ed362fb licensing guide, SKILL-12ed4953 licensing skill. Updated LICENSE across all 12 BSL-1.1 repos with protected characteristics including gender identity. Created CHANGE-LICENSE (Apache 2.0 + Ethical Use Addendum). Tightened grants to close loopholes."
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
-  - target: TASK-547
+  - target: TASK-f43dc620
     type: delivered-by
-  - target: TASK-548
+  - target: TASK-e52abcd0
     type: delivered-by
-  - target: TASK-549
+  - target: TASK-cf67e6e8
     type: delivered-by
-  - target: TASK-550
+  - target: TASK-57140495
     type: delivered-by
-  - target: TASK-551
+  - target: TASK-19b29454
     type: delivered-by
-  - target: TASK-552
+  - target: TASK-3bca787f
     type: delivered-by
-  - target: TASK-553
+  - target: TASK-7e015a2e
     type: delivered-by
-  - target: TASK-554
+  - target: TASK-0ba8b71f
     type: delivered-by
 ---
 
-# EPIC-087: Ethical licensing model — BSL-1.1 with social use grants
+# EPIC-74c5cd5e: Ethical licensing model — BSL-1.1 with social use grants
 
-Created AD-056 licensing decision, DOC-088 licensing guide, SKILL-055 licensing skill. Updated LICENSE across all 12 BSL-1.1 repos with protected characteristics including gender identity. Created CHANGE-LICENSE (Apache 2.0 + Ethical Use Addendum). Tightened grants to close loopholes.
+Created AD-fc646168 licensing decision, DOC-4ed362fb licensing guide, SKILL-12ed4953 licensing skill. Updated LICENSE across all 12 BSL-1.1 repos with protected characteristics including gender identity. Created CHANGE-LICENSE (Apache 2.0 + Ethical Use Addendum). Tightened grants to close loopholes.

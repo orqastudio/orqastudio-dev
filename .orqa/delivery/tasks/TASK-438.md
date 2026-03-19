@@ -1,5 +1,5 @@
 ---
-id: TASK-438
+id: TASK-a00f73cf
 title: Actions needed icon in artifact list + epics without tasks
 description: Show action-needed indicators in artifact list items and flag epics that have no tasks referencing them.
 status: completed
@@ -16,10 +16,10 @@ acceptance:
   - Artifacts with pending actions show icon indicator in ArtifactListItem
   - Epics with no tasks referencing them show as action needed
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: delivers
     rationale: Action indicators in list view surface what needs attention without opening each artifact
-  - target: TASK-429
+  - target: TASK-e9219bfd
     type: depends-on
 ---
 

@@ -1,7 +1,7 @@
 ---
-id: IMPL-067
+id: IMPL-9fd8358b
 title: Blank lines in YAML frontmatter corrupt artifact parsing
-description: EPIC-073 had 40 blank lines between the opening --- delimiter and the actual YAML fields. This breaks strict YAML parsers and can cause the artifact scanner to skip or misparse the file.
+description: EPIC-b2ca1ea3 had 40 blank lines between the opening --- delimiter and the actual YAML fields. This breaks strict YAML parsers and can cause the artifact scanner to skip or misparse the file.
 status: captured
 created: 2026-03-15
 updated: 2026-03-15

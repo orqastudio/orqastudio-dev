@@ -1,5 +1,5 @@
 ---
-id: IDEA-021
+id: IDEA-b30da6b5
 title: Developer Experience Enhancements
 description: "Developer experience improvements discovered through self-use, including wireframe browser, terminal, and git integration."
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - Terminal integration approach (xterm.js vs native)
   - Git panel scope and UX
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Candidate Items

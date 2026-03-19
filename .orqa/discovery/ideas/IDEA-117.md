@@ -1,5 +1,5 @@
 ---
-id: IDEA-117
+id: IDEA-c1364d60
 title: Automated community registry maintenance
 description: "How can we automate the ongoing maintenance of the community plugin registry — compatibility CI, staleness detection, and platform version testing? Version pinning and SHA verification are already in place as policy."
 status: captured
@@ -15,10 +15,10 @@ research-needed:
   - Can GitHub Actions on the registry repo automate any of this?
   - The installer already checks SHA on download — can we add a CI step that re-verifies pinned hashes periodically?
 relationships:
-  - target: PILLAR-002
+  - target: PILLAR-cdf756ff
     type: grounded
     rationale: Automated registry maintenance is the learning loop applied to the plugin ecosystem
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

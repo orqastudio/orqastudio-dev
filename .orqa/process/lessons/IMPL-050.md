@@ -1,5 +1,5 @@
 ---
-id: IMPL-050
+id: IMPL-cba8d991
 title: Enforcement gaps are always CRITICAL on a product that enforces its own principles
 description: "On OrqaStudio specifically, any discovered gap between a declared principle and its mechanical enforcement is a CRITICAL issue addressed immediately — not deferred, not scoped out. We can't dogfood our own product until the underlying enforcement structure is in place. This is a project-level priority principle that should be encoded in the pillar framework and priority system."
 status: active
@@ -8,7 +8,7 @@ updated: 2026-03-13
 maturity: understanding
 recurrence: 1
 relationships:
-  - target: AD-048
+  - target: AD-f9034c99
     type: teaches
     rationale: "This lesson's principle (enforcement gaps are critical) informed the decision that rule promotion requires enforcement"
 ---

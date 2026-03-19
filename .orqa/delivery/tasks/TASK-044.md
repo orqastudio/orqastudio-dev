@@ -1,11 +1,11 @@
 ---
-id: TASK-044
+id: TASK-e99e01ba
 title: Artifact type definitions and classification
 description: "Adds formal one-paragraph definitions for each artifact type to the framework documentation and reclassifies any misclassified artifacts, flattening the research directory to a relationship-via-YAML-fields model."
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - Each artifact type has a clear one-paragraph definition of its purpose and when to use it
   - "Definitions include 'use this, NOT that' guidance"
@@ -15,10 +15,10 @@ acceptance:
   - artifact-framework.md updated with type definitions
   - artifact-lifecycle.md updated with classification rules
 relationships:
-  - target: EPIC-043
+  - target: EPIC-a2fa3068
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-333
+  - target: TASK-34eaf518
     type: depended-on-by
 ---
 ## Findings Addressed

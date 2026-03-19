@@ -1,5 +1,5 @@
 ---
-id: IDEA-026
+id: IDEA-adce6c86
 title: Artifact platform audit — built-in vs external
 description: "Audit which artifact types are first-class platform citizens with enforced lifecycles versus display-only documents, mapped to the three-layer governance model."
 status: surpassed
@@ -13,13 +13,13 @@ research-needed:
   - "Consider the three-layer governance model (canon, project, plugin) and where each artifact type falls"
 relationships:
   - type: crystallises
-    target: AD-055
-  - target: PILLAR-001
+    target: AD-c6abc8e6
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
-n> **Surpassed 2026-03-16**: Core vs plugin artifact split fully captured in AD-055. Implementation details covered in EPIC-080 Phase 2.
+n> **Surpassed 2026-03-16**: Core vs plugin artifact split fully captured in AD-c6abc8e6. Implementation details covered in EPIC-3f65c703 Phase 2.
 
 ## Problem
 
@@ -34,4 +34,4 @@ The platform scans and displays artifacts from `.orqa/` but treats them all as g
 
 ## Origin
 
-UAT Round 1 [EPIC-043](EPIC-043): User observation during artifact browsing
+UAT Round 1 [EPIC-a2fa3068](EPIC-a2fa3068): User observation during artifact browsing

@@ -1,5 +1,5 @@
 ---
-id: TASK-194
+id: TASK-4f45e5b9
 title: Add lint event type to enforcement schema
 description: |
   Add a 'lint' event type to the enforcement schema. This documents that
@@ -12,12 +12,12 @@ acceptance:
   - lint event type added to enforcement schema and validates
   - "Enforcement entries with event: lint pass schema validation"
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-206
+  - target: TASK-965b2b81
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

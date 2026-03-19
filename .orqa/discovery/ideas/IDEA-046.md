@@ -1,5 +1,5 @@
 ---
-id: IDEA-046
+id: IDEA-2e9d2045
 title: Full-Width Chat Input with Floating Controls
 description: "Redesign the chat input area so the textarea fills the entire chat footer region. Action buttons, character count, model indicator, and other metadata are absolutely positioned over or around the input, reducing visual clutter and making the input feel spacious rather than cramped."
 status: captured
@@ -12,9 +12,9 @@ research-needed:
   - Accessibility implications of absolutely positioned controls overlapping the textarea
   - Responsive behavior when input grows multi-line
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation

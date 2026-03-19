@@ -1,5 +1,5 @@
 ---
-id: IMPL-007
+id: IMPL-d5cbc9c7
 title: Do not refactor agentic structure while delegating to agents
 description: "When modifying rules, skills, or agent definitions, the orchestrator must handle changes directly. Delegating to agents that read the same artifacts being modified causes stale-context conflicts.\n"
 status: active
@@ -30,7 +30,7 @@ This is the meta-lesson: the system that coordinates work must be stable before 
 
 ## Prevention
 
-Added to [RULE-009](RULE-009) (`dogfood-mode`) awareness. When `dogfood: true` and the work involves changing governance structure, the orchestrator must handle it directly.
+Added to [RULE-6083347d](RULE-6083347d) (`dogfood-mode`) awareness. When `dogfood: true` and the work involves changing governance structure, the orchestrator must handle it directly.
 
 ## Pattern
 

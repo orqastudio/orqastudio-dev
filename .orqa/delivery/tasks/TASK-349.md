@@ -1,6 +1,6 @@
 ---
-id: TASK-349
-title: Reconcile EPIC-059
+id: TASK-cea1bc37
+title: Reconcile EPIC-942c7678
 description: "Standing reconciliation task — verify epic body accuracy: task table, pillars, docs-produced, scope."
 status: completed
 created: 2026-03-13
@@ -11,81 +11,81 @@ acceptance:
   - Epic docs-produced list matches actual documentation created/updated
   - Epic scope section accurately reflects what was in/out of scope
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-281
+  - target: TASK-e7324438
     type: depends-on
-  - target: TASK-282
+  - target: TASK-d5d3e417
     type: depends-on
-  - target: TASK-283
+  - target: TASK-8954343c
     type: depends-on
-  - target: TASK-284
+  - target: TASK-c4a7b6bb
     type: depends-on
-  - target: TASK-285
+  - target: TASK-5da55ccb
     type: depends-on
-  - target: TASK-286
+  - target: TASK-8b9c68ae
     type: depends-on
-  - target: TASK-287
+  - target: TASK-4b293b82
     type: depends-on
-  - target: TASK-288
+  - target: TASK-1dad83f7
     type: depends-on
-  - target: TASK-289
+  - target: TASK-0cddbf9b
     type: depends-on
-  - target: TASK-290
+  - target: TASK-c42dac0c
     type: depends-on
-  - target: TASK-291
+  - target: TASK-191958e7
     type: depends-on
-  - target: TASK-292
+  - target: TASK-b3aadbcd
     type: depends-on
-  - target: TASK-293
+  - target: TASK-a86c3565
     type: depends-on
-  - target: TASK-294
+  - target: TASK-b6b5c31c
     type: depends-on
-  - target: TASK-295
+  - target: TASK-9f1f8b4b
     type: depends-on
-  - target: TASK-296
+  - target: TASK-f6e9b767
     type: depends-on
-  - target: TASK-297
+  - target: TASK-6e4fd8b9
     type: depends-on
-  - target: TASK-298
+  - target: TASK-a0d3f53c
     type: depends-on
-  - target: TASK-299
+  - target: TASK-c70b9d8a
     type: depends-on
-  - target: TASK-300
+  - target: TASK-7f5b6792
     type: depends-on
-  - target: TASK-301
+  - target: TASK-7b8ded48
     type: depends-on
-  - target: TASK-302
+  - target: TASK-2e138cb1
     type: depends-on
-  - target: TASK-303
+  - target: TASK-7fbe6eca
     type: depends-on
-  - target: TASK-304
+  - target: TASK-0e7221a8
     type: depends-on
-  - target: TASK-305
+  - target: TASK-65f6b166
     type: depends-on
-  - target: TASK-306
+  - target: TASK-0bcbb927
     type: depends-on
-  - target: TASK-307
+  - target: TASK-53493d31
     type: depends-on
-  - target: TASK-308
+  - target: TASK-bd4fb2bc
     type: depends-on
-  - target: TASK-309
+  - target: TASK-cdfd039f
     type: depends-on
-  - target: TASK-310
+  - target: TASK-6dab59a2
     type: depends-on
 ---
 
 ## What
 
-Standing reconciliation task for [EPIC-059](EPIC-059). Ensures the epic body stays accurate as work evolves.
+Standing reconciliation task for [EPIC-942c7678](EPIC-942c7678). Ensures the epic body stays accurate as work evolves.
 
 ## Verification
 
-- Epic body task table matches actual tasks with `epic: [EPIC-059](EPIC-059)`
+- Epic body task table matches actual tasks with `epic: [EPIC-942c7678](EPIC-942c7678)`
 - Pillars array is accurate
 - docs-produced entries exist on disk
 
 ## Lessons
 
-- Backfilled per [RULE-004](RULE-004) epic reconciliation requirement
+- Backfilled per [RULE-7b770593](RULE-7b770593) epic reconciliation requirement

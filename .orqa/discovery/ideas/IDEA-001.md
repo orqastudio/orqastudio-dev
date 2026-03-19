@@ -1,5 +1,5 @@
 ---
-id: IDEA-001
+id: IDEA-7035530f
 title: Multi-Provider Ecosystem
 description: Support additional AI providers through the provider-agnostic sidecar interface without changing the Rust core or Svelte UI.
 status: completed
@@ -11,11 +11,11 @@ research-needed:
   - UX for provider switching and selection
   - "Local LLM viability (Ollama, air-gapped use)"
 relationships:
-  - target: EPIC-040
+  - target: EPIC-ee688e85
     type: realises
-  - target: PILLAR-003
+  - target: PILLAR-94b281db
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Candidate Items

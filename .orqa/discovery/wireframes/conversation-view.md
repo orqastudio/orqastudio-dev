@@ -1,5 +1,5 @@
 ---
-id: DOC-058
+id: DOC-c816d78d
 title: "Wireframe: Conversation View"
 description: Wireframe specification for the conversation view including message display and input area.
 created: 2026-03-02
@@ -11,7 +11,7 @@ relationships: []
 <!-- FRESHNESS NOTE (2026-03-15): The Component Mapping table (Section 5) lists `DiffView.svelte` as a separate component — this does not exist; diff display is handled inline within `ToolCallCard.svelte`. `TypingIndicator.svelte` is implemented as `StreamingIndicator.svelte`. The tool call card status badges for "Approved/Denied/Pending" (post-MVP approval flow) are not yet implemented — only Completed and Error exist. The welcome state heading is "OrqaStudio" not a star icon in current implementation. All other component names and behavior descriptions remain accurate. -->
 
 
-**Date:** 2026-03-02 | **Informed by:** Information Architecture, [Frontend Research](RES-004), MVP Spec F-003, F-004
+**Date:** 2026-03-02 | **Informed by:** Information Architecture, [Frontend Research](RES-df5560cb), MVP Spec F-003, F-004
 
 The conversation view is the Chat Panel content. It is where the user interacts with the AI: sending messages, reading streaming responses, and reviewing tool call results. This document covers the active conversation state, streaming mid-response state, and the empty/welcome state.
 
@@ -495,8 +495,8 @@ How wireframe elements map to implementation components and libraries.
 
 - Core Layout Wireframe -- Three-zone + nav sub-panel structure that contains this view
 - Information Architecture -- Chat Panel: Conversation View specification
-- [Frontend Research Q1](RES-004) -- Markdown rendering and code highlighting decisions
-- [Frontend Research Q2](RES-004) -- Conversation UI component architecture
+- [Frontend Research Q1](RES-df5560cb) -- Markdown rendering and code highlighting decisions
+- [Frontend Research Q2](RES-df5560cb) -- Conversation UI component architecture
 - MVP Spec F-003 -- Conversation Streaming acceptance criteria
 - MVP Spec F-004 -- Tool Call Display acceptance criteria
 - MVP Spec F-005 -- Session Persistence (affects session header)

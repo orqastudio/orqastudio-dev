@@ -1,5 +1,5 @@
 ---
-id: IMPL-024
+id: IMPL-ccb23768
 title: Lessons learned should be recorded on task completion artifacts
 description: "When a task is completed, any observations logged or recurrence incremented during that task should be recorded in the task artifact itself. This makes the learning visible to the user as part of the completion statement, not buried in conversation history."
 status: completed
@@ -8,7 +8,7 @@ updated: 2026-03-13
 maturity: understanding
 recurrence: 1
 relationships:
-  - target: TASK-308
+  - target: TASK-bd4fb2bc
     type: yielded-by
 ---
 ## Pattern
@@ -17,17 +17,17 @@ Currently, task artifacts have three body sections: What, How, Verification. Whe
 
 The user has to read conversation history to discover what observations were logged, what existing lessons had recurrence incremented, or what surprises occurred. This information is ephemeral — lost when the context window compacts.
 
-If the task artifact itself recorded "Lessons: created [IMPL-017](IMPL-017) (stale paths), incremented [IMPL-003](IMPL-003) recurrence to 3", the learning loop becomes visible and auditable from the artifact graph alone.
+If the task artifact itself recorded "Lessons: created [IMPL-262e63e1](IMPL-262e63e1) (stale paths), incremented [IMPL-e53df28b](IMPL-e53df28b) recurrence to 3", the learning loop becomes visible and auditable from the artifact graph alone.
 
 ## Fix
 
-Required "Lessons" body section on task artifacts (user-approved via RES-052). Added to task schema bodyTemplate. Format:
+Required "Lessons" body section on task artifacts (user-approved via RES-cd3d33bf). Added to task schema bodyTemplate. Format:
 
 ```markdown
 ## Lessons
 
-- Created [IMPL-018](IMPL-018): Hardcoded paths should be configurable
-- Updated [IMPL-003](IMPL-003): recurrence 2 → 3
+- Created [IMPL-c306b136](IMPL-c306b136): Hardcoded paths should be configurable
+- Updated [IMPL-e53df28b](IMPL-e53df28b): recurrence 2 → 3
 - None — straightforward implementation
 ```
 

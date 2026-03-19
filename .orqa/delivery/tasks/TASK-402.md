@@ -1,7 +1,7 @@
 ---
-id: TASK-402
+id: TASK-ab087863
 title: Implement 7 high-priority integrity checks + codebase-wide clippy compliance
-description: Implement all 7 graph-implementable integrity checks identified in TASK-401 audit. Also fix all clippy too_many_lines violations across the entire backend codebase to achieve zero-warning clippy compliance.
+description: Implement all 7 graph-implementable integrity checks identified in TASK-07218422 audit. Also fix all clippy too_many_lines violations across the entire backend codebase to achieve zero-warning clippy compliance.
 status: completed
 created: 2026-03-13
 updated: 2026-03-13
@@ -18,16 +18,16 @@ acceptance:
   - cargo clippy -- -D warnings passes with zero warnings across entire codebase
   - All 610 Rust tests pass
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-401
+  - target: TASK-07218422
     type: depends-on
 ---
 
 ## What
 
-Implement 7 integrity checks identified by the TASK-401 audit as high-impact and graph-implementable. Additionally fix all pre-existing clippy too_many_lines violations to achieve zero-warning compliance.
+Implement 7 integrity checks identified by the TASK-07218422 audit as high-impact and graph-implementable. Additionally fix all pre-existing clippy too_many_lines violations to achieve zero-warning compliance.
 
 ## How
 
@@ -45,4 +45,4 @@ Implement 7 integrity checks identified by the TASK-401 audit as high-impact and
 
 - Pre-existing clippy violations accumulate silently when not caught at introduction time. The 12 pre-existing violations blocked this commit even though they were unrelated to the integrity check work.
 - The 50-line function limit is genuinely useful — every function that was refactored became more readable after extraction.
-- [AD-047](AD-047) created to document exception policy for functions that can't be meaningfully decomposed.
+- [AD-aa6b409a](AD-aa6b409a) created to document exception policy for functions that can't be meaningfully decomposed.

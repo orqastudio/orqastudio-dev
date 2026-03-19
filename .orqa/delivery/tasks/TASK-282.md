@@ -1,5 +1,5 @@
 ---
-id: TASK-282
+id: TASK-d5d3e417
 title: Add make verify targets
 description: Add make targets for full .orqa/ link verification and pipeline integrity checking.
 status: completed
@@ -14,14 +14,14 @@ acceptance:
   - All three targets documented in commands.md
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-283
+  - target: TASK-8954343c
     type: depended-on-by
-  - target: TASK-284
+  - target: TASK-c4a7b6bb
     type: depended-on-by
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 
@@ -33,7 +33,7 @@ Add `make verify-links`, `make verify-integrity`, and `make verify` targets to t
 
 1. Add targets to Makefile calling the corresponding tools scripts
 2. Update `.orqa/documentation/development/commands.md` with the new targets
-3. Update [RULE-007](RULE-007) command mapping table
+3. Update [RULE-c71f1c3f](RULE-c71f1c3f) command mapping table
 
 ## Verification
 

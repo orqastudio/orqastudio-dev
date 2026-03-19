@@ -1,20 +1,20 @@
 ---
-id: TASK-035
+id: TASK-429b41ad
 title: Orchestrator delegation with skill injection
 description: "Updates the orchestrator's delegation protocol to automatically include the relevant Tier 2 project skills in every delegation prompt, matched from the task's scope against the injection table."
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - "Orchestrator's delegation protocol includes skill injection step"
   - Delegation prompts to agents include project skill injection instructions
   - "The injection is based on the task's scope field matching the injection table"
 relationships:
-  - target: EPIC-042
+  - target: EPIC-a1dd9e9f
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-332
+  - target: TASK-80821c3e
     type: depended-on-by
 ---
 ## What

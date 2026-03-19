@@ -1,11 +1,11 @@
 ---
-id: TASK-004
+id: TASK-5e893805
 title: Audit product docs for vision alignment
 description: "Audit all product documentation pages against the updated vision. Fix references to .claude/ as source of truth, Claude-specific identity language, and missing three-layer architecture concepts."
 status: completed
 created: 2026-03-08
 updated: 2026-03-08
-assignee: AGENT-007
+assignee: AGENT-ec1b3785
 acceptance:
   - Every product doc checked against 5 audit criteria from plan
   - No .claude/ referenced as source of truth (only as optional symlink layer)
@@ -15,10 +15,10 @@ acceptance:
   - Learning Through Reflection)
   - Hardcoded artifact type lists note configurability via project.json
 relationships:
-  - target: EPIC-033
+  - target: EPIC-4bbc3439
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-323
+  - target: TASK-88ccf38a
     type: depended-on-by
 ---
 ## What

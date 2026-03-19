@@ -1,5 +1,5 @@
 ---
-id: TASK-435
+id: TASK-2830a2da
 title: Add documents/documented-by relationship types + body-text edge extraction
 description: Introduce documents/documented-by relationship types and extract artifact references from markdown body text as graph edges.
 status: completed
@@ -17,10 +17,10 @@ acceptance:
   - Graph builder extracts artifact references from markdown body text as edges
   - Documentation pages linked to artifacts they describe
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: delivers
     rationale: Body-text edge extraction and document relationships enrich the graph automatically
-  - target: TASK-455
+  - target: TASK-464eadf4
     type: depended-on-by
 ---
 

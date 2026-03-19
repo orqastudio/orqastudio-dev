@@ -1,5 +1,5 @@
 ---
-id: TASK-421
+id: TASK-2aca491a
 title: "Extract stores into SDK — session, project, artifact, conversation"
 description: "Move the four primary data stores into @orqastudio/sdk. Fix conversationStore's DEFAULT_MODEL dependency by making it a config parameter."
 status: completed
@@ -21,12 +21,12 @@ acceptance:
   - "All stores use SDK's invoke wrapper"
   - "Unit tests for each store's state transitions"
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: Primary stores — session, project, artifact, conversation
-  - target: TASK-420
+  - target: TASK-3b56186e
     type: depends-on
-  - target: TASK-423
+  - target: TASK-b9cb39f8
     type: depended-on-by
 ---
 

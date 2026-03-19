@@ -1,5 +1,5 @@
 ---
-id: TASK-469
+id: TASK-d8a69e21
 title: "Restructure main nav: Exploring → Delivery → Documentation → Process"
 description: "Overhaul the main navigation to match the conceptual model. Split Exploring (ideas, research) from Delivery (roadmap, milestones, epics, tasks). Reorder to Exploring → Delivery → Documentation → Process. Fix missing icons. Remove or repurpose Verification."
 status: completed
@@ -20,7 +20,7 @@ acceptance:
   - Verification either removed or has an icon and clear purpose
   - All nav items render correctly with correct sub-items
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
     rationale: Navigation architecture overhaul (F17-F24)
 ---

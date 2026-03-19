@@ -1,10 +1,10 @@
 ---
-id: TASK-563
+id: TASK-51f6d239
 title: "Create generic plugin loader via IPC"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-089
+  - target: EPIC-a80f16b4
     type: delivers
 ---

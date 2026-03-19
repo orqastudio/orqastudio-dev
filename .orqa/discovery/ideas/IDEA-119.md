@@ -1,5 +1,5 @@
 ---
-id: IDEA-119
+id: IDEA-b1953a83
 title: "GitHub integration plugin — bidirectional sync with Issues, Projects, Wiki, PRs"
 description: "A plugin that syncs OrqaStudio artifacts with GitHub features. Tasks↔Issues, docs↔Wiki, epics↔Projects, decisions↔PRs. Manage community engagement through OrqaStudio's structured thinking layer."
 status: captured
@@ -14,7 +14,7 @@ research-needed:
   - What's the conflict resolution when something is edited on both sides?
   - Which side is the source of truth? OrqaStudio artifacts or GitHub features?
   - Can we use GitHub Actions as the trigger for sync (webhook on issue change → update task)?
-  - How does this interact with the multi-user sync via git (IDEA-118)?
+  - How does this interact with the multi-user sync via git (IDEA-5c25ac99)?
   - What about GitLab/Bitbucket equivalents — should the plugin be provider-agnostic?
   - Can we manage PR reviews through OrqaStudio's review gate model?
   - How do we handle community engagement — external contributors file issues on GitHub, maintainers triage in OrqaStudio?
@@ -23,10 +23,10 @@ research-needed:
   - Can we track contributor activity in the artifact graph (who contributed to which artifacts)?
   - How does the PR workflow from CONTRIBUTING.md (multi-repo PRs in dependency order) map to GitHub's PR model?
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
     rationale: Bidirectional sync makes GitHub's project management visible as structured artifacts in the OrqaStudio graph
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: IDEA-072
+id: IDEA-5e90b487
 title: Design discussion mode with structured checkpoints
 description: "A structured protocol for design discussions that enforces: sequential decision presentation, periodic zoom-outs, automatic observation logging, outcome tracking, and a wrap-up protocol before transitioning to implementation. Could be a skill, plan mode variant, or orchestrator behaviour."
 status: review
@@ -13,9 +13,9 @@ research-needed:
   - "How does the wrap-up protocol interact with the human gate on epic completion?"
   - "How does this work in the app vs CLI context?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 
@@ -23,7 +23,7 @@ relationships:
 
 Extended design discussions produce decisions, observations, ideas, and scope changes. Without structure, problems emerge: decisions get batched, zoom-outs are forgotten, observations accumulate without logging, scope creeps without checkpoints, and outcomes aren't systematically captured before transitioning to implementation.
 
-This session (EPIC-059 Phase 4 design) demonstrated all of these problems — each caught by the user, not the orchestrator. A structured mode would make the orchestrator self-correcting during design discussions, the same way plan mode makes it self-correcting during implementation planning.
+This session (EPIC-942c7678 Phase 4 design) demonstrated all of these problems — each caught by the user, not the orchestrator. A structured mode would make the orchestrator self-correcting during design discussions, the same way plan mode makes it self-correcting during implementation planning.
 
 The mode would define:
 - **Entry**: detect when conversation shifts from implementation to design

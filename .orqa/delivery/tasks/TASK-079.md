@@ -1,11 +1,11 @@
 ---
-id: TASK-079
+id: TASK-832a3128
 title: File watcher for .orqa/ with graph rebuild and event emission
 description: "Watch .orqa/ for file system changes and rebuild the artifact graph on change, emitting a full snapshot Tauri event to the frontend."
 status: completed
 created: 2026-03-10
 updated: 2026-03-10
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - "File watcher monitors .orqa/ for create, modify, delete, rename events"
   - Graph rebuild is debounced (500ms)
@@ -13,12 +13,12 @@ acceptance:
   - Frontend SDK receives event and refreshes local graph
   - Watcher ignores non-.md files and hidden directories
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-073
+  - target: TASK-137ec554
     type: depends-on
-  - target: TASK-338
+  - target: TASK-12eec0f3
     type: depended-on-by
 ---
 

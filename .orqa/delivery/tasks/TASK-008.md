@@ -1,11 +1,11 @@
 ---
-id: TASK-008
+id: TASK-dd1484aa
 title: Update scanner to use config-driven paths
 description: "Replace the scanner's folder-guessing logic with config-driven scanning. The scanner reads the artifacts array from project.json and scans exactly those paths. No more inferring groups from README frontmatter."
 status: completed
 created: 2026-03-08
 updated: 2026-03-08
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - artifact_scan_tree reads artifacts config from project.json
   - For each Type entry
@@ -20,14 +20,14 @@ acceptance:
   - Hidden files (. or _) skipped
   - cargo build and clippy pass
 relationships:
-  - target: EPIC-033
+  - target: EPIC-4bbc3439
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-007
+  - target: TASK-abf6025d
     type: depends-on
-  - target: TASK-009
+  - target: TASK-614a6a45
     type: depended-on-by
-  - target: TASK-323
+  - target: TASK-88ccf38a
     type: depended-on-by
 ---
 ## What

@@ -1,5 +1,5 @@
 ---
-id: IDEA-092
+id: IDEA-a620e1f5
 title: "Improve CLI integrity scanner to match app's Rust checks"
 description: "The CLI verify-links.mjs only checks markdown link syntax and relationship entries. The app's Rust integrity scan checks all frontmatter reference fields (skills, docs-required, docs-produced, milestone, epic, etc.), dependency violations, supersession symmetry, research gaps, and planning placement. The CLI should have parity."
 status: captured
@@ -10,12 +10,12 @@ research-needed:
   - "Should the CLI scanner be a Node port of the Rust checks, or should we expose the Rust scanner via a CLI binary?"
   - "Which checks are most valuable to run at commit time vs full scan time?"
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: realises
     rationale: "CLI scanner parity idea drove the integrity validator package extraction"
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation

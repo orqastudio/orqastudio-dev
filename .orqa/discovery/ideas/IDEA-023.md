@@ -1,5 +1,5 @@
 ---
-id: IDEA-023
+id: IDEA-76b657e4
 title: Community Inbox
 description: "Manage incoming communication from multiple channels in a structured way, applying OrqaStudio's structured thinking to community triage."
 status: review
@@ -14,9 +14,9 @@ research-needed:
   - Signal classification taxonomy
   - Privacy and data handling for external messages
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Problem

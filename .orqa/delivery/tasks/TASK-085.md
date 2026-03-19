@@ -1,5 +1,5 @@
 ---
-id: TASK-085
+id: TASK-69b7753b
 title: Audit all skill definitions against codebase
 description: "Verify every skill in .orqa/process/skills/ has accurate code patterns, valid file paths in examples, correct layer classification, and no stale module/function references."
 status: completed
@@ -11,16 +11,16 @@ acceptance:
   - Function signatures in examples match actual source code
   - All Related Skills references point to existing skill directories
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-088
+  - target: TASK-1ac4d16f
     type: depended-on-by
-  - target: TASK-089
+  - target: TASK-77b6e5bd
     type: depended-on-by
-  - target: TASK-093
+  - target: TASK-4a8c3c6a
     type: depended-on-by
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What

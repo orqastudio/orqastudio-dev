@@ -1,5 +1,5 @@
 ---
-id: EPIC-023
+id: EPIC-03941419
 title: Onboarding Flow Review
 description: "Audit and improve the first-run setup wizard, new project flow, existing folder initialization, and guided first conversation."
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 2
   dependencies: 2
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
 ---

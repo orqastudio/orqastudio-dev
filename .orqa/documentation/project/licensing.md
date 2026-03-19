@@ -1,17 +1,17 @@
 ---
-id: DOC-088
+id: DOC-4ed362fb
 title: "Licensing & Ethics"
 description: "What the OrqaStudio license means for you — whether you're a user, contributor, charity, or business."
 category: concept
 created: 2026-03-18
 updated: 2026-03-18
 relationships:
-  - target: AD-056
+  - target: AD-fc646168
     type: documents
     rationale: This doc explains the licensing decision for humans
-  - target: SKILL-CLI-006
+  - target: SKILL-CLI-9466a88a
     type: synchronised-with
-  - target: SKILL-055
+  - target: SKILL-12ed4953
     type: synchronised-with
 ---
 

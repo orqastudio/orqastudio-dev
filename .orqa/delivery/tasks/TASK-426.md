@@ -1,5 +1,5 @@
 ---
-id: TASK-426
+id: TASK-c3abf5c1
 title: Initial publish of tier-0 packages to GitHub Packages
 description: "Create GitHub releases for types, eslint-config, and test-config to trigger the publish workflows. These have no orqa dependencies so they can be published first."
 status: completed
@@ -18,12 +18,12 @@ acceptance:
   - "@orqastudio/test-config v0.1.0 published to GitHub Packages"
   - "All three installable via npm install @orqastudio/types (with .npmrc configured)"
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: First packages published — unblocks tier-1 publishing
-  - target: TASK-425
+  - target: TASK-f3091875
     type: depends-on
-  - target: TASK-427
+  - target: TASK-82add1d1
     type: depended-on-by
 ---
 

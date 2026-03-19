@@ -1,5 +1,5 @@
 ---
-id: TASK-422
+id: TASK-51959c4d
 title: "Extract stores into SDK — enforcement, lessons, setup, settings, errors"
 description: "Move the five secondary stores into @orqastudio/sdk. Fix settingsStore theme application and errorStore browser handlers to be injectable/opt-in."
 status: completed
@@ -20,12 +20,12 @@ acceptance:
   - "errorStore extracted — browser event handlers opt-in, not automatic"
   - Unit tests for each store
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: Secondary stores — enforcement, lessons, setup, settings, errors
-  - target: TASK-420
+  - target: TASK-3b56186e
     type: depends-on
-  - target: TASK-423
+  - target: TASK-b9cb39f8
     type: depended-on-by
 ---
 

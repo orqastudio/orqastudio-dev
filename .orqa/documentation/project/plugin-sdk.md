@@ -1,5 +1,5 @@
 ---
-id: DOC-083
+id: DOC-c0866ebc
 title: "How To: Build an OrqaStudio Plugin"
 category: how-to
 description: "Step-by-step guide for building a Claude Code companion plugin that adds hooks, commands, and skills to an OrqaStudio project."

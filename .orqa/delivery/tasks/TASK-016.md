@@ -1,21 +1,21 @@
 ---
-id: TASK-016
+id: TASK-571fed4d
 title: Tool call display polish
 description: "Replaces raw tool call JSON with user-friendly presentation: human-readable names, Lucide icons, parameter summaries, and grouping of consecutive same-tool calls."
 status: completed
 created: 2026-03-04
 updated: 2026-03-09
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - "Tool calls display friendly names (Read → \"Reading file\")"
   - Each tool type has a Lucide icon
   - Consecutive same-tool calls grouped into summary
   - Collapsible detail view for tool input/output
 relationships:
-  - target: EPIC-035
+  - target: EPIC-a2cfc2b4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-325
+  - target: TASK-ebe49b1a
     type: depended-on-by
 ---
 ## What

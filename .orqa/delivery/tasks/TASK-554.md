@@ -1,10 +1,10 @@
 ---
-id: TASK-554
-title: "Create DOC-089 and SKILL-056 Dependency License Compatibility"
+id: TASK-0ba8b71f
+title: "Create DOC-c65f07b7 and SKILL-c60144c1 Dependency License Compatibility"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-087
+  - target: EPIC-74c5cd5e
     type: delivers
 ---

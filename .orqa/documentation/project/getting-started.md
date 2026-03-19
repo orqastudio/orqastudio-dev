@@ -1,5 +1,5 @@
 ---
-id: DOC-024
+id: DOC-2a7f1063
 title: Getting Started
 category: onboarding
 description: Step-by-step guide to setting up the OrqaStudio development environment from scratch.
@@ -7,18 +7,18 @@ created: 2026-03-02
 updated: 2026-03-09
 sort: 1
 relationships:
-  - target: AD-012
+  - target: AD-834fc71a
     type: documents
-    rationale: Documentation page references AD-012
-  - target: AD-005
+    rationale: Documentation page references AD-834fc71a
+  - target: AD-dffc3d30
     type: documents
-    rationale: Documentation page references AD-005
-  - target: AD-014
+    rationale: Documentation page references AD-dffc3d30
+  - target: AD-8b91f5a4
     type: documents
-    rationale: Documentation page references AD-014
-  - target: AD-013
+    rationale: Documentation page references AD-8b91f5a4
+  - target: AD-afc78f6e
     type: documents
-    rationale: Documentation page references AD-013
+    rationale: Documentation page references AD-afc78f6e
 ---
 
 
@@ -120,7 +120,7 @@ orqa-studio/
 └── tsconfig.json
 ```
 
-### Tauri Plugins [AD-012](AD-012)
+### Tauri Plugins [AD-834fc71a](AD-834fc71a)
 
 OrqaStudio requires the following Tauri v2 plugins. All are official and maintained in [tauri-apps/plugins-workspace](https://github.com/tauri-apps/plugins-workspace) unless noted.
 
@@ -136,7 +136,7 @@ OrqaStudio requires the following Tauri v2 plugins. All are official and maintai
 | `tauri-plugin-autostart` | Optional launch at system startup | |
 | `tauri-plugin-keyring` | API key storage in OS keychain | Community plugin |
 
-> **Note:** SQLite persistence is implemented via `rusqlite` directly in `backend/src-tauri/src/db.rs`, not via `tauri-plugin-sql`. Do not add `tauri-plugin-sql` — it conflicts with the direct `rusqlite` approach ([AD-005](AD-005), [AD-014](AD-014)).
+> **Note:** SQLite persistence is implemented via `rusqlite` directly in `backend/src-tauri/src/db.rs`, not via `tauri-plugin-sql`. Do not add `tauri-plugin-sql` — it conflicts with the direct `rusqlite` approach ([AD-dffc3d30](AD-dffc3d30), [AD-8b91f5a4](AD-8b91f5a4)).
 
 **Install Rust-side plugins** (run from `backend/src-tauri/`):
 
@@ -170,11 +170,11 @@ npm install @tauri-apps/plugin-autostart
 npm install tauri-plugin-keyring-api
 ```
 
-Each plugin must also be registered in the Tauri app builder (`backend/src-tauri/src/main.rs`) and have its permissions declared in `backend/src-tauri/capabilities/default.json`. See [AD-012](AD-012) and [Tauri v2 Research](RES-007) for configuration details.
+Each plugin must also be registered in the Tauri app builder (`backend/src-tauri/src/main.rs`) and have its permissions declared in `backend/src-tauri/capabilities/default.json`. See [AD-834fc71a](AD-834fc71a) and [Tauri v2 Research](RES-00c5dbc3) for configuration details.
 
-### Frontend Dependencies [AD-013](AD-013)
+### Frontend Dependencies [AD-afc78f6e](AD-afc78f6e)
 
-OrqaStudio's frontend depends on these libraries, selected in [AD-013](AD-013):
+OrqaStudio's frontend depends on these libraries, selected in [AD-afc78f6e](AD-afc78f6e):
 
 | Library | Purpose |
 |---------|---------|
@@ -283,5 +283,5 @@ orqa-studio/
 - [Development Commands](commands.md) — All Makefile targets with descriptions and underlying commands
 - Coding Standards — Code quality rules and patterns
 - Agentic Workflow — Task lifecycle and agent coordination
-- [Tauri v2 Research](RES-007) — Platform capabilities and plugin selections
-- [Frontend Research](RES-004) — Library selections and patterns
+- [Tauri v2 Research](RES-00c5dbc3) — Platform capabilities and plugin selections
+- [Frontend Research](RES-df5560cb) — Library selections and patterns

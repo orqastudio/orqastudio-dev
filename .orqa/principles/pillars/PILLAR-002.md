@@ -1,5 +1,5 @@
 ---
-id: PILLAR-002
+id: PILLAR-cdf756ff
 title: Learning Through Reflection
 description: The system and its users improve over time through structured retrospection.
 status: active
@@ -14,31 +14,31 @@ gate:
 relationships:
   - target: VISION-001
     type: upholds
-  - target: IDEA-002
+  - target: IDEA-3ff06133
     type: grounded-by
-  - target: IDEA-006
+  - target: IDEA-02c70c90
     type: grounded-by
-  - target: IDEA-009
+  - target: IDEA-9713910f
     type: grounded-by
-  - target: IDEA-017
+  - target: IDEA-5fb79e8b
     type: grounded-by
-  - target: IDEA-038
+  - target: IDEA-b77e2955
     type: grounded-by
-  - target: IDEA-087
+  - target: IDEA-cc13aea9
     type: grounded-by
-  - target: IDEA-088
+  - target: IDEA-a56a0b94
     type: grounded-by
-  - target: IDEA-098
+  - target: IDEA-60dd3dde
     type: grounded-by
-  - target: IDEA-113
+  - target: IDEA-d8c14add
     type: grounded-by
-  - target: IDEA-114
+  - target: IDEA-0f1f39ca
     type: grounded-by
-  - target: IDEA-115
+  - target: IDEA-791c9641
     type: grounded-by
-  - target: IDEA-117
+  - target: IDEA-c1364d60
     type: grounded-by
-  - target: IDEA-120
+  - target: IDEA-50f18707
     type: grounded-by
 ---
 ## What This Pillar Means

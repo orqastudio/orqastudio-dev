@@ -1,5 +1,5 @@
 ---
-id: IDEA-101
+id: IDEA-aabbab9d
 title: VSCode workspace plugin — IDE integration for OrqaStudio projects
 description: "A VSCode plugin that opens code for editing, manages workspace settings, and drives plugin/extension recommendations based on project requirements. AI-powered project configuration."
 status: captured
@@ -8,9 +8,9 @@ updated: 2026-03-15
 horizon: later
 research-needed: []
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 
@@ -20,4 +20,4 @@ OrqaStudio manages the planning and governance layer of a project but has no int
 
 ## Sketch
 
-A VSCode extension that reads `.orqa/project.json` on workspace open. Recommends extensions based on detected stack (Rust → rust-analyzer, Svelte → Svelte for VS Code, etc.). Surfaces the active task in the status bar. Could eventually support inline `@orqa` reference navigation (linked with IDEA-100). AI component suggests workspace settings based on project coding standards from `.orqa/documentation/development/coding-standards.md`.
+A VSCode extension that reads `.orqa/project.json` on workspace open. Recommends extensions based on detected stack (Rust → rust-analyzer, Svelte → Svelte for VS Code, etc.). Surfaces the active task in the status bar. Could eventually support inline `@orqa` reference navigation (linked with IDEA-50d6e149). AI component suggests workspace settings based on project coding standards from `.orqa/documentation/development/coding-standards.md`.

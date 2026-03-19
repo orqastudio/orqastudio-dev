@@ -1,11 +1,11 @@
 ---
-id: TASK-075
+id: TASK-18eee9b0
 title: Build frontend Artifact Graph SDK with subscription API
 description: Create a typed Svelte 5 rune store at ui/src/lib/sdk/artifact-graph.svelte.ts wrapping the Tauri commands with synchronous in-memory lookups and a plugin subscription API.
 status: completed
 created: 2026-03-10
 updated: 2026-03-10
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - ArtifactGraphSDK class with reactive graph state
   - "Synchronous resolve, resolveByPath, referencesFrom, referencesTo, children, byType, byStatus methods"
@@ -17,14 +17,14 @@ acceptance:
   - "Status bar indexing button: triggers manual refresh, disabled with spinner while indexing"
   - "Dashboard Graph Insights card showing: node count, edge count, orphan count, broken ref count, artifacts-by-type breakdown, and status distribution"
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-074
+  - target: TASK-126265d4
     type: depends-on
-  - target: TASK-076
+  - target: TASK-451dd8b1
     type: depended-on-by
-  - target: TASK-338
+  - target: TASK-12eec0f3
     type: depended-on-by
 ---
 

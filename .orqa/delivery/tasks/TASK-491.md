@@ -1,5 +1,5 @@
 ---
-id: TASK-491
+id: TASK-697497a9
 title: "Fix roadmap drag-drop, add sort dropdown, column headers (F37, F38, F39)"
 description: "Fix drag-and-drop between roadmap kanban columns so it updates the underlying artifact field. Add a sort/group dropdown to the kanban. Fix column headers to remove the item count, show done progress as 'X/X done', capitalise words, and use badge styling."
 status: completed
@@ -18,9 +18,9 @@ acceptance:
   - Column header words are capitalised
   - Column headers use badge styling
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
     rationale: UAT findings F37, F38, F39 — roadmap drag-drop, sort dropdown, and column header fixes
-  - target: TASK-490
+  - target: TASK-6d896b8d
     type: depends-on
 ---

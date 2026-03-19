@@ -1,5 +1,5 @@
 ---
-id: IDEA-032
+id: IDEA-9334b770
 title: Artifact Traceability Graph
 description: "Build a navigable knowledge graph from artifact cross-references that auto-updates when content changes. Enables plugin-driven views (dependency trees, impact analysis, knowledge provenance) without manual reverse links."
 status: surpassed
@@ -11,11 +11,11 @@ research-needed:
   - "Plugin API for consuming the graph (query interface, event hooks)"
   - "Visualization options (force-directed, hierarchical, timeline)"
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-003
+  - target: PERSONA-a4b15450
     type: benefits
 ---
 ## Motivation
@@ -24,7 +24,7 @@ Artifacts reference each other via structured fields but these are one-direction
 
 ## Archived
 
-The artifact traceability graph was largely implemented by [EPIC-048](EPIC-048) (Artifact Graph SDK). The SDK provides graph traversal, cross-reference resolution, and reverse-link queries over artifact frontmatter. Remaining visualization work (force-directed graphs, impact analysis views) can be pursued as separate features if needed.
+The artifact traceability graph was largely implemented by [EPIC-0a8a5e72](EPIC-0a8a5e72) (Artifact Graph SDK). The SDK provides graph traversal, cross-reference resolution, and reverse-link queries over artifact frontmatter. Remaining visualization work (force-directed graphs, impact analysis views) can be pursued as separate features if needed.
 
 ## Concept
 

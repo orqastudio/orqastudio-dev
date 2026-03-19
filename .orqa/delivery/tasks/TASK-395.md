@@ -1,5 +1,5 @@
 ---
-id: TASK-395
+id: TASK-e188a8c8
 title: Graph health snapshot storage and trend sparklines
 description: Store graph health snapshots on each integrity scan and display trend sparklines on the dashboard showing how graph health metrics change over time.
 status: completed
@@ -12,12 +12,12 @@ acceptance:
   - Snapshots stored in SQLite metrics table
   - make typecheck passes (no new errors)
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-390
+  - target: TASK-f6fd3161
     type: depends-on
-  - target: TASK-397
+  - target: TASK-d624db8f
     type: depended-on-by
 ---
 

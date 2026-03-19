@@ -1,5 +1,5 @@
 ---
-id: IDEA-077
+id: IDEA-289ecd64
 title: "Pipeline health dashboard — integrity surfacing, visualization, and process automation"
 description: "Surface pipeline integrity checks on the app dashboard with scan/fix actions, add pipeline thread visualization, temporal trend analysis, and automate two process improvements: related idea surfacing during promotion and intent-based observation capture from user prompts."
 status: completed
@@ -12,11 +12,11 @@ research-needed:
   - "Should the Rust backend call the existing Node scripts or reimplement the checks natively? → Native Rust implementation using the existing ArtifactGraph — the graph already tracks orphans and broken refs"
   - "How does this interact with the pre-commit hook — are they the same checks presented differently? → Same logical checks, different presentation. Hook blocks commits, dashboard shows current state."
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation
@@ -27,20 +27,20 @@ Beyond integrity, the pipeline dashboard should show the flow of knowledge throu
 
 ## Bundled Ideas
 
-- [IDEA-078](IDEA-078) — Auto-fix null relationship targets
-- [IDEA-064](IDEA-064) — Pipeline thread visualization and flow analysis
-- [IDEA-049](IDEA-049) — Graph-powered dashboard insights and trend analysis
+- [IDEA-3c8085b6](IDEA-3c8085b6) — Auto-fix null relationship targets
+- [IDEA-6522afe2](IDEA-6522afe2) — Pipeline thread visualization and flow analysis
+- [IDEA-c3b01bfd](IDEA-c3b01bfd) — Graph-powered dashboard insights and trend analysis
 
 ## Promoted Observations (Precursors)
 
-- [IMPL-044](IMPL-044) — Auto-surface related ideas during promotion → update [RULE-004](RULE-004)
-- [IMPL-045](IMPL-045) — Prompt input intent inference → plugin prompt-submit hook
+- [IMPL-40b0b5ca](IMPL-40b0b5ca) — Auto-surface related ideas during promotion → update [RULE-7b770593](RULE-7b770593)
+- [IMPL-8d666f0c](IMPL-8d666f0c) — Prompt input intent inference → plugin prompt-submit hook
 
 ## Scope
 
 ### Phase 0: Process Automation (Precursors)
-- Promote [IMPL-044](IMPL-044): update [RULE-004](RULE-004) with a mandatory "scan related ideas" step in the promotion procedure
-- Promote [IMPL-045](IMPL-045): create a `user-prompt-submit` hook in the plugin that infers observation intent and auto-creates IMPL entries
+- Promote [IMPL-40b0b5ca](IMPL-40b0b5ca): update [RULE-7b770593](RULE-7b770593) with a mandatory "scan related ideas" step in the promotion procedure
+- Promote [IMPL-8d666f0c](IMPL-8d666f0c): create a `user-prompt-submit` hook in the plugin that infers observation intent and auto-creates IMPL entries
 
 ### Phase 1: Integrity Engine (Backend)
 - Native Rust integrity checks in the backend (link verification, relationship validation, reconciliation checks, schema compliance)

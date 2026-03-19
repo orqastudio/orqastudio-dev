@@ -1,11 +1,11 @@
 ---
-id: TASK-187
+id: TASK-c083a1c8
 title: Document plugin installation and configuration
 description: "Write documentation for installing, configuring, and using the orqa companion plugin."
 status: completed
 created: 2026-03-11
 updated: 2026-03-12
-assignee: AGENT-007
+assignee: AGENT-ec1b3785
 docs: []
 acceptance:
   - Plugin README covers installation steps
@@ -14,12 +14,12 @@ acceptance:
   - README covers enforcement behaviour and how to add enforcement entries to rules
   - OrqaStudio docs updated to reference plugin instead of symlinks
 relationships:
-  - target: EPIC-050
+  - target: EPIC-3a8ad459
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-185
+  - target: TASK-11cf4c1d
     type: depends-on
-  - target: TASK-340
+  - target: TASK-fa39671d
     type: depended-on-by
 ---
 

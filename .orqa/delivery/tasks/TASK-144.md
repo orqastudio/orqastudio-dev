@@ -1,5 +1,5 @@
 ---
-id: TASK-144
+id: TASK-50906c0c
 title: Create rule for artifact link format constraints
 description: Extract the artifact link format constraint from the orqa-documentation skill into a new dedicated rule with enforcement path.
 status: completed
@@ -12,15 +12,15 @@ acceptance:
   - Rule includes valid and invalid examples
   - Rule has a FORBIDDEN section with concrete violations
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What
 
-The artifact link format constraint (`[EPIC-001](EPIC-001)` style) is currently hidden in the `orqa-documentation` skill's FORBIDDEN section. This is a binary constraint that should be a rule with enforcement path.
+The artifact link format constraint (`[EPIC-e045ab6d](EPIC-e045ab6d)` style) is currently hidden in the `orqa-documentation` skill's FORBIDDEN section. This is a binary constraint that should be a rule with enforcement path.
 
 Extract the link format constraints from `orqa-documentation` skill into a new rule. The skill keeps the "how to write good docs" knowledge; the rule enforces the link format requirement.
 

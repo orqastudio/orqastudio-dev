@@ -1,5 +1,5 @@
 ---
-id: TASK-304
+id: TASK-0e7221a8
 title: "Remove ArtifactType::Hook dead code"
 description: "ArtifactType::Hook is dead code — hooks are plugin implementation, not governance artifacts. Remove the enum variant and all handling code (parse_artifact_type, derive_rel_path, infer_artifact_type_from_path, governance_dir)."
 status: completed
@@ -11,10 +11,10 @@ acceptance:
   - make lint-backend passes with zero warnings
   - make test-rust passes
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

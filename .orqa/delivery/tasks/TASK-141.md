@@ -1,5 +1,5 @@
 ---
-id: TASK-141
+id: TASK-809a14cc
 title: Document orphaned skills as forward-looking in their SKILL.md files
 description: Add a forward-looking status note to each of five skills that have no current loading mechanism because their parent features are not yet built.
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Each note references the parent epic/idea it will be activated by
   - No changes to the skill content itself — just status clarity
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What
@@ -22,18 +22,18 @@ Five skills have no current loading mechanism because the features they support 
 
 | Skill | Linked From |
 |-------|------------|
-| `project-inference` | [EPIC-045](EPIC-045), [TASK-054](TASK-054) |
-| `project-migration` | [EPIC-045](EPIC-045), [TASK-054](TASK-054) |
-| `project-setup` | [EPIC-045](EPIC-045), [TASK-054](TASK-054) |
-| `project-type-software` | [EPIC-045](EPIC-045), [TASK-054](TASK-054), [TASK-067](TASK-067), [EPIC-047](EPIC-047) |
-| `orqa-plugin-development` | [IDEA-038](IDEA-038), [TASK-081](TASK-081) |
+| `project-inference` | [EPIC-be023ed2](EPIC-be023ed2), [TASK-f1ada1f5](TASK-f1ada1f5) |
+| `project-migration` | [EPIC-be023ed2](EPIC-be023ed2), [TASK-f1ada1f5](TASK-f1ada1f5) |
+| `project-setup` | [EPIC-be023ed2](EPIC-be023ed2), [TASK-f1ada1f5](TASK-f1ada1f5) |
+| `project-type-software` | [EPIC-be023ed2](EPIC-be023ed2), [TASK-f1ada1f5](TASK-f1ada1f5), [TASK-e1d418de](TASK-e1d418de), [EPIC-39860e8b](EPIC-39860e8b) |
+| `orqa-plugin-development` | [IDEA-b77e2955](IDEA-b77e2955), [TASK-30307a19](TASK-30307a19) |
 
 Add a note to each skill's SKILL.md frontmatter or body indicating it is forward-looking and which epic/idea it supports. This prevents them from appearing to be active skills that should be loaded.
 
 ## How
 
 1. Open each of the five skill files in `.orqa/process/skills/`
-2. Add a `status: forward-looking` field or a note block at the top of the body (e.g., `> **Forward-looking:** This skill will be activated by [EPIC-045](EPIC-045) when project initialisation is implemented.`)
+2. Add a `status: forward-looking` field or a note block at the top of the body (e.g., `> **Forward-looking:** This skill will be activated by [EPIC-be023ed2](EPIC-be023ed2) when project initialisation is implemented.`)
 3. Reference the relevant epic or idea ID in the note
 4. Leave all skill content unchanged
 

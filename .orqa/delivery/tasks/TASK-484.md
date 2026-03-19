@@ -1,5 +1,5 @@
 ---
-id: TASK-484
+id: TASK-d51a5a7e
 title: Move product/ → about/ (11 files) + update project.json
 description: Rename the documentation chapter from product/ to about/ by moving all 11 files via git mv. Update project.json to replace the product key with the about key and correct the path.
 status: completed
@@ -17,9 +17,9 @@ acceptance:
   - All files scannable in new location via artifact browser
   - No broken artifact references to old product/ paths
 relationships:
-  - target: EPIC-075
+  - target: EPIC-2a6e2567
     type: delivers
     rationale: First migration phase of the documentation reorganisation
-  - target: TASK-485
+  - target: TASK-28a2989f
     type: depended-on-by
 ---

@@ -1,5 +1,5 @@
 ---
-id: EPIC-030
+id: EPIC-cfd1ac79
 title: Project Scaffold
 description: "The first working version: a Tauri v2 desktop app with Claude conversations via Agent SDK sidecar, streaming, SQLite, and conversation UI."
 status: completed
@@ -13,40 +13,40 @@ scoring:
   complexity: 5
   dependencies: 5
 relationships:
-  - target: MS-000
+  - target: MS-85b9269b
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-123
+  - target: TASK-8f5e769b
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-124
+  - target: TASK-3bafbf7f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-125
+  - target: TASK-1368cb7f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-126
+  - target: TASK-a1e2f58a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-127
+  - target: TASK-efcbcc95
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-128
+  - target: TASK-b2ebf089
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-129
+  - target: TASK-8c45c6b4
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-130
+  - target: TASK-02bf9d1b
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-131
+  - target: TASK-ab6f8ad9
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-132
+  - target: TASK-910302bc
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-320
+  - target: TASK-a5e7df28
     type: delivered-by
     rationale: Epic contains this task
 ---
@@ -83,13 +83,13 @@ Implementation approach to be defined during planning.
 
 ## Tasks
 
-- [TASK-123](TASK-123): Initialize Tauri v2 + Svelte 5 project
-- [TASK-124](TASK-124): Implement Rust backend sidecar and streaming
-- [TASK-125](TASK-125): Implement SQLite database and migrations
-- [TASK-126](TASK-126): Implement session and message CRUD
-- [TASK-127](TASK-127): Implement remaining IPC commands across all domains
-- [TASK-128](TASK-128): Implement four-zone layout and sidebar
-- [TASK-129](TASK-129): Implement conversation UI with streaming
-- [TASK-130](TASK-130): Implement tool call rendering
-- [TASK-131](TASK-131): Implement session management UI
-- [TASK-132](TASK-132): Implement settings view and semantic code search
+- [TASK-8f5e769b](TASK-8f5e769b): Initialize Tauri v2 + Svelte 5 project
+- [TASK-3bafbf7f](TASK-3bafbf7f): Implement Rust backend sidecar and streaming
+- [TASK-1368cb7f](TASK-1368cb7f): Implement SQLite database and migrations
+- [TASK-a1e2f58a](TASK-a1e2f58a): Implement session and message CRUD
+- [TASK-efcbcc95](TASK-efcbcc95): Implement remaining IPC commands across all domains
+- [TASK-b2ebf089](TASK-b2ebf089): Implement four-zone layout and sidebar
+- [TASK-8c45c6b4](TASK-8c45c6b4): Implement conversation UI with streaming
+- [TASK-02bf9d1b](TASK-02bf9d1b): Implement tool call rendering
+- [TASK-ab6f8ad9](TASK-ab6f8ad9): Implement session management UI
+- [TASK-910302bc](TASK-910302bc): Implement settings view and semantic code search

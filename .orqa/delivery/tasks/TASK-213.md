@@ -1,5 +1,5 @@
 ---
-id: TASK-213
+id: TASK-26b03735
 title: Extract project-specific requirements to graph-readable artifacts
 description: "Move project-specific sections from the orchestrator prompt to standalone artifacts discoverable via graph traversal — tech stack, naming conventions, verification gates."
 status: completed
@@ -11,10 +11,10 @@ acceptance:
   - Content exists in appropriate artifacts
   - "Graph edges make content discoverable (e.g., task.docs points to coding-standards.md)"
 relationships:
-  - target: EPIC-053
+  - target: EPIC-dc1e3e4b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: depended-on-by
 ---
 ## What

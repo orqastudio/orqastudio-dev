@@ -1,5 +1,5 @@
 ---
-id: TASK-152
+id: TASK-448102a7
 title: Create schema validation pre-commit hook
 description: "Pre-commit hook that validates YAML frontmatter of staged .orqa/ markdown files against their directory's schema.json before allowing the commit."
 status: completed
@@ -14,19 +14,19 @@ acceptance:
   - Files outside .orqa/ are not affected
   - Hook runs as part of the existing .githooks/pre-commit chain
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-153
+  - target: TASK-22b0ab76
     type: depended-on-by
-  - target: TASK-155
+  - target: TASK-58d6a5ca
     type: depended-on-by
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What
 
-[RULE-032](RULE-032) requires all artifacts to validate against their directory's `schema.json`. The existing `.githooks/validate-schema.mjs` script does this but may not be properly integrated into the pre-commit pipeline. Ensure schema validation runs automatically on every commit that touches `.orqa/` files.
+[RULE-a764b2ae](RULE-a764b2ae) requires all artifacts to validate against their directory's `schema.json`. The existing `.githooks/validate-schema.mjs` script does this but may not be properly integrated into the pre-commit pipeline. Ensure schema validation runs automatically on every commit that touches `.orqa/` files.
 
 ## How
 
@@ -36,7 +36,7 @@ relationships:
 4. Output clear error messages: which file, which field, what's wrong
 5. Validate `propertyOrder` if defined in the schema — frontmatter fields must appear in the specified order
 6. Also validate body template sections (required headings) if defined in the schema's `bodyTemplate`
-6. Update [RULE-032](RULE-032) to reference the hook as active enforcement
+6. Update [RULE-a764b2ae](RULE-a764b2ae) to reference the hook as active enforcement
 
 ## Verification
 

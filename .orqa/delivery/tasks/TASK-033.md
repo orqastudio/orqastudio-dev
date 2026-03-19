@@ -1,20 +1,20 @@
 ---
-id: TASK-033
+id: TASK-92c3293c
 title: Three-tier skill loading for agents
 description: "Updates all 16 agent definitions to carry only portable Tier 1 skills and the code-search wrapper, removing all project-specific and context-specific skills from their frontmatter."
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - "All agent skills: lists contain ONLY Tier 1 portable skills + code-search wrapper"
   - "No agent lists chunkhound, orqa-native-search, or any orqa-* skill directly"
   - Orchestrator agent updated with injection table reference
 relationships:
-  - target: EPIC-042
+  - target: EPIC-a1dd9e9f
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-332
+  - target: TASK-80821c3e
     type: depended-on-by
 ---
 ## What

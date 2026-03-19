@@ -1,5 +1,5 @@
 ---
-id: TASK-377
+id: TASK-db81ac75
 title: Create follow-up epics/tasks to address findings
 description: Group findings from the enforcement tooling run into coherent follow-up epics prioritized using the Phase 7 framework
 status: completed
@@ -8,12 +8,12 @@ updated: 2026-03-13
 acceptance:
   - Follow-up epics and tasks exist for all findings from the enforcement tooling run
 relationships:
-  - target: EPIC-061
+  - target: EPIC-4e6e9eae
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-376
+  - target: TASK-247b6ce4
     type: depends-on
-  - target: TASK-375
+  - target: TASK-7cf80542
     type: depended-on-by
 ---
 
@@ -27,7 +27,7 @@ Group findings into coherent epics, prioritize using the priority dimensions fro
 
 ## Verification
 
-Completed as part of [EPIC-061](EPIC-061) Phase 8.
+Completed as part of [EPIC-4e6e9eae](EPIC-4e6e9eae) Phase 8.
 
 ## Lessons
 

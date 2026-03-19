@@ -1,5 +1,5 @@
 ---
-id: EPIC-074
+id: EPIC-11561c51
 title: Dashboard redesign — narrative flow layout grounded in pillars
 description: "Replace the current metrics-dump dashboard with a narrative flow layout: milestone context at top, three pillar-aligned columns (clarity/learning/purpose), collapsible power user section. The dashboard answers what matters, not what exists."
 status: completed
@@ -14,32 +14,32 @@ updated: 2026-03-14
 deadline: null
 horizon: active
 relationships:
-  - target: RES-064
+  - target: RES-627d3b37
     type: guided-by
     rationale: Dashboard research drives the design
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-483
+  - target: TASK-cae0706a
     type: delivered-by
-    rationale: "Auto-generated inverse of delivered-by relationship from TASK-483"
-  - target: TASK-479
+    rationale: "Auto-generated inverse of delivered-by relationship from TASK-cae0706a"
+  - target: TASK-2e078ea2
     type: delivered-by
-    rationale: "Auto-generated inverse of delivered-by relationship from TASK-479"
-  - target: TASK-482
+    rationale: "Auto-generated inverse of delivered-by relationship from TASK-2e078ea2"
+  - target: TASK-79f51e7d
     type: delivered-by
-    rationale: "Auto-generated inverse of delivered-by relationship from TASK-482"
-  - target: TASK-481
+    rationale: "Auto-generated inverse of delivered-by relationship from TASK-79f51e7d"
+  - target: TASK-c68a16cf
     type: delivered-by
-    rationale: "Auto-generated inverse of delivered-by relationship from TASK-481"
-  - target: TASK-480
+    rationale: "Auto-generated inverse of delivered-by relationship from TASK-c68a16cf"
+  - target: TASK-75f8d4bf
     type: delivered-by
-  - target: RES-064
+  - target: RES-627d3b37
     type: guided-by
 ---
 ## Context
 
-The current dashboard is existing data cards in a grid. RES-064 research recommends a Narrative Flow layout that answers three questions mapping to the pillars:
+The current dashboard is existing data cards in a grid. RES-627d3b37 research recommends a Narrative Flow layout that answers three questions mapping to the pillars:
 1. What is the current clarity level? (graph health, structure integrity)
 2. Is the system getting better? (trends, lesson velocity)
 3. Are we staying true to purpose? (milestone progress, decisions, blockers)
@@ -75,8 +75,8 @@ The current dashboard is existing data cards in a grid. RES-064 research recomme
 
 ## Tasks
 
-- [ ] [TASK-479](TASK-479): Build MilestoneContextCard and new dashboard layout shell
-- [ ] [TASK-480](TASK-480): Refactor GraphHealthWidget for clarity-focused display
-- [ ] [TASK-481](TASK-481): Build ImprovementTrendsWidget (2x2 sparklines with trend arrows)
-- [ ] [TASK-482](TASK-482): Build LessonVelocityWidget and DecisionQueueWidget
-- [ ] [TASK-483](TASK-483): Refactor KnowledgePipelineWidget as collapsible bottom section
+- [ ] [TASK-2e078ea2](TASK-2e078ea2): Build MilestoneContextCard and new dashboard layout shell
+- [ ] [TASK-75f8d4bf](TASK-75f8d4bf): Refactor GraphHealthWidget for clarity-focused display
+- [ ] [TASK-c68a16cf](TASK-c68a16cf): Build ImprovementTrendsWidget (2x2 sparklines with trend arrows)
+- [ ] [TASK-79f51e7d](TASK-79f51e7d): Build LessonVelocityWidget and DecisionQueueWidget
+- [ ] [TASK-cae0706a](TASK-cae0706a): Refactor KnowledgePipelineWidget as collapsible bottom section

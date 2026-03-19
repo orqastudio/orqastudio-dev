@@ -1,5 +1,5 @@
 ---
-id: IDEA-121
+id: IDEA-3f67dc75
 title: "Release lifecycle — milestones as releases, update management, breaking change protocol, plugin compatibility"
 description: "A controlled release workflow where milestones drive releases, the app manages updates with breaking change awareness, and plugins have a backwards compatibility lifecycle with deprecation and migration paths."
 status: captured
@@ -14,14 +14,14 @@ research-needed:
   - What's the backwards compatibility lifecycle? How long do we support deprecated APIs?
   - Can we version the plugin API (orqa-plugin.json schema version) separately from the app version?
   - How do we recommend alternative plugins when one is deprecated?
-  - Should the GitHub integration (IDEA-119) drive milestone→release→GitHub Release flow?
+  - Should the GitHub integration (IDEA-b1953a83) drive milestone→release→GitHub Release flow?
   - How do different projects configure what links to what (e.g. some use milestones as releases, others use tags)?
   - Can we generate changelogs from the artifact graph (completed epics + tasks since last release)?
 relationships:
-  - target: PILLAR-003
+  - target: PILLAR-94b281db
     type: grounded
     rationale: A controlled release lifecycle preserves intent across versions — users and plugin authors aren't surprised by breaking changes
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: IDEA-082
+id: IDEA-11dfa751
 title: Session state as a browsable artifact in .orqa/
 description: "Move session state from tmp/session-state.md into the .orqa/ directory so it becomes a first-class artifact visible in the app's artifact navigation. Enables users to browse session history, see pending decisions, and understand what was happening across sessions — all within the OrqaStudio UI."
 status: captured
@@ -14,9 +14,9 @@ research-needed:
   - "What artifact ID prefix? SESSION-NNN? SS-NNN?"
   - "How does this interact with context compaction — should the app auto-write session state when context is about to be compressed?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 
@@ -56,4 +56,4 @@ Moving session state into `.orqa/` makes it a first-class artifact:
 - Marked `completed` at session end
 - Previous sessions remain as historical records
 
-This gives Purpose Through Continuity (PILLAR-003) a permanent, browsable record — not just a transient file.
+This gives Purpose Through Continuity (PILLAR-94b281db) a permanent, browsable record — not just a transient file.

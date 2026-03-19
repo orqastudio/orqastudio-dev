@@ -1,5 +1,5 @@
 ---
-id: TASK-372
+id: TASK-5f701f54
 title: "Research trigger: orchestrator creates RES-NNN before investigation"
 description: Update orchestrator behavior to recognize investigation-class requests and create RES-NNN artifacts before delegating research
 status: completed
@@ -8,10 +8,10 @@ updated: 2026-03-13
 acceptance:
   - Orchestrator creates RES-NNN artifacts before delegating investigation-class requests to researcher agents
 relationships:
-  - target: EPIC-061
+  - target: EPIC-4e6e9eae
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-375
+  - target: TASK-7cf80542
     type: depended-on-by
 ---
 
@@ -25,7 +25,7 @@ Update orchestrator rules or skills to recognize investigation-class requests an
 
 ## Verification
 
-Completed as part of [EPIC-061](EPIC-061) Phase 4.
+Completed as part of [EPIC-4e6e9eae](EPIC-4e6e9eae) Phase 4.
 
 ## Lessons
 

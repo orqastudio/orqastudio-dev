@@ -1,5 +1,5 @@
 ---
-id: IDEA-039
+id: IDEA-0b05f1fd
 title: Local Model Support and Democratised AI Development
 description: "Explore running OrqaStudio with cheaper local models once the structured thinking foundation is mature enough, reducing dependency on expensive cloud subscriptions and democratising AI-assisted development."
 status: captured
@@ -10,14 +10,14 @@ research-needed:
   - "Minimum model capability threshold — what reasoning quality is needed for structured artifact creation, planning, and code generation?"
   - "Context window requirements — the file-based architecture means loading the right files at the right time, not everything at once. What's the minimum context window?"
   - "Memory footprint — local models (llama.cpp, Ollama, LM Studio) vs cloud API. What hardware is required?"
-  - "Provider abstraction — AD-025 already defines provider-agnostic integration. How much work to add local model backends (Ollama, llama.cpp, vLLM)?"
+  - "Provider abstraction — AD-ff88ecea already defines provider-agnostic integration. How much work to add local model backends (Ollama, llama.cpp, vLLM)?"
   - "Quality degradation mapping — which OrqaStudio capabilities degrade gracefully with smaller models vs which require frontier-class reasoning?"
   - "Hybrid approach — could a local model handle routine tasks (artifact creation, simple edits) while cloud models handle complex planning and architecture?"
   - "Skill-driven context injection — since skills load domain knowledge at the right time, does this compensate for smaller context windows?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation
@@ -26,7 +26,7 @@ OrqaStudio currently requires a Claude Max Pro subscription for development — 
 
 **If the structure does enough of the thinking, does the model need to be as smart?**
 
-The file-based architecture [AD-032](AD-032) means governance data is flat files with enforced frontmatter. The artifact graph [EPIC-048](EPIC-048) provides the relational layer. Skills inject the right domain knowledge at the right time. Rules enforce constraints mechanically. The model's job shifts from "figure everything out from scratch" to "follow structured patterns with the right context loaded."
+The file-based architecture [AD-2aa4d6db](AD-2aa4d6db) means governance data is flat files with enforced frontmatter. The artifact graph [EPIC-0a8a5e72](EPIC-0a8a5e72) provides the relational layer. Skills inject the right domain knowledge at the right time. Rules enforce constraints mechanically. The model's job shifts from "figure everything out from scratch" to "follow structured patterns with the right context loaded."
 
 This is fundamentally different from asking a local model to reason about an unstructured codebase. The structure IS the intelligence — the model is the executor.
 
@@ -45,7 +45,7 @@ This is fundamentally different from asking a local model to reason about an uns
 ```
 Tier 1: Local model (Ollama/llama.cpp) — routine tasks, artifact CRUD, simple code generation
 Tier 2: Cloud model (Claude/GPT) — complex planning, architecture decisions, multi-step reasoning
-Tier 3: Embedded model (ONNX) — search, classification, embeddings (already implemented via AD-024)
+Tier 3: Embedded model (ONNX) — search, classification, embeddings (already implemented via AD-99c2a969)
 ```
 
 The app could auto-route based on task complexity, or the user could choose.

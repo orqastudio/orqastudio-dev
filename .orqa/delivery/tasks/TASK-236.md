@@ -1,5 +1,5 @@
 ---
-id: TASK-236
+id: TASK-b2562f5a
 title: Fix all README inaccuracies
 description: "Planning mentions plans, Documentation wrong links, Skills says chunkhound, Tasks diverges from schema."
 status: completed
@@ -9,10 +9,10 @@ acceptance:
   - All README content matches current architecture
   - No field tables duplicate schema.json
 relationships:
-  - target: EPIC-054
+  - target: EPIC-6f2d06d4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-344
+  - target: TASK-94149697
     type: depended-on-by
 ---
 

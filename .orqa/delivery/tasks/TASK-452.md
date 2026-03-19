@@ -1,5 +1,5 @@
 ---
-id: TASK-452
+id: TASK-ddf99463
 title: Populate Guide section
 description: "Create a Guide section with user-facing documentation including SDK docs, moving articles from other categories where appropriate."
 status: completed
@@ -17,7 +17,7 @@ acceptance:
   - Contains user-facing documentation including SDK docs
   - Moved articles from other categories where appropriate
 relationships:
-  - target: EPIC-071
+  - target: EPIC-7d587280
     type: delivers
     rationale: Guide section provides a user-oriented documentation entry point
 ---

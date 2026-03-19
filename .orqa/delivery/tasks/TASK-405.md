@@ -1,5 +1,5 @@
 ---
-id: TASK-405
+id: TASK-a0914d02
 title: Improve pipeline visualization responsiveness and actionability
 description: Make knowledge pipeline responsive to fill card width. Add reasoning and suggested actions to stuck/bottleneck labels. Audit pipeline stage health calculations for accuracy.
 status: completed
@@ -19,7 +19,7 @@ acceptance:
   - Pipeline stage health calculations audited and documented — thresholds adjusted if needed
   - Relationship types used for flow calculation match actual project usage
 relationships:
-  - target: EPIC-063
+  - target: EPIC-fd22ca6c
     type: delivers
     rationale: Theme C — pipeline visualization improvements from UAT
 ---

@@ -1,5 +1,5 @@
 ---
-id: EPIC-039
+id: EPIC-897bbe8f
 title: Composability Refactoring
 description: "Major refactoring sprint establishing the domain service extraction pattern. Decomposed monolithic command files, decoupled stores, extracted utilities, added semantic design tokens, and established the thin-command → domain service → repository pattern."
 status: completed
@@ -13,37 +13,37 @@ scoring:
   complexity: 4
   dependencies: 4
 relationships:
-  - target: RES-020
+  - target: RES-45cffcbe
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-020
-  - target: RES-021
+    rationale: Auto-generated inverse of informed-by relationship from RES-45cffcbe
+  - target: RES-b5d6ae6e
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-021
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-b5d6ae6e
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-024
+  - target: TASK-320eb399
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-025
+  - target: TASK-8b482a0a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-026
+  - target: TASK-c09db10b
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-027
+  - target: TASK-570f27e0
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-329
+  - target: TASK-fca01488
     type: delivered-by
     rationale: Epic contains this task
-  - target: AD-026
+  - target: AD-6cd1ff6f
     type: driven-by
-  - target: RES-020
+  - target: RES-45cffcbe
     type: guided-by
-  - target: RES-021
+  - target: RES-b5d6ae6e
     type: guided-by
-  - target: AD-026
+  - target: AD-6cd1ff6f
     type: driven-by
 ---
 ## Implementation Design
@@ -71,7 +71,7 @@ relationships:
 
 ## Produced Decision
 
-[AD-026](AD-026) (Domain Service Extraction Pattern)
+[AD-6cd1ff6f](AD-6cd1ff6f) (Domain Service Extraction Pattern)
 
 ## Git Evidence
 

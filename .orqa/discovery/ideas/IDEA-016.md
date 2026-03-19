@@ -1,7 +1,7 @@
 ---
-id: IDEA-016
+id: IDEA-d2567a13
 title: Reflective AI Facilitation
-description: "Active structured reflection support with AI-facilitated retrospectives, assumption challenges, and PILLAR-002 cycle detection."
+description: "Active structured reflection support with AI-facilitated retrospectives, assumption challenges, and PILLAR-cdf756ff cycle detection."
 status: captured
 created: 2026-03-07
 updated: 2026-03-13
@@ -11,9 +11,9 @@ research-needed:
   - Assumption challenge effectiveness
   - Learning cycle pattern recognition
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Candidate Items

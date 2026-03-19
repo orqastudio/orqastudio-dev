@@ -1,10 +1,10 @@
 ---
-id: TASK-520
-title: "Rewrite SKILL-047 as Plugin Artifact Usage"
+id: TASK-96dd9d27
+title: "Rewrite SKILL-8d1c4be6 as Plugin Artifact Usage"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-084
+  - target: EPIC-50fe8602
     type: delivers
 ---

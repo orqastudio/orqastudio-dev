@@ -1,5 +1,5 @@
 ---
-id: IDEA-079
+id: IDEA-29bdf6cf
 title: Unified logger library with SSE stream output and debug levels
 description: "Create a logger library for each language (Rust, TypeScript/Svelte, Bun/sidecar) that logs to console/stdout AND sends events to the dev controller SSE stream. Use log levels (debug, info, warn, error) so debug-level logs used during development stay in code rather than being cleaned up — they are filtered by level at the viewing interface. Removes the coding standard requiring cleanup of debugging logs."
 status: captured
@@ -12,9 +12,9 @@ research-needed:
   - "What log viewer interfaces would consume these streams (terminal, app dev panel, external tools)?"
   - "How should log levels be configured per-context (dev vs production vs debug)?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

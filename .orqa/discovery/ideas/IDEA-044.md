@@ -1,5 +1,5 @@
 ---
-id: IDEA-044
+id: IDEA-93f86ece
 title: Multi-Tab Artifact Viewer
 description: "Allow users to open artifacts in separate tabs within the app window, so multiple artifacts can be viewed and compared without losing context. The chat session remains pinned and global — tabs only affect the navigation and viewer panes."
 status: captured
@@ -13,9 +13,9 @@ research-needed:
   - Memory and performance implications of multiple artifact viewers
   - Split-view support (side-by-side artifact comparison)
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation

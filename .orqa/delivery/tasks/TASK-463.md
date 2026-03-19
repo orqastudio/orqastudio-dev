@@ -1,5 +1,5 @@
 ---
-id: TASK-463
+id: TASK-349bc911
 title: Create grounding documents for all agent roles
 description: "Create 5 concise grounding documents distilled from restructured documentation. Each answers: why this role exists, what good looks like, what goes wrong under pressure. Designed for agent injection, not human browsing."
 status: completed
@@ -21,14 +21,14 @@ acceptance:
   - "Each doc has frontmatter with ID, relationships to source docs, and pillar alignment"
   - "Content is distilled from restructured docs, not duplicated"
 relationships:
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: delivers
     rationale: Phase 2 — grounding docs are the foundation for agent purpose injection
-  - target: TASK-462
+  - target: TASK-d1307b98
     type: depends-on
-  - target: TASK-464
+  - target: TASK-46275b63
     type: depended-on-by
-  - target: TASK-465
+  - target: TASK-ca282ce0
     type: depended-on-by
 ---
 
@@ -45,10 +45,10 @@ Each document answers three questions:
 
 | File | Grounds | Distilled From |
 |------|---------|---------------|
-| product-purpose.md | Orchestrator, Planner, Writer | VISION-001 (vision), DOC-039 (governance), pillars |
-| code-principles.md | Implementer, Reviewer | DOC-021 (coding-standards), architecture decisions |
-| artifact-principles.md | Orchestrator, Writer, Researcher, Governance Steward | DOC-036 (artifact-framework), DOC-039 (governance) |
-| design-principles.md | Designer | DOC-049 (design-system), DOC-053 (interaction-patterns), DOC-043 (personas) |
+| product-purpose.md | Orchestrator, Planner, Writer | VISION-001 (vision), DOC-1bc9d0b9 (governance), pillars |
+| code-principles.md | Implementer, Reviewer | DOC-4b4fbc0f (coding-standards), architecture decisions |
+| artifact-principles.md | Orchestrator, Writer, Researcher, Governance Steward | DOC-01ddd8aa (artifact-framework), DOC-1bc9d0b9 (governance) |
+| design-principles.md | Designer | DOC-03f1dff2 (design-system), DOC-9c29d60c (interaction-patterns), DOC-ffd47d19 (personas) |
 | research-principles.md | Researcher | Research methodology skill content |
 
 ### Constraints

@@ -1,5 +1,5 @@
 ---
-id: EPIC-054
+id: EPIC-6f2d06d4
 title: Artifact Graph Alignment Audit
 description: |
   Comprehensive audit and cleanup of all .orqa/ artifacts to align with graph-based
@@ -17,85 +17,85 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: RES-042
+  - target: RES-87c6d062
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-042
-  - target: RES-041
+    rationale: Auto-generated inverse of informed-by relationship from RES-87c6d062
+  - target: RES-5d1fa2a8
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-041
-  - target: RES-040
+    rationale: Auto-generated inverse of informed-by relationship from RES-5d1fa2a8
+  - target: RES-0a32a350
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-040
-  - target: MS-002
+    rationale: Auto-generated inverse of informed-by relationship from RES-0a32a350
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-224
+  - target: TASK-3f426c14
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-225
+  - target: TASK-bd34be90
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-226
+  - target: TASK-6856f61d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-227
+  - target: TASK-8af47bbd
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-228
+  - target: TASK-15bc3749
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-229
+  - target: TASK-6c46014d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-230
+  - target: TASK-b40669f0
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-231
+  - target: TASK-e1d73ed7
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-232
+  - target: TASK-84fc1180
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-233
+  - target: TASK-507ce554
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-234
+  - target: TASK-97ae6841
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-235
+  - target: TASK-025a0d1e
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-236
+  - target: TASK-b2562f5a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-237
+  - target: TASK-df494469
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-238
+  - target: TASK-6e243257
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-239
+  - target: TASK-fa3388c2
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-240
+  - target: TASK-3655ff27
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-241
+  - target: TASK-55c08ed7
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-242
+  - target: TASK-3b2cea80
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-344
+  - target: TASK-94149697
     type: delivered-by
     rationale: Epic contains this task
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
-  - target: RES-040
+  - target: RES-0a32a350
     type: guided-by
-  - target: RES-041
+  - target: RES-5d1fa2a8
     type: guided-by
-  - target: RES-042
+  - target: RES-87c6d062
     type: guided-by
 ---
 ## Governing Principles
@@ -155,16 +155,16 @@ these are lies in the graph that cause downstream confusion.
 
 ## Context
 
-Three research investigations ([RES-040](RES-040), [RES-041](RES-041), [RES-042](RES-042))
+Three research investigations ([RES-0a32a350](RES-0a32a350), [RES-5d1fa2a8](RES-5d1fa2a8), [RES-87c6d062](RES-87c6d062))
 audited 476+ artifacts across all layers. Critical findings:
 
 **Data Integrity:**
-- [SKILL-046](SKILL-046) ID assigned to 3 different skills (graph traversal breaks)
-- SKILL-045 exists as divergent copies (not symlinked)
+- [SKILL-e3a559c9](SKILL-e3a559c9) ID assigned to 3 different skills (graph traversal breaks)
+- SKILL-bcfeb64e exists as divergent copies (not symlinked)
 - 20+ epics reference DOC-NNN phantom IDs (unresolvable graph edges)
 - 4 different scoring dimension sets across epics (priority comparison meaningless)
-- [EPIC-051](EPIC-051) fully complete but all tasks marked todo
-- [EPIC-007](EPIC-007) marked done but superseded by [EPIC-039](EPIC-039)
+- [EPIC-0a7b21cf](EPIC-0a7b21cf) fully complete but all tasks marked todo
+- [EPIC-03900ea5](EPIC-03900ea5) marked done but superseded by [EPIC-897bbe8f](EPIC-897bbe8f)
 
 **Layer Violations:**
 - 8 core rules embed project-specific Tauri/Svelte/Rust content
@@ -175,15 +175,15 @@ audited 476+ artifacts across all layers. Critical findings:
 **Content Staleness:**
 - orchestration.md and workflow.md describe pre-graph patterns
 - Planning README mentions deprecated "plans" artifact type
-- Documentation README uses web-style links violating [RULE-034](RULE-034)
-- [EPIC-044](EPIC-044) uses `canon` terminology (now `core`)
-- [RES-024](RES-024) references non-existent `.orqa/agents/` path
+- Documentation README uses web-style links violating [RULE-2f7b6a31](RULE-2f7b6a31)
+- [EPIC-31c9baca](EPIC-31c9baca) uses `canon` terminology (now `core`)
+- [RES-8b971acf](RES-8b971acf) references non-existent `.orqa/agents/` path
 
 **Structural:**
 - Tasks README duplicates and diverges from schema.json
 - No architecture doc for graph-based injection model
 - 3 rules have empty scope arrays
-- [RES-016](RES-016)-tauri-dev-process-management.md has mismatched filename/ID
+- [RES-5a9e6375](RES-5a9e6375)-tauri-dev-process-management.md has mismatched filename/ID
 
 ---
 
@@ -217,46 +217,46 @@ scoring dimensions.
 
 | ID | Title |
 |----|-------|
-| [TASK-225](TASK-225) | Fix [SKILL-046](SKILL-046) ID collision — assign unique IDs |
-| [TASK-226](TASK-226) | Fix SKILL-045 rule-enforcement duplication — symlink or split |
-| [TASK-227](TASK-227) | Fix epic/task status mismatches (EPIC-051, [EPIC-053](EPIC-053), EPIC-007) |
-| [TASK-228](TASK-228) | Audit [EPIC-050](EPIC-050) tasks against plugin codebase |
-| [TASK-229](TASK-229) | Resolve DOC-NNN phantom references across all epics |
-| [TASK-230](TASK-230) | Standardise scoring dimensions across all epics |
-| [TASK-231](TASK-231) | Rename [RES-016](RES-016)-tauri-dev-process-management.md to match its ID |
+| [TASK-bd34be90](TASK-bd34be90) | Fix [SKILL-e3a559c9](SKILL-e3a559c9) ID collision — assign unique IDs |
+| [TASK-6856f61d](TASK-6856f61d) | Fix SKILL-bcfeb64e rule-enforcement duplication — symlink or split |
+| [TASK-8af47bbd](TASK-8af47bbd) | Fix epic/task status mismatches (EPIC-0a7b21cf, [EPIC-dc1e3e4b](EPIC-dc1e3e4b), EPIC-03900ea5) |
+| [TASK-15bc3749](TASK-15bc3749) | Audit [EPIC-3a8ad459](EPIC-3a8ad459) tasks against plugin codebase |
+| [TASK-6c46014d](TASK-6c46014d) | Resolve DOC-NNN phantom references across all epics |
+| [TASK-b40669f0](TASK-b40669f0) | Standardise scoring dimensions across all epics |
+| [TASK-e1d73ed7](TASK-e1d73ed7) | Rename [RES-5a9e6375](RES-5a9e6375)-tauri-dev-process-management.md to match its ID |
 
 ### Phase 2: Layer Reclassification
 
 | ID | Title |
 |----|-------|
-| [TASK-232](TASK-232) | Split 8 core rules — extract project-specific content |
-| [TASK-233](TASK-233) | Split composability skill — core principle vs project examples |
-| [TASK-234](TASK-234) | Fix skill layer misclassifications (orqa-native-search, rule-enforcement, orqa-code-search) |
-| [TASK-235](TASK-235) | Assign scope to [RULE-041](RULE-041), [RULE-042](RULE-042), [RULE-043](RULE-043) |
+| [TASK-84fc1180](TASK-84fc1180) | Split 8 core rules — extract project-specific content |
+| [TASK-507ce554](TASK-507ce554) | Split composability skill — core principle vs project examples |
+| [TASK-97ae6841](TASK-97ae6841) | Fix skill layer misclassifications (orqa-native-search, rule-enforcement, orqa-code-search) |
+| [TASK-025a0d1e](TASK-025a0d1e) | Assign scope to [RULE-c95f4444](RULE-c95f4444), [RULE-f9d0279c](RULE-f9d0279c), [RULE-7f416d7d](RULE-7f416d7d) |
 
 ### Phase 3: Content Accuracy
 
 | ID | Title |
 |----|-------|
-| [TASK-236](TASK-236) | Fix all README inaccuracies (Planning, Documentation, Skills, Tasks, Lessons, Decisions) |
-| [TASK-237](TASK-237) | Update orchestration.md and workflow.md for graph-based model |
-| [TASK-238](TASK-238) | Remove scope reference from CLAUDE.md / orchestrator prompt |
-| [TASK-239](TASK-239) | Update [EPIC-044](EPIC-044) body — canon → core terminology |
-| [TASK-224](TASK-224) | Backfill missing description fields across all artifact types |
+| [TASK-b2562f5a](TASK-b2562f5a) | Fix all README inaccuracies (Planning, Documentation, Skills, Tasks, Lessons, Decisions) |
+| [TASK-df494469](TASK-df494469) | Update orchestration.md and workflow.md for graph-based model |
+| [TASK-6e243257](TASK-6e243257) | Remove scope reference from CLAUDE.md / orchestrator prompt |
+| [TASK-fa3388c2](TASK-fa3388c2) | Update [EPIC-31c9baca](EPIC-31c9baca) body — canon → core terminology |
+| [TASK-3f426c14](TASK-3f426c14) | Backfill missing description fields across all artifact types |
 
 ### Phase 4: Structural Cleanup
 
 | ID | Title |
 |----|-------|
-| [TASK-240](TASK-240) | Archive stale ideas (IDEA-025, [IDEA-032](IDEA-032), [IDEA-045](IDEA-045), [IDEA-057](IDEA-057) status fix) |
-| [TASK-241](TASK-241) | Mark surpassed research (RES-024) and connect Phase 0 orphans |
-| [TASK-242](TASK-242) | Address .claude/rules/ full-body loading vs graph-based injection |
+| [TASK-3655ff27](TASK-3655ff27) | Archive stale ideas (IDEA-b153fabd, [IDEA-9334b770](IDEA-9334b770), [IDEA-325a4ddc](IDEA-325a4ddc), [IDEA-889dffd4](IDEA-889dffd4) status fix) |
+| [TASK-55c08ed7](TASK-55c08ed7) | Mark surpassed research (RES-8b971acf) and connect Phase 0 orphans |
+| [TASK-3b2cea80](TASK-3b2cea80) | Address .claude/rules/ full-body loading vs graph-based injection |
 
 ---
 
 ## Out of Scope
 
-- Implementing new enforcement layers (EPIC-052 scope)
+- Implementing new enforcement layers (EPIC-4440cdd4 scope)
 - Building auto-generation tooling for READMEs (future idea, not this epic)
 - Rewriting the plugin hooks (already aligned with graph principles)
 - Creating the DOC-NNN artifact type (separate epic if decided)

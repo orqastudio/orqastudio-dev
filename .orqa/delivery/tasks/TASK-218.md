@@ -1,5 +1,5 @@
 ---
-id: TASK-218
+id: TASK-9d327363
 title: Add sources field to research schema for web references
 description: Add an optional sources field to the research artifact schema for tracking external URLs and references that informed the research.
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Existing research docs without sources still validate
   - Sources field documented in artifact framework
 relationships:
-  - target: EPIC-053
+  - target: EPIC-dc1e3e4b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: depended-on-by
 ---
 ## What

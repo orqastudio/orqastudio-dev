@@ -1,5 +1,5 @@
 ---
-id: TASK-473
+id: TASK-e40d6994
 title: Roadmap hierarchical drill-down with breadcrumbs
 description: "Build roadmap drill-down navigation: top level Now/Next/Later/Completed+Archived with milestones → click milestone for epic kanban by status → click epic for task kanban. Breadcrumb bar, collapsible done columns, drag-drop between columns, configurable grouping/sorting."
 status: completed
@@ -21,9 +21,9 @@ acceptance:
   - Drag-drop between columns changes the relevant field assignment
   - Column grouping/sorting configurable per drill-down level
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
     rationale: Roadmap drill-down (F5)
-  - target: TASK-472
+  - target: TASK-27eca2aa
     type: depends-on
 ---

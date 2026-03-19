@@ -1,5 +1,5 @@
 ---
-id: IMPL-059
+id: IMPL-2ba0fc33
 title: Graph nodes must carry display metadata — not just IDs
 description: "Relationship chips, dynamic tables, action indicators, and kanban cards all need status, title, and priority from referenced artifacts. Currently this requires full node lookup or frontmatter parsing. Display metadata should be first-class on graph nodes."
 status: active
@@ -8,9 +8,9 @@ updated: 2026-03-14
 recurrence: 1
 maturity: understanding
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: cautions
-    rationale: "TASK-429 (graph node enrichment) is the direct fix"
+    rationale: "TASK-e9219bfd (graph node enrichment) is the direct fix"
 ---
 
 ## Pattern

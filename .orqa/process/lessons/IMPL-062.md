@@ -1,5 +1,5 @@
 ---
-id: IMPL-062
+id: IMPL-bdc4e2bc
 title: Stale cache after disk changes — scan operations must refresh the graph first
 description: "The integrity scan operates on the in-memory graph cache, not disk. If artifacts changed on disk (via CLI commits, auto-fix file writes), the scan reports stale data until the graph is manually refreshed."
 status: active
@@ -8,9 +8,9 @@ updated: 2026-03-14
 recurrence: 1
 maturity: understanding
 relationships:
-  - target: EPIC-068
+  - target: EPIC-6e774e50
     type: cautions
-    rationale: "TASK-439 (refresh before rescan) is the direct fix"
+    rationale: "TASK-358020c9 (refresh before rescan) is the direct fix"
 ---
 
 ## Pattern

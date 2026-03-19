@@ -1,5 +1,5 @@
 ---
-id: TASK-495
+id: TASK-71a3c1f7
 title: "Metadata panel icons, remove duplicate relationship fields, spacing (F43, F44, F45, F46)"
 description: "Four metadata panel fixes: add icons to all metadata fields; exclude relationship-specific fields from the metadata panel (they belong only in the relationships section); reduce the gap between metadata and acceptance criteria; add a gap between acceptance criteria and body content."
 status: completed
@@ -17,7 +17,7 @@ acceptance:
   - Gap between metadata and acceptance criteria reduced
   - Gap added between acceptance criteria section and body content
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
     rationale: UAT findings F43, F44, F45, F46 — metadata panel icons, field exclusions, and spacing
 ---

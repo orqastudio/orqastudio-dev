@@ -1,6 +1,6 @@
 ---
-id: TASK-206
-title: "Create RULE-041, RULE-042, RULE-043"
+id: TASK-965b2b81
+title: "Create RULE-c95f4444, RULE-f9d0279c, RULE-7f416d7d"
 description: |
   Create three new rules documenting the enforcement layers: data persistence
   boundaries, automated skill injection, and tooling ecosystem management.
@@ -8,38 +8,38 @@ status: completed
 created: 2026-03-11
 updated: 2026-03-12
 acceptance:
-  - "RULE-041, RULE-042, RULE-043 created with valid frontmatter"
+  - "RULE-c95f4444, RULE-f9d0279c, RULE-7f416d7d created with valid frontmatter"
   - All three rules pass schema validation
   - Rules reference each other and related rules appropriately
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-193
+  - target: TASK-49c63248
     type: depends-on
-  - target: TASK-194
+  - target: TASK-4f45e5b9
     type: depends-on
-  - target: TASK-207
+  - target: TASK-34007190
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 
 ## What
 
 Three new governance rules:
-- **[RULE-041](RULE-041) (data persistence)**: Documents which data belongs in SQLite vs
+- **[RULE-c95f4444](RULE-c95f4444) (data persistence)**: Documents which data belongs in SQLite vs
   file-based artifacts vs ephemeral state
-- **[RULE-042](RULE-042) (skill injection)**: Documents the automated skill injection
+- **[RULE-f9d0279c](RULE-f9d0279c) (skill injection)**: Documents the automated skill injection
   system — when skills are injected, deduplication, path-to-skill mapping
-- **[RULE-043](RULE-043) (tooling ecosystem)**: Documents that OrqaStudio manages linter
+- **[RULE-7f416d7d](RULE-7f416d7d) (tooling ecosystem)**: Documents that OrqaStudio manages linter
   config to match documented standards, not replicate linter functionality
 
 ## How
 
-1. Create `.orqa/process/rules/[RULE-041](RULE-041).md` with proper frontmatter
-2. Create `.orqa/process/rules/[RULE-042](RULE-042).md` with proper frontmatter
-3. Create `.orqa/process/rules/[RULE-043](RULE-043).md` with proper frontmatter
+1. Create `.orqa/process/rules/[RULE-c95f4444](RULE-c95f4444).md` with proper frontmatter
+2. Create `.orqa/process/rules/[RULE-f9d0279c](RULE-f9d0279c).md` with proper frontmatter
+3. Create `.orqa/process/rules/[RULE-7f416d7d](RULE-7f416d7d).md` with proper frontmatter
 4. Follow existing rule format (schema-compliant frontmatter, body sections)
 
 ## Verification

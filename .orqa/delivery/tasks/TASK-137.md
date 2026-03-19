@@ -1,5 +1,5 @@
 ---
-id: TASK-137
+id: TASK-132f8783
 title: Implement governance coverage dashboard widget
 description: Built the dashboard widget showing governance coverage health with visual indicators for each governance area.
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Coverage percentages reflect actual scan results
   - Widget links to the detailed governance analysis view
 relationships:
-  - target: EPIC-031
+  - target: EPIC-b1b3f5db
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-321
+  - target: TASK-51007152
     type: depended-on-by
 ---
 ## What

@@ -1,5 +1,5 @@
 ---
-id: TASK-148
+id: TASK-1033a8ed
 title: Replace OrqaStudio-specific examples with generic ones in composability skill
 description: Replace OrqaStudio-specific file paths and code examples in the composability skill with generic equivalents that illustrate the same composability principles without tying them to this codebase.
 status: completed
@@ -12,10 +12,10 @@ acceptance:
   - "Examples still clearly illustrate each principle (small units, pure functions, swappable parts)"
   - Skill remains layer canon
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 

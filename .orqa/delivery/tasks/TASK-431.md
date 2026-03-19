@@ -1,5 +1,5 @@
 ---
-id: TASK-431
+id: TASK-d5e090bf
 title: Reusable pipeline stepper with configurable stages and visual refresh
 description: Refactor PipelineStepper to accept stages as a prop and update styling to match the app look and feel.
 status: completed
@@ -17,10 +17,10 @@ acceptance:
   - Stages configurable via props
   - Visual styling reviewed and updated to match app look and feel
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: delivers
     rationale: Reusable pipeline stepper enables consistent status visualization across artifact types
-  - target: TASK-430
+  - target: TASK-1f8f15b9
     type: depended-on-by
 ---
 

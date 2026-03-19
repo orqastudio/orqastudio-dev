@@ -1,6 +1,6 @@
 ---
-id: TASK-101
-title: Record composability and integration decisions (AD-015 through AD-017)
+id: TASK-cb6280ff
+title: Record composability and integration decisions (AD-69072318 through AD-1d928079)
 description: "Captured architecture decisions for composability principle, tool execution model, and provider-agnostic design."
 status: completed
 created: 2026-03-02
@@ -10,10 +10,10 @@ acceptance:
   - Composability principle is established as a platform concern
   - Decisions are added to the decisions index
 relationships:
-  - target: EPIC-026
+  - target: EPIC-46e5f406
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-316
+  - target: TASK-737a5c6c
     type: depended-on-by
 ---
 ## What
@@ -26,4 +26,4 @@ Authored each AD with rationale linking back to the product pillars, explicitly 
 
 ## Verification
 
-[AD-015](AD-015) through [AD-017](AD-017) exist in `.orqa/process/decisions/` with all required schema fields and are listed in the decisions index.
+[AD-69072318](AD-69072318) through [AD-1d928079](AD-1d928079) exist in `.orqa/process/decisions/` with all required schema fields and are listed in the decisions index.

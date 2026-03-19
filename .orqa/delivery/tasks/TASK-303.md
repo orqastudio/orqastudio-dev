@@ -1,5 +1,5 @@
 ---
-id: TASK-303
+id: TASK-7fbe6eca
 title: Clean up Claude memory files that duplicate artifact knowledge
 description: "6 of 10 Claude memory files are fully covered by artifacts in .orqa/. Per user directive, project memory should be empty when artifacts contain the knowledge. Delete duplicated memory files and verify remaining files are genuinely additive."
 status: completed
@@ -10,12 +10,12 @@ acceptance:
   - Remaining memory files contain only genuinely additive information
   - MEMORY.md index is updated to reflect remaining files
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-302
+  - target: TASK-2e138cb1
     type: depends-on
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

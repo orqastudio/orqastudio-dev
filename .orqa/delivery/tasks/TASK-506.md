@@ -1,5 +1,5 @@
 ---
-id: TASK-506
+id: TASK-332477b0
 title: Wire transition engine to artifact graph refresh cycle
 description: Integrate the transition engine into the artifact graph refresh pipeline so that proposed transitions are evaluated after every refresh and surfaced to the frontend via a Tauri event. Unambiguous transitions (e.g. dependency-blocked) apply automatically; human-judgement transitions (e.g. epic→review) are queued for approval.
 status: blocked
@@ -18,14 +18,14 @@ acceptance:
   - "Auto-apply mode: transitions that are unambiguous (like blocked dependencies) apply automatically"
   - "Manual-approve mode: transitions that need human judgement (like epic→review) are queued for approval"
 relationships:
-  - target: EPIC-077
+  - target: EPIC-9fbc17c0
     type: delivers
-  - target: TASK-505
+  - target: TASK-a2384d29
     type: depends-on
 ---
 ## What
 
-After every artifact graph refresh, call `evaluate_transitions` from TASK-505 and route the resulting proposals. Proposals are split into two buckets by transition type: auto-apply (unambiguous, deterministic) and manual-approve (requires human judgement). Auto-apply proposals are applied immediately and written back to disk; manual-approve proposals are emitted to the frontend as a Tauri event so the user can review and accept them.
+After every artifact graph refresh, call `evaluate_transitions` from TASK-a2384d29 and route the resulting proposals. Proposals are split into two buckets by transition type: auto-apply (unambiguous, deterministic) and manual-approve (requires human judgement). Auto-apply proposals are applied immediately and written back to disk; manual-approve proposals are emitted to the frontend as a Tauri event so the user can review and accept them.
 
 ## How
 

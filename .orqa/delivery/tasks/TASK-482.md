@@ -1,5 +1,5 @@
 ---
-id: TASK-482
+id: TASK-79f51e7d
 title: Build LessonVelocityWidget and DecisionQueueWidget
 description: "Build two widgets for the 'What's Next' column. LessonVelocityWidget shows the lesson pipeline stages (Draft, Review, Promoted, Active) with item counts per stage. DecisionQueueWidget shows pending decisions and blockers with context and days pending."
 status: completed
@@ -16,9 +16,9 @@ acceptance:
   - DecisionQueueWidget shows pending decisions/blockers with context and days pending
   - "Both widgets placed in the \"What's Next\" column"
 relationships:
-  - target: EPIC-074
+  - target: EPIC-11561c51
     type: delivers
     rationale: Lesson velocity and decision queue widgets for the dashboard redesign
-  - target: TASK-479
+  - target: TASK-2e078ea2
     type: depends-on
 ---

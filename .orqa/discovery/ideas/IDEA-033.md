@@ -1,5 +1,5 @@
 ---
-id: IDEA-033
+id: IDEA-464ab876
 title: Live Roadmap View
 description: Replace the static roadmap markdown document with a database-driven roadmap view that auto-updates as epic/milestone statuses change. First artifact type to be driven by SQLite rather than file scanning.
 status: captured
@@ -12,9 +12,9 @@ research-needed:
   - "UI design for roadmap view (timeline, kanban, grouped list)"
   - "What happens to the markdown roadmap doc — deprecate or auto-generate?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Problem
@@ -51,7 +51,7 @@ This could be built as either a core feature or a plugin. Both have trade-offs.
 - Con: Plugin API doesn't exist yet — building the roadmap would force plugin architecture decisions prematurely
 - Con: Roadmap needs deep access to milestone/epic state — may need privileged plugin APIs
 
-**Recommendation to investigate:** If the traceability graph [IDEA-032](IDEA-032) is built as core infrastructure, the roadmap could be a view on top of that graph — making it a natural plugin candidate. But if the roadmap is needed before the graph, it may be better as a core feature that later migrates to the plugin layer.
+**Recommendation to investigate:** If the traceability graph [IDEA-9334b770](IDEA-9334b770) is built as core infrastructure, the roadmap could be a view on top of that graph — making it a natural plugin candidate. But if the roadmap is needed before the graph, it may be better as a core feature that later migrates to the plugin layer.
 
 ## Scope Note
 

@@ -1,13 +1,13 @@
 ---
-id: TASK-171
-title: Create capability vocabulary rule (RULE-040)
+id: TASK-ad922861
+title: Create capability vocabulary rule (RULE-92dba0cb)
 description: "Create a rule defining the abstract capability vocabulary, provider mapping tables, and delegation resolution protocol."
 status: completed
 created: 2026-03-11
 updated: 2026-03-12
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 docs:
-  - DOC-036
+  - DOC-01ddd8aa
 acceptance:
   - "Rule defines the canonical capability vocabulary (file_read, file_write, etc.)"
   - Rule contains provider mapping tables for Claude Code CLI and OrqaStudio App
@@ -15,25 +15,25 @@ acceptance:
   - Rule includes detection mechanism for determining current context
   - Rule passes schema validation
 relationships:
-  - target: EPIC-051
+  - target: EPIC-0a7b21cf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-172
+  - target: TASK-561205e2
     type: depended-on-by
-  - target: TASK-173
+  - target: TASK-f936b9b2
     type: depended-on-by
-  - target: TASK-174
+  - target: TASK-2067fdaf
     type: depended-on-by
-  - target: TASK-177
+  - target: TASK-869c27b5
     type: depended-on-by
-  - target: TASK-341
+  - target: TASK-413692fe
     type: depended-on-by
 ---
 
 ## What
 
-Create [RULE-040](RULE-040) that governs how agent capabilities map to provider-specific tools.
-This is the foundation that [EPIC-050](EPIC-050) (companion plugin) and all future provider
+Create [RULE-92dba0cb](RULE-92dba0cb) that governs how agent capabilities map to provider-specific tools.
+This is the foundation that [EPIC-3a8ad459](EPIC-3a8ad459) (companion plugin) and all future provider
 integrations will consume.
 
 ## How
@@ -48,7 +48,7 @@ integrations will consume.
 
 ## Verification
 
-- Rule file exists at `.orqa/process/rules/[RULE-040](RULE-040).md`
+- Rule file exists at `.orqa/process/rules/[RULE-92dba0cb](RULE-92dba0cb).md`
 - Frontmatter passes schema validation
 - All current agent tool lists can be expressed using the capability vocabulary
 - No capability is ambiguous or overlapping

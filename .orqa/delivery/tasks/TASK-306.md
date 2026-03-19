@@ -1,7 +1,7 @@
 ---
-id: TASK-306
-title: Replace hardcoded path constants with runtime config cache (IMPL-018)
-description: "Remove paths.rs constants and all hardcoded .orqa/ paths. Load project.json once at startup, build a ProjectPaths struct, pass it through the call chain. Decision: Option C from RES-052, approved by user."
+id: TASK-0bcbb927
+title: Replace hardcoded path constants with runtime config cache (IMPL-c306b136)
+description: "Remove paths.rs constants and all hardcoded .orqa/ paths. Load project.json once at startup, build a ProjectPaths struct, pass it through the call chain. Decision: Option C from RES-cd3d33bf, approved by user."
 status: completed
 created: 2026-03-13
 updated: 2026-03-13
@@ -11,12 +11,12 @@ acceptance:
   - All modules that previously used path constants use ProjectPaths instead
   - "project_scanner.rs, artifact_fs.rs, and delivery workflow code all read from config"
   - "make lint-backend && make test-rust pass"
-  - IMPL-018 maturity updated to understanding
+  - IMPL-c306b136 maturity updated to understanding
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 ## What
@@ -31,7 +31,7 @@ Eliminate the constant/config duality by making `project.json` the single source
 4. Load and cache at app startup
 5. Thread through service constructors
 6. Remove `paths.rs` constants (keep only `ORQA_DIR` and `SETTINGS_FILE` as bootstrap constants needed to find the config file itself)
-7. Update [IMPL-018](IMPL-018) maturity to understanding
+7. Update [IMPL-c306b136](IMPL-c306b136) maturity to understanding
 
 ## Verification
 

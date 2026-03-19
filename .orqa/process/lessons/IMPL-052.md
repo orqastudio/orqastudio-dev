@@ -1,7 +1,7 @@
 ---
-id: IMPL-052
+id: IMPL-85add0f1
 title: Orchestrator stops to ask permission when not blocked — breaks flow
-description: "After completing Phase 1 of EPIC-061, the orchestrator asked 'shall I continue?' instead of just continuing. It was not blocked — no dependency gate, no user decision needed, no ambiguity. Asking permission when unblocked wastes the user's time and breaks momentum."
+description: "After completing Phase 1 of EPIC-4e6e9eae, the orchestrator asked 'shall I continue?' instead of just continuing. It was not blocked — no dependency gate, no user decision needed, no ambiguity. Asking permission when unblocked wastes the user's time and breaks momentum."
 status: completed
 created: 2026-03-13
 updated: 2026-03-14

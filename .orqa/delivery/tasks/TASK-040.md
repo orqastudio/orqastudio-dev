@@ -1,24 +1,24 @@
 ---
-id: TASK-040
+id: TASK-32932be1
 title: Governance data quality backfill
 description: "Audits and repairs frontmatter quality across all governance artifacts — adding missing titles, descriptions, and consistent YAML field ordering — with no code changes required."
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - All lessons have human-readable titles (no code references) and descriptions
   - All rules have descriptions in their frontmatter
   - All research documents have descriptions
   - Research documents either all reference a milestone field or none do (consistent approach)
-  - MS-000 restructured to match MS-001 format with phases as epics and associated tasks
+  - MS-85b9269b restructured to match MS-654badde format with phases as epics and associated tasks
   - YAML field order audited across all artifact types for content hierarchy sense
   - Field ordering documented in artifact framework
 relationships:
-  - target: EPIC-043
+  - target: EPIC-a2fa3068
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-333
+  - target: TASK-34eaf518
     type: depended-on-by
 ---
 ## Findings Addressed
@@ -27,13 +27,13 @@ relationships:
 - **F5**: Research milestone grouping inconsistent
 - **F6**: Lessons have code-reference titles, some lack descriptions
 - **F7**: Rules not all have descriptions
-- **F8**: [MS-000](MS-000) needs restructuring as epics/tasks
+- **F8**: [MS-85b9269b](MS-85b9269b) needs restructuring as epics/tasks
 
 ## Notes
 
 This is a data-only task — no code changes. All fixes are governance file edits.
 
-The YAML field order audit is critical because [TASK-038](TASK-038) will make the renderer respect YAML source order. If the field order in existing files doesn't make sense from a content hierarchy perspective, the renderer fix will surface that as a display problem.
+The YAML field order audit is critical because [TASK-c740060f](TASK-c740060f) will make the renderer respect YAML source order. If the field order in existing files doesn't make sense from a content hierarchy perspective, the renderer fix will surface that as a display problem.
 
 Recommended field order per type:
 - **Milestones**: id, title, status, description, created, updated, deadline, gate, epic-count, completed-epics, tags

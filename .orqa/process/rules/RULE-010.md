@@ -1,20 +1,20 @@
 ---
-id: RULE-010
+id: RULE-1acb1602
 title: End-to-End Completeness
 description: "Every feature must be implemented across all layers (Rust command, IPC type, Svelte component, store) in the same commit."
 status: active
 created: 2026-03-07
 updated: 2026-03-13
 relationships:
-  - target: AD-017
+  - target: AD-1d928079
     type: enforces
-    rationale: Auto-generated inverse of enforces relationship from AD-017
-  - target: AD-009
+    rationale: Auto-generated inverse of enforces relationship from AD-1d928079
+  - target: AD-fcd55d44
     type: enforces
-    rationale: Auto-generated inverse of enforces relationship from AD-009
-  - target: AD-001
+    rationale: Auto-generated inverse of enforces relationship from AD-fcd55d44
+  - target: AD-e513c9e4
     type: enforces
-  - target: AD-002
+  - target: AD-a334623b
     type: enforces
 ---
 Every feature MUST be implemented across ALL layers in the same commit. Partial implementations that work in isolation but fail at runtime due to missing layers are forbidden.
@@ -101,6 +101,6 @@ Use `code_research` to map the full request chain (component -> store -> invoke 
 
 ## Related Rules
 
-- [RULE-020](RULE-020) (no-stubs) — commands must return real data, not fake responses
-- [RULE-012](RULE-012) (error-ownership) — verify the full chain works, don't assume
-- [RULE-005](RULE-005) (code-search-usage) — tools for verifying the chain exists
+- [RULE-e9c54567](RULE-e9c54567) (no-stubs) — commands must return real data, not fake responses
+- [RULE-57ccb4a3](RULE-57ccb4a3) (error-ownership) — verify the full chain works, don't assume
+- [RULE-5e03e67b](RULE-5e03e67b) (code-search-usage) — tools for verifying the chain exists

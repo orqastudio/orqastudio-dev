@@ -1,5 +1,5 @@
 ---
-id: IDEA-085
+id: IDEA-34a6bbf5
 title: Multi-repo product overview via git submodules
 description: "A parent OrqaStudio project that consumes .orqa/ artifacts from multiple git submodules, creating an overarching view of cross-project status. Includes a permissions hierarchy controlling whether parent projects can write to child .orqa/ directories or access code outside them. Potentially the implementation mechanism for organisations."
 status: surpassed
@@ -9,25 +9,25 @@ horizon: someday
 research-needed:
   - "How do git submodules map to .orqa/ artifact consumption? Can the artifact scanner recurse into submodules?"
   - "What permissions hierarchy is needed? Read-only .orqa/ vs read-write .orqa/ vs code access outside .orqa/"
-  - "How does this relate to IDEA-007 (Spaces & Organisational Structure)? Is this the implementation mechanism for organisations?"
+  - "How does this relate to IDEA-0540dcd6 (Spaces & Organisational Structure)? Is this the implementation mechanism for organisations?"
   - "Security model: how do we enforce that an orqa agent is scoped to files within its project boundary?"
   - "Can a parent project's integrity checks span submodule artifacts (e.g. cross-project dependency tracking)?"
-  - "How does this interact with IDEA-038 (Plugin Distribution via Git Submodules) — are plugins and project submodules the same mechanism?"
+  - "How does this interact with IDEA-b77e2955 (Plugin Distribution via Git Submodules) — are plugins and project submodules the same mechanism?"
   - "What does the UX look like for a product owner viewing aggregated status across 5 team repos?"
 relationships:
   - type: merged-into
-    target: IDEA-112
+    target: IDEA-4e095061
   - type: realises
-    target: EPIC-081
-  - target: AD-055
+    target: EPIC-3343ed49
+  - target: AD-c6abc8e6
     type: crystallises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 
-> **Surpassed 2026-03-16**: Multi-repo product overview merged into EPIC-081 via AD-055 (organisation mode with path-based project references, no nesting required). Security and integrity concepts (permissions hierarchy, agent scope boundaries, cross-project validation) split into IDEA-112.
+> **Surpassed 2026-03-16**: Multi-repo product overview merged into EPIC-3343ed49 via AD-c6abc8e6 (organisation mode with path-based project references, no nesting required). Security and integrity concepts (permissions hierarchy, agent scope boundaries, cross-project validation) split into IDEA-4e095061.
 
 ## Motivation
 

@@ -1,5 +1,5 @@
 ---
-id: IMPL-022
+id: IMPL-b149653d
 title: Epics with all tasks done but not marked complete should surface in the UI
 description: "When all tasks under an epic reach status:done but the epic itself remains in-progress (because it awaits human gate approval), the system should proactively surface this to the user via a dashboard or notification. Otherwise the epic sits in limbo with no visibility."
 status: completed
@@ -18,8 +18,8 @@ The user has to manually check epic status and cross-reference task statuses to 
 
 ## Fix
 
-Automatic surfacing (user-approved via RES-052). When all tasks under an epic have status: done but the epic itself is not marked done, the system surfaces it to the user for review. This prevents epics from staying perpetually open by lack of attention. Combined with the human gate on epic completion (IMPL-021), this creates a pull mechanism: system nudges, user decides.
+Automatic surfacing (user-approved via RES-cd3d33bf). When all tasks under an epic have status: done but the epic itself is not marked done, the system surfaces it to the user for review. This prevents epics from staying perpetually open by lack of attention. Combined with the human gate on epic completion (IMPL-97e2788f), this creates a pull mechanism: system nudges, user decides.
 
 ## Triage
 
-Promoted — epic readiness surfacing added to [RULE-004](RULE-004). Human gate ensures epics don't languish when all tasks done.
+Promoted — epic readiness surfacing added to [RULE-7b770593](RULE-7b770593). Human gate ensures epics don't languish when all tasks done.

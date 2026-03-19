@@ -1,5 +1,5 @@
 ---
-id: TASK-150
+id: TASK-ab739ac3
 title: Create task dependency validator hook
 description: Pre-task hook that checks depends-on tasks have status done before allowing a task to start.
 status: completed
@@ -10,15 +10,15 @@ acceptance:
   - Lists which dependencies are not done
   - Does not block if depends-on is empty or all dependencies are done
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What
 
-[RULE-004](RULE-004) defines the task dependency gate as NON-NEGOTIABLE — tasks with `depends-on` entries must have all dependencies at `status: done` before starting. Currently this is orchestrator-enforced via manual checking. Automate it.
+[RULE-7b770593](RULE-7b770593) defines the task dependency gate as NON-NEGOTIABLE — tasks with `depends-on` entries must have all dependencies at `status: done` before starting. Currently this is orchestrator-enforced via manual checking. Automate it.
 
 ## How
 

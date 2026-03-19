@@ -1,5 +1,5 @@
 ---
-id: TASK-480
+id: TASK-75f8d4bf
 title: Refactor GraphHealthWidget for clarity-focused display
 description: "Redesign the graph health widget to emphasise at-a-glance status clarity: a large status indicator, summary score, breakdown of errors and warnings, and a scan trigger button. Place in the 'Where You Are' column."
 status: completed
@@ -18,9 +18,9 @@ acceptance:
   - "Run integrity scan\" button present and functional"
   - "Widget placed in the \"Where You Are\" column"
 relationships:
-  - target: EPIC-074
+  - target: EPIC-11561c51
     type: delivers
     rationale: Graph health widget redesign for clarity
-  - target: TASK-479
+  - target: TASK-2e078ea2
     type: depends-on
 ---

@@ -1,5 +1,5 @@
 ---
-id: TASK-419
+id: TASK-248a0485
 title: Wire types + eslint-config into integrity validator + add tests
 description: "Update @orqastudio/integrity-validator to import types from @orqastudio/types, use @orqastudio/eslint-config, and add comprehensive unit tests for all 10 checks."
 status: completed
@@ -20,14 +20,14 @@ acceptance:
   - CI passes with tests + lint
   - Can run against orqa-studio and produce identical results to app scanner
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: Complete the integrity validator as a production-ready package
-  - target: TASK-417
+  - target: TASK-e6732238
     type: depends-on
-  - target: TASK-418
+  - target: TASK-ff56038f
     type: depends-on
-  - target: TASK-423
+  - target: TASK-b9cb39f8
     type: depended-on-by
 ---
 

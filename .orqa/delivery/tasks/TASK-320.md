@@ -1,6 +1,6 @@
 ---
-id: TASK-320
-title: Reconcile EPIC-030
+id: TASK-a5e7df28
+title: Reconcile EPIC-cfd1ac79
 description: "Standing reconciliation task — verify epic body accuracy: task table, pillars, docs-produced, scope."
 status: completed
 created: 2026-03-13
@@ -11,41 +11,41 @@ acceptance:
   - Epic docs-produced list matches actual documentation created/updated
   - Epic scope section accurately reflects what was in/out of scope
 relationships:
-  - target: EPIC-030
+  - target: EPIC-cfd1ac79
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-123
+  - target: TASK-8f5e769b
     type: depends-on
-  - target: TASK-124
+  - target: TASK-3bafbf7f
     type: depends-on
-  - target: TASK-125
+  - target: TASK-1368cb7f
     type: depends-on
-  - target: TASK-126
+  - target: TASK-a1e2f58a
     type: depends-on
-  - target: TASK-127
+  - target: TASK-efcbcc95
     type: depends-on
-  - target: TASK-128
+  - target: TASK-b2ebf089
     type: depends-on
-  - target: TASK-129
+  - target: TASK-8c45c6b4
     type: depends-on
-  - target: TASK-130
+  - target: TASK-02bf9d1b
     type: depends-on
-  - target: TASK-131
+  - target: TASK-ab6f8ad9
     type: depends-on
-  - target: TASK-132
+  - target: TASK-910302bc
     type: depends-on
 ---
 
 ## What
 
-Standing reconciliation task for [EPIC-030](EPIC-030). Ensures the epic body stays accurate as work evolves.
+Standing reconciliation task for [EPIC-cfd1ac79](EPIC-cfd1ac79). Ensures the epic body stays accurate as work evolves.
 
 ## Verification
 
-- Epic body task table matches actual tasks with `epic: [EPIC-030](EPIC-030)`
+- Epic body task table matches actual tasks with `epic: [EPIC-cfd1ac79](EPIC-cfd1ac79)`
 - Pillars array is accurate
 - docs-produced entries exist on disk
 
 ## Lessons
 
-- Backfilled per [RULE-004](RULE-004) epic reconciliation requirement
+- Backfilled per [RULE-7b770593](RULE-7b770593) epic reconciliation requirement

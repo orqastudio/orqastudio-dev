@@ -1,5 +1,5 @@
 ---
-id: EPIC-004
+id: EPIC-fe75b52c
 title: AI-Mediated Artifact Editing
 description: "Build an AI-mediated editing experience where creates, edits, and deletes are proposals sent to the AI conversation panel. The AI analyses cross-reference implications and suggests cascading updates to keep artifacts in sync."
 status: captured
@@ -13,10 +13,10 @@ scoring:
   complexity: 5
   dependencies: 4
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: DOC-036
+  - target: DOC-01ddd8aa
     type: documented-by
 ---
 
@@ -26,7 +26,7 @@ Can't manage governance in-app without editing. Currently requires switching to 
 
 ## Context
 
-Originally scoped as a CodeMirror-based editing UI, this epic was briefly absorbed into [EPIC-005](EPIC-005). It is now restored as a standalone epic with a fundamentally different approach: artifact mutations (create, edit, delete) are **proposals** sent to the AI conversation panel, not direct file operations.
+Originally scoped as a CodeMirror-based editing UI, this epic was briefly absorbed into [EPIC-6787bb93](EPIC-6787bb93). It is now restored as a standalone epic with a fundamentally different approach: artifact mutations (create, edit, delete) are **proposals** sent to the AI conversation panel, not direct file operations.
 
 When a user wants to create, modify, or delete an artifact, the action is formatted as a structured prompt and sent to the AI. The AI analyses the artifact graph to understand cross-reference implications — what depends on this artifact, what references it, whether changing its status would affect epic completion, milestone progress, or task dependencies — and responds with a proposal that includes the requested change plus any suggested cascading updates.
 

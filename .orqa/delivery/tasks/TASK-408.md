@@ -1,5 +1,5 @@
 ---
-id: TASK-408
+id: TASK-9637b896
 title: Humanize agent capability display and capture subagent mapping idea
 description: Display agent capabilities as human-readable labels instead of raw identifiers. Capture sidecar-specific subagent mapping as an idea.
 status: completed
@@ -15,9 +15,9 @@ assignee: null
 acceptance:
   - "Agent capabilities displayed with human-readable labels (e.g., 'Read Files' not 'file_read')"
   - Capability label mapping is centralized and reusable
-  - IDEA-089 created for sidecar-specific subagent mapping
+  - IDEA-f9bb2c66 created for sidecar-specific subagent mapping
 relationships:
-  - target: EPIC-063
+  - target: EPIC-fd22ca6c
     type: delivers
     rationale: Theme F — agent display improvements from UAT
 ---
@@ -31,4 +31,4 @@ relationships:
 - **Mapping**: `file_read` → "Read Files", `shell_execute` → "Run Commands", `code_search_semantic` → "Semantic Search", etc.
 
 ### Subagent Mapping Idea (Finding #18)
-- Create IDEA-089 capturing that subagent mapping on agents should be sidecar-specific, not part of the universal agent model
+- Create IDEA-f9bb2c66 capturing that subagent mapping on agents should be sidecar-specific, not part of the universal agent model

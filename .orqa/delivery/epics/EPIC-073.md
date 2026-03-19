@@ -1,5 +1,5 @@
 ---
-id: EPIC-073
+id: EPIC-b2ca1ea3
 title: "UAT round 3 — navigation architecture, artifact links, roadmap drill-down, doc reorg"
 description: "30 UAT findings grouped into 10 systemic themes. Largest themes: navigation architecture overhaul (Exploring/Delivery/Documentation/Process), artifact link component rework with settings, roadmap hierarchical drill-down, documentation reorganisation into book chapters, and schema migrations for scope → relationship."
 status: active
@@ -14,89 +14,89 @@ updated: "2026-03-14"
 deadline: null
 horizon: active
 relationships:
-  - target: RES-063
+  - target: RES-9c90ef3d
     type: guided-by
     rationale: "Documentation reorganisation research informs the doc reorg tasks"
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic delivers to this milestone
-  - target: TASK-490
+  - target: TASK-6d896b8d
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-490"
-  - target: TASK-497
+    rationale: "Auto-generated inverse of contains relationship from TASK-6d896b8d"
+  - target: TASK-44721f88
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-497"
-  - target: TASK-478
+    rationale: "Auto-generated inverse of contains relationship from TASK-44721f88"
+  - target: TASK-d9c5be64
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-478"
-  - target: TASK-476
+    rationale: "Auto-generated inverse of contains relationship from TASK-d9c5be64"
+  - target: TASK-07e661cd
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-476"
-  - target: TASK-494
+    rationale: "Auto-generated inverse of contains relationship from TASK-07e661cd"
+  - target: TASK-8d601baf
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-494"
-  - target: TASK-491
+    rationale: "Auto-generated inverse of contains relationship from TASK-8d601baf"
+  - target: TASK-697497a9
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-491"
-  - target: TASK-492
+    rationale: "Auto-generated inverse of contains relationship from TASK-697497a9"
+  - target: TASK-d7ef4c9d
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-492"
-  - target: TASK-471
+    rationale: "Auto-generated inverse of contains relationship from TASK-d7ef4c9d"
+  - target: TASK-88ed71e0
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-471"
-  - target: TASK-477
+    rationale: "Auto-generated inverse of contains relationship from TASK-88ed71e0"
+  - target: TASK-a3f97edc
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-477"
-  - target: TASK-475
+    rationale: "Auto-generated inverse of contains relationship from TASK-a3f97edc"
+  - target: TASK-6018c3ed
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-475"
-  - target: TASK-493
+    rationale: "Auto-generated inverse of contains relationship from TASK-6018c3ed"
+  - target: TASK-e71504ed
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-493"
-  - target: TASK-469
+    rationale: "Auto-generated inverse of contains relationship from TASK-e71504ed"
+  - target: TASK-d8a69e21
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-469"
-  - target: TASK-496
+    rationale: "Auto-generated inverse of contains relationship from TASK-d8a69e21"
+  - target: TASK-a4f1bec7
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-496"
-  - target: TASK-472
+    rationale: "Auto-generated inverse of contains relationship from TASK-a4f1bec7"
+  - target: TASK-27eca2aa
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-472"
-  - target: TASK-474
+    rationale: "Auto-generated inverse of contains relationship from TASK-27eca2aa"
+  - target: TASK-b1dc0073
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-474"
-  - target: TASK-470
+    rationale: "Auto-generated inverse of contains relationship from TASK-b1dc0073"
+  - target: TASK-ebc48b97
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-470"
-  - target: TASK-468
+    rationale: "Auto-generated inverse of contains relationship from TASK-ebc48b97"
+  - target: TASK-b8d36c3f
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-468"
-  - target: TASK-495
+    rationale: "Auto-generated inverse of contains relationship from TASK-b8d36c3f"
+  - target: TASK-71a3c1f7
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-495"
-  - target: TASK-473
+    rationale: "Auto-generated inverse of contains relationship from TASK-71a3c1f7"
+  - target: TASK-e40d6994
     type: delivered-by
-    rationale: "Auto-generated inverse of contains relationship from TASK-473"
-  - target: TASK-398
+    rationale: "Auto-generated inverse of contains relationship from TASK-e40d6994"
+  - target: TASK-730add34
     type: delivered-by
-  - target: TASK-399
+  - target: TASK-3fceb34c
     type: delivered-by
-  - target: IDEA-096
+  - target: IDEA-a5f04c5c
     type: realised-by
-  - target: RES-063
+  - target: RES-9c90ef3d
     type: guided-by
 ---
 ## Context
 
-UAT round 3 collected 30 findings across the app after implementing 31 tasks in 6 epics. F2 (agent artifact discipline — 57 integrity warnings) was addressed by EPIC-064 (enforcement bootstrapping). The remaining 29 findings group into 10 systemic themes.
+UAT round 3 collected 30 findings across the app after implementing 31 tasks in 6 epics. F2 (agent artifact discipline — 57 integrity warnings) was addressed by EPIC-915291e7 (enforcement bootstrapping). The remaining 29 findings group into 10 systemic themes.
 
 ## UAT Findings
 
 | # | Finding | Type | Area | Theme |
 |---|---------|------|------|-------|
 | F1 | Dashboard needs holistic redesign of what data is shown | ux | dashboard | Dashboard |
-| F2 | ~~57 integrity warnings~~ | ~~bug~~ | ~~process~~ | **Addressed by EPIC-064** |
-| F3 | Broken link: RES-035 → TASK-069 | bug | data | Quick fix |
+| F2 | ~~57 integrity warnings~~ | ~~bug~~ | ~~process~~ | **Addressed by EPIC-915291e7** |
+| F3 | Broken link: RES-63578440 → TASK-3ce9c6dd | bug | data | Quick fix |
 | F4 | Roadmap kanban columns don't fill available space | ux | roadmap | Roadmap |
 | F5 | Roadmap needs hierarchical drill-down: milestone → epic → task with breadcrumbs, drag-drop, collapsible done columns | ux | roadmap | Roadmap |
 | F6 | Relationships appearing in metadata card — should only be in RelationshipsList | bug | artifact-viewer | Artifact links |
@@ -109,7 +109,7 @@ UAT round 3 collected 30 findings across the app after implementing 31 tasks in 
 | F13 | Status pipeline connector line should center on circle, not stage component | ux | status-pipeline | Viewer layout |
 | F14 | Rule scope field should be relationship type (scoped-to/scoped-by) | bug | rules | Schema fixes |
 | F15 | Skill scope field should be relationship type | bug | skills | Schema fixes |
-| F16 | IDEA-095 appears under "Other" and can't be viewed | bug | artifact-browser | Quick fix |
+| F16 | IDEA-93949f43 appears under "Other" and can't be viewed | bug | artifact-browser | Quick fix |
 | F17 | Roadmap under Delivery, not top-level nav | ux | navigation | Navigation |
 | F18 | Verification sub-nav has no icon | bug | navigation | Navigation |
 | F19 | Verification section exists but no artifacts — evaluate removal | ux | navigation | Navigation |
@@ -175,7 +175,7 @@ UAT round 3 collected 30 findings across the app after implementing 31 tasks in 
 **Fix**: Move actions below status pipeline. Fix connector line vertical centering.
 
 ### Theme 7: Documentation Reorganisation (F25, F26)
-**Root cause**: Docs grew organically without structure. Needs research ([RES-063](RES-063)) then its own epic.
+**Root cause**: Docs grew organically without structure. Needs research ([RES-9c90ef3d](RES-9c90ef3d)) then its own epic.
 
 **Fix**: Research doc-chapter structure, plan migration, create epic. Remove redundant category badge.
 
@@ -192,36 +192,36 @@ UAT round 3 collected 30 findings across the app after implementing 31 tasks in 
 ### Theme 10: Quick Fixes (F3, F16)
 **Root cause**: Individual bugs.
 
-**Fix**: Fix broken link. Fix IDEA-095 categorisation.
+**Fix**: Fix broken link. Fix IDEA-93949f43 categorisation.
 
 ## Tasks
 
 ### Quick Fixes
-- [ ] [TASK-468](TASK-468): Fix broken link RES-035 → TASK-069 and IDEA-095 categorisation (F3, F16)
+- [ ] [TASK-b8d36c3f](TASK-b8d36c3f): Fix broken link RES-63578440 → TASK-3ce9c6dd and IDEA-93949f43 categorisation (F3, F16)
 
 ### Navigation Architecture (F17-F24)
-- [ ] [TASK-469](TASK-469): Restructure main nav: Exploring → Delivery → Documentation → Process
+- [ ] [TASK-d8a69e21](TASK-d8a69e21): Restructure main nav: Exploring → Delivery → Documentation → Process
 
 ### Artifact Link System (F6-F10, F27, F28)
-- [ ] [TASK-470](TASK-470): Rework ArtifactLink component — status dot inside, ellipsis, hover popover
-- [ ] [TASK-471](TASK-471): Artifact link settings — display mode (ID/title) and per-type colour coding
+- [ ] [TASK-ebc48b97](TASK-ebc48b97): Rework ArtifactLink component — status dot inside, ellipsis, hover popover
+- [ ] [TASK-88ed71e0](TASK-88ed71e0): Artifact link settings — display mode (ID/title) and per-type colour coding
 
 ### Roadmap (F4, F5)
-- [ ] [TASK-472](TASK-472): Roadmap columns fill available space
-- [ ] [TASK-473](TASK-473): Roadmap hierarchical drill-down with breadcrumbs
+- [ ] [TASK-27eca2aa](TASK-27eca2aa): Roadmap columns fill available space
+- [ ] [TASK-e40d6994](TASK-e40d6994): Roadmap hierarchical drill-down with breadcrumbs
 
 ### Schema/Data Fixes (F12, F14, F15)
-- [ ] [TASK-474](TASK-474): Migrate rule/skill scope fields to relationship types
-- [ ] [TASK-475](TASK-475): Fix lesson status vocabulary, viewer layout (actions + pipeline)
+- [ ] [TASK-b1dc0073](TASK-b1dc0073): Migrate rule/skill scope fields to relationship types
+- [ ] [TASK-6018c3ed](TASK-6018c3ed): Fix lesson status vocabulary, viewer layout (actions + pipeline)
 
 ### Dashboard Polish (F30, F32, F33)
-- [ ] [TASK-476](TASK-476): Dashboard components use shared library
+- [ ] [TASK-07e661cd](TASK-07e661cd): Dashboard components use shared library
 
 ### Documentation (F25, F26)
-- [ ] [TASK-477](TASK-477): Documentation reorg research + redundant badge removal
+- [ ] [TASK-a3f97edc](TASK-a3f97edc): Documentation reorg research + redundant badge removal
 
 ### UI Polish + Settings (F29, F31)
-- [ ] [TASK-478](TASK-478): Toast notifications + keyboard shortcuts config
+- [ ] [TASK-d9c5be64](TASK-d9c5be64): Toast notifications + keyboard shortcuts config
 
 ## Verification
 
@@ -229,6 +229,6 @@ All findings re-tested after implementation. Each theme verified independently.
 
 ## Deferred with User Awareness
 
-- F1 (dashboard holistic redesign) — research created ([RES-064](RES-064)), needs its own epic after research is complete
-- F2 (agent artifact discipline) — addressed by EPIC-064
-- IDEA-096 (exploration whiteboard) — captured as idea, not in scope for implementation
+- F1 (dashboard holistic redesign) — research created ([RES-627d3b37](RES-627d3b37)), needs its own epic after research is complete
+- F2 (agent artifact discipline) — addressed by EPIC-915291e7
+- IDEA-a5f04c5c (exploration whiteboard) — captured as idea, not in scope for implementation

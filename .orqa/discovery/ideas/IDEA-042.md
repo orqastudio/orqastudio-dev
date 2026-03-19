@@ -1,5 +1,5 @@
 ---
-id: IDEA-042
+id: IDEA-6bd0622f
 title: Dev Controller — unified development lifecycle orchestrator
 description: "A persistent Node process that owns the entire dev lifecycle — spawning, monitoring, and restarting all app processes (Vite, Rust, sidecar) with unified output, IPC-based control, and dogfood session persistence."
 status: exploring
@@ -13,9 +13,9 @@ research-needed:
   - "How to pipe controller output into OrqaStudio's own UI (dev panel)"
   - "Hot reload strategy — Vite HMR for frontend, controlled restart for Rust"
 relationships:
-  - target: PILLAR-003
+  - target: PILLAR-94b281db
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 
@@ -24,7 +24,7 @@ relationships:
 
 Development workflow hits friction from three independent problems that share one root cause: **no single process owns the dev lifecycle**.
 
-1. **Orphaned processes** — `cargo tauri dev` spawns Vite as a grandchild. When cargo dies, Vite survives, holding ports. This is a [known Tauri bug](https://github.com/tauri-apps/tauri/issues/10023) with no upstream fix. See [RES-016](RES-016).
+1. **Orphaned processes** — `cargo tauri dev` spawns Vite as a grandchild. When cargo dies, Vite survives, holding ports. This is a [known Tauri bug](https://github.com/tauri-apps/tauri/issues/10023) with no upstream fix. See [RES-5a9e6375](RES-5a9e6375).
 2. **No build visibility** — Rust compilation output, Vite HMR status, and sidecar logs are scattered across processes. Developers (human and agent) can't see what's happening.
 3. **Session loss on restart** — Dogfooding means the app you're editing IS the app you're running. Restarting it kills the active session. There's no mechanism to persist and restore context across restarts.
 
@@ -102,7 +102,7 @@ This means `make restart` becomes seamless — the app comes back exactly where 
 
 ## Interim Solution (Shipped)
 
-`debugger/dev.mjs` currently provides reliable `stop` and `restart` using Node's `process.kill()` and port verification. This works today and can evolve into the full controller. See [RES-016](RES-016) for the research that informed this approach.
+`debugger/dev.mjs` currently provides reliable `stop` and `restart` using Node's `process.kill()` and port verification. This works today and can evolve into the full controller. See [RES-5a9e6375](RES-5a9e6375) for the research that informed this approach.
 
 ## Research Needed
 

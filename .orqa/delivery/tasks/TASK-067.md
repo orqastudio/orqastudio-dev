@@ -1,13 +1,13 @@
 ---
-id: TASK-067
+id: TASK-e1d418de
 title: Create or update commit discipline skill
 description: Create or update commit discipline skill
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
-  - SKILL-024 skill includes commit discipline section
+  - SKILL-819789ab skill includes commit discipline section
   - Covers when to commit during governance work
   - Covers how to group changes into logical commits
   - Covers commit message conventions for governance vs code
@@ -15,14 +15,14 @@ acceptance:
   - Alternatively
   - a standalone commit-discipline skill if scope warrants it
 relationships:
-  - target: EPIC-047
+  - target: EPIC-39860e8b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-066
+  - target: TASK-58372e60
     type: depends-on
-  - target: TASK-068
+  - target: TASK-648a5a90
     type: depended-on-by
-  - target: TASK-337
+  - target: TASK-5e116826
     type: depended-on-by
 ---
 

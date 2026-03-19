@@ -1,5 +1,5 @@
 ---
-id: IMPL-008
+id: IMPL-bb34f3cf
 title: Extract domain logic before command files become monolithic
 description: Command files grow incrementally during feature work. Extract domain logic into focused service modules as soon as a command file exceeds 300 lines. Thin commands delegate to domain services.\n
 status: active
@@ -19,7 +19,7 @@ During initial implementation (Sub-Phases 3-12), the priority was getting featur
 
 ## The Correct Approach
 
-Extract domain logic into focused service modules (`domain/*.rs`) as soon as a command file exceeds ~300 lines. Command handlers should be thin orchestrators (30-50 lines) that delegate to domain services. This was formalized in [AD-026](AD-026).
+Extract domain logic into focused service modules (`domain/*.rs`) as soon as a command file exceeds ~300 lines. Command handlers should be thin orchestrators (30-50 lines) that delegate to domain services. This was formalized in [AD-6cd1ff6f](AD-6cd1ff6f).
 
 ## Git Evidence
 

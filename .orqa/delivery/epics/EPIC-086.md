@@ -1,35 +1,35 @@
 ---
-id: EPIC-086
+id: EPIC-00e54475
 title: "CLI maintenance plugin — skills, docs, hooks, install command"
 description: "Completed the CLI plugin with 7 skills, 5 docs, all paired via synchronised-with. Pre-commit hooks for integrity/version/license/readme. orqa install command with prereqs, submodules, deps, link steps. orqa verify, orqa check, orqa test commands."
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
-  - target: TASK-537
+  - target: TASK-68fc93b3
     type: delivered-by
-  - target: TASK-538
+  - target: TASK-32776287
     type: delivered-by
-  - target: TASK-539
+  - target: TASK-82b55b9e
     type: delivered-by
-  - target: TASK-540
+  - target: TASK-877af777
     type: delivered-by
-  - target: TASK-541
+  - target: TASK-7fb4c25e
     type: delivered-by
-  - target: TASK-542
+  - target: TASK-c99f1a0f
     type: delivered-by
-  - target: TASK-543
+  - target: TASK-643705c5
     type: delivered-by
-  - target: TASK-544
+  - target: TASK-8ec6d63c
     type: delivered-by
-  - target: TASK-545
+  - target: TASK-01ae841b
     type: delivered-by
-  - target: TASK-546
+  - target: TASK-a7850776
     type: delivered-by
 ---
 
-# EPIC-086: CLI maintenance plugin — skills, docs, hooks, install command
+# EPIC-00e54475: CLI maintenance plugin — skills, docs, hooks, install command
 
 Completed the CLI plugin with 7 skills, 5 docs, all paired via synchronised-with. Pre-commit hooks for integrity/version/license/readme. orqa install command with prereqs, submodules, deps, link steps. orqa verify, orqa check, orqa test commands.

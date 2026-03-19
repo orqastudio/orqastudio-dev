@@ -1,32 +1,32 @@
 ---
-id: TASK-268
-title: Fix EPIC-005 task statuses
+id: TASK-dce77e0b
+title: Fix EPIC-6787bb93 task statuses
 description: Correct task statuses that were marked done incorrectly.
 status: completed
 created: 2026-03-12
 updated: 2026-03-12
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
-  - TASK-170 status reverted to in-progress with note about client-side-only search
-  - TASK-164 status confirmed as todo
-  - EPIC-005 description updated to reflect true completion state
+  - TASK-21b461ea status reverted to in-progress with note about client-side-only search
+  - TASK-db9be55f status confirmed as todo
+  - EPIC-6787bb93 description updated to reflect true completion state
 relationships:
-  - target: EPIC-057
+  - target: EPIC-4726cb3b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-347
+  - target: TASK-91bc09f9
     type: depended-on-by
 ---
 
 ## What
 
-[RES-047](RES-047) found [TASK-170](TASK-170) (AI search) marked done but implementation is client-side text search only, not AI-driven. [TASK-164](TASK-164) (README audit) was never started.
+[RES-9bcc7279](RES-9bcc7279) found [TASK-21b461ea](TASK-21b461ea) (AI search) marked done but implementation is client-side text search only, not AI-driven. [TASK-db9be55f](TASK-db9be55f) (README audit) was never started.
 
 ## How
 
-1. Update [TASK-170](TASK-170) status to `in-progress`, add note about current state
-2. Verify [TASK-164](TASK-164) is `todo`
-3. Update [EPIC-005](EPIC-005) description to reflect ~65% completion
+1. Update [TASK-21b461ea](TASK-21b461ea) status to `in-progress`, add note about current state
+2. Verify [TASK-db9be55f](TASK-db9be55f) is `todo`
+3. Update [EPIC-6787bb93](EPIC-6787bb93) description to reflect ~65% completion
 
 ## Verification
 

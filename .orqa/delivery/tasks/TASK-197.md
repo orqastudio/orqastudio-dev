@@ -1,5 +1,5 @@
 ---
-id: TASK-197
+id: TASK-4fa7dd50
 title: Implement plan-before-build + structure-before-code gates
 description: |
   Process gates that fire when code is written without epic/task context or
@@ -12,14 +12,14 @@ acceptance:
   - structure-before-code gate fires on code write without .orqa/delivery/ reads
   - Gates fire only once per session
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-195
+  - target: TASK-ff48daa1
     type: depends-on
-  - target: TASK-207
+  - target: TASK-34007190
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

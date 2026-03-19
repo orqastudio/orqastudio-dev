@@ -1,5 +1,5 @@
 ---
-id: EPIC-069
+id: EPIC-2649e450
 title: "Notification system — toast, in-app panel, desktop"
 description: "Design and implement a notification strategy covering toast messages, in-app notification panel, and desktop notifications. Determine which events use which channel."
 status: completed
@@ -14,19 +14,19 @@ updated: 2026-03-14
 deadline: null
 horizon: next
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-444
+  - target: TASK-86eb98e4
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-445
+  - target: TASK-9d2545ba
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-446
+  - target: TASK-c071d202
     type: delivered-by
     rationale: Epic contains this task
-  - target: IMPL-061
+  - target: IMPL-e17685e2
     type: cautioned-by
 ---
 ## Context
@@ -43,9 +43,9 @@ TBD — needs research on:
 
 ## Tasks
 
-- [TASK-444](TASK-444): Research notification strategy — toast, panel, desktop, event mapping
-- [TASK-445](TASK-445): Implement toast notification system
-- [TASK-446](TASK-446): Wire auto-fix and other confirmations to toast instead of inline
+- [TASK-86eb98e4](TASK-86eb98e4): Research notification strategy — toast, panel, desktop, event mapping
+- [TASK-9d2545ba](TASK-9d2545ba): Implement toast notification system
+- [TASK-c071d202](TASK-c071d202): Wire auto-fix and other confirmations to toast instead of inline
 
 ## Out of Scope
 

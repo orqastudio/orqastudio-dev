@@ -1,5 +1,5 @@
 ---
-id: TASK-409
+id: TASK-8f0ef13d
 title: Research document relationship schema update and data backfill
 description: Add relationships array to research schema. Backfill existing research documents with relationship data. Backfill epic horizon fields.
 status: completed
@@ -19,7 +19,7 @@ acceptance:
   - All epics have horizon field populated (active/next/later/someday/null)
   - verify-links passes clean after backfill
 relationships:
-  - target: EPIC-063
+  - target: EPIC-fd22ca6c
     type: delivers
     rationale: Theme G — data integrity backfill from UAT
 ---

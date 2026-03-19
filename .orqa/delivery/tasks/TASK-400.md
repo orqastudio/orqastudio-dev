@@ -1,5 +1,5 @@
 ---
-id: TASK-400
+id: TASK-d746777d
 title: "Integrity check: delivered ideas must have all research-needed items resolved"
 description: "Add an integrity check that flags ideas transitioning to delivered/partially-delivered when their research-needed items haven't been answered in the body or tracked as tasks. Prevents research questions from falling through the cracks when ideas are absorbed organically without formal promotion."
 status: completed
@@ -13,12 +13,12 @@ acceptance:
   - IPC returns the warnings via run_integrity_scan
   - IntegrityWidget surfaces the warnings in the dashboard
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-390
+  - target: TASK-f6fd3161
     type: depends-on
-  - target: TASK-401
+  - target: TASK-07218422
     type: depended-on-by
 ---
 
@@ -37,7 +37,7 @@ When an idea is delivered without going through formal promotion (absorbed organ
 
 ## Verification
 
-Run integrity scan on current `.orqa/` — should flag IDEA-065's remaining questions (now tracked as TASK-398/399) as resolved since tasks exist.
+Run integrity scan on current `.orqa/` — should flag IDEA-9bfb9012's remaining questions (now tracked as TASK-730add34/399) as resolved since tasks exist.
 
 ## Lessons
 

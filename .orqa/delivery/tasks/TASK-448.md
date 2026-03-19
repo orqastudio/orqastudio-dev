@@ -1,5 +1,5 @@
 ---
-id: TASK-448
+id: TASK-c4de13e1
 title: Dynamic artifact table component
 description: "Support live artifact tables in markdown that show status, title, and priority from the graph."
 status: completed
@@ -17,10 +17,10 @@ acceptance:
   - "Tables show status, title, priority from graph"
   - "Works for tasks-on-epic, epics-on-milestone"
 relationships:
-  - target: EPIC-070
+  - target: EPIC-f684378f
     type: delivers
     rationale: Dynamic tables replace manual artifact lists with live graph data
-  - target: TASK-429
+  - target: TASK-e9219bfd
     type: depends-on
 ---
 

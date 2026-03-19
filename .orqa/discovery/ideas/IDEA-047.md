@@ -1,5 +1,5 @@
 ---
-id: IDEA-047
+id: IDEA-c31c1c6b
 title: Multi-Provider Model Routing
 description: "Route different agent roles to different AI providers/models based on task type. Planning done by one model (potentially local/fine-tuned), implementation by another (cloud provider like Claude). Enables cost optimization, latency reduction, and specialized model selection per role."
 status: captured
@@ -13,9 +13,9 @@ research-needed:
   - "What model routing strategies exist (static per-role, dynamic based on task complexity)?"
   - "How to handle context sharing between models when different roles work on the same task?"
 relationships:
-  - target: PILLAR-003
+  - target: PILLAR-94b281db
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Motivation
@@ -25,7 +25,7 @@ OrqaStudio's universal agent model already separates work into distinct roles (P
 1. **Cost optimization** — use cheaper/local models for planning, expensive models for implementation
 2. **Latency reduction** — local fine-tuned models for fast planning iterations
 3. **Specialization** — models tuned for specific tasks (code review, documentation, architecture)
-4. **Provider independence** — the app already aims to be provider-agnostic (AD-016), this extends that to per-role granularity
+4. **Provider independence** — the app already aims to be provider-agnostic (AD-4047ceb1), this extends that to per-role granularity
 
 ## Sketch
 

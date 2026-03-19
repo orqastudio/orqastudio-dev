@@ -1,5 +1,5 @@
 ---
-id: TASK-427
+id: TASK-82add1d1
 title: "Switch tier-1 packages from file: to published deps + publish"
 description: "Update integrity-validator and SDK to depend on published @orqastudio/types instead of file: references. Fix CI, verify, then publish both."
 status: completed
@@ -21,12 +21,12 @@ acceptance:
   - "@orqastudio/integrity-validator v0.1.0 published to GitHub Packages"
   - "@orqastudio/sdk v0.1.0 published to GitHub Packages"
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: All packages published and consuming real versions
-  - target: TASK-426
+  - target: TASK-c3abf5c1
     type: depends-on
-  - target: TASK-428
+  - target: TASK-9593e951
     type: depended-on-by
 ---
 

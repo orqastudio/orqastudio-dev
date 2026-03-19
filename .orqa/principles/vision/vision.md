@@ -6,11 +6,11 @@ created: 2026-03-02
 updated: 2026-03-07
 sort: 1
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: upheld-by
-  - target: PILLAR-002
+  - target: PILLAR-cdf756ff
     type: upheld-by
-  - target: PILLAR-003
+  - target: PILLAR-94b281db
     type: upheld-by
 ---
 
@@ -381,7 +381,7 @@ OrqaStudio's governance artifacts live under `.orqa/` as standard markdown files
 - **Same-format tools** (Claude Code CLI) — symlinks from `.claude/` to `.orqa/` paths
 - **Different-format tools** (Cursor, Copilot) — generated config files (`.cursorrules`, `.github/copilot-instructions.md`) produced from `.orqa/` governance
 
-Distribution is bidirectional: changes in OrqaStudio regenerate tool configs; direct edits to tool configs are detected and can be adopted back into `.orqa/`. See [AD-030](../../governance/decisions/[AD-030](AD-030).md) for the full governance hub architecture.
+Distribution is bidirectional: changes in OrqaStudio regenerate tool configs; direct edits to tool configs are detected and can be adopted back into `.orqa/`. See [AD-6f0dea5e](../../governance/decisions/[AD-6f0dea5e](AD-6f0dea5e).md) for the full governance hub architecture.
 
 This is a contextual capability, not a requirement. If a user is not using any external AI tools, the distribution features are simply irrelevant — OrqaStudio handles all governance natively.
 

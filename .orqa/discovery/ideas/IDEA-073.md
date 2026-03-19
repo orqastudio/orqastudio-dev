@@ -1,5 +1,5 @@
 ---
-id: IDEA-073
+id: IDEA-bcf96889
 title: "UI polish: favicons, titlebar icon, and visual rough edges"
 description: "The app's favicons and titlebar icon need updating from defaults, and there are visual rough edges like spacing around the close button hover state that make the app feel unfinished."
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - Audit close/minimize/maximize button hover states for spacing issues
   - "What other visual rough edges exist in the current dogfood build?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

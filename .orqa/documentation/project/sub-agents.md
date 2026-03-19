@@ -1,5 +1,5 @@
 ---
-id: DOC-015
+id: DOC-e5ff4baf
 title: Sub-Agent Support Architecture
 category: architecture
 description: Architecture for sub-agent support enabling nested agent delegation within conversations.
@@ -7,12 +7,12 @@ created: 2026-03-05
 updated: 2026-03-05
 sort: 15
 relationships:
-  - target: RULE-004
+  - target: RULE-7b770593
     type: documents
-    rationale: Documentation page references RULE-004
-  - target: AD-010
+    rationale: Documentation page references RULE-7b770593
+  - target: AD-0dbba717
     type: documents
-    rationale: Documentation page references AD-010
+    rationale: Documentation page references AD-0dbba717
 ---
 
 
@@ -78,7 +78,7 @@ The `spawn_agent` tool is an OrqaStudio MCP tool, implemented in Rust, exposed t
   ],
   "violations": [
     {
-      "entry_id": "RULE-004-001",
+      "entry_id": "RULE-7b770593-001",
       "description": "Blocked: no `any` type in TypeScript",
       "verdict": "block"
     }
@@ -193,7 +193,7 @@ Turn limits are enforced by the Rust runtime, not by the sidecar. The sidecar re
 
 ## Enforcement in Sub-Agents
 
-Sub-agent tool calls pass through the same enforcement engine as parent tool calls. A sub-agent writing a file with `: any` in TypeScript will be blocked by [RULE-004](RULE-004)-001, the same as if the orchestrator wrote it directly. Sub-agent violations are recorded in the `violations` table with the `session_id` of the parent session and a `sub_agent_spawn_id` reference.
+Sub-agent tool calls pass through the same enforcement engine as parent tool calls. A sub-agent writing a file with `: any` in TypeScript will be blocked by [RULE-7b770593](RULE-7b770593)-001, the same as if the orchestrator wrote it directly. Sub-agent violations are recorded in the `violations` table with the `session_id` of the parent session and a `sub_agent_spawn_id` reference.
 
 ---
 
@@ -230,7 +230,7 @@ backend/src-tauri/src/
 
 ## Related Documents
 
-- [AD-010](AD-010) — Tool implementation as MCP (orqa_ tool namespace)
+- [AD-0dbba717](AD-0dbba717) — Tool implementation as MCP (orqa_ tool namespace)
 - `.orqa/documentation/development/enforcement.md` — Enforcement engine that sub-agent calls pass through
 - `.orqa/documentation/development/tool-definitions.md` — Built-in tool definitions and approval matrix
 - `.orqa/documentation/development/orchestration.md` — Orchestration model and task delegation workflow

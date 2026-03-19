@@ -1,5 +1,5 @@
 ---
-id: TASK-310
+id: TASK-6dab59a2
 title: "Plugin: maintain memory entries for unimplemented ADs"
 description: "Use Claude Code's memory system to surface unimplemented architecture decisions. Session-start hook creates/updates concise memory entries for accepted ADs lacking enforced-by/practiced-by edges. Hook also cleans up memory entries when ADs mature. Leverages provider-native memory for compaction-resistant context."
 status: completed
@@ -14,12 +14,12 @@ acceptance:
   - Existing session-start functionality unchanged
   - Stdout AD injection block replaced with memory-based approach
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
-  - target: IMPL-040
+  - target: IMPL-4e9b3f2d
     type: yields
 ---
 ## What
@@ -46,4 +46,4 @@ Use Claude Code's native memory system to surface architecture decisions that ha
 
 ## Lessons
 
-- [IMPL-040](IMPL-040): Decisions scrolled out of view must be resurfaced — memory system addresses this
+- [IMPL-4e9b3f2d](IMPL-4e9b3f2d): Decisions scrolled out of view must be resurfaced — memory system addresses this

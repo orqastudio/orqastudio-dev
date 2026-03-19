@@ -1,5 +1,5 @@
 ---
-id: IDEA-099
+id: IDEA-744c341a
 title: Personas as first-class artifacts
 description: "Personas (Alex, Sam, Jordan) should be a first-class artifact type with their own schema, frontmatter, and relationships — not a static documentation page."
 status: captured
@@ -8,9 +8,9 @@ updated: 2026-03-15
 horizon: next
 research-needed: []
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

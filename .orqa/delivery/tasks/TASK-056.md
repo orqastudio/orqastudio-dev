@@ -1,11 +1,11 @@
 ---
-id: TASK-056
+id: TASK-2ac2d88f
 title: Update rules for universal roles
 description: "Update agent-delegation.md and all other rules that reference old software-specific agent names to use the new universal role names (Implementer, Reviewer, etc.) and skill-based delegation."
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - agent-delegation.md rewritten for 7 universal roles instead of 16 agents
   - "Delegation table uses role + skill pattern (e.g. \"Implementer + backend skills\")"
@@ -15,16 +15,16 @@ acceptance:
   - honest-reporting.md references updated
   - No remaining references to deleted agent names in any rule file
 relationships:
-  - target: EPIC-045
+  - target: EPIC-be023ed2
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-052
+  - target: TASK-4a2936f9
     type: depends-on
-  - target: TASK-053
+  - target: TASK-f6850c71
     type: depends-on
-  - target: TASK-055
+  - target: TASK-58887d38
     type: depended-on-by
-  - target: TASK-335
+  - target: TASK-0d8b4a06
     type: depended-on-by
 ---
 

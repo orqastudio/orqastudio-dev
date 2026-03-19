@@ -1,5 +1,5 @@
 ---
-id: IDEA-058
+id: IDEA-3293309b
 title: OrqaDev Companion App + In-App Debug Overlay
 description: "Replace the dev dashboard HTML page with a pure SSE endpoint, build a dedicated OrqaDev companion app that consumes the feed, and add an optional in-app debug overlay that subscribes to the same stream."
 status: captured
@@ -12,9 +12,9 @@ research-needed:
   - "In-app debug overlay UX — toggle mechanism, panel placement, performance impact"
   - Whether companion app should also expose process controls (start/restart/stop) or just observe
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 
@@ -51,5 +51,5 @@ Dev Controller (debugger/dev.mjs)
 ### Key principle
 
 The SSE stream is the single source of truth for all dev-time observability. Everything
-subscribes to the same feed. [TASK-250](TASK-250) (routing all logging to the stream) is the prerequisite
+subscribes to the same feed. [TASK-aadbf15a](TASK-aadbf15a) (routing all logging to the stream) is the prerequisite
 — this idea builds on top of that foundation.

@@ -1,7 +1,7 @@
 ---
-id: EPIC-026
+id: EPIC-46e5f406
 title: Architecture Decisions
-description: Formal architecture decision records (AD-007 through AD-017) capturing every significant technical choice made before implementation.
+description: Formal architecture decision records (AD-dc919e52 through AD-1d928079) capturing every significant technical choice made before implementation.
 status: completed
 priority: P1
 created: 2026-03-02
@@ -13,67 +13,67 @@ scoring:
   complexity: 3
   dependencies: 5
 relationships:
-  - target: MS-000
+  - target: MS-85b9269b
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-099
+  - target: TASK-62998ad6
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-100
+  - target: TASK-97dfe088
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-101
+  - target: TASK-cb6280ff
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-102
+  - target: TASK-e0b5c973
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-316
+  - target: TASK-737a5c6c
     type: delivered-by
     rationale: Epic contains this task
-  - target: AD-007
+  - target: AD-dc919e52
     type: driven-by
-  - target: AD-008
+  - target: AD-22650b3b
     type: driven-by
-  - target: AD-009
+  - target: AD-fcd55d44
     type: driven-by
-  - target: AD-010
+  - target: AD-0dbba717
     type: driven-by
-  - target: AD-011
+  - target: AD-5d9ac6bd
     type: driven-by
-  - target: AD-012
+  - target: AD-834fc71a
     type: driven-by
-  - target: AD-013
+  - target: AD-afc78f6e
     type: driven-by
-  - target: AD-014
+  - target: AD-8b91f5a4
     type: driven-by
-  - target: AD-015
+  - target: AD-69072318
     type: driven-by
-  - target: AD-016
+  - target: AD-4047ceb1
     type: driven-by
-  - target: AD-017
+  - target: AD-1d928079
     type: driven-by
-  - target: AD-007
+  - target: AD-dc919e52
     type: driven-by
-  - target: AD-008
+  - target: AD-22650b3b
     type: driven-by
-  - target: AD-009
+  - target: AD-fcd55d44
     type: driven-by
-  - target: AD-010
+  - target: AD-0dbba717
     type: driven-by
-  - target: AD-011
+  - target: AD-5d9ac6bd
     type: driven-by
-  - target: AD-012
+  - target: AD-834fc71a
     type: driven-by
-  - target: AD-013
+  - target: AD-afc78f6e
     type: driven-by
-  - target: AD-014
+  - target: AD-8b91f5a4
     type: driven-by
-  - target: AD-015
+  - target: AD-69072318
     type: driven-by
-  - target: AD-016
+  - target: AD-4047ceb1
     type: driven-by
-  - target: AD-017
+  - target: AD-1d928079
     type: driven-by
 ---
 ## Why P1
@@ -82,7 +82,7 @@ Architecture decisions are the governing law of the codebase. Every implementati
 
 ## What Was Done
 
-- [AD-007](AD-007) through [AD-017](AD-017) recorded in `.orqa/documentation/development/decisions.md`
+- [AD-dc919e52](AD-dc919e52) through [AD-1d928079](AD-1d928079) recorded in `.orqa/documentation/development/decisions.md`
 - Decisions cover: sidecar integration pattern, streaming pipeline design, security model, MCP host approach, persistence strategy, governance format, composability principle
 - Each decision includes context, the decision made, consequences, and status
 
@@ -104,7 +104,7 @@ Implementation approach to be defined during planning.
 
 ## Tasks
 
-- [TASK-099](TASK-099): Record core architecture decisions (AD-007 through AD-010)
-- [TASK-100](TASK-100): Record persistence and governance decisions (AD-011 through AD-014)
-- [TASK-101](TASK-101): Record composability and integration decisions (AD-015 through AD-017)
-- [TASK-102](TASK-102): Create architecture decisions index
+- [TASK-62998ad6](TASK-62998ad6): Record core architecture decisions (AD-dc919e52 through AD-0dbba717)
+- [TASK-97dfe088](TASK-97dfe088): Record persistence and governance decisions (AD-5d9ac6bd through AD-8b91f5a4)
+- [TASK-cb6280ff](TASK-cb6280ff): Record composability and integration decisions (AD-69072318 through AD-1d928079)
+- [TASK-e0b5c973](TASK-e0b5c973): Create architecture decisions index

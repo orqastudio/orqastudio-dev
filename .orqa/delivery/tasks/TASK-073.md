@@ -1,11 +1,11 @@
 ---
-id: TASK-073
+id: TASK-137ec554
 title: Build backend artifact node graph with bidirectional references
 description: "Build an ArtifactGraph struct with HashMap nodes and bidirectional ArtifactRef edges, constructed during artifact_scan_tree."
 status: completed
 created: 2026-03-10
 updated: 2026-03-10
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - ArtifactGraph struct with nodes HashMap and path_index HashMap exists
   - "ArtifactNode contains id, path, artifact_type, title, status, frontmatter as JSON, references_out and references_in"
@@ -13,14 +13,14 @@ acceptance:
   - "All known link fields extracted as references (milestone, epic, depends-on, pillars, research-refs, supersedes, etc)"
   - Graph stored in AppState behind a Mutex or RwLock
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-074
+  - target: TASK-126265d4
     type: depended-on-by
-  - target: TASK-079
+  - target: TASK-832a3128
     type: depended-on-by
-  - target: TASK-338
+  - target: TASK-12eec0f3
     type: depended-on-by
 ---
 

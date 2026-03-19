@@ -1,5 +1,5 @@
 ---
-id: TASK-123
+id: TASK-8f5e769b
 title: Initialize Tauri v2 + Svelte 5 project
 description: "Set up the initial Tauri v2 project with Svelte 5 frontend, configured plugins, build tooling, and development scripts."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Hot module replacement works for Svelte changes
   - Tauri plugins are configured and accessible
 relationships:
-  - target: EPIC-030
+  - target: EPIC-cfd1ac79
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-320
+  - target: TASK-a5e7df28
     type: depended-on-by
 ---
 ## What

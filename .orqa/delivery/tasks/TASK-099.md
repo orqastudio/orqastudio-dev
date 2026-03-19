@@ -1,6 +1,6 @@
 ---
-id: TASK-099
-title: Record core architecture decisions (AD-007 through AD-010)
+id: TASK-62998ad6
+title: Record core architecture decisions (AD-dc919e52 through AD-0dbba717)
 description: "Captured foundational architecture decisions covering thick backend, IPC boundary, error propagation, and Svelte 5 runes-only policy."
 status: completed
 created: 2026-03-02
@@ -10,10 +10,10 @@ acceptance:
   - Decisions are internally consistent and cross-referenced
   - All decisions are recorded in the decisions index
 relationships:
-  - target: EPIC-026
+  - target: EPIC-46e5f406
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-316
+  - target: TASK-737a5c6c
     type: depended-on-by
 ---
 ## What
@@ -26,4 +26,4 @@ Authored each AD artifact with context, decision rationale, consequences, and st
 
 ## Verification
 
-[AD-007](AD-007) through [AD-010](AD-010) exist in `.orqa/process/decisions/` with all required schema fields and are listed in the decisions index.
+[AD-dc919e52](AD-dc919e52) through [AD-0dbba717](AD-0dbba717) exist in `.orqa/process/decisions/` with all required schema fields and are listed in the decisions index.

@@ -1,5 +1,5 @@
 ---
-id: IDEA-025
+id: IDEA-b153fabd
 title: Agent task ownership review
 description: "Audit agent definitions for process vs execution knowledge placement, define clear task ownership boundaries between orchestrator and specialist agents."
 status: surpassed
@@ -11,11 +11,11 @@ research-needed:
   - Define clear task ownership boundaries between orchestrator and agents
   - Review whether any orchestrator responsibilities are missing from its definition
 relationships:
-  - target: EPIC-045
+  - target: EPIC-be023ed2
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation
@@ -24,11 +24,11 @@ Agent task ownership boundaries between orchestrator and specialist agents were 
 
 ## Archived
 
-This concern was resolved by [EPIC-045](EPIC-045) (Portable Governance Framework), which replaced the 15 specialist agent definitions with 7 universal roles and established clear orchestrator-vs-agent ownership boundaries via [RULE-001](RULE-001). Process knowledge now lives in skills loaded by the orchestrator, and execution knowledge in skills loaded by implementers.
+This concern was resolved by [EPIC-be023ed2](EPIC-be023ed2) (Portable Governance Framework), which replaced the 15 specialist agent definitions with 7 universal roles and established clear orchestrator-vs-agent ownership boundaries via [RULE-532100d9](RULE-532100d9). Process knowledge now lives in skills loaded by the orchestrator, and execution knowledge in skills loaded by implementers.
 
 ## Problem
 
-During UAT Round 1 [EPIC-043](EPIC-043), we discovered that process knowledge (UAT methodology) was embedded in a specialist agent (qa-tester) rather than at the orchestrator level where it belongs. This suggests a broader pattern: task ownership between the orchestrator and specialist agents may not be clearly defined across all agent definitions.
+During UAT Round 1 [EPIC-a2fa3068](EPIC-a2fa3068), we discovered that process knowledge (UAT methodology) was embedded in a specialist agent (qa-tester) rather than at the orchestrator level where it belongs. This suggests a broader pattern: task ownership between the orchestrator and specialist agents may not be clearly defined across all agent definitions.
 
 ## Proposed Investigation
 
@@ -40,5 +40,5 @@ During UAT Round 1 [EPIC-043](EPIC-043), we discovered that process knowledge (U
 
 ## Origin
 
-- [IMPL-013](IMPL-013): Process skills belong at orchestration level
-- UAT Round 1 [EPIC-043](EPIC-043): Finding during governance encoding phase
+- [IMPL-a4643199](IMPL-a4643199): Process skills belong at orchestration level
+- UAT Round 1 [EPIC-a2fa3068](EPIC-a2fa3068): Finding during governance encoding phase

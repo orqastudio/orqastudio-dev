@@ -1,5 +1,5 @@
 ---
-id: TASK-217
+id: TASK-51610830
 title: Add web_fetch and web_search capabilities to research and planner agents
 description: Ensure Researcher and Planner agent definitions include web_fetch and web_search capabilities so they can access external knowledge during investigation.
 status: completed
@@ -7,14 +7,14 @@ created: 2026-03-12
 updated: 2026-03-12
 acceptance:
   - Researcher and Planner agents can use WebSearch and WebFetch in CLI context
-  - SKILL-046 skill is in Researcher and Planner agent definitions
-  - Capability mappings are correct in RULE-040
-  - Tool access restrictions in RULE-037 are updated
+  - SKILL-e3a559c9 skill is in Researcher and Planner agent definitions
+  - Capability mappings are correct in RULE-92dba0cb
+  - Tool access restrictions in RULE-f809076f are updated
 relationships:
-  - target: EPIC-053
+  - target: EPIC-dc1e3e4b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: depended-on-by
 ---
 ## What
@@ -26,14 +26,14 @@ The `research-methodology` skill (`.orqa/process/skills/research-methodology/SKI
 ## How
 
 1. Add `web_fetch` and `web_search` to Researcher and Planner agent capabilities
-2. Add [SKILL-046](SKILL-046) (research-methodology) to both agents' skills lists
-3. Update [RULE-037](RULE-037) tool access matrix with web capabilities
-4. Verify [RULE-040](RULE-040) already has the mappings
+2. Add [SKILL-e3a559c9](SKILL-e3a559c9) (research-methodology) to both agents' skills lists
+3. Update [RULE-f809076f](RULE-f809076f) tool access matrix with web capabilities
+4. Verify [RULE-92dba0cb](RULE-92dba0cb) already has the mappings
 
 ## Verification
 
 - Researcher agent definition has web_fetch and web_search capabilities
 - Planner agent definition has web_fetch and web_search capabilities
-- Both agents have [SKILL-046](SKILL-046) in their skills lists
-- [RULE-037](RULE-037) matrix shows web capabilities for appropriate roles
-- [RULE-040](RULE-040) mappings already cover web_fetch and web_search
+- Both agents have [SKILL-e3a559c9](SKILL-e3a559c9) in their skills lists
+- [RULE-f809076f](RULE-f809076f) matrix shows web capabilities for appropriate roles
+- [RULE-92dba0cb](RULE-92dba0cb) mappings already cover web_fetch and web_search

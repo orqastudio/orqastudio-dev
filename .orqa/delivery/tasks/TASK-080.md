@@ -1,11 +1,11 @@
 ---
-id: TASK-080
+id: TASK-db618792
 title: Write Artifact Graph SDK documentation
 description: "Create a development guide for the Artifact Graph SDK covering API reference, usage patterns, and plugin integration examples."
 status: completed
 created: 2026-03-10
 updated: 2026-03-10
-assignee: AGENT-007
+assignee: AGENT-ec1b3785
 acceptance:
   - API reference for all SDK methods with TypeScript signatures
   - "Usage examples for resolution, relationships, content reading, and subscriptions"
@@ -13,14 +13,14 @@ acceptance:
   - "Migration guide from old patterns (prefix map, raw invoke) to SDK"
   - Architecture diagram showing backend graph → Tauri commands → SDK → components
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-083
+  - target: TASK-64ceb043
     type: depends-on
-  - target: TASK-081
+  - target: TASK-30307a19
     type: depended-on-by
-  - target: TASK-338
+  - target: TASK-12eec0f3
     type: depended-on-by
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-201
+id: TASK-50b3aa55
 title: Add injection map entries to relevant rules
 description: |
   Add enforcement entries with action:inject to rules that govern specific
@@ -13,14 +13,14 @@ acceptance:
   - Each path-to-skill mapping references an existing skill
   - Writing to a mapped path triggers skill injection
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-199
+  - target: TASK-6cd46196
     type: depends-on
-  - target: TASK-207
+  - target: TASK-34007190
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-487
+id: TASK-eb73e082
 title: Sweep body-text path references across all .orqa/ files
 description: "After all file moves are complete, scan every .orqa/ file for body-text references to old documentation paths and update them to the new locations. Covers all 152 known references identified during the reorganisation planning."
 status: completed
@@ -16,9 +16,9 @@ acceptance:
   - Zero stale documentation paths remain in any .orqa/ file
   - "Verified by grep for old path patterns (product/, architecture/, process/, ui/, wireframes/)"
 relationships:
-  - target: EPIC-075
+  - target: EPIC-2a6e2567
     type: delivers
     rationale: Reference sweep to complete the documentation reorganisation
-  - target: TASK-486
+  - target: TASK-96db8fb0
     type: depends-on
 ---

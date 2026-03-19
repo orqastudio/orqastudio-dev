@@ -1,5 +1,5 @@
 ---
-id: IDEA-010
+id: IDEA-125f4ec8
 title: Domain Expansion
 description: "Extend OrqaStudio beyond software development to other domains — research, product management, operations, personal productivity, consulting, and education."
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - Domain-specific artifact templates
   - Tool and agent customisation per domain
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 # Domain Expansion

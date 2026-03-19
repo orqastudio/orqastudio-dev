@@ -1,5 +1,5 @@
 ---
-id: TASK-159
+id: TASK-03c8cc85
 title: Create rule for user-invocable skill field semantics
 description: "Document the semantics of the user-invocable field in skill YAML frontmatter as a rule, defining what it means, when to set it, and how the system uses it."
 status: completed
@@ -11,10 +11,10 @@ acceptance:
   - How the field affects UI and CLI behavior documented
   - All existing skills audited for correct user-invocable values
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What

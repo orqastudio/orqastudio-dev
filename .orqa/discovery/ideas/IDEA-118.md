@@ -1,5 +1,5 @@
 ---
-id: IDEA-118
+id: IDEA-5c25ac99
 title: "Git hosting as cloud sync — multi-user without servers"
 description: "Use GitHub/GitLab/Bitbucket as the sync layer for multi-user OrqaStudio projects. Git already tracks changes and history — a hosting provider adds authentication, access control, and cloud storage without running custom infrastructure."
 status: captured
@@ -16,10 +16,10 @@ research-needed:
   - How do we handle orqa-plugin.json merges when two users install different plugins?
   - What's the minimum viable sync — just git push/pull, or do we need real-time?
 relationships:
-  - target: PILLAR-003
+  - target: PILLAR-94b281db
     type: grounded
     rationale: Multi-user sync preserves intent across contributors — no one's thinking is lost between sessions
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 
@@ -50,5 +50,5 @@ The hard part isn't the sync mechanism (git handles that). The hard part is:
 
 1. **Merge UX** — when two users edit the same artifact, how does the app present the conflict?
 2. **Real-time vs explicit** — auto-sync on save, or manual push/pull?
-3. **ID collision** — two users creating TASK-500 simultaneously
+3. **ID collision** — two users creating TASK-afe17917 simultaneously
 4. **Branch model** — do artifact changes happen on branches with PRs, or directly on main?

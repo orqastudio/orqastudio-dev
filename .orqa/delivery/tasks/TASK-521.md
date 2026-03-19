@@ -1,10 +1,10 @@
 ---
-id: TASK-521
+id: TASK-5da087d0
 title: "Add category taxonomy to all documentation artifacts"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-084
+  - target: EPIC-50fe8602
     type: delivers
 ---

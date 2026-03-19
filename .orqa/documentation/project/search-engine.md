@@ -1,5 +1,5 @@
 ---
-id: DOC-011
+id: DOC-c1d1f212
 title: Search Engine Architecture
 category: architecture
 description: Architecture of the embedded semantic and regex search engine using ONNX embeddings and DuckDB.
@@ -7,9 +7,9 @@ created: 2026-03-04
 updated: 2026-03-10
 sort: 10
 relationships:
-  - target: AD-003
+  - target: AD-1ad08e5f
     type: documents
-    rationale: Documentation page references AD-003
+    rationale: Documentation page references AD-1ad08e5f
 ---
 
 **Date:** 2026-03-04 | **Updated:** 2026-03-10 | **Status:** Current | **References:** Rust Modules, IPC Commands, Tool Definitions
@@ -268,7 +268,7 @@ pub async fn init_embedder(
 ) -> Result<(), OrqaError>
 ```
 
-All search commands return `Result<T, OrqaError>`. Tauri serialises `OrqaError` to the frontend via the `Serialize` derive on `OrqaError`. This follows the project-wide error propagation pattern (see [AD-003](AD-003)) — no mapping to `String` at the command boundary.
+All search commands return `Result<T, OrqaError>`. Tauri serialises `OrqaError` to the frontend via the `Serialize` derive on `OrqaError`. This follows the project-wide error propagation pattern (see [AD-1ad08e5f](AD-1ad08e5f)) — no mapping to `String` at the command boundary.
 
 ---
 

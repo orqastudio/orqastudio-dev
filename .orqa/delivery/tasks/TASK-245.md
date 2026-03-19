@@ -1,5 +1,5 @@
 ---
-id: TASK-245
+id: TASK-86293118
 title: Add search module tests (embedder.rs + store.rs)
 description: search/embedder.rs (331 lines) and search/store.rs (394 lines) handle ONNX inference and DuckDB queries with zero test coverage.
 status: completed
@@ -11,10 +11,10 @@ acceptance:
   - Tests use in-memory DuckDB where possible
   - make test-rust passes
 relationships:
-  - target: EPIC-055
+  - target: EPIC-5f9fcf48
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-345
+  - target: TASK-389af55e
     type: depended-on-by
 ---
 

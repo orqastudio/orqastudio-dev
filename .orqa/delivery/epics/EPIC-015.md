@@ -1,5 +1,5 @@
 ---
-id: EPIC-015
+id: EPIC-97d22083
 title: "CI/CD Pipeline & Distribution"
 description: "Build the CI/CD pipeline with GitHub Actions, cross-platform builds, artifact signing, and auto-update for distribution."
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 4
   dependencies: 4
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
 ---

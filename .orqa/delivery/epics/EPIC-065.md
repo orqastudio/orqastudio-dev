@@ -1,5 +1,5 @@
 ---
-id: EPIC-065
+id: EPIC-b67074cc
 title: Artifact viewer enhancements
 description: "Enhance the artifact viewer with unified relationships display, actions needed inference, pipeline position stepper, horizon display, and acceptance criteria checkboxes. Originated from UAT Theme D findings."
 status: completed
@@ -14,16 +14,16 @@ updated: 2026-03-14
 deadline: null
 horizon: active
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-406
+  - target: TASK-e9059b0b
     type: delivered-by
     rationale: Epic contains this task
 ---
 ## Context
 
-During UAT of the dashboard and artifact viewer (EPIC-063), Theme D identified 8 findings related to artifact viewer enhancements. These were substantial enough to warrant their own epic rather than being a task within the UAT fixes epic.
+During UAT of the dashboard and artifact viewer (EPIC-fd22ca6c), Theme D identified 8 findings related to artifact viewer enhancements. These were substantial enough to warrant their own epic rather than being a task within the UAT fixes epic.
 
 ## Implementation Design
 
@@ -42,7 +42,7 @@ During UAT of the dashboard and artifact viewer (EPIC-063), Theme D identified 8
 
 ## Tasks
 
-- [TASK-406](TASK-406): Implement all artifact viewer enhancements (done)
+- [TASK-e9059b0b](TASK-e9059b0b): Implement all artifact viewer enhancements (done)
 
 ## Out of Scope
 

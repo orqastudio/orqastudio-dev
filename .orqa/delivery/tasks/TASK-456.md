@@ -1,5 +1,5 @@
 ---
-id: TASK-456
+id: TASK-7fcdc743
 title: Roadmap kanban view
 description: "Create a dynamic kanban board showing milestones as columns with epic cards, with drill-down capability."
 status: completed
@@ -18,12 +18,12 @@ acceptance:
   - Drill-down into epic shows tasks
   - All data from graph
 relationships:
-  - target: EPIC-072
+  - target: EPIC-85c55435
     type: delivers
     rationale: Kanban view provides spatial overview of roadmap progress
-  - target: TASK-429
+  - target: TASK-e9219bfd
     type: depends-on
-  - target: TASK-457
+  - target: TASK-15e676d7
     type: depended-on-by
 ---
 

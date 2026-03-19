@@ -1,5 +1,5 @@
 ---
-id: EPIC-003
+id: EPIC-1dcf5ffa
 title: Context Injection on Failed Resume
 description: Add fallback context injection when SDK session resume fails due to app restart or cleared storage.
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 3
   dependencies: 2
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
 ---
@@ -27,7 +27,7 @@ Can't restart the app during development without losing conversation context. Ev
 - [ ] Sidecar emits `context_needed` event to Rust
 - [ ] Rust loads last ~20 text messages from SQLite for the session
 - [ ] Rust sends `context_history` to sidecar for injection
-- [ ] Rust emits `ContextInjected` event for transparency [EPIC-001](EPIC-001)
+- [ ] Rust emits `ContextInjected` event for transparency [EPIC-e045ab6d](EPIC-e045ab6d)
 
 ## Context
 

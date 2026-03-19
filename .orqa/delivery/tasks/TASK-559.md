@@ -1,10 +1,10 @@
 ---
-id: TASK-559
+id: TASK-92c5f278
 title: "Update github-org profile README"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-088
+  - target: EPIC-429b493d
     type: delivers
 ---

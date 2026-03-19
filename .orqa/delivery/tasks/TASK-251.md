@@ -1,5 +1,5 @@
 ---
-id: TASK-251
+id: TASK-d2842e47
 title: "Research: cross-cutting concerns of directory restructure"
 description: "Audit every config, import, and path reference affected by the proposed repository reorganisation into backend/, ui/src/, sidecars/, and debugger/ directories."
 status: completed
@@ -11,19 +11,19 @@ acceptance:
   - Watcher configuration analysis (current vs proposed)
   - Proposed migration order with verification steps between each move
   - Risk assessment with rollback strategy
-  - Findings written to RES-044
+  - Findings written to RES-c7b4b22f
 relationships:
-  - target: EPIC-056
+  - target: EPIC-7b039d05
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-346
+  - target: TASK-03741ecb
     type: depended-on-by
 ---
 
 ## What
 
 Audit the entire repository for cross-cutting path references that would break when
-directories are reorganised per [EPIC-056](EPIC-056). The goal is a complete map of every
+directories are reorganised per [EPIC-7b039d05](EPIC-7b039d05). The goal is a complete map of every
 change needed so that the implementation phase can proceed with confidence.
 
 ## How
@@ -47,7 +47,7 @@ change needed so that the implementation phase can proceed with confidence.
 6. **Migration order** — Based on dependency analysis, propose which directory to move
    first and what verification to run between each step.
 
-7. **Write findings** — Update [RES-044](RES-044) with complete findings.
+7. **Write findings** — Update [RES-c7b4b22f](RES-c7b4b22f) with complete findings.
 
 ## Verification
 
@@ -56,4 +56,4 @@ change needed so that the implementation phase can proceed with confidence.
 - [ ] Watcher configuration is documented (current and proposed)
 - [ ] Migration order is proposed with rationale
 - [ ] Risk assessment covers rollback strategy
-- [ ] [RES-044](RES-044) contains complete findings
+- [ ] [RES-c7b4b22f](RES-c7b4b22f) contains complete findings

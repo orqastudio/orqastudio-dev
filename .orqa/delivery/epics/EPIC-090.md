@@ -1,38 +1,38 @@
 ---
-id: EPIC-090
-title: "Coding standards plugins — Svelte + Tauri with rule-driven enforcement"
-description: "Create @orqastudio/plugin-svelte and @orqastudio/plugin-tauri. Plugins provide linting/testing infrastructure. Rules define enforcement config. Organisation mode syncs standards with override tracking."
+id: EPIC-83b67d0f
+title: "Coding standards plugins — Svelte, Tauri, TypeScript, Rust with rule-driven enforcement"
+description: "Created @orqastudio/plugin-svelte, @orqastudio/plugin-tauri (restructured to extend Rust), @orqastudio/plugin-typescript (new — tsconfig presets, ESLint base, config composition), and @orqastudio/plugin-rust (new — clippy/rustfmt/cargo-test, standards agent). Plugins provide linting/testing infrastructure. Rules define enforcement config. Organisation mode syncs standards with override tracking."
 status: active
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
-  - target: IDEA-124
+  - target: IDEA-2d7ac819
     type: realised-by
-  - target: TASK-570
+  - target: TASK-b784e910
     type: delivered-by
-  - target: TASK-571
+  - target: TASK-b38f4704
     type: delivered-by
-  - target: TASK-572
+  - target: TASK-a8c1a808
     type: delivered-by
-  - target: TASK-573
+  - target: TASK-daef57b3
     type: delivered-by
-  - target: TASK-574
+  - target: TASK-99bbc0a3
     type: delivered-by
-  - target: TASK-575
+  - target: TASK-e0427fb6
     type: delivered-by
-  - target: TASK-576
+  - target: TASK-a77f3e56
     type: delivered-by
-  - target: TASK-577
+  - target: TASK-77ec1aa5
     type: delivered-by
-  - target: TASK-578
+  - target: TASK-e5d1af77
     type: delivered-by
-  - target: TASK-579
+  - target: TASK-ae1fb7e5
     type: delivered-by
 ---
 
-# EPIC-090: Coding Standards Plugins
+# EPIC-83b67d0f: Coding Standards Plugins
 
 ## Goal
 
@@ -41,9 +41,17 @@ Replace standalone eslint-config and test-config libraries with plugin-driven co
 ## Deliverables
 
 1. `@orqastudio/plugin-svelte` — ESLint, svelte-check, Vitest
-2. `@orqastudio/plugin-tauri` — clippy, rustfmt, cargo test
-3. Updated enforcement schema (plugin/tool/config arrays)
-4. Config generator (rules → tool config files)
-5. Core installer agent
-6. `orqa check` integration
-7. Official registry entries
+2. `@orqastudio/plugin-tauri` — restructured to extend the Rust plugin instead of duplicating Rust tooling
+3. `@orqastudio/plugin-typescript` — **new**: tsconfig presets, ESLint base config, config composition utilities
+4. `@orqastudio/plugin-rust` — **new**: clippy, rustfmt, cargo-test infrastructure, standards assessment agent
+5. Updated enforcement schema (plugin/tool/config arrays)
+6. Config generator (rules → tool config files) — started, not yet end-to-end
+7. Core installer agent
+8. `orqa check` integration
+9. Official registry entries
+
+## Remaining
+
+- Config generator end-to-end (rules → generated tool config files)
+- `orqa check` integration with plugin executors
+- Official registry entries for all four plugins

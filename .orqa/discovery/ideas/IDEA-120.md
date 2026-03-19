@@ -1,5 +1,5 @@
 ---
-id: IDEA-120
+id: IDEA-50f18707
 title: "Artifact discussions — threaded conversations on artifacts with AI participation"
 description: "Multi-user discussion threads attached to artifacts. Team members discuss decisions, review plans, debate approaches — with AI as a participant that can summarise, challenge, and surface relevant context."
 status: captured
@@ -18,10 +18,10 @@ research-needed:
   - How do notifications work — how does a user know someone replied?
   - What's the minimum viable version — just comments on artifacts, or full threaded discussions?
 relationships:
-  - target: PILLAR-002
+  - target: PILLAR-cdf756ff
     type: grounded
     rationale: Discussions are the collaborative learning loop — team members reflect together and AI surfaces patterns
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

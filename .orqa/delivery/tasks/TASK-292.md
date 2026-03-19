@@ -1,5 +1,5 @@
 ---
-id: TASK-292
+id: TASK-b3aadbcd
 title: "Update project.json, READMEs, and symlinks for app layout"
 description: "After directory moves, update project.json artifacts array, all directory README frontmatter (icon, label, description, sort), and .claude/ symlinks so the app scanner renders the new three-level structure correctly."
 status: completed
@@ -15,22 +15,22 @@ acceptance:
   - CLAUDE.md symlink still works
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-287
+  - target: TASK-4b293b82
     type: depends-on
-  - target: TASK-288
+  - target: TASK-1dad83f7
     type: depends-on
-  - target: TASK-289
+  - target: TASK-0cddbf9b
     type: depends-on
-  - target: TASK-299
+  - target: TASK-c70b9d8a
     type: depended-on-by
-  - target: TASK-300
+  - target: TASK-7f5b6792
     type: depended-on-by
-  - target: TASK-301
+  - target: TASK-7b8ded48
     type: depended-on-by
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

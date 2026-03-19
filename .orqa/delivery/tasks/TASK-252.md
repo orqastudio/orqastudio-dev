@@ -1,5 +1,5 @@
 ---
-id: TASK-252
+id: TASK-0fca4194
 title: Update documentation paths for directory reorganisation
 description: Find-replace all path references in .orqa/ documentation to reflect the new directory structure.
 status: completed
@@ -13,12 +13,12 @@ acceptance:
   - All ui/routes/ references updated to ui/src/routes/
   - Spot-checked for correctness
 relationships:
-  - target: EPIC-056
+  - target: EPIC-7b039d05
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-253
+  - target: TASK-0e401567
     type: depended-on-by
-  - target: TASK-346
+  - target: TASK-03741ecb
     type: depended-on-by
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-103
+id: TASK-b1763d80
 title: Define product glossary
 description: "Established canonical terminology used throughout OrqaStudio's product documentation, governance, and UI."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Terms are unambiguous and internally consistent
   - Glossary is referenced from other product docs
 relationships:
-  - target: EPIC-027
+  - target: EPIC-1f21b578
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-317
+  - target: TASK-a88d16bb
     type: depended-on-by
 ---
 ## What

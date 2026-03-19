@@ -1,7 +1,7 @@
 ---
-id: IDEA-006
+id: IDEA-02c70c90
 title: Cross-Project Intelligence
-description: "Enable PILLAR-002 that transfers between projects through shared templates, cross-project patterns, and accumulated insights."
+description: "Enable PILLAR-cdf756ff that transfers between projects through shared templates, cross-project patterns, and accumulated insights."
 status: surpassed
 created: 2026-03-07
 updated: 2026-03-13
@@ -12,17 +12,17 @@ research-needed:
   - Template format design
 relationships:
   - type: merged-into
-    target: IDEA-114
+    target: IDEA-0f1f39ca
   - type: realises
-    target: EPIC-081
-  - target: AD-055
+    target: EPIC-3343ed49
+  - target: AD-c6abc8e6
     type: crystallises
-  - target: PILLAR-002
+  - target: PILLAR-cdf756ff
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
-> **Surpassed 2026-03-16**: Core multi-project traversal merged into EPIC-081 via AD-055. Unique concepts (governance libraries, pattern detection, benchmarking) split into IDEA-114.
+> **Surpassed 2026-03-16**: Core multi-project traversal merged into EPIC-3343ed49 via AD-c6abc8e6. Unique concepts (governance libraries, pattern detection, benchmarking) split into IDEA-0f1f39ca.
 
 ## Candidate Items
 

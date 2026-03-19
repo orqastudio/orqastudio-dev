@@ -1,6 +1,6 @@
 ---
-id: TASK-323
-title: Reconcile EPIC-033
+id: TASK-88ccf38a
+title: Reconcile EPIC-4bbc3439
 description: "Standing reconciliation task — verify epic body accuracy: task table, pillars, docs-produced, scope."
 status: completed
 created: 2026-03-13
@@ -11,39 +11,39 @@ acceptance:
   - Epic docs-produced list matches actual documentation created/updated
   - Epic scope section accurately reflects what was in/out of scope
 relationships:
-  - target: EPIC-033
+  - target: EPIC-4bbc3439
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-004
+  - target: TASK-5e893805
     type: depends-on
-  - target: TASK-005
+  - target: TASK-bb5a702e
     type: depends-on
-  - target: TASK-006
+  - target: TASK-ac590adf
     type: depends-on
-  - target: TASK-007
+  - target: TASK-abf6025d
     type: depends-on
-  - target: TASK-008
+  - target: TASK-dd1484aa
     type: depends-on
-  - target: TASK-009
+  - target: TASK-614a6a45
     type: depends-on
-  - target: TASK-010
+  - target: TASK-f2872193
     type: depends-on
-  - target: TASK-011
+  - target: TASK-24c90717
     type: depends-on
-  - target: TASK-012
+  - target: TASK-1648c4f2
     type: depends-on
 ---
 
 ## What
 
-Standing reconciliation task for [EPIC-033](EPIC-033). Ensures the epic body stays accurate as work evolves.
+Standing reconciliation task for [EPIC-4bbc3439](EPIC-4bbc3439). Ensures the epic body stays accurate as work evolves.
 
 ## Verification
 
-- Epic body task table matches actual tasks with `epic: [EPIC-033](EPIC-033)`
+- Epic body task table matches actual tasks with `epic: [EPIC-4bbc3439](EPIC-4bbc3439)`
 - Pillars array is accurate
 - docs-produced entries exist on disk
 
 ## Lessons
 
-- Backfilled per [RULE-004](RULE-004) epic reconciliation requirement
+- Backfilled per [RULE-7b770593](RULE-7b770593) epic reconciliation requirement

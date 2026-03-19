@@ -1,23 +1,23 @@
 ---
-id: TASK-077
+id: TASK-ff295517
 title: Broken link styling and path validation
 description: Style unresolvable artifact IDs as broken links with warning colour and broken-link icon. Validate docs-required/docs-produced paths against disk during scan.
 status: completed
 created: 2026-03-10
 updated: 2026-03-10
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - ArtifactLink renders broken state when artifactGraph.resolve(id) returns undefined
   - Broken links use broken-link Lucide icon and app warning colour token
   - docs-required/docs-produced paths validated against disk — broken paths flagged visually
   - Working links unchanged in appearance
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-083
+  - target: TASK-64ceb043
     type: depends-on
-  - target: TASK-338
+  - target: TASK-12eec0f3
     type: depended-on-by
 ---
 

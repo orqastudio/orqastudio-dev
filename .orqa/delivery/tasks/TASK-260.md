@@ -1,30 +1,30 @@
 ---
-id: TASK-260
+id: TASK-efaf25d7
 title: Enable clippy pedantic in Cargo.toml
 description: Explicitly configure clippy pedantic lints in Cargo.toml and fix resulting warnings.
 status: completed
 created: 2026-03-12
 updated: 2026-03-12
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - "[lints.clippy] section exists in Cargo.toml with pedantic enabled"
   - make lint-backend passes with zero warnings
   - "Any necessary #[allow] annotations have documented justification"
 relationships:
-  - target: EPIC-057
+  - target: EPIC-4726cb3b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-261
+  - target: TASK-54fae8bf
     type: depended-on-by
-  - target: TASK-263
+  - target: TASK-9ca53d45
     type: depended-on-by
-  - target: TASK-347
+  - target: TASK-91bc09f9
     type: depended-on-by
 ---
 
 ## What
 
-[RULE-006](RULE-006) claims clippy pedantic is enabled but it's not explicitly configured. Add it properly.
+[RULE-b49142be](RULE-b49142be) claims clippy pedantic is enabled but it's not explicitly configured. Add it properly.
 
 ## How
 

@@ -1,5 +1,5 @@
 ---
-id: IDEA-011
+id: IDEA-9ccb91a2
 title: "Reporting & Stakeholder Access"
 description: "Make understanding accessible to non-users through executive dashboards, shareable links, and formatted report exports."
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - Shareable link architecture (local app constraint)
   - Export format priorities
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Candidate Items

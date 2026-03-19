@@ -1,5 +1,5 @@
 ---
-id: IDEA-003
+id: IDEA-a9ea01b6
 title: "Entry Modes & Directed Onboarding"
 description: "AI-assisted onboarding flows beyond chat guidance, with each mode supporting new projects and existing work adaptation."
 status: completed
@@ -10,11 +10,11 @@ research-needed:
   - Domain-agnostic template design
   - Mode detection accuracy testing
 relationships:
-  - target: EPIC-035
+  - target: EPIC-a2cfc2b4
     type: realises
-  - target: PILLAR-003
+  - target: PILLAR-94b281db
     type: grounded
-  - target: PERSONA-003
+  - target: PERSONA-a4b15450
     type: benefits
 ---
 ## Candidate Items

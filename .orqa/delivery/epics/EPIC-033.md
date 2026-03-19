@@ -1,5 +1,5 @@
 ---
-id: EPIC-033
+id: EPIC-4bbc3439
 title: "Vision Alignment & Schema Simplification"
 description: "Align all documentation, governance rules, agent definitions, and code with the evolved vision: .orqa/ as sole source of truth, provider-agnostic AI integration, three-layer architecture (Canon/Project/Plugin), and simplified artifact schema where plans are merged into research and tasks trace cleanly to epics to milestones."
 status: completed
@@ -13,58 +13,58 @@ scoring:
   complexity: 4
   dependencies: 4
 relationships:
-  - target: RES-014
+  - target: RES-c7520d05
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-014
-  - target: RES-017
+    rationale: Auto-generated inverse of informed-by relationship from RES-c7520d05
+  - target: RES-1c148040
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-017
-  - target: RES-011
+    rationale: Auto-generated inverse of informed-by relationship from RES-1c148040
+  - target: RES-4057ea03
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-011
-  - target: RES-031
+    rationale: Auto-generated inverse of informed-by relationship from RES-4057ea03
+  - target: RES-0749aff0
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-031
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-0749aff0
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-004
+  - target: TASK-5e893805
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-005
+  - target: TASK-bb5a702e
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-006
+  - target: TASK-ac590adf
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-007
+  - target: TASK-abf6025d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-008
+  - target: TASK-dd1484aa
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-009
+  - target: TASK-614a6a45
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-010
+  - target: TASK-f2872193
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-011
+  - target: TASK-24c90717
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-012
+  - target: TASK-1648c4f2
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-323
+  - target: TASK-88ccf38a
     type: delivered-by
     rationale: Epic contains this task
-  - target: RES-011
+  - target: RES-4057ea03
     type: guided-by
-  - target: RES-014
+  - target: RES-c7520d05
     type: guided-by
-  - target: RES-017
+  - target: RES-1c148040
     type: guided-by
-  - target: RES-031
+  - target: RES-0749aff0
     type: guided-by
 ---
 ## Implementation Design
@@ -77,7 +77,7 @@ relationships:
 
 ### Phase B: Reference Migration (IN PROGRESS)
 - Convert `plan:` field to `research-refs:` on all epics
-- Update all tasks to reference `epic: [EPIC-033](EPIC-033)`
+- Update all tasks to reference `epic: [EPIC-4bbc3439](EPIC-4bbc3439)`
 - Remove `plans` from project.json artifacts config
 - Update Rust types and frontend types to remove `plan` field
 - Verify every task has a valid epic, every epic has a valid milestone
@@ -87,7 +87,7 @@ relationships:
 - Ensure no `plan:` field can be created going forward
 - Verify scanning/reading code handles `research-refs:` correctly
 
-### Phase D: Historical Backfill [TASK-011](TASK-011)
+### Phase D: Historical Backfill [TASK-24c90717](TASK-24c90717)
 - Decision chains, surpassed artifacts, lesson history
 - Reference integrity for all existing artifacts
 
@@ -95,17 +95,17 @@ relationships:
 
 | Task | Title | Status |
 |------|-------|--------|
-| [TASK-004](TASK-004) | Audit product docs for vision alignment | done |
-| [TASK-005](TASK-005) | Audit architecture and process docs | done |
-| [TASK-006](TASK-006) | Audit governance rules and agent definitions | done |
-| [TASK-007](TASK-007) | Add artifacts config to project.json and Rust types | done |
-| [TASK-008](TASK-008) | Update scanner to use config-driven paths | done |
-| [TASK-009](TASK-009) | Frontend: config-driven navigation | done |
-| [TASK-010](TASK-010) | Update task and artifact-framework schemas | done |
-| [TASK-012](TASK-012) | Remove Plan type from artifact-framework.md | done |
-| [TASK-013](TASK-013) | Migrate existing plans to research | done |
-| [TASK-014](TASK-014) | Update artifact-lifecycle.md rules | done |
-| [TASK-011](TASK-011) | Historical backfill | todo |
+| [TASK-5e893805](TASK-5e893805) | Audit product docs for vision alignment | done |
+| [TASK-bb5a702e](TASK-bb5a702e) | Audit architecture and process docs | done |
+| [TASK-ac590adf](TASK-ac590adf) | Audit governance rules and agent definitions | done |
+| [TASK-abf6025d](TASK-abf6025d) | Add artifacts config to project.json and Rust types | done |
+| [TASK-dd1484aa](TASK-dd1484aa) | Update scanner to use config-driven paths | done |
+| [TASK-614a6a45](TASK-614a6a45) | Frontend: config-driven navigation | done |
+| [TASK-f2872193](TASK-f2872193) | Update task and artifact-framework schemas | done |
+| [TASK-1648c4f2](TASK-1648c4f2) | Remove Plan type from artifact-framework.md | done |
+| [TASK-e1b911d8](TASK-e1b911d8) | Migrate existing plans to research | done |
+| [TASK-9f54c3bb](TASK-9f54c3bb) | Update artifact-lifecycle.md rules | done |
+| [TASK-24c90717](TASK-24c90717) | Historical backfill | todo |
 
 ## Acceptance Criteria
 

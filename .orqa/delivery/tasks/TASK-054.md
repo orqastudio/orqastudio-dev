@@ -1,45 +1,45 @@
 ---
-id: TASK-054
+id: TASK-f1ada1f5
 title: Create project setup skills
 description: "Write the four setup skills that replace templates for project initialisation: base scaffolding, folder inference, agentic config migration, and the software project type preset."
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
-  - SKILL-023 skill created (universal scaffolding — .orqa/ structure
+  - SKILL-e0dec720 skill created (universal scaffolding — .orqa/ structure
   - canon rules
   - canon skills)
-  - SKILL-021 skill created (reads folder
+  - SKILL-82ceb1bd skill created (reads folder
   - produces project profile YAML)
-  - SKILL-022 skill created (reads existing agentic config
+  - SKILL-0fd23e0b skill created (reads existing agentic config
   - maps to OrqaStudio)
-  - SKILL-024 skill created (software development governance preset)
+  - SKILL-819789ab skill created (software development governance preset)
   - Each skill follows SKILL.md format with proper frontmatter
-  - SKILL-023 knows how to create .orqa/ directory structure
-  - SKILL-021 knows file patterns for languages
+  - SKILL-e0dec720 knows how to create .orqa/ directory structure
+  - SKILL-82ceb1bd knows file patterns for languages
   - frameworks
   - existing governance
-  - SKILL-022 knows config formats for Claude Code
+  - SKILL-0fd23e0b knows config formats for Claude Code
   - Cursor
   - Copilot
   - Aider
-  - SKILL-024 knows worktree rules
+  - SKILL-819789ab knows worktree rules
   - code quality
   - testing standards
 relationships:
-  - target: EPIC-045
+  - target: EPIC-be023ed2
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-057
+  - target: TASK-3cb01b3f
     type: depends-on
-  - target: TASK-335
+  - target: TASK-0d8b4a06
     type: depended-on-by
 ---
 ## Reference
 
-- [AD-030](AD-030) defines the four setup skills and their responsibilities
-- [AD-030](AD-030) Section "The Four Setup Skills" has detailed specs for each
+- [AD-6f0dea5e](AD-6f0dea5e) defines the four setup skills and their responsibilities
+- [AD-6f0dea5e](AD-6f0dea5e) Section "The Four Setup Skills" has detailed specs for each
 
 ## What
 

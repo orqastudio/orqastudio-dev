@@ -1,11 +1,11 @@
 ---
-id: TASK-031
+id: TASK-4fb1b91f
 title: Licensing and Legal Documentation
 description: "Establish legal foundation for the open source project including Apache 2.0 license, attribution notices, third-party dependency documentation, and contributing guidelines."
 status: completed
 created: 2026-03-07
 updated: 2026-03-09
-assignee: AGENT-007
+assignee: AGENT-ec1b3785
 acceptance:
   - Apache License 2.0 applied
   - NOTICE file with project attribution
@@ -13,10 +13,10 @@ acceptance:
   - Contributing guide created
   - README updated with license badge
 relationships:
-  - target: EPIC-041
+  - target: EPIC-e881130b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-331
+  - target: TASK-ddbcf6e0
     type: depended-on-by
 ---
 ## What

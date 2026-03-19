@@ -1,7 +1,7 @@
 ---
-id: EPIC-077
+id: EPIC-9fbc17c0
 title: Automated status transitions — the system enforces its own lifecycle
-description: "Implement app-level automation that detects conditions requiring status changes and applies them. Validates all artifacts have valid statuses. The status process documented in DOC-075 and SKILL-051 is enforced mechanically, not just by convention."
+description: "Implement app-level automation that detects conditions requiring status changes and applies them. Validates all artifacts have valid statuses. The status process documented in DOC-94224b27 and SKILL-449b1e02 is enforced mechanically, not just by convention."
 status: active
 priority: P1
 scoring:
@@ -14,29 +14,29 @@ updated: 2026-03-15
 deadline: null
 horizon: active
 relationships:
-  - target: AD-049
+  - target: AD-6cea0c64
     type: driven-by
     rationale: Mechanically enforces the icon-based status system
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
-  - target: TASK-504
+  - target: TASK-8024efcb
     type: delivered-by
-  - target: TASK-505
+  - target: TASK-a2384d29
     type: delivered-by
-  - target: TASK-506
+  - target: TASK-332477b0
     type: delivered-by
-  - target: TASK-507
+  - target: TASK-6aba71e3
     type: delivered-by
-  - target: TASK-508
+  - target: TASK-47fc9eb2
     type: delivered-by
 ---
 
 ## Context
 
-The unified status system (AD-049) defines 11 statuses and DOC-075 documents which transitions are automatic vs manual. Currently nothing enforces this — agents and users must remember to update statuses. This epic adds mechanical enforcement.
+The unified status system (AD-6cea0c64) defines 11 statuses and DOC-94224b27 documents which transitions are automatic vs manual. Currently nothing enforces this — agents and users must remember to update statuses. This epic adds mechanical enforcement.
 
 ## Implementation Design
 
@@ -66,8 +66,8 @@ The CLI plugin's graph-guardian should also validate statuses on PostToolUse whe
 
 ## Tasks
 
-- [ ] [TASK-504](TASK-504): Add status validation to artifact graph integrity checks
-- [ ] [TASK-505](TASK-505): Build automatic status transition engine in Rust
-- [ ] [TASK-506](TASK-506): Wire transition engine to artifact graph refresh cycle
-- [ ] [TASK-507](TASK-507): Add status validation to plugin graph-guardian PostToolUse hook
-- [ ] [TASK-508](TASK-508): Update PipelineStepper to show valid transitions for current artifact
+- [ ] [TASK-8024efcb](TASK-8024efcb): Add status validation to artifact graph integrity checks
+- [ ] [TASK-a2384d29](TASK-a2384d29): Build automatic status transition engine in Rust
+- [ ] [TASK-332477b0](TASK-332477b0): Wire transition engine to artifact graph refresh cycle
+- [ ] [TASK-6aba71e3](TASK-6aba71e3): Add status validation to plugin graph-guardian PostToolUse hook
+- [ ] [TASK-47fc9eb2](TASK-47fc9eb2): Update PipelineStepper to show valid transitions for current artifact

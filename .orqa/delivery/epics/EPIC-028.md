@@ -1,5 +1,5 @@
 ---
-id: EPIC-028
+id: EPIC-5573bb70
 title: UX Design
 description: "The complete UX specification: design system, wireframes, component inventory, interaction patterns, and responsive behaviour rules."
 status: completed
@@ -13,31 +13,31 @@ scoring:
   complexity: 4
   dependencies: 4
 relationships:
-  - target: MS-000
+  - target: MS-85b9269b
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-108
+  - target: TASK-012ea89f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-109
+  - target: TASK-8ffc72f5
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-110
+  - target: TASK-66c88d03
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-111
+  - target: TASK-3d9d4b18
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-112
+  - target: TASK-f9973a91
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-113
+  - target: TASK-3054bb34
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-114
+  - target: TASK-37706d7e
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-318
+  - target: TASK-34fa0772
     type: delivered-by
     rationale: Epic contains this task
 ---
@@ -71,10 +71,10 @@ Implementation approach to be defined during planning.
 
 ## Tasks
 
-- [TASK-108](TASK-108): Define design system
-- [TASK-109](TASK-109): Design core layout wireframes
-- [TASK-110](TASK-110): Design conversation view wireframes
-- [TASK-111](TASK-111): Design artifact browser wireframes
-- [TASK-112](TASK-112): Design settings and onboarding wireframes
-- [TASK-113](TASK-113): Define component inventory
-- [TASK-114](TASK-114): Define interaction patterns and responsive behaviour
+- [TASK-012ea89f](TASK-012ea89f): Define design system
+- [TASK-8ffc72f5](TASK-8ffc72f5): Design core layout wireframes
+- [TASK-66c88d03](TASK-66c88d03): Design conversation view wireframes
+- [TASK-3d9d4b18](TASK-3d9d4b18): Design artifact browser wireframes
+- [TASK-f9973a91](TASK-f9973a91): Design settings and onboarding wireframes
+- [TASK-3054bb34](TASK-3054bb34): Define component inventory
+- [TASK-37706d7e](TASK-37706d7e): Define interaction patterns and responsive behaviour

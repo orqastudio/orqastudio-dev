@@ -1,19 +1,19 @@
 ---
-id: TASK-382
+id: TASK-9e9754a8
 title: "Behavioral enforcement plan: session hook rules"
 description: Define enforcement mechanisms for behavioral rules enforced via plugin session hooks
 status: completed
 created: 2026-03-13
 updated: 2026-03-13
 acceptance:
-  - "Enforcement plan documented for all session-hook-enforced behavioral rules (RULE-013, RULE-039)"
+  - "Enforcement plan documented for all session-hook-enforced behavioral rules (RULE-633e636d, RULE-e352fd0a)"
 relationships:
-  - target: EPIC-061
+  - target: EPIC-4e6e9eae
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-375
+  - target: TASK-7cf80542
     type: depended-on-by
-  - target: TASK-383
+  - target: TASK-822d8c82
     type: depended-on-by
 ---
 
@@ -27,7 +27,7 @@ For each session-hook rule, define the plugin hook implementation, trigger point
 
 ## Verification
 
-Completed as part of [EPIC-061](EPIC-061) Phase 5.
+Completed as part of [EPIC-4e6e9eae](EPIC-4e6e9eae) Phase 5.
 
 ## Lessons
 

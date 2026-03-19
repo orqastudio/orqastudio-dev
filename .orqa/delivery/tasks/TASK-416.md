@@ -1,5 +1,5 @@
 ---
-id: TASK-416
+id: TASK-6385a2ac
 title: Unify process gates and enforcement engine evaluation
 description: "The Rust backend has two separate enforcement systems: process gates (workflow state tracking) and the enforcement engine (pattern matching). Unify them so enforcement entries can reference workflow state and process gates can evaluate enforcement entries."
 status: completed
@@ -18,10 +18,10 @@ acceptance:
   - "Single evaluation pipeline: context + workflow state → enforcement entries → verdicts"
   - Existing behavior preserved — all 5 current process gates still fire at the same conditions
 relationships:
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: delivers
     rationale: Phase 2 — unifies the two enforcement systems in the Rust backend
-  - target: TASK-415
+  - target: TASK-84e27636
     type: depends-on
 ---
 

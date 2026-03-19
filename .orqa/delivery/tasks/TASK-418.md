@@ -1,5 +1,5 @@
 ---
-id: TASK-418
+id: TASK-ff56038f
 title: "Create @orqastudio/eslint-config package"
 description: "Extract shared ESLint and TypeScript config from orqa-studio into a standalone @orqastudio/eslint-config package. All orqastudio repos and plugins use this for consistent code standards."
 status: completed
@@ -20,10 +20,10 @@ acceptance:
   - Published to GitHub Packages
   - orqa-studio main repo updated to use the package
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: Shared code standards for all repos and plugins
-  - target: TASK-419
+  - target: TASK-248a0485
     type: depended-on-by
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: IMPL-066
+id: IMPL-e8bcc5d2
 title: Acceptance criteria not verified line-by-line after implementation
 description: Implementer agents deliver the structural change but miss specific acceptance criteria items. The orchestrator marks tasks done without checking each criterion against the actual output. UAT then catches items that were in scope but not delivered.
 status: review
@@ -18,14 +18,14 @@ Under task volume, the orchestrator:
 3. The orchestrator marks the task done based on the summary
 4. UAT later reveals specific acceptance criteria that were not met
 
-Examples from EPIC-073 UAT round 3:
-- TASK-469 acceptance: "Roadmap should be first item in Delivery" — roadmap remained top-level (F41)
-- TASK-473 acceptance: "Column grouping/sorting configurable" — no sort dropdown exists (F38)
-- TASK-470 acceptance: "Relationships no longer appear in metadata card" — relationship-specific fields (epic, milestone, depends-on) still show (F44)
+Examples from EPIC-b2ca1ea3 UAT round 3:
+- TASK-d8a69e21 acceptance: "Roadmap should be first item in Delivery" — roadmap remained top-level (F41)
+- TASK-e40d6994 acceptance: "Column grouping/sorting configurable" — no sort dropdown exists (F38)
+- TASK-ebc48b97 acceptance: "Relationships no longer appear in metadata card" — relationship-specific fields (epic, milestone, depends-on) still show (F44)
 
 ## Root Cause
 
-The orchestrator trusts the implementer's completion summary without independently verifying each acceptance criterion. RULE-022 requires an independent reviewer, but under volume pressure this step gets compressed to "did the agent say it was done?" rather than "did I check each criterion?"
+The orchestrator trusts the implementer's completion summary without independently verifying each acceptance criterion. RULE-303c1cc8 requires an independent reviewer, but under volume pressure this step gets compressed to "did the agent say it was done?" rather than "did I check each criterion?"
 
 ## Fix
 

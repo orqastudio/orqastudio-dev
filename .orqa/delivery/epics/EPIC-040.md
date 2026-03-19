@@ -1,5 +1,5 @@
 ---
-id: EPIC-040
+id: EPIC-ee688e85
 title: Provider Abstraction Layer
 description: "Refactor sidecar from Claude-specific to provider-agnostic architecture. Provider interface, Claude adapter, sdk_session_id → provider_session_id rename across 13+ files including SQLite migration."
 status: completed
@@ -13,33 +13,33 @@ scoring:
   complexity: 4
   dependencies: 3
 relationships:
-  - target: RES-009
+  - target: RES-abd8d6d1
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-009
-  - target: RES-027
+    rationale: Auto-generated inverse of informed-by relationship from RES-abd8d6d1
+  - target: RES-9547df7b
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-027
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-9547df7b
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-028
+  - target: TASK-a9aec9e8
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-029
+  - target: TASK-e9bbba1b
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-330
+  - target: TASK-300e666c
     type: delivered-by
     rationale: Epic contains this task
-  - target: AD-025
+  - target: AD-ff88ecea
     type: driven-by
-  - target: IDEA-001
+  - target: IDEA-7035530f
     type: realised-by
-  - target: RES-009
+  - target: RES-abd8d6d1
     type: guided-by
-  - target: RES-027
+  - target: RES-9547df7b
     type: guided-by
-  - target: AD-025
+  - target: AD-ff88ecea
     type: driven-by
 ---
 ## Implementation Design
@@ -64,7 +64,7 @@ relationships:
 
 ## Produced Decision
 
-[AD-025](AD-025) (Provider-Agnostic AI Integration)
+[AD-ff88ecea](AD-ff88ecea) (Provider-Agnostic AI Integration)
 
 ## Git Evidence
 

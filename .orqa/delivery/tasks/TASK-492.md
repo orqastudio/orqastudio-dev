@@ -1,5 +1,5 @@
 ---
-id: TASK-492
+id: TASK-d7ef4c9d
 title: Roadmap all-done state and Done column collapse logic (F36)
 description: "Implement the all-completed state for the roadmap kanban: when all items are in the Done column, show a celebration/completion state with a 'View board' button to reveal the full board. Fix Done column collapse logic so it only auto-collapses when non-done items exist."
 status: completed
@@ -16,9 +16,9 @@ acceptance:
   - Done column only auto-collapses when non-done items exist in the board
   - Expanding the Done column shows the full column with all done items
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
     rationale: UAT finding F36 — roadmap all-done state and Done column collapse logic
-  - target: TASK-490
+  - target: TASK-6d896b8d
     type: depends-on
 ---

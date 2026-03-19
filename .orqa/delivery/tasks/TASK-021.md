@@ -1,21 +1,21 @@
 ---
-id: TASK-021
+id: TASK-ef24c223
 title: Lesson promotion pipeline
 description: "Implements the self-learning loop that creates lesson entries, tracks recurrence counts, and promotes repeated patterns into rules or skills at a configurable threshold."
 status: completed
 created: 2026-03-05
 updated: 2026-03-09
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - IMPL entries created and tracked
   - Recurrence count incremented on match
   - Promotion triggered at configurable threshold
   - Lessons viewable in UI
 relationships:
-  - target: EPIC-037
+  - target: EPIC-c0ab7529
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-327
+  - target: TASK-428a887f
     type: depended-on-by
 ---
 ## What

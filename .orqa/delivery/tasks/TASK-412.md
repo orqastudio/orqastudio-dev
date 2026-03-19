@@ -1,5 +1,5 @@
 ---
-id: TASK-412
+id: TASK-528bba63
 title: Implement full skill content injection in rule-engine.mjs
 description: "Currently skill injection returns skill names as a list. Change it to read the actual SKILL.md file content and inject it as systemMessage so agents receive the knowledge, not just a reference."
 status: completed
@@ -19,12 +19,12 @@ acceptance:
   - "Missing skill files produce a warning message, not a crash"
   - Injected content is returned alongside any warn/block verdicts
 relationships:
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: delivers
     rationale: Core task — makes skill injection meaningful instead of just naming skills
-  - target: TASK-414
+  - target: TASK-70762a1f
     type: depended-on-by
-  - target: TASK-467
+  - target: TASK-269b3f8f
     type: depended-on-by
 ---
 ## Scope

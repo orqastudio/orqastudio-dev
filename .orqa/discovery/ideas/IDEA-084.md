@@ -1,5 +1,5 @@
 ---
-id: IDEA-084
+id: IDEA-0f690b5f
 title: Frontend artifact graph in state — display flexibility via graph-synchronised store
 description: "The frontend should hold the full artifact graph in a Svelte store, synchronised with the backend graph. This gives maximum display flexibility — components can traverse edges, resolve relationships, and render artifacts by ID without per-view backend calls. IDs remain the connector in frontmatter, but the graph store provides the human-readable context (titles, descriptions, status) that IDs alone don't convey."
 status: captured
@@ -10,13 +10,13 @@ research-needed:
   - "What shape should the graph store take? Adjacency list? Node map + edge list? How does it handle 500+ artifacts performantly?"
   - "How should graph sync work? Full reload on app start + incremental updates via file watcher events? Or lazy loading with caching?"
   - "Which existing views would benefit most from graph-backed rendering? (sidebar nav, relationship panels, epic task tables, milestone breakdowns)"
-  - "How does this interact with IDEA-083 (auto-rendered task tables)? The graph store would be the data source for those auto-rendered views."
+  - "How does this interact with IDEA-7b76c23e (auto-rendered task tables)? The graph store would be the data source for those auto-rendered views."
   - "Should the graph store replace existing per-type stores (artifactStore, etc.) or layer on top of them?"
-  - "How do edge traversals work in practice? e.g., 'show me all rules that enforce AD-029' = traverse enforced-by edges from AD-029"
+  - "How do edge traversals work in practice? e.g., 'show me all rules that enforce AD-774cc3d0' = traverse enforced-by edges from AD-774cc3d0"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 
@@ -26,7 +26,7 @@ Currently, artifact display in the frontend requires per-view backend calls and 
 
 The artifact graph already exists in the backend — the scanner builds it from `.orqa/` frontmatter. Synchronising this graph into a frontend store means any component can traverse edges and resolve artifact metadata without additional backend calls. This is the foundation for:
 
-- Auto-rendered task tables in epics (IDEA-083)
+- Auto-rendered task tables in epics (IDEA-7b76c23e)
 - Relationship panels that show incoming/outgoing edges with human-readable titles
 - Pipeline visualisation (observation → understanding → principle → practice → enforcement)
 - Dependency graphs, milestone progress views, and other plugin-territory visualisations
@@ -42,7 +42,7 @@ The artifact graph already exists in the backend — the scanner builds it from 
 
 ```typescript
 // Conceptual usage
-const node = graphStore.get("AD-029");
-const enforcedBy = graphStore.traverse("AD-029", "enforced-by");
-// enforcedBy = [{ id: "RULE-006", title: "Coding Standards", ... }, ...]
+const node = graphStore.get("AD-774cc3d0");
+const enforcedBy = graphStore.traverse("AD-774cc3d0", "enforced-by");
+// enforcedBy = [{ id: "RULE-b49142be", title: "Coding Standards", ... }, ...]
 ```

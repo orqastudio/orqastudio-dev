@@ -1,5 +1,5 @@
 ---
-id: EPIC-082
+id: EPIC-2362adfc
 title: Dev environment migration and schema-driven enforcement
 description: >
   Consolidate all OrqaStudio repos into a submodule-based dev environment,
@@ -16,9 +16,9 @@ created: 2026-03-16
 updated: 2026-03-16
 horizon: now
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
-  - target: AD-055
+  - target: AD-c6abc8e6
     type: driven-by
     rationale: Organisation-mode architecture decision drives this work
 ---

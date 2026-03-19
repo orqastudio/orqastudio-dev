@@ -1,5 +1,5 @@
 ---
-id: IDEA-049
+id: IDEA-c3b01bfd
 title: Graph-Powered Dashboard Insights and Trend Analysis
 description: "Combine artifact graph relationship data with created/updated timestamps to surface trends, velocity metrics, and structural health insights over time. Move the dashboard beyond static counts into a temporal, relational analytics layer."
 status: completed
@@ -13,11 +13,11 @@ research-needed:
   - "How should historical snapshots work — rebuild from git history or store periodic snapshots?"
   - "What reference relationship patterns indicate health vs dysfunction? (orphan clusters, dependency chains, circular refs)"
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation

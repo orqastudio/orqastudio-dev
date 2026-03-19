@@ -1,5 +1,5 @@
 ---
-id: TASK-390
+id: TASK-f6fd3161
 title: Native integrity checks in artifact_graph.rs
 description: "Add integrity check methods to the artifact graph that detect broken links, missing relationship inverses, and pipeline gaps. Returns Vec<IntegrityCheck> with categorised findings, severity levels, and auto-fix indicators."
 status: completed
@@ -14,20 +14,20 @@ acceptance:
   - "Tauri command run_integrity_scan returns Vec<IntegrityCheck>"
   - make check passes
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-389
+  - target: TASK-ce651394
     type: depends-on
-  - target: TASK-391
+  - target: TASK-ee4681f4
     type: depended-on-by
-  - target: TASK-392
+  - target: TASK-5fc0e2dc
     type: depended-on-by
-  - target: TASK-395
+  - target: TASK-e188a8c8
     type: depended-on-by
-  - target: TASK-397
+  - target: TASK-d624db8f
     type: depended-on-by
-  - target: TASK-400
+  - target: TASK-d746777d
     type: depended-on-by
 ---
 

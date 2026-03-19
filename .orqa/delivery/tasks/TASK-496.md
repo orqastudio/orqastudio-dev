@@ -1,5 +1,5 @@
 ---
-id: TASK-496
+id: TASK-a4f1bec7
 title: Relationship graph visualization library (F42)
 description: "Replace the existing relationship graph with a proper graph visualization library that supports zoom, pan, and dynamic node positioning. Clicking a node navigates to that artifact. Research and select the appropriate library (e.g., d3-force, cytoscape.js, or vis-network)."
 status: ready
@@ -18,7 +18,7 @@ acceptance:
   - Clicking a node navigates to that artifact
   - Library selection is documented with rationale
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
     rationale: UAT finding F42 — relationship graph visualization library upgrade
 ---

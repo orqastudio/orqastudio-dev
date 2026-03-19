@@ -1,5 +1,5 @@
 ---
-id: TASK-393
+id: TASK-614122c8
 title: Fix flow — auto-fix button and results display in IntegrityWidget
 description: "Add a Fix button to the IntegrityWidget that calls apply_auto_fixes, shows which fixes were applied, and re-scans to show remaining issues."
 status: completed
@@ -12,14 +12,14 @@ acceptance:
   - Fix button disabled when no auto-fixable issues or while applying
   - make typecheck passes
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-391
+  - target: TASK-ee4681f4
     type: depends-on
-  - target: TASK-392
+  - target: TASK-5fc0e2dc
     type: depends-on
-  - target: TASK-397
+  - target: TASK-d624db8f
     type: depended-on-by
 ---
 

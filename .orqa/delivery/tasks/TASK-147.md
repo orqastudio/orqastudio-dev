@@ -1,29 +1,29 @@
 ---
-id: TASK-147
+id: TASK-e752886d
 title: Audit frontend for repeat patterns and create component reuse skill and enforcement rule
-description: "Audit ui/src/lib/components/ for repeated patterns, create a component extraction skill, and update RULE-024 enforcement to mandate component reuse as a composability requirement."
+description: "Audit ui/src/lib/components/ for repeated patterns, create a component extraction skill, and update RULE-cb65b5d0 enforcement to mandate component reuse as a composability requirement."
 status: completed
 created: 2026-03-11
 updated: 2026-03-11
 acceptance:
   - Audit document listing all repeated patterns with occurrence counts
   - New skill for component extraction methodology created
-  - RULE-024 updated or companion rule created for enforcement
+  - RULE-cb65b5d0 updated or companion rule created for enforcement
   - Follow-up tasks created for each shared component that should be extracted
-  - Depends on TASK-139 (component inventory) completing first
+  - Depends on TASK-cca73736 (component inventory) completing first
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-139
+  - target: TASK-cca73736
     type: depends-on
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 
 ## What
 
-Component reuse is part of the composability principle (PILLAR-001). Audit the entire frontend (`ui/src/lib/components/`) to identify repeated patterns that should be extracted into shared components.
+Component reuse is part of the composability principle (PILLAR-569581e0). Audit the entire frontend (`ui/src/lib/components/`) to identify repeated patterns that should be extracted into shared components.
 
 Three deliverables:
 
@@ -38,7 +38,7 @@ Three deliverables:
 - Practical checklist agents use before creating any new UI element
 
 ### 3. Enforcement Rule Update
-- Update [RULE-024](RULE-024) or create a companion rule that enforces component reuse as a composability requirement
+- Update [RULE-cb65b5d0](RULE-cb65b5d0) or create a companion rule that enforces component reuse as a composability requirement
 - Include the "search before creating" mandate with specific search patterns
 - FORBIDDEN section for inline implementations of things that have shared equivalents
 
@@ -47,13 +47,13 @@ Three deliverables:
 1. Use `search_semantic` to find all loading states, error displays, empty states, and toolbar patterns across `ui/src/lib/components/`
 2. For each pattern, count occurrences and note the files containing inline implementations
 3. Create the component extraction skill in `.orqa/process/skills/` covering when/how to extract, naming, prop design, and a pre-creation checklist
-4. Edit [RULE-024](RULE-024) to add the search-before-creating mandate and FORBIDDEN section for known inline patterns
+4. Edit [RULE-cb65b5d0](RULE-cb65b5d0) to add the search-before-creating mandate and FORBIDDEN section for known inline patterns
 5. Create TASK-NNN follow-up artifacts for the top N patterns worth extracting
 
 ## Verification
 
 - [ ] Audit document listing all repeated patterns with occurrence counts
 - [ ] New skill for component extraction methodology created
-- [ ] [RULE-024](RULE-024) updated or companion rule created for enforcement
+- [ ] [RULE-cb65b5d0](RULE-cb65b5d0) updated or companion rule created for enforcement
 - [ ] Follow-up tasks created for each shared component that should be extracted
-- [ ] Depends on [TASK-139](TASK-139) (component inventory) completing first
+- [ ] Depends on [TASK-cca73736](TASK-cca73736) (component inventory) completing first

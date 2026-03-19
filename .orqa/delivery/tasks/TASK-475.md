@@ -1,5 +1,5 @@
 ---
-id: TASK-475
+id: TASK-6018c3ed
 title: Fix lesson status vocabulary and viewer layout
 description: Fix lessons showing Active instead of Captured. Move actions below status pipeline. Fix status pipeline connector line centering on circle.
 status: completed
@@ -17,7 +17,7 @@ acceptance:
   - Actions section positioned below status pipeline on artifact views
   - Status pipeline connector line vertically centered on the circle indicator
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
     rationale: Schema fix and viewer layout (F11, F12, F13)
 ---

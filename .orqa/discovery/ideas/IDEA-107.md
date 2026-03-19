@@ -1,5 +1,5 @@
 ---
-id: IDEA-107
+id: IDEA-49a009ae
 title: App-shipped platform knowledge — immutable Layer 1 documentation and skills
 description: "Platform knowledge (type definitions, relationship semantics, enforcement rules, how the system works) ships as immutable Layer 1 artifacts. Platform docs teach humans. Platform skills teach agents. Both are versioned with the app and cannot be edited by the project. Project-level docs and skills are separate, editable, and synchronised via relationships."
 status: exploring
@@ -7,9 +7,9 @@ created: 2026-03-15
 updated: 2026-03-15
 horizon: next
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 
@@ -54,4 +54,4 @@ Domain skills (Rust patterns, Svelte 5, testing methodology) are portable expert
 
 ## Current Rules That Are Actually Platform Knowledge
 
-Rules like RULE-004 (artifact lifecycle), RULE-032 (schema validation), and RULE-045 (data integrity) describe how the platform works, not what this project requires. They should become platform documentation/skills (Layer 1), not project rules (Layer 3).
+Rules like RULE-7b770593 (artifact lifecycle), RULE-a764b2ae (schema validation), and RULE-130f1f63 (data integrity) describe how the platform works, not what this project requires. They should become platform documentation/skills (Layer 1), not project rules (Layer 3).

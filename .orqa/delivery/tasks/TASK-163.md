@@ -1,5 +1,5 @@
 ---
-id: TASK-163
+id: TASK-61934d01
 title: Classify artifacts as core vs project-specific and standardise layer taxonomy
 description: "Audit every governance artifact to determine whether it is truly core (ships with every project) or OrqaStudio-specific (dogfood). Rename layer values, standardise scope, plan template distribution, and identify user-facing documentation gaps."
 status: completed
@@ -9,14 +9,14 @@ acceptance:
   - Every artifact has been evaluated and correctly classified
   - Layer enum renamed in all schemas and all artifact frontmatter
   - "Scope values standardised across rules, skills, and agents"
-  - Research document RES-037 updated with classification results
+  - Research document RES-5484edbd updated with classification results
   - List of artifacts needing generalisation for core templates produced
   - User-facing documentation plan documented
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 
@@ -28,7 +28,7 @@ The `.orqa/` governance system serves two roles simultaneously:
 
 These are currently conflated under `layer: canon`. This task separates them, renames the taxonomy, and identifies what needs to happen to make core artifacts truly portable.
 
-See [RES-037](RES-037) for the full investigation and proposals.
+See [RES-5484edbd](RES-5484edbd) for the full investigation and proposals.
 
 ## Deliverables
 
@@ -49,7 +49,7 @@ For every `layer: canon` artifact, answer:
 ### 3. Artifact Updates
 - Update every artifact's `layer` field from `canon` to `core` (or reclassify to `project`)
 - Update every artifact's `scope` field to use new standardised values
-- Update [RULE-026](RULE-026), orchestrator, and other governance docs that reference layer values
+- Update [RULE-deab6ea7](RULE-deab6ea7), orchestrator, and other governance docs that reference layer values
 
 ### 4. Documentation Plan
 - Identify where user-facing docs should live
@@ -58,7 +58,7 @@ For every `layer: canon` artifact, answer:
 
 ## How
 
-1. Start with [RES-037](RES-037) proposals
+1. Start with [RES-5484edbd](RES-5484edbd) proposals
 2. Build a spreadsheet/table of every artifact with current layer, proposed layer, and rationale
 3. Update schemas first (so validation catches any misses)
 4. Batch-update all artifact frontmatter
@@ -71,4 +71,4 @@ For every `layer: canon` artifact, answer:
 - [ ] No artifact has `layer: plugin` — all renamed to `community` or removed
 - [ ] All schemas use consistent layer and scope enums
 - [ ] Pre-commit hook validates against updated schemas
-- [ ] Governance docs (RULE-026, orchestrator, CLAUDE.md) reference new layer names
+- [ ] Governance docs (RULE-deab6ea7, orchestrator, CLAUDE.md) reference new layer names

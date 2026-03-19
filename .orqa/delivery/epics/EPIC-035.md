@@ -1,5 +1,5 @@
 ---
-id: EPIC-035
+id: EPIC-a2cfc2b4
 title: "Native Tool UX & First-Run Setup"
 description: "Two related UX improvements: (1) friendly tool call display with names, icons, and grouping; (2) first-run setup wizard for project creation and AI provider configuration."
 status: completed
@@ -13,29 +13,29 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: RES-012
+  - target: RES-41e67ca5
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-012
-  - target: RES-013
+    rationale: Auto-generated inverse of informed-by relationship from RES-41e67ca5
+  - target: RES-f7704c8d
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-013
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-f7704c8d
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-016
+  - target: TASK-571fed4d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-017
+  - target: TASK-81028445
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-325
+  - target: TASK-ebe49b1a
     type: delivered-by
     rationale: Epic contains this task
-  - target: IDEA-003
+  - target: IDEA-a9ea01b6
     type: realised-by
-  - target: RES-012
+  - target: RES-41e67ca5
     type: guided-by
-  - target: RES-013
+  - target: RES-f7704c8d
     type: guided-by
 ---
 ## Implementation Design

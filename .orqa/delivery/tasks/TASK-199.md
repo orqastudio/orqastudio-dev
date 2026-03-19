@@ -1,5 +1,5 @@
 ---
-id: TASK-199
+id: TASK-6cd46196
 title: Implement skill injection in plugin rule-engine.mjs
 description: |
   Extend the plugin rule engine to handle inject actions by reading SKILL.md
@@ -13,18 +13,18 @@ acceptance:
   - Duplicate skill injection suppressed within same session
   - Missing skill files silently skipped
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-193
+  - target: TASK-49c63248
     type: depends-on
-  - target: TASK-201
+  - target: TASK-50b3aa55
     type: depended-on-by
-  - target: TASK-204
+  - target: TASK-24ef68ce
     type: depended-on-by
-  - target: TASK-207
+  - target: TASK-34007190
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

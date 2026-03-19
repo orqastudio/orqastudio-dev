@@ -1,11 +1,11 @@
 ---
-id: TASK-076
+id: TASK-451dd8b1
 title: "Migrate stores to SDK: replace artifact/navigation store ad-hoc patterns"
 description: "Replace invoke('read_artifact') + viewerCache and ARTIFACT_PREFIX_MAP + pendingArtifactId in the artifact and navigation stores with Artifact Graph SDK calls."
 status: completed
 created: 2026-03-10
 updated: 2026-03-10
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - "artifact.svelte.ts uses artifactGraph.readContent() instead of invoke('read_artifact')"
   - "viewerCache removed — SDK reads from disk, no frontend caching"
@@ -13,16 +13,16 @@ acceptance:
   - pendingArtifactId replaced with artifactGraph.resolve(id).path + navigateToPath()
   - navigateToPath() walks full NavTree including tree children
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-075
+  - target: TASK-18eee9b0
     type: depends-on
-  - target: TASK-082
+  - target: TASK-aba97fb4
     type: depended-on-by
-  - target: TASK-083
+  - target: TASK-64ceb043
     type: depended-on-by
-  - target: TASK-338
+  - target: TASK-12eec0f3
     type: depended-on-by
 ---
 

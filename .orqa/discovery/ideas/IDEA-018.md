@@ -1,5 +1,5 @@
 ---
-id: IDEA-018
+id: IDEA-8ebeb1a2
 title: Output Composability
 description: "New artifact generation modules for different domains including service design, policy development, and research planning."
 status: captured
@@ -10,9 +10,9 @@ research-needed:
   - Module format design
   - Domain-specific output templates
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Candidate Items

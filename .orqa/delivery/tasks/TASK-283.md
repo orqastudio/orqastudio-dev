@@ -1,5 +1,5 @@
 ---
-id: TASK-283
+id: TASK-8954343c
 title: Fix all broken links and frontmatter refs
 description: "Run verify-links.mjs across all .orqa/ artifacts, fix every broken reference. Commit in batches by artifact type."
 status: completed
@@ -13,16 +13,16 @@ acceptance:
   - "All frontmatter refs (depends-on, epic, milestone, etc.) point to valid artifacts"
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-281
+  - target: TASK-e7324438
     type: depends-on
-  - target: TASK-282
+  - target: TASK-d5d3e417
     type: depends-on
-  - target: TASK-285
+  - target: TASK-5da55ccb
     type: depended-on-by
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

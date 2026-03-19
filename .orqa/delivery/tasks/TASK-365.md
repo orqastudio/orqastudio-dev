@@ -1,5 +1,5 @@
 ---
-id: TASK-365
+id: TASK-fc7f41ca
 title: "Hook checks: status transitions, config-disk consistency, pillar alignment, historical preservation, E2E completeness"
 description: "Add pre-commit hook checks for status transition validation, config-disk consistency, pillar alignment sections, historical preservation, and end-to-end completeness"
 status: completed
@@ -8,12 +8,12 @@ updated: 2026-03-13
 acceptance:
   - "Pre-commit hook validates status transitions, config-disk consistency, pillar alignment, historical preservation, and E2E completeness for staged files"
 relationships:
-  - target: EPIC-061
+  - target: EPIC-4e6e9eae
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-367
+  - target: TASK-e5b83fae
     type: depended-on-by
-  - target: TASK-375
+  - target: TASK-7cf80542
     type: depended-on-by
 ---
 
@@ -27,7 +27,7 @@ Add check functions to the pre-commit hook chain for each pattern: invalid statu
 
 ## Verification
 
-Completed as part of [EPIC-061](EPIC-061) Phase 2.
+Completed as part of [EPIC-4e6e9eae](EPIC-4e6e9eae) Phase 2.
 
 ## Lessons
 

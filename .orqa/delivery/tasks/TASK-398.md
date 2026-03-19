@@ -1,7 +1,7 @@
 ---
-id: TASK-398
+id: TASK-730add34
 title: "Verify purposeful friction UX — does mandatory-relationships-with-AI feel like value or bureaucracy?"
-description: "UAT verification of the friction-as-feature principle from IDEA-065. During dogfooding, observe whether the mandatory relationship schema (forcing connection to purpose before creation) feels like productive friction or unnecessary overhead when the AI assists."
+description: "UAT verification of the friction-as-feature principle from IDEA-9bfb9012. During dogfooding, observe whether the mandatory relationship schema (forcing connection to purpose before creation) feels like productive friction or unnecessary overhead when the AI assists."
 status: ready
 created: 2026-03-13
 updated: 2026-03-13
@@ -12,15 +12,15 @@ acceptance:
   - "If bureaucracy: specific friction points identified and improvement ideas captured"
   - "If value: what makes it work documented as a lesson (IMPL-NNN)"
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
-  - target: TASK-399
+  - target: TASK-3fceb34c
     type: depended-on-by
 ---
 
 ## What
 
-Verify the UX assumption behind IDEA-065: that mandatory relationships with AI assistance create productive friction rather than process overhead.
+Verify the UX assumption behind IDEA-9bfb9012: that mandatory relationships with AI assistance create productive friction rather than process overhead.
 
 ## How
 

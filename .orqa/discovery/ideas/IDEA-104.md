@@ -1,5 +1,5 @@
 ---
-id: IDEA-104
+id: IDEA-d6ec2210
 title: Dedicated view for items needing attention — drill-down from dashboard health metrics
 description: "Create a view accessible from the dashboard clarity card that shows all items contributing to health issues: orphaned artifacts, broken references, low-degree nodes. Each metric on the clarity card links to a filtered list of the specific artifacts needing addressing."
 status: captured
@@ -8,9 +8,9 @@ updated: 2026-03-15
 horizon: next
 research-needed: []
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

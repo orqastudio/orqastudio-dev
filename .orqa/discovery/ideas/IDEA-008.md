@@ -1,7 +1,7 @@
 ---
-id: IDEA-008
+id: IDEA-11688d04
 title: "Collaboration & Teams"
-description: "Multi-user support for the PILLAR-001 engine with shared projects, role-based access, and structured handoff protocols."
+description: "Multi-user support for the PILLAR-569581e0 engine with shared projects, role-based access, and structured handoff protocols."
 status: captured
 created: 2026-03-07
 updated: 2026-03-13
@@ -11,9 +11,9 @@ research-needed:
   - Conflict resolution for shared artifacts
   - Role-based access design
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Candidate Items

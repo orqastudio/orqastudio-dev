@@ -1,7 +1,7 @@
 ---
-id: IDEA-068
+id: IDEA-d9c48c83
 title: AI-assisted artifact backfill tooling
-description: "Tooling that reads artifacts, analyses content against other artifacts, proposes relationship connections, presents for human review, and batch-updates frontmatter. Built as a precursor to the AD-042 migration, reusable for any future schema evolution."
+description: "Tooling that reads artifacts, analyses content against other artifacts, proposes relationship connections, presents for human review, and batch-updates frontmatter. Built as a precursor to the AD-a76663db migration, reusable for any future schema evolution."
 status: review
 created: 2026-03-12
 updated: 2026-03-13
@@ -12,15 +12,15 @@ research-needed:
   - "Batch review UX — how does the human efficiently review and approve/reject proposals?"
   - Frontmatter update mechanism — safe in-place editing of YAML frontmatter without corrupting markdown body
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 
 ## Motivation
 
-[EPIC-058](EPIC-058) Phase 2 requires backfilling relationships on ~150 artifacts. Doing this manually is error-prone and slow. Doing it with ad-hoc AI prompting loses consistency. Purpose-built tooling that can read an artifact, propose connections based on content analysis, and present them for human review makes the migration reliable AND creates a reusable capability for any future schema evolution.
+[EPIC-ca7b398b](EPIC-ca7b398b) Phase 2 requires backfilling relationships on ~150 artifacts. Doing this manually is error-prone and slow. Doing it with ad-hoc AI prompting loses consistency. Purpose-built tooling that can read an artifact, propose connections based on content analysis, and present them for human review makes the migration reliable AND creates a reusable capability for any future schema evolution.
 
 ## Sketch
 
@@ -33,4 +33,4 @@ The tool would:
 6. Update the artifact's frontmatter with approved relationships
 7. Track what's been processed and what's pending
 
-This is immediately useful for [EPIC-058](EPIC-058) and becomes a permanent capability for governance maintenance.
+This is immediately useful for [EPIC-ca7b398b](EPIC-ca7b398b) and becomes a permanent capability for governance maintenance.

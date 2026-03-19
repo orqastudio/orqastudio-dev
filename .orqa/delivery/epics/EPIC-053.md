@@ -1,5 +1,5 @@
 ---
-id: EPIC-053
+id: EPIC-dc1e3e4b
 title: Graph-Based Knowledge Injection
 description: |
   Replace content injection with graph injection. The orchestrator prompt becomes
@@ -19,61 +19,61 @@ scoring:
   complexity: 4
   dependencies: 4
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-208
+  - target: TASK-d8813639
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-209
+  - target: TASK-199f5d5a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-210
+  - target: TASK-ff26ebf3
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-211
+  - target: TASK-0c6ac8d8
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-212
+  - target: TASK-faa1f950
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-213
+  - target: TASK-26b03735
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-214
+  - target: TASK-b72ead56
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-215
+  - target: TASK-e7fd64ce
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-216
+  - target: TASK-dbc452ad
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-217
+  - target: TASK-51610830
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-218
+  - target: TASK-9d327363
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-219
+  - target: TASK-61776521
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-220
+  - target: TASK-6fa0243a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-221
+  - target: TASK-b91cefba
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-222
+  - target: TASK-4bc73133
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-223
+  - target: TASK-e258e6cb
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: delivered-by
     rationale: Epic contains this task
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
 ---
 
@@ -81,11 +81,11 @@ relationships:
 
 OrqaStudio's governance system has matured through several phases:
 
-- **[EPIC-050](EPIC-050)**: Built the enforcement engine and companion plugin — rules are
+- **[EPIC-3a8ad459](EPIC-3a8ad459)**: Built the enforcement engine and companion plugin — rules are
   mechanically enforced via hooks, the plugin bridges `.orqa/` to Claude Code
-- **[EPIC-052](EPIC-052)**: Shifted enforcement to structured thinking process gates, knowledge
+- **[EPIC-4440cdd4](EPIC-4440cdd4)**: Shifted enforcement to structured thinking process gates, knowledge
   injection, and tooling ecosystem management
-- **[EPIC-051](EPIC-051)**: Abstracted tool names into capabilities for provider-agnostic agents
+- **[EPIC-0a7b21cf](EPIC-0a7b21cf)**: Abstracted tool names into capabilities for provider-agnostic agents
 
 But the orchestrator prompt (`CLAUDE.md` / `orchestrator.md`) is still massive — it
 contains the full rule set, all skill injection tables, all delegation protocols, all
@@ -271,7 +271,7 @@ graph edges on the task itself.
 
 ### Plugin Self-Building Loop
 
-The companion plugin (EPIC-050) becomes the primary consumer of the graph:
+The companion plugin (EPIC-3a8ad459) becomes the primary consumer of the graph:
 
 1. **SessionStart hook** reads the graph, determines what to inject based on:
    - Current task (if set in session state)
@@ -293,7 +293,7 @@ Add web search as a first-class tool in the artifact workflow:
 1. **Research documents** can cite web sources with URLs
 2. **Skills** can reference external documentation
 3. **WebSearch/WebFetch** tools are available to all agents that need them
-4. **Capability mapping** already includes `web_fetch` and `web_search` (RULE-040)
+4. **Capability mapping** already includes `web_fetch` and `web_search` (RULE-92dba0cb)
 
 The graph connects external knowledge to internal artifacts:
 ```yaml
@@ -325,36 +325,36 @@ Estimated reduction: ~2000 lines → ~200 lines.
 ## Tasks
 
 ### Schema & Graph Foundation
-- [ ] [TASK-208](TASK-208): Add `docs` and `skills` fields to task schema
-- [ ] [TASK-209](TASK-209): Backfill `docs` field on existing tasks from git history context
-- [ ] [TASK-210](TASK-210): Backfill `skills` field on existing tasks from orchestrator injection table
+- [ ] [TASK-d8813639](TASK-d8813639): Add `docs` and `skills` fields to task schema
+- [ ] [TASK-199f5d5a](TASK-199f5d5a): Backfill `docs` field on existing tasks from git history context
+- [ ] [TASK-ff26ebf3](TASK-ff26ebf3): Backfill `skills` field on existing tasks from orchestrator injection table
 
 ### Orchestrator Simplification
-- [ ] [TASK-211](TASK-211): Write graph-based orchestrator prompt (target: ~200 lines)
-- [ ] [TASK-212](TASK-212): Extract dev server/worktree/hooks content to skills or docs
-- [ ] [TASK-213](TASK-213): Extract project-specific requirements to graph-readable artifacts
+- [ ] [TASK-0c6ac8d8](TASK-0c6ac8d8): Write graph-based orchestrator prompt (target: ~200 lines)
+- [ ] [TASK-faa1f950](TASK-faa1f950): Extract dev server/worktree/hooks content to skills or docs
+- [ ] [TASK-26b03735](TASK-26b03735): Extract project-specific requirements to graph-readable artifacts
 
 ### Plugin Graph Integration
-- [ ] [TASK-214](TASK-214): Plugin reads task `docs` and `skills` fields for context injection
-- [ ] [TASK-215](TASK-215): Plugin reads skill `scope` fields for path-based injection
-- [ ] [TASK-216](TASK-216): Plugin extends graph on artifact creation (PostToolUse)
+- [ ] [TASK-b72ead56](TASK-b72ead56): Plugin reads task `docs` and `skills` fields for context injection
+- [ ] [TASK-e7fd64ce](TASK-e7fd64ce): Plugin reads skill `scope` fields for path-based injection
+- [ ] [TASK-dbc452ad](TASK-dbc452ad): Plugin extends graph on artifact creation (PostToolUse)
 
 ### Web Search Parity
-- [ ] [TASK-217](TASK-217): Add `web_fetch` and `web_search` capabilities to research/planner agents
-- [ ] [TASK-218](TASK-218): Add `sources` field to research schema for web references
+- [ ] [TASK-51610830](TASK-51610830): Add `web_fetch` and `web_search` capabilities to research/planner agents
+- [ ] [TASK-9d327363](TASK-9d327363): Add `sources` field to research schema for web references
 
 ### Core Protection
-- [ ] [TASK-221](TASK-221): Pre-commit hook blocks core graph artifact modifications
+- [ ] [TASK-b91cefba](TASK-b91cefba): Pre-commit hook blocks core graph artifact modifications
 
 ### Decision Audit
-- [ ] [TASK-222](TASK-222): Audit existing architecture decisions (AD-001 to AD-037) against [AD-038](AD-038)/039/040
+- [ ] [TASK-4bc73133](TASK-4bc73133): Audit existing architecture decisions (AD-e513c9e4 to AD-0f6286cd) against [AD-2783985c](AD-2783985c)/039/040
 
 ### Project Setup Integration
-- [ ] [TASK-223](TASK-223): Create skill for epic-requirement inference during project setup
+- [ ] [TASK-e258e6cb](TASK-e258e6cb): Create skill for epic-requirement inference during project setup
 
 ### Verification
-- [ ] [TASK-219](TASK-219): End-to-end test: task with docs/skills → plugin injects correct context
-- [ ] [TASK-220](TASK-220): Verify orchestrator prompt works at ~200 lines (dogfood session)
+- [ ] [TASK-61776521](TASK-61776521): End-to-end test: task with docs/skills → plugin injects correct context
+- [ ] [TASK-6fa0243a](TASK-6fa0243a): Verify orchestrator prompt works at ~200 lines (dogfood session)
 
 ## Out of Scope
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-411
+id: TASK-ab9fa5f9
 title: Add stop event handling to rule-engine.mjs
 description: "Extend the plugin's rule engine to evaluate enforcement entries with event: stop. Currently only file/bash events are processed. Stop events need different context (session-level, no file path) and must fire when the Stop hook runs."
 status: completed
@@ -16,14 +16,14 @@ acceptance:
   - rule-engine.mjs accepts and evaluates stop event context
   - Hard filter on line 199 expanded to include stop events
   - Stop hook (hooks.json) calls rule-engine.mjs in addition to stop-checklist.sh
-  - RULE-001 stop enforcement entries (warn + inject) fire during Stop hook
-  - RULE-044 stop enforcement entries fire during Stop hook
+  - RULE-532100d9 stop enforcement entries (warn + inject) fire during Stop hook
+  - RULE-98682b5e stop enforcement entries fire during Stop hook
   - "Stop event context shape documented (no file_path, session-level only)"
 relationships:
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: delivers
     rationale: Core task — enables stop event enforcement in CLI context
-  - target: TASK-414
+  - target: TASK-70762a1f
     type: depended-on-by
 ---
 
@@ -32,7 +32,7 @@ relationships:
 ### rule-engine.mjs Changes
 
 1. **Expand tool filter** (line 199): Add stop event detection — when called from Stop hook, process stop-type enforcement entries
-2. **Stop event context**: No `file_path`, no `new_text`. Context is session-level: the hook receives `transcript` field per EPIC-050 design
+2. **Stop event context**: No `file_path`, no `new_text`. Context is session-level: the hook receives `transcript` field per EPIC-3a8ad459 design
 3. **Evaluate stop entries**: Filter enforcement entries by `event: stop`, match against session context, return verdicts
 
 ### hooks.json Changes
@@ -50,5 +50,5 @@ Update Stop hook to call both scripts:
 
 ### Testing
 
-- Manually verify RULE-001 stop entries fire by simulating a stop event
+- Manually verify RULE-532100d9 stop entries fire by simulating a stop event
 - Verify stop-checklist.sh still runs independently

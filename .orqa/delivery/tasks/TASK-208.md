@@ -1,5 +1,5 @@
 ---
-id: TASK-208
+id: TASK-d8813639
 title: Add docs and skills fields to task schema
 description: Extend the task schema with optional docs (array of documentation paths) and skills (array of skill names) fields that create graph edges from tasks to their implementation context.
 status: completed
@@ -11,18 +11,18 @@ acceptance:
   - Schema validator passes with and without the new fields
   - Artifact framework documentation reflects the new fields
 relationships:
-  - target: EPIC-053
+  - target: EPIC-dc1e3e4b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-209
+  - target: TASK-199f5d5a
     type: depended-on-by
-  - target: TASK-210
+  - target: TASK-ff26ebf3
     type: depended-on-by
-  - target: TASK-211
+  - target: TASK-0c6ac8d8
     type: depended-on-by
-  - target: TASK-214
+  - target: TASK-b72ead56
     type: depended-on-by
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: depended-on-by
 ---
 ## What
@@ -43,5 +43,5 @@ These fields create explicit graph edges from tasks to their implementation cont
 ## Verification
 
 - Schema validator accepts tasks with and without docs/skills fields
-- Existing task [TASK-170](TASK-170) validates without docs/skills
+- Existing task [TASK-21b461ea](TASK-21b461ea) validates without docs/skills
 - Artifact framework docs updated with new field descriptions

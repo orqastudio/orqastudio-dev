@@ -1,5 +1,5 @@
 ---
-id: TASK-508
+id: TASK-47fc9eb2
 title: Update PipelineStepper to show valid transitions
 description: "Extend the PipelineStepper component to display which status transitions are valid from the artifact's current state, and make those transitions clickable so users can apply them directly from the stepper without manually editing the artifact file."
 status: blocked
@@ -17,18 +17,18 @@ acceptance:
   - "Clickable transitions that update the artifact's status via the SDK"
   - Only shows transitions that are valid for the current artifact type context
 relationships:
-  - target: EPIC-077
+  - target: EPIC-9fbc17c0
     type: delivers
-  - target: TASK-505
+  - target: TASK-a2384d29
     type: depends-on
 ---
 ## What
 
-PipelineStepper currently renders the artifact's current stage in the lifecycle. This task adds interactive transition buttons to the stepper: for each valid next status reachable from the current one, a button appears that — when clicked — calls the artifact-update SDK command to apply the transition. The valid transitions are derived from the same transition map used by the Rust transition engine (TASK-505), ensuring the UI and backend agree on what is allowed.
+PipelineStepper currently renders the artifact's current stage in the lifecycle. This task adds interactive transition buttons to the stepper: for each valid next status reachable from the current one, a button appears that — when clicked — calls the artifact-update SDK command to apply the transition. The valid transitions are derived from the same transition map used by the Rust transition engine (TASK-a2384d29), ensuring the UI and backend agree on what is allowed.
 
 ## How
 
-1. Define (or import) a `validTransitions` map in the frontend, keyed by artifact type and current status, returning an array of valid next statuses. This mirrors the transition logic from TASK-505.
+1. Define (or import) a `validTransitions` map in the frontend, keyed by artifact type and current status, returning an array of valid next statuses. This mirrors the transition logic from TASK-a2384d29.
    Example: `{ epic: { active: ["review"], review: ["completed"] }, task: { ready: ["active"], active: ["completed", "blocked"] } }`.
 2. In `PipelineStepper`, derive the available transitions reactively:
    ```svelte

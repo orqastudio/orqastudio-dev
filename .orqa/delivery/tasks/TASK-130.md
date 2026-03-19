@@ -1,5 +1,5 @@
 ---
-id: TASK-130
+id: TASK-02bf9d1b
 title: Implement tool call rendering
 description: "Built tool call card components with collapsible display showing tool name, input parameters, and output results."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Cards are collapsible with input/output visible when expanded
   - Tool approval flow works
 relationships:
-  - target: EPIC-030
+  - target: EPIC-cfd1ac79
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-320
+  - target: TASK-a5e7df28
     type: depended-on-by
 ---
 ## What

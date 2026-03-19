@@ -1,5 +1,5 @@
 ---
-id: TASK-280
+id: TASK-78abb39a
 title: "Verify pipeline integrity — all artifacts connected, no orphans"
 description: "Final verification that the migration is complete: every governance artifact has relationships, no orphan nodes, bidirectional consistency holds, pipeline flow is forward."
 status: completed
@@ -16,12 +16,12 @@ acceptance:
   - Deprecated fields completely removed
 rule-overrides: []
 relationships:
-  - target: EPIC-058
+  - target: EPIC-ca7b398b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-279
+  - target: TASK-7b2f5ee7
     type: depends-on
-  - target: TASK-348
+  - target: TASK-508cf6cd
     type: depended-on-by
 ---
 

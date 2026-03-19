@@ -1,5 +1,5 @@
 ---
-id: TASK-447
+id: TASK-ec8c8405
 title: Body template validation in integrity validator
 description: Add integrity checks that validate artifact body sections against bodyTemplate in schema.json.
 status: completed
@@ -16,7 +16,7 @@ acceptance:
   - Integrity validator checks artifact body sections against bodyTemplate in schema.json
   - Missing required headings or empty content under required headings is a warning
 relationships:
-  - target: EPIC-070
+  - target: EPIC-f684378f
     type: delivers
     rationale: Body template validation ensures artifacts have complete content structure
 ---

@@ -1,5 +1,5 @@
 ---
-id: RULE-042
+id: RULE-f9d0279c
 title: Automated Skill Injection
 description: "When agents touch specific code areas, relevant domain skills are auto-injected. Enforcement entries map file paths to skill names."
 status: active
@@ -33,14 +33,14 @@ enforcement:
   - orqa-governance
   - orqa-documentation
 relationships:
-  - target: AD-045
+  - target: AD-ea4a5979
     type: enforces
-    rationale: Auto-generated inverse of practiced-by relationship from AD-045
-  - target: AD-048
+    rationale: Auto-generated inverse of practiced-by relationship from AD-ea4a5979
+  - target: AD-f9034c99
     type: enforces
-  - target: AD-045
+  - target: AD-ea4a5979
     type: enforces
-  - target: DOC-071
+  - target: DOC-e0042602
     type: documented-by
 ---
 When agents write to specific code areas, the enforcement engine automatically injects
@@ -92,6 +92,6 @@ Ensure the referenced skills exist in `.orqa/process/skills/`.
 
 ## Related Rules
 
-- [RULE-026](RULE-026) (skill-enforcement) — skill loading model and tier system
-- [RULE-006](RULE-006) (coding-standards) — the standards that injected skills help enforce
-- [RULE-043](RULE-043) (tooling-ecosystem) — linter delegation complements skill injection
+- [RULE-deab6ea7](RULE-deab6ea7) (skill-enforcement) — skill loading model and tier system
+- [RULE-b49142be](RULE-b49142be) (coding-standards) — the standards that injected skills help enforce
+- [RULE-7f416d7d](RULE-7f416d7d) (tooling-ecosystem) — linter delegation complements skill injection

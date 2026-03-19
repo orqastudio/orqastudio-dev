@@ -1,5 +1,5 @@
 ---
-id: TASK-151
+id: TASK-8120e247
 title: Create epic readiness validator hook
 description: Validation hook that checks docs-required paths exist on disk before an epic can move to ready status.
 status: completed
@@ -11,20 +11,20 @@ acceptance:
   - Epic with empty docs-required passes validation
   - Handles both artifact ID refs and file path refs
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What
 
-[RULE-004](RULE-004) defines the documentation gate as NON-NEGOTIABLE — all `docs-required` items must exist before an epic moves from `draft` to `ready`. Currently orchestrator-enforced via manual checking. Automate it.
+[RULE-7b770593](RULE-7b770593) defines the documentation gate as NON-NEGOTIABLE — all `docs-required` items must exist before an epic moves from `draft` to `ready`. Currently orchestrator-enforced via manual checking. Automate it.
 
 ## How
 
 1. Create a validation script that reads an epic's `docs-required` frontmatter array
-2. For each entry: if it matches an artifact ID pattern (e.g., `[AD-001](AD-001)`), check if that artifact exists in the graph. If it is a file path, check if the file exists on disk.
+2. For each entry: if it matches an artifact ID pattern (e.g., `[AD-e513c9e4](AD-e513c9e4)`), check if that artifact exists in the graph. If it is a file path, check if the file exists on disk.
 3. If any required doc is missing, report which ones and exit non-zero
 4. Can be a standalone script or integrated into the pre-commit hook when epic status changes
 

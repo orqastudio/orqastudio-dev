@@ -1,5 +1,5 @@
 ---
-id: TASK-296
+id: TASK-f6e9b767
 title: Lessons maturity review (16 lessons)
 description: Evaluate all 16 lessons for elevation potential. Verify promoted lessons have grounded-by relationships. Ensure meaningful rationales on all edges.
 status: completed
@@ -14,12 +14,12 @@ acceptance:
   - All relationship rationales are meaningful (not generic)
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-285
+  - target: TASK-5da55ccb
     type: depends-on
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

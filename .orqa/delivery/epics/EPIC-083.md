@@ -1,5 +1,5 @@
 ---
-id: EPIC-083
+id: EPIC-596dc061
 title: Dev tool integrations as installable plugins
 description: >
   Convert development tool integrations (Claude Code plugin, git hooks,
@@ -17,7 +17,7 @@ created: 2026-03-16
 updated: 2026-03-16
 horizon: next
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
 ---
 
@@ -41,8 +41,8 @@ managed through the OrqaStudio plugin system. This includes:
 
 ## Blocked By
 
-- EPIC-080 Phase 2+: plugin discovery, runtime loading, enable/disable
-- EPIC-082 Phase 3: schema-driven enforcement (so plugins can declare validation rules)
+- EPIC-3f65c703 Phase 2+: plugin discovery, runtime loading, enable/disable
+- EPIC-2362adfc Phase 3: schema-driven enforcement (so plugins can declare validation rules)
 
 ## Research Needed
 

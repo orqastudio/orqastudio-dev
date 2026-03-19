@@ -1,5 +1,5 @@
 ---
-id: TASK-221
+id: TASK-b91cefba
 title: Pre-commit hook blocks core graph artifact modifications
 description: "Add a pre-commit check that warns and blocks commits modifying core graph artifacts (schemas, orchestrator, core skills, role definitions) unless force-overridden. Dogfood mode bypasses."
 status: completed
@@ -14,12 +14,12 @@ acceptance:
   - Dogfood projects skip the check entirely
   - Warning message explains that changing core artifacts risks breaking the system thinking structure
 relationships:
-  - target: EPIC-053
+  - target: EPIC-dc1e3e4b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-211
+  - target: TASK-0c6ac8d8
     type: depends-on
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: depended-on-by
 ---
 ## What

@@ -1,5 +1,5 @@
 ---
-id: IDEA-057
+id: IDEA-889dffd4
 title: Provider-Agnostic Tool Abstraction for Agent Definitions
 description: |
   Agent definitions should declare tool capabilities abstractly (e.g. "file_read",
@@ -15,14 +15,14 @@ research-needed:
   - Design the capability → tool resolution mechanism
   - "Determine where the mapping lives (rule, skill, or config)"
 relationships:
-  - target: EPIC-051
+  - target: EPIC-0a7b21cf
     type: realises
     rationale: "Promoted to epic for implementation"
-  - target: EPIC-051
+  - target: EPIC-0a7b21cf
     type: realises
-  - target: PILLAR-003
+  - target: PILLAR-94b281db
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 
@@ -98,6 +98,6 @@ A rule defines the canonical mapping. Each provider context resolves differently
 The mapping is a constraint, not a feature. It governs how all agents interact with
 tools regardless of which provider runs them. Rules are:
 - Loaded by every agent automatically
-- Enforced mechanically (via the enforcement engine once [EPIC-050](EPIC-050) lands)
+- Enforced mechanically (via the enforcement engine once [EPIC-3a8ad459](EPIC-3a8ad459) lands)
 - Visible in the governance UI
 - Extensible per provider without touching agent definitions

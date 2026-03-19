@@ -1,5 +1,5 @@
 ---
-id: DOC-060
+id: DOC-2c8605a0
 title: "Wireframe: Dashboard Views"
 description: "Wireframe specification for dashboard views including metrics, status, and activity summaries."
 created: 2026-03-02
@@ -8,11 +8,11 @@ sort: 4
 relationships: []
 ---
 
-<!-- FRESHNESS NOTE (2026-03-15): This wireframe is significantly outdated. The Scanner Dashboard, Metrics Dashboard, and Learning Loop views shown here were the original design vision but were never built as described. The implemented dashboard (EPIC-074) uses a narrative flow layout with pillar-aligned columns: MilestoneContextCard, IntegrityWidget, PipelineWidget, GraphHealthWidget, LessonVelocityWidget, DecisionQueueWidget, and ImprovementTrendsWidget. The scanner dashboard and metrics KPI cards do not exist as standalone Explorer Panel views — their data surfaces as widgets on the unified dashboard. The learning loop view corresponds to the artifact browser's Lessons category, not a separate dashboard. This wireframe should be rewritten to reflect the current dashboard architecture if it is to remain authoritative. -->
+<!-- FRESHNESS NOTE (2026-03-15): This wireframe is significantly outdated. The Scanner Dashboard, Metrics Dashboard, and Learning Loop views shown here were the original design vision but were never built as described. The implemented dashboard (EPIC-11561c51) uses a narrative flow layout with pillar-aligned columns: MilestoneContextCard, IntegrityWidget, PipelineWidget, GraphHealthWidget, LessonVelocityWidget, DecisionQueueWidget, and ImprovementTrendsWidget. The scanner dashboard and metrics KPI cards do not exist as standalone Explorer Panel views — their data surfaces as widgets on the unified dashboard. The learning loop view corresponds to the artifact browser's Lessons category, not a separate dashboard. This wireframe should be rewritten to reflect the current dashboard architecture if it is to remain authoritative. -->
 
 
 
-**Date:** 2026-03-02 | **Informed by:** Information Architecture, [Frontend Research](RES-004)
+**Date:** 2026-03-02 | **Informed by:** Information Architecture, [Frontend Research](RES-df5560cb)
 
 Dashboard views appear in the Explorer Panel and provide operational visibility into scanning, metrics, and the learning loop. These are post-MVP features designed early to validate the information architecture and panel system.
 

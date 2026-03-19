@@ -1,5 +1,5 @@
 ---
-id: TASK-274
+id: TASK-fedfd82a
 title: Backfill rules with relationships
 description: "Use backfill tooling to add grounded relationships to all 44 rules, connecting each to the decision or pillar it enforces."
 status: completed
@@ -14,17 +14,17 @@ acceptance:
   - All relationships have rationale explaining why the connection exists
   - Human reviewed and approved all proposals
 rule-overrides:
-  - "rule: RULE-032"
-  - "rule: RULE-004"
+  - "rule: RULE-a764b2ae"
+  - "rule: RULE-7b770593"
 relationships:
-  - target: EPIC-058
+  - target: EPIC-ca7b398b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-273
+  - target: TASK-1ec1a07c
     type: depends-on
-  - target: TASK-275
+  - target: TASK-4eb0c231
     type: depended-on-by
-  - target: TASK-348
+  - target: TASK-508cf6cd
     type: depended-on-by
 ---
 

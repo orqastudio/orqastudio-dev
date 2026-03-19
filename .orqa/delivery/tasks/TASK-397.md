@@ -1,36 +1,36 @@
 ---
-id: TASK-397
-title: Reconcile EPIC-060 — verify all deliverables and update status
-description: "Final reconciliation of EPIC-060: verify all tasks are done, update task table with real IDs, confirm epic deliverables match implementation, and set epic to review status pending UAT."
+id: TASK-d624db8f
+title: Reconcile EPIC-e37794bf — verify all deliverables and update status
+description: "Final reconciliation of EPIC-e37794bf: verify all tasks are done, update task table with real IDs, confirm epic deliverables match implementation, and set epic to review status pending UAT."
 status: completed
 created: 2026-03-13
 updated: 2026-03-13
 acceptance:
-  - All tasks in EPIC-060 have status done
+  - All tasks in EPIC-e37794bf have status done
   - "Task table in epic uses real IDs, no TBD entries"
   - Epic deliverables match what was actually implemented
   - Epic status set to review (pending UAT)
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-388
+  - target: TASK-2ffc45f7
     type: depends-on
-  - target: TASK-389
+  - target: TASK-ce651394
     type: depends-on
-  - target: TASK-390
+  - target: TASK-f6fd3161
     type: depends-on
-  - target: TASK-391
+  - target: TASK-ee4681f4
     type: depends-on
-  - target: TASK-392
+  - target: TASK-5fc0e2dc
     type: depends-on
-  - target: TASK-393
+  - target: TASK-614122c8
     type: depends-on
-  - target: TASK-394
+  - target: TASK-c5f53141
     type: depends-on
-  - target: TASK-395
+  - target: TASK-e188a8c8
     type: depends-on
-  - target: TASK-396
+  - target: TASK-b155317a
     type: depends-on
 ---
 

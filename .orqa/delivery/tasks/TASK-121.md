@@ -1,5 +1,5 @@
 ---
-id: TASK-121
+id: TASK-a42481af
 title: Design MCP host interface
 description: "Designed the interface for future external MCP server support, defining how OrqaStudio will host and connect to MCP servers."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Tool routing strategy accommodates both built-in and external tools
   - Configuration approach is documented
 relationships:
-  - target: EPIC-029
+  - target: EPIC-f132980b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-319
+  - target: TASK-8dd8819a
     type: depended-on-by
 ---
 ## What

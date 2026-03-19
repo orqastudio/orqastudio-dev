@@ -1,5 +1,5 @@
 ---
-id: TASK-091
+id: TASK-953f7ac3
 title: Convert monolithic decisions doc to individual artifacts
 description: "Converted the monolithic docs/architecture/decisions.md from full content to an index table, creating 20 individual AD-NNN.md artifacts with complete YAML frontmatter and cross-references."
 status: completed
@@ -10,14 +10,14 @@ acceptance:
   - "Each decision has id, title, status, created, updated fields"
   - Cross-references are populated and bidirectional
 relationships:
-  - target: EPIC-032
+  - target: EPIC-766e2afa
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-090
+  - target: TASK-e6418f4a
     type: depends-on
-  - target: TASK-092
+  - target: TASK-b13e6846
     type: depended-on-by
-  - target: TASK-322
+  - target: TASK-da84a27e
     type: depended-on-by
 ---
 ## What

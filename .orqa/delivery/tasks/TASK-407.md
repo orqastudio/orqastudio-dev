@@ -1,5 +1,5 @@
 ---
-id: TASK-407
+id: TASK-6757a72e
 title: Enhance artifact search with semantic capability and UI fixes
 description: Integrate semantic/AI search for artifact discovery. Fix search results overflow and improve input contrast against modal overlay.
 status: active
@@ -17,7 +17,7 @@ acceptance:
   - Search results do not overflow their widget container
   - Search input area has clear visual contrast against the modal overlay
 relationships:
-  - target: EPIC-063
+  - target: EPIC-fd22ca6c
     type: delivers
     rationale: Theme E — search enhancement from UAT
 ---

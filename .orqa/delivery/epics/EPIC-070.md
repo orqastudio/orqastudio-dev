@@ -1,5 +1,5 @@
 ---
-id: EPIC-070
+id: EPIC-f684378f
 title: Dynamic artifact tables and schema validation enhancements
 description: "Injectable dynamic tables in markdown (tasks table on epics, epics on milestones), body template validation, and schema evolution (new relationship types, personas)."
 status: completed
@@ -14,19 +14,19 @@ updated: 2026-03-14
 deadline: null
 horizon: next
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-447
+  - target: TASK-ec8c8405
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-448
+  - target: TASK-c4de13e1
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-449
+  - target: TASK-53eb8161
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-450
+  - target: TASK-3eceac9b
     type: delivered-by
     rationale: Epic contains this task
 ---
@@ -48,14 +48,14 @@ UAT round 2 identified the need for dynamic graph-driven tables in markdown rend
 
 ### Phase 3: Schema evolution
 - Personas as potential new artifact type (needs research)
-- Any additional relationship types identified during EPIC-067
+- Any additional relationship types identified during EPIC-58ba6d53
 
 ## Tasks
 
-- [TASK-447](TASK-447): Body template validation — required headings with non-empty content in integrity validator
-- [TASK-448](TASK-448): Dynamic artifact table component — graph-queried, injectable into markdown
-- [TASK-449](TASK-449): Research personas as a top-level artifact type
-- [TASK-450](TASK-450): Acceptance criteria audit — thorough backfill across all tasks
+- [TASK-ec8c8405](TASK-ec8c8405): Body template validation — required headings with non-empty content in integrity validator
+- [TASK-c4de13e1](TASK-c4de13e1): Dynamic artifact table component — graph-queried, injectable into markdown
+- [TASK-53eb8161](TASK-53eb8161): Research personas as a top-level artifact type
+- [TASK-3eceac9b](TASK-3eceac9b): Acceptance criteria audit — thorough backfill across all tasks
 
 ## Out of Scope
 

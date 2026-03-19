@@ -1,5 +1,5 @@
 ---
-id: IMPL-005
+id: IMPL-5331c7b9
 title: Config paths must match disk paths exactly
 description: Every path in project.json artifacts must resolve to an actual directory on disk. Mismatches cause silent empty results with no error.
 status: completed
@@ -29,7 +29,7 @@ The scanner silently returned empty results when a path didn't exist. No error, 
 
 ## Prevention
 
-This lesson was promoted to [RULE-003](RULE-003) (`artifact-config-integrity`), which enforces config-disk alignment and is part of the pre-commit verification checklist.
+This lesson was promoted to [RULE-6c0496e0](RULE-6c0496e0) (`artifact-config-integrity`), which enforces config-disk alignment and is part of the pre-commit verification checklist.
 
 ## Pattern
 

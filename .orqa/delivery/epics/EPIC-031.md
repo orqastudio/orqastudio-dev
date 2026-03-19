@@ -1,5 +1,5 @@
 ---
-id: EPIC-031
+id: EPIC-b1b3f5db
 title: Governance Bootstrap
 description: "The initial governance layer: filesystem scanner, coverage analysis, recommendations, and governance coverage indicator on the dashboard."
 status: completed
@@ -13,28 +13,28 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: MS-000
+  - target: MS-85b9269b
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-133
+  - target: TASK-71c613fb
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-134
+  - target: TASK-975eb726
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-135
+  - target: TASK-1c443823
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-136
+  - target: TASK-41cb6dda
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-137
+  - target: TASK-132f8783
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-138
+  - target: TASK-2000d343
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-321
+  - target: TASK-51007152
     type: delivered-by
     rationale: Epic contains this task
 ---
@@ -64,9 +64,9 @@ Implementation approach to be defined during planning.
 
 ## Tasks
 
-- [TASK-133](TASK-133): Implement governance filesystem scanner
-- [TASK-134](TASK-134): Implement governance coverage analysis
-- [TASK-135](TASK-135): Implement governance recommendations
-- [TASK-136](TASK-136): Implement recommendation review UI
-- [TASK-137](TASK-137): Implement governance coverage dashboard widget
-- [TASK-138](TASK-138): Wire governance end-to-end integration
+- [TASK-71c613fb](TASK-71c613fb): Implement governance filesystem scanner
+- [TASK-975eb726](TASK-975eb726): Implement governance coverage analysis
+- [TASK-1c443823](TASK-1c443823): Implement governance recommendations
+- [TASK-41cb6dda](TASK-41cb6dda): Implement recommendation review UI
+- [TASK-132f8783](TASK-132f8783): Implement governance coverage dashboard widget
+- [TASK-2000d343](TASK-2000d343): Wire governance end-to-end integration

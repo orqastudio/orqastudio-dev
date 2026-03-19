@@ -1,5 +1,5 @@
 ---
-id: TASK-441
+id: TASK-869f3489
 title: Dashboard grid layout system
 description: Replace the vertical card stack dashboard with a CSS grid layout that supports future drag-drop and plugin widgets.
 status: completed
@@ -17,10 +17,10 @@ acceptance:
   - Architecture supports future drag-drop and plugin widgets
   - Widgets can span columns/rows
 relationships:
-  - target: EPIC-068
+  - target: EPIC-6e774e50
     type: delivers
     rationale: Grid layout is the foundation for a more useful dashboard
-  - target: TASK-442
+  - target: TASK-07a0db5e
     type: depended-on-by
 ---
 

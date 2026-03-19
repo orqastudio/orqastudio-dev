@@ -1,5 +1,5 @@
 ---
-id: EPIC-064
+id: EPIC-915291e7
 title: Close enforcement bootstrapping gap
 description: "The enforcement system can't enforce the project's principles because: (1) documentation is isolated from the artifact graph — agents can't traverse to the knowledge they need, (2) no grounding mechanism exists — agents lose purpose under implementation pressure, (3) the orchestrator has no delegation reference — work types aren't mapped to roles and skills, and (4) mechanical enforcement gaps remain — stop events, skill injection, and write-time integrity aren't wired. This epic closes all four gaps so the system can enforce itself during its own development."
 status: completed
@@ -14,89 +14,89 @@ scoring:
   complexity: 5
   dependencies: 5
 relationships:
-  - target: AD-048
+  - target: AD-f9034c99
     type: driven-by
-    rationale: AD-048 requires enforcement to accompany rule promotion — this epic implements that requirement across all layers
-  - target: RES-056
+    rationale: AD-f9034c99 requires enforcement to accompany rule promotion — this epic implements that requirement across all layers
+  - target: RES-5657d9f6
     type: guided-by
     rationale: Research document analyzing the bootstrapping gap drives this epic's scope
-  - target: RES-057
+  - target: RES-d3f58f2d
     type: guided-by
     rationale: Integrity check alignment audit informed enforcement bootstrapping scope
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-411
+  - target: TASK-ab9fa5f9
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-412
+  - target: TASK-528bba63
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-413
+  - target: TASK-419e65f4
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-414
+  - target: TASK-70762a1f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-415
+  - target: TASK-84e27636
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-416
+  - target: TASK-6385a2ac
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-190
+  - target: TASK-7e02fb8e
     type: delivered-by
-    rationale: Absorbed from EPIC-050 — surface violations in governance UI
-  - target: TASK-460
+    rationale: Absorbed from EPIC-3a8ad459 — surface violations in governance UI
+  - target: TASK-fb9cfd61
     type: delivered-by
     rationale: Phase 1 — delete duplicate documentation
-  - target: TASK-461
+  - target: TASK-257a5482
     type: delivered-by
     rationale: Phase 1 — merge overlapping documentation
-  - target: TASK-462
+  - target: TASK-d1307b98
     type: delivered-by
     rationale: Phase 1 — restructure unfocused documentation
-  - target: TASK-463
+  - target: TASK-349bc911
     type: delivered-by
     rationale: Phase 2 — create grounding documents
-  - target: TASK-464
+  - target: TASK-46275b63
     type: delivered-by
     rationale: Phase 2 — create delegation reference
-  - target: TASK-465
+  - target: TASK-ca282ce0
     type: delivered-by
     rationale: Phase 2 — define Governance Steward agent
-  - target: TASK-466
+  - target: TASK-f9f933b5
     type: delivered-by
     rationale: Phase 2 — connect documentation to graph
-  - target: TASK-467
+  - target: TASK-269b3f8f
     type: delivered-by
     rationale: Phase 3 — grounding injection in plugin
-  - target: RES-062
+  - target: RES-17a8e33f
     type: guided-by
     rationale: Documentation audit findings shaped the restructuring plan
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
-  - target: IDEA-095
+  - target: IDEA-93949f43
     type: realised-by
-  - target: RES-056
+  - target: RES-5657d9f6
     type: guided-by
-  - target: RES-057
+  - target: RES-d3f58f2d
     type: guided-by
-  - target: RES-062
+  - target: RES-17a8e33f
     type: guided-by
-  - target: IMPL-054
+  - target: IMPL-945fa6ab
     type: cautioned-by
-  - target: IMPL-055
+  - target: IMPL-e848fb92
     type: cautioned-by
 ---
 ## Context
 
 During a heavy implementation session (31 tasks across 6 epics), the orchestrator lost awareness of the project's core principles — pillars, vision, architectural constraints. Investigation revealed four structural gaps:
 
-1. **Documentation is isolated from the graph.** 55% of docs have zero relationships. Agents can't traverse from a skill to its deeper documentation. 8 significant duplications exist. 23 files contain stale phase references. ([RES-062](RES-062))
+1. **Documentation is isolated from the graph.** 55% of docs have zero relationships. Agents can't traverse from a skill to its deeper documentation. 8 significant duplications exist. 23 files contain stale phase references. ([RES-17a8e33f](RES-17a8e33f))
 2. **No grounding mechanism exists.** Agent prompts are 100% procedural — they describe how to work but not why the work matters. Under implementation pressure, purpose evaporates because it was never anchored.
 3. **The orchestrator has no delegation reference.** Work types aren't mapped to roles, skills, and grounding. Delegation is a judgement call instead of a lookup. The orchestrator doing implementation work is a sign of system failure, but nothing enforces this.
-4. **Mechanical enforcement gaps remain.** Stop events aren't evaluated, skill injection returns names not content, write-time graph integrity isn't checked. ([RES-056](RES-056))
+4. **Mechanical enforcement gaps remain.** Stop events aren't evaluated, skill injection returns names not content, write-time graph integrity isn't checked. ([RES-5657d9f6](RES-5657d9f6))
 
 The consequence: **the system's principles are lost during implementation because the knowledge infrastructure that should maintain them is disconnected, ungrounded, and mechanically incomplete.**
 
@@ -109,19 +109,19 @@ Fix the documentation so it's worth connecting to the graph. Delete duplicates, 
 #### Deletions
 - DOC-019 (architecture-overview) — stub, duplicates DOC-001
 - DOC-054 (launch-timeline) — entirely outdated
-- DOC-032 (process/rules) — duplicates RULE-026
+- DOC-032 (process/rules) — duplicates RULE-deab6ea7
 
 #### Merges
-- DOC-038 (governance-hub) → DOC-039 (governance)
-- DOC-082 (guide/workflow) → DOC-035 (process/workflow)
-- DOC-048 (component-inventory) → DOC-016 (svelte-components)
-- DOC-081 (artifact-types) → DOC-036 (artifact-framework)
+- DOC-038 (governance-hub) → DOC-1bc9d0b9 (governance)
+- DOC-5d1eed43 (guide/workflow) → DOC-7c66f103 (process/workflow)
+- DOC-048 (component-inventory) → DOC-52bbfba5 (svelte-components)
+- DOC-7d811a5d (artifact-types) → DOC-01ddd8aa (artifact-framework)
 
 #### Restructures
-- DOC-021 (coding-standards) — restructure as principles doc, not rule restatement
-- DOC-030 (orchestration) — add purpose, reduce to delegation reference
+- DOC-4b4fbc0f (coding-standards) — restructure as principles doc, not rule restatement
+- DOC-b10607c0 (orchestration) — add purpose, reduce to delegation reference
 - Remove all "Phase 2a/2b" references across 23 files
-- Clarify or delete: DOC-051 (engagement-infrastructure), DOC-029 (metrics), DOC-045 (system-artifacts)
+- Clarify or delete: DOC-051 (engagement-infrastructure), DOC-b513c6b2 (metrics), DOC-045 (system-artifacts)
 
 ### Phase 2: Grounding Documents and Delegation Reference
 
@@ -157,7 +157,7 @@ A new specialist agent (`governance-steward.md`) that owns all `.orqa/` artifact
 - Add `informs`/`informed-by` relationships between skills and their documentation
 - Add `informed-by` relationships from rules/decisions to their documentation pages
 - Link wireframe docs to epics via `docs-required`
-- Add pillar alignment sections to UI and wireframe docs per RULE-021
+- Add pillar alignment sections to UI and wireframe docs per RULE-39169bcd
 
 ### Phase 3: Mechanical Enforcement (CLI Plugin)
 
@@ -183,30 +183,30 @@ Wire the Rust EnforcementEngine to agent execution for app-context enforcement p
 
 ### Phase 1: Documentation Restructuring
 
-- [ ] [TASK-460](TASK-460): Delete duplicate and stale documentation (DOC-019, DOC-054, DOC-032)
-- [ ] [TASK-461](TASK-461): Merge overlapping documentation (4 merge pairs)
-- [ ] [TASK-462](TASK-462): Restructure unfocused documentation and remove stale phase references
+- [ ] [TASK-fb9cfd61](TASK-fb9cfd61): Delete duplicate and stale documentation (DOC-019, DOC-054, DOC-032)
+- [ ] [TASK-257a5482](TASK-257a5482): Merge overlapping documentation (4 merge pairs)
+- [ ] [TASK-d1307b98](TASK-d1307b98): Restructure unfocused documentation and remove stale phase references
 
 ### Phase 2: Grounding and Graph Connectivity
 
-- [ ] [TASK-463](TASK-463): Create grounding documents (5 role-area docs)
-- [ ] [TASK-464](TASK-464): Create delegation reference document
-- [ ] [TASK-465](TASK-465): Define Governance Steward agent
-- [ ] [TASK-466](TASK-466): Connect documentation to graph (relationships on docs, skills, agents)
+- [ ] [TASK-349bc911](TASK-349bc911): Create grounding documents (5 role-area docs)
+- [ ] [TASK-46275b63](TASK-46275b63): Create delegation reference document
+- [ ] [TASK-ca282ce0](TASK-ca282ce0): Define Governance Steward agent
+- [ ] [TASK-f9f933b5](TASK-f9f933b5): Connect documentation to graph (relationships on docs, skills, agents)
 
 ### Phase 3: Mechanical Enforcement (CLI Plugin)
 
-- [ ] [TASK-411](TASK-411): Add stop event handling to rule-engine.mjs
-- [ ] [TASK-412](TASK-412): Implement full skill content injection in rule-engine.mjs
-- [ ] [TASK-413](TASK-413): Add bidirectional relationship checking to graph-guardian.mjs
-- [ ] [TASK-467](TASK-467): Add grounding injection to plugin — resolve `grounded-by` on agent, inject content
-- [ ] [TASK-414](TASK-414): Integration test — verify all enforcement entries are consumed
+- [ ] [TASK-ab9fa5f9](TASK-ab9fa5f9): Add stop event handling to rule-engine.mjs
+- [ ] [TASK-528bba63](TASK-528bba63): Implement full skill content injection in rule-engine.mjs
+- [ ] [TASK-419e65f4](TASK-419e65f4): Add bidirectional relationship checking to graph-guardian.mjs
+- [ ] [TASK-269b3f8f](TASK-269b3f8f): Add grounding injection to plugin — resolve `grounded-by` on agent, inject content
+- [ ] [TASK-70762a1f](TASK-70762a1f): Integration test — verify all enforcement entries are consumed
 
 ### Phase 4: App Enforcement Pipeline
 
-- [ ] [TASK-415](TASK-415): Wire EnforcementEngine to agent tool approval pipeline
-- [ ] [TASK-416](TASK-416): Unify process gates and enforcement engine evaluation
-- [ ] [TASK-190](TASK-190): Surface violations in governance UI
+- [ ] [TASK-84e27636](TASK-84e27636): Wire EnforcementEngine to agent tool approval pipeline
+- [ ] [TASK-6385a2ac](TASK-6385a2ac): Unify process gates and enforcement engine evaluation
+- [ ] [TASK-7e02fb8e](TASK-7e02fb8e): Surface violations in governance UI
 
 ## Verification
 

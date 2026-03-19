@@ -1,5 +1,5 @@
 ---
-id: EPIC-056
+id: EPIC-7b039d05
 title: Repository Directory Reorganisation
 description: |
   Restructure the repository so that frontend, backend, sidecar, and debugger code
@@ -17,37 +17,37 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: RES-044
+  - target: RES-c7b4b22f
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-044
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-c7b4b22f
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-251
+  - target: TASK-d2842e47
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-252
+  - target: TASK-0fca4194
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-253
+  - target: TASK-0e401567
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-254
+  - target: TASK-e5c3ae15
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-255
+  - target: TASK-8c23c140
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-256
+  - target: TASK-50ed0c4a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-257
+  - target: TASK-7a35077d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-346
+  - target: TASK-03741ecb
     type: delivered-by
     rationale: Epic contains this task
-  - target: RES-044
+  - target: RES-c7b4b22f
     type: guided-by
 ---
 ## Context
@@ -96,9 +96,9 @@ Watchers can then be scoped:
 
 This is a large cross-cutting reorganisation. Every path reference in config files, import
 statements, build scripts, and documentation must be updated atomically. The research task
-([RES-044](RES-044)) must be completed first to map all affected references.
+([RES-c7b4b22f](RES-c7b4b22f)) must be completed first to map all affected references.
 
-### Phase 1: Research (TASK-251)
+### Phase 1: Research (TASK-d2842e47)
 
 Comprehensive audit of every file and config that references current directory paths.
 Map all cross-cutting concerns before any moves happen.
@@ -115,23 +115,23 @@ after each step.
 
 | ID | Title |
 |----|-------|
-| [TASK-251](TASK-251) | Research: cross-cutting concerns of directory restructure |
+| [TASK-d2842e47](TASK-d2842e47) | Research: cross-cutting concerns of directory restructure |
 
 ### Phase 2: Implementation
 
 | ID | Title |
 |----|-------|
-| [TASK-252](TASK-252) | Update documentation paths for directory reorganisation |
-| [TASK-253](TASK-253) | Move sidecar to sidecars/claude-agentsdk-sidecar/ |
-| [TASK-254](TASK-254) | Move backend to backend/src-tauri/ |
-| [TASK-255](TASK-255) | Nest frontend source into ui/src/ |
-| [TASK-256](TASK-256) | Move dev controller to debugger/ |
+| [TASK-0fca4194](TASK-0fca4194) | Update documentation paths for directory reorganisation |
+| [TASK-0e401567](TASK-0e401567) | Move sidecar to sidecars/claude-agentsdk-sidecar/ |
+| [TASK-e5c3ae15](TASK-e5c3ae15) | Move backend to backend/src-tauri/ |
+| [TASK-8c23c140](TASK-8c23c140) | Nest frontend source into ui/src/ |
+| [TASK-50ed0c4a](TASK-50ed0c4a) | Move dev controller to debugger/ |
 
 ### Phase 3: Verification
 
 | ID | Title |
 |----|-------|
-| [TASK-257](TASK-257) | Full integration test of reorganised repository |
+| [TASK-7a35077d](TASK-7a35077d) | Full integration test of reorganised repository |
 
 ## Out of Scope
 

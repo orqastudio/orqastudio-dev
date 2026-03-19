@@ -1,5 +1,5 @@
 ---
-id: EPIC-063
+id: EPIC-fd22ca6c
 title: "Dashboard & artifact viewer UAT fixes"
 description: "UAT round covering the full dashboard and artifact viewer experience. Fixes navigation bugs, redesigns dashboard widgets for actionable insight, enhances artifact viewer with relationship consolidation and pipeline position, and improves search UX."
 status: active
@@ -14,35 +14,35 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-403
+  - target: TASK-d622e989
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-404
+  - target: TASK-b1688502
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-405
+  - target: TASK-a0914d02
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-407
+  - target: TASK-6757a72e
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-408
+  - target: TASK-9637b896
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-409
+  - target: TASK-8f0ef13d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-410
+  - target: TASK-40445eb7
     type: delivered-by
     rationale: Epic contains this task
-  - target: IDEA-089
+  - target: IDEA-f9bb2c66
     type: realised-by
-  - target: IDEA-090
+  - target: IDEA-e0aa14a3
     type: realised-by
-  - target: IMPL-053
+  - target: IMPL-65c3ca6c
     type: cautioned-by
 ---
 ## UAT Findings Summary
@@ -54,7 +54,7 @@ relationships:
 - **#15** (rules layer classification) — all 45 rules already have `layer` field populated
 - **#17** (skills layer/category audit) — all 49 skills already classified
 - **#20** (ideas research-needed structure) — current freeform design is appropriate
-- **#28** (verification artifact type) — schema exists, awaiting EPIC-059 TASK-J for first instances
+- **#28** (verification artifact type) — schema exists, awaiting EPIC-942c7678 TASK-J for first instances
 
 ### Theme A: Navigation & Layout Bugs
 
@@ -62,7 +62,7 @@ relationships:
 |---|---------|
 | 10 | Nav sidebar icons missing for Process, Delivery, Docs |
 | 22 | Milestones and Verification icons missing |
-| 16 | Svelte error: duplicate key `RULE-022relationships` in ReferencesPanel |
+| 16 | Svelte error: duplicate key `RULE-303c1cc8relationships` in ReferencesPanel |
 | 31 | Secondary nav persists when navigating to Settings |
 | 32 | Settings secondary nav may exist but not rendering |
 | 33 | Config modal double-renders behind modal AND in content area |

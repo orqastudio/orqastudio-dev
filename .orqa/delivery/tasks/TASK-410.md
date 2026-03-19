@@ -1,5 +1,5 @@
 ---
-id: TASK-410
+id: TASK-40445eb7
 title: Investigate and suppress tao event loop warnings
 description: Investigate tao framework event loop warnings flooding the dev controller output. Determine if they indicate a real issue or can be safely filtered.
 status: completed
@@ -16,7 +16,7 @@ acceptance:
   - Root cause of tao NewEvents/RedrawEventsCleared warnings understood and documented
   - Warnings either fixed at source or filtered from dev output with documented justification
 relationships:
-  - target: EPIC-063
+  - target: EPIC-fd22ca6c
     type: delivers
     rationale: Theme H — framework warning noise from UAT
 ---

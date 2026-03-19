@@ -1,5 +1,5 @@
 ---
-id: DOC-023
+id: DOC-aae5a443
 title: Contributing
 category: onboarding
 description: "Guide for contributors — dev environment setup, multi-repo PR workflow, quality standards, and ethical licensing."
@@ -7,7 +7,7 @@ created: 2026-03-07
 updated: 2026-03-19
 sort: 6
 relationships:
-  - target: AD-056
+  - target: AD-fc646168
     type: documents
 ---
 
@@ -23,7 +23,7 @@ The canonical contribution guide lives at the dev repo root: [CONTRIBUTING.md](.
 
 3. **Three pillars** — features must serve at least one: Clarity Through Structure, Learning Through Reflection, or Purpose Through Continuity.
 
-4. **Ethical licensing** — contributions are licensed under BSL-1.1 with an Ethical Use Addendum that protects marginalised communities. See AD-056.
+4. **Ethical licensing** — contributions are licensed under BSL-1.1 with an Ethical Use Addendum that protects marginalised communities. See AD-fc646168.
 
 ## Contributing Governance Artifacts
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-237
+id: TASK-df494469
 title: Update orchestration.md and workflow.md
 description: Both describe pre-graph patterns. Update for graph-based injection architecture.
 status: completed
@@ -9,10 +9,10 @@ acceptance:
   - Docs describe current graph-based model
   - No pre-graph pattern references remain
 relationships:
-  - target: EPIC-054
+  - target: EPIC-6f2d06d4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-344
+  - target: TASK-94149697
     type: depended-on-by
 ---
 

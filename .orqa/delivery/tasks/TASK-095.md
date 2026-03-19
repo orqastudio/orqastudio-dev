@@ -1,5 +1,5 @@
 ---
-id: TASK-095
+id: TASK-d9a14433
 title: Tauri v2 capability audit
 description: "Confirmed Tauri v2 meets all desktop app requirements including security model, IPC patterns, plugin ecosystem, and cross-platform support."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Security model documented with capability patterns
   - IPC command patterns validated
 relationships:
-  - target: EPIC-025
+  - target: EPIC-a8a7e205
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-315
+  - target: TASK-03551f92
     type: depended-on-by
 ---
 ## What

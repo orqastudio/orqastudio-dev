@@ -1,5 +1,5 @@
 ---
-id: TASK-392
+id: TASK-5fc0e2dc
 title: Auto-fix engine for deterministic integrity issues
 description: "Add auto-fix logic to the artifact graph that can programmatically fix missing bidirectional inverses by writing the inverse relationship to the target artifact's frontmatter. Returns a list of fixes applied."
 status: completed
@@ -13,14 +13,14 @@ acceptance:
   - Graph is refreshed after fixes are applied
   - make check passes
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-390
+  - target: TASK-f6fd3161
     type: depends-on
-  - target: TASK-393
+  - target: TASK-614122c8
     type: depended-on-by
-  - target: TASK-397
+  - target: TASK-d624db8f
     type: depended-on-by
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: IDEA-034
+id: IDEA-abf847bb
 title: Structured Rule Enforcement Engine
 description: "Replace freeform rule scope strings with a structured enforcement model that maps rules to file paths, artifact types, and agent contexts — enabling the app to automatically load only relevant rules."
 status: completed
@@ -13,11 +13,11 @@ research-needed:
   - "UI for rule management (browse, enable/disable, see enforcement coverage)"
   - Migration path from current freeform scope field to structured model
 relationships:
-  - target: EPIC-050
+  - target: EPIC-3a8ad459
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 

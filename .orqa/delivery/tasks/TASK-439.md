@@ -1,5 +1,5 @@
 ---
-id: TASK-439
+id: TASK-358020c9
 title: Fix rescan stale data — refresh graph before integrity scan
 description: Ensure the rescan button refreshes the artifact graph before running integrity checks so findings reflect current disk state.
 status: completed
@@ -16,7 +16,7 @@ acceptance:
   - "Rescan button first refreshes the artifact graph, then runs integrity checks"
   - Findings reflect current disk state
 relationships:
-  - target: EPIC-068
+  - target: EPIC-6e774e50
     type: delivers
     rationale: Stale data on rescan undermines trust in integrity findings
 ---

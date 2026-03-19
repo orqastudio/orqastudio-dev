@@ -1,5 +1,5 @@
 ---
-id: TASK-110
+id: TASK-66c88d03
 title: Design conversation view wireframes
 description: "Created wireframes for the conversation UI including message bubbles, streaming display, tool call cards, and input area."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Streaming state is visually distinct
   - Tool calls are rendered with approval/result display
 relationships:
-  - target: EPIC-028
+  - target: EPIC-5573bb70
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-318
+  - target: TASK-34fa0772
     type: depended-on-by
 ---
 ## What

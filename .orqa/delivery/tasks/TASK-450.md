@@ -1,5 +1,5 @@
 ---
-id: TASK-450
+id: TASK-3eceac9b
 title: Acceptance criteria audit and backfill
 description: Audit all tasks for acceptance criteria completeness and backfill missing criteria based on actual implementation review.
 status: completed
@@ -17,7 +17,7 @@ acceptance:
   - Missing criteria backfilled based on actual implementation review — not assumed from status
   - Missed functionality documented
 relationships:
-  - target: EPIC-070
+  - target: EPIC-f684378f
     type: delivers
     rationale: Complete acceptance criteria enable accurate task status assessment
 ---

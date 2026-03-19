@@ -1,11 +1,11 @@
 ---
-id: TASK-074
+id: TASK-126265d4
 title: Add artifact graph Tauri commands
 description: "Expose the artifact graph through Tauri commands: resolve_artifact, resolve_path, get_references_from, get_references_to, get_artifacts_by_type, read_artifact_content, get_graph_stats."
 status: completed
 created: 2026-03-10
 updated: 2026-03-10
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - resolve_artifact command returns ArtifactNode for a given ID
   - resolve_path command returns ArtifactNode for a given file path
@@ -15,14 +15,14 @@ acceptance:
   - "get_graph_stats returns node count, edge count, orphan count, broken ref count"
   - All commands registered in Tauri app builder
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-073
+  - target: TASK-137ec554
     type: depends-on
-  - target: TASK-075
+  - target: TASK-18eee9b0
     type: depended-on-by
-  - target: TASK-338
+  - target: TASK-12eec0f3
     type: depended-on-by
 ---
 

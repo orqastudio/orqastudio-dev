@@ -1,5 +1,5 @@
 ---
-id: TASK-088
+id: TASK-1ac4d16f
 title: Cross-layer consistency verification
 description: "Verify consistency across the orchestrator, agents, skills, and rules layers — skill injection tables, agent-to-subagent mappings, orphaned artifacts, and cross-references."
 status: completed
@@ -11,20 +11,20 @@ acceptance:
   - No orphaned skills or rules without justification
   - Orchestrator instructions are consistent with active rule content
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-084
+  - target: TASK-b6e9df91
     type: depends-on
-  - target: TASK-085
+  - target: TASK-69b7753b
     type: depends-on
-  - target: TASK-086
+  - target: TASK-f32f3eba
     type: depends-on
-  - target: TASK-087
+  - target: TASK-b743b819
     type: depends-on
-  - target: TASK-089
+  - target: TASK-77b6e5bd
     type: depended-on-by
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What

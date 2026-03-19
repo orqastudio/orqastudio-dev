@@ -1,5 +1,5 @@
 ---
-id: EPIC-016
+id: EPIC-6b39364a
 title: Prioritisation Framework
 description: "Build the scoring model from the roadmap into the app with configurable dimensions, weights, and priority bands."
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
 ---

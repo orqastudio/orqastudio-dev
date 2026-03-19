@@ -1,5 +1,5 @@
 ---
-id: IMPL-012
+id: IMPL-8a971261
 title: Encode Improvements in Artifacts
 description: "If a process improvement exists only in conversation history, it is lost in the next session. Every improvement must be recorded as a lesson and encoded in the relevant agent, rule, or skill."
 status: completed

@@ -1,5 +1,5 @@
 ---
-id: IDEA-059
+id: IDEA-53205849
 title: Component Library SDK for Plugin Views
 description: Extract shared components into an importable SDK so plugins can create dynamic views that match the design system.
 status: completed
@@ -12,11 +12,11 @@ research-needed:
   - "How do plugins access theme tokens?"
   - "What's the distribution mechanism (npm package, bundled, git submodule)?"
 relationships:
-  - target: EPIC-062
+  - target: EPIC-527de6a3
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Description
@@ -28,10 +28,10 @@ OrqaStudio's plugin architecture needs a way for plugins to create custom views.
 3. **View registration API** — plugins register custom views for artifact types or dashboard panels
 4. **Theme tokens** — plugins access the design system tokens
 
-See [RES-046](RES-046) for context on plugin architecture requirements.
+See [RES-00ec6dd1](RES-00ec6dd1) for context on plugin architecture requirements.
 
 ## Related Ideas
 
-- [IDEA-038](IDEA-038) — Plugin distribution via git submodules
-- [IDEA-009](IDEA-009) — Integration ecosystem
-- [IDEA-015](IDEA-015) — Multi-view output system
+- [IDEA-b77e2955](IDEA-b77e2955) — Plugin distribution via git submodules
+- [IDEA-9713910f](IDEA-9713910f) — Integration ecosystem
+- [IDEA-af73e0af](IDEA-af73e0af) — Multi-view output system

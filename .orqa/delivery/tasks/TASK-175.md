@@ -1,11 +1,11 @@
 ---
-id: TASK-175
+id: TASK-027139e7
 title: Implement capability resolution in companion plugin SubagentStart hook
 description: The companion plugin resolves agent capabilities to Claude Code tool names when subagents spawn.
 status: completed
 created: 2026-03-11
 updated: 2026-03-12
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 docs: []
 acceptance:
   - SubagentStart hook reads agent definition capabilities
@@ -13,20 +13,20 @@ acceptance:
   - Resolved tools are injected as additionalContext for the subagent
   - Agents without capabilities field fall back to tools field
 relationships:
-  - target: EPIC-051
+  - target: EPIC-0a7b21cf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-173
+  - target: TASK-f936b9b2
     type: depends-on
-  - target: TASK-341
+  - target: TASK-413692fe
     type: depended-on-by
 ---
 
 ## What
 
-When the companion plugin (EPIC-050) spawns a subagent, the `SubagentStart` hook
+When the companion plugin (EPIC-3a8ad459) spawns a subagent, the `SubagentStart` hook
 reads the agent's `capabilities` field and resolves it to Claude Code tool names
-using the mapping from [RULE-040](RULE-040).
+using the mapping from [RULE-92dba0cb](RULE-92dba0cb).
 
 ## How
 

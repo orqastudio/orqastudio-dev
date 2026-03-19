@@ -1,5 +1,5 @@
 ---
-id: IDEA-035
+id: IDEA-14f3874c
 title: Configurable Priority Scoring
 description: "Make the epic scoring/prioritisation system configurable per project — custom dimensions, formulas, and priority bands — with the ability to disable scoring entirely for projects that don't need it."
 status: captured
@@ -13,9 +13,9 @@ research-needed:
   - UI for configuring scoring dimensions and previewing priority distribution
   - Migration path for existing epics when scoring config changes
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Problem
@@ -46,5 +46,5 @@ When `scoring.enabled` is `false`, the `scoring` block becomes optional on epics
 
 ## Related
 
-- [IDEA-033](IDEA-033) (Live Roadmap View) — roadmap sorting benefits from configurable priority
-- [IDEA-034](IDEA-034) (Structured Rule Enforcement) — scoring validation could be a rule check
+- [IDEA-464ab876](IDEA-464ab876) (Live Roadmap View) — roadmap sorting benefits from configurable priority
+- [IDEA-abf847bb](IDEA-abf847bb) (Structured Rule Enforcement) — scoring validation could be a rule check

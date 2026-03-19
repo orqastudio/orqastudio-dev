@@ -1,5 +1,5 @@
 ---
-id: TASK-168
+id: TASK-5e1e41de
 title: "Frontend: Client-side sorting, filtering, and grouping logic"
 description: Implement the ArtifactViewState store integration and client-side sort/filter/group logic that transforms the DocNode array based on user selections.
 status: completed
@@ -14,12 +14,12 @@ acceptance:
   - Tree rendering is removed
   - make typecheck passes
 relationships:
-  - target: EPIC-005
+  - target: EPIC-6787bb93
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-167
+  - target: TASK-cc68b8df
     type: depends-on
-  - target: TASK-312
+  - target: TASK-3b119193
     type: depended-on-by
 ---
 

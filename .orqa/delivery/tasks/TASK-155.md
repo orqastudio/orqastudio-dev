@@ -1,5 +1,5 @@
 ---
-id: TASK-155
+id: TASK-58d6a5ca
 title: Enforce frontmatter field ordering at creation time via schema validation
 description: Add propertyOrder enforcement to the schema validation hook and agent artifact creation process so frontmatter fields are written in the correct order from the start.
 status: completed
@@ -11,12 +11,12 @@ acceptance:
   - Agents and skills that create artifacts document the correct field order
   - Existing rule files fixed as a one-time batch
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-152
+  - target: TASK-448102a7
     type: depends-on
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What
@@ -25,7 +25,7 @@ Most rule files don't follow the `propertyOrder` from their `schema.json`. Rathe
 
 ## How
 
-1. Extend the schema validation hook (TASK-152) to check `propertyOrder` if defined in the schema
+1. Extend the schema validation hook (TASK-448102a7) to check `propertyOrder` if defined in the schema
 2. When frontmatter fields are out of order, produce a clear warning showing the expected order
 3. Update artifact creation skills/instructions to emphasize writing fields in schema order
 4. One-time batch fix: reorder existing rule files to match schema propertyOrder

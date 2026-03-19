@@ -1,78 +1,78 @@
 ---
-id: PERSONA-002
+id: PERSONA-015e8c2c
 title: "Sam — The Practitioner"
 description: "Senior professional who already uses AI tools daily. Values OrqaStudio as a structural layer that makes AI-assisted work visible, governed, and improving."
 status: active
 created: 2026-03-07
 updated: 2026-03-18
 relationships:
-  - target: IDEA-001
+  - target: IDEA-7035530f
     type: benefited-by
-  - target: IDEA-005
+  - target: IDEA-72903969
     type: benefited-by
-  - target: IDEA-010
+  - target: IDEA-125f4ec8
     type: benefited-by
-  - target: IDEA-014
+  - target: IDEA-3bcdd78b
     type: benefited-by
-  - target: IDEA-018
+  - target: IDEA-8ebeb1a2
     type: benefited-by
-  - target: IDEA-020
+  - target: IDEA-3354aefe
     type: benefited-by
-  - target: IDEA-022
+  - target: IDEA-88288601
     type: benefited-by
-  - target: IDEA-027
+  - target: IDEA-52c65fc8
     type: benefited-by
-  - target: IDEA-030
+  - target: IDEA-d15d04a6
     type: benefited-by
-  - target: IDEA-034
+  - target: IDEA-abf847bb
     type: benefited-by
-  - target: IDEA-041
+  - target: IDEA-48e79f74
     type: benefited-by
-  - target: IDEA-042
+  - target: IDEA-6bd0622f
     type: benefited-by
-  - target: IDEA-047
+  - target: IDEA-c31c1c6b
     type: benefited-by
-  - target: IDEA-052
+  - target: IDEA-770dc935
     type: benefited-by
-  - target: IDEA-054
+  - target: IDEA-c599e4ac
     type: benefited-by
-  - target: IDEA-055
+  - target: IDEA-68d4e688
     type: benefited-by
-  - target: IDEA-059
+  - target: IDEA-53205849
     type: benefited-by
-  - target: IDEA-066
+  - target: IDEA-2ffe9ff9
     type: benefited-by
-  - target: IDEA-069
+  - target: IDEA-1c7ebe74
     type: benefited-by
-  - target: IDEA-071
+  - target: IDEA-1287dd52
     type: benefited-by
-  - target: IDEA-072
+  - target: IDEA-5e90b487
     type: benefited-by
-  - target: IDEA-080
+  - target: IDEA-0d3f67de
     type: benefited-by
-  - target: IDEA-084
+  - target: IDEA-0f690b5f
     type: benefited-by
-  - target: IDEA-085
+  - target: IDEA-34a6bbf5
     type: benefited-by
-  - target: IDEA-089
+  - target: IDEA-f9bb2c66
     type: benefited-by
-  - target: IDEA-091
+  - target: IDEA-e41039bc
     type: benefited-by
-  - target: IDEA-093
+  - target: IDEA-c4f10c20
     type: benefited-by
-  - target: IDEA-094
+  - target: IDEA-bcb32ace
     type: benefited-by
-  - target: IDEA-101
+  - target: IDEA-aabbab9d
     type: benefited-by
-  - target: IDEA-103
+  - target: IDEA-0128a151
     type: benefited-by
-  - target: IDEA-107
+  - target: IDEA-49a009ae
     type: benefited-by
-  - target: IDEA-121
+  - target: IDEA-3f67dc75
     type: benefited-by
-  - target: IDEA-123
+  - target: IDEA-112a4b5d
     type: benefited-by
-  - target: IDEA-124
+  - target: IDEA-2d7ac819
     type: benefited-by
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-294
+id: TASK-b6b5c31c
 title: Skills content audit (48 skills)
 description: "Audit all 48 skills: fix layer classifications, resolve overlaps, establish naming convention (orqa-* = project-specific), remove stale content references, verify category accuracy."
 status: completed
@@ -15,14 +15,14 @@ acceptance:
   - Category accuracy verified for all skills
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-285
+  - target: TASK-5da55ccb
     type: depends-on
-  - target: TASK-295
+  - target: TASK-9f1f8b4b
     type: depended-on-by
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

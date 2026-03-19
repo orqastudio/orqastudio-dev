@@ -1,5 +1,5 @@
 ---
-id: IMPL-042
+id: IMPL-f27a1550
 title: Epic body drifts from actual work — no standing mechanism to maintain consistency
 description: "When tasks are added, pillars updated, or scope evolves mid-epic, the epic body (task table, pillars array, docs-produced) isn't updated in sync. This causes incomplete epic bodies at closure that need manual reconciliation. A standing reconciliation task per epic would force ongoing maintenance."
 status: completed
@@ -12,7 +12,7 @@ relationships: []
 
 ## Pattern
 
-During [EPIC-059](EPIC-059), work emerged mid-epic (TASK-310 for AD memory injection, [PILLAR-003](PILLAR-003) creation). These were completed as tasks but the epic body wasn't updated — the task table was missing [TASK-310](TASK-310) and the pillars array didn't include [PILLAR-003](PILLAR-003). This was only caught during the manual completion review. The pattern: epic bodies drift as work evolves, and nothing enforces sync until someone notices at the end.
+During [EPIC-942c7678](EPIC-942c7678), work emerged mid-epic (TASK-6dab59a2 for AD memory injection, [PILLAR-94b281db](PILLAR-94b281db) creation). These were completed as tasks but the epic body wasn't updated — the task table was missing [TASK-6dab59a2](TASK-6dab59a2) and the pillars array didn't include [PILLAR-94b281db](PILLAR-94b281db). This was only caught during the manual completion review. The pattern: epic bodies drift as work evolves, and nothing enforces sync until someone notices at the end.
 
 ## Fix
 

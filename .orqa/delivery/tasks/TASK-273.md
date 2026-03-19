@@ -1,5 +1,5 @@
 ---
-id: TASK-273
+id: TASK-1ec1a07c
 title: Build AI-assisted backfill and link verification tooling
 description: "Build tooling that reads artifacts, proposes relationship connections based on content analysis, presents for human review, and batch-updates frontmatter. Includes link verification tooling that scans artifact content for contextual accuracy of cross-references. Reusable for future schema migrations. Usage documented as an injectable skill."
 status: completed
@@ -21,18 +21,18 @@ acceptance:
   - "Link verification produces a report of broken, missing, and contextually inaccurate links"
   - An injectable skill is created documenting how to use both tools
 rule-overrides:
-  - "rule: RULE-032"
+  - "rule: RULE-a764b2ae"
 relationships:
-  - target: EPIC-058
+  - target: EPIC-ca7b398b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-271
+  - target: TASK-845e2653
     type: depends-on
-  - target: TASK-272
+  - target: TASK-354c88f2
     type: depends-on
-  - target: TASK-274
+  - target: TASK-fedfd82a
     type: depended-on-by
-  - target: TASK-348
+  - target: TASK-508cf6cd
     type: depended-on-by
 ---
 

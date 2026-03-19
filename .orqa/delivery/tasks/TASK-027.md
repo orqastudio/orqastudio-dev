@@ -1,20 +1,20 @@
 ---
-id: TASK-027
+id: TASK-570f27e0
 title: "Security hardening: CSP and permissions"
 description: "Audits and restricts Tauri capabilities to the minimum required permissions, removing broad defaults and enabling a Content Security Policy."
 status: completed
 created: 2026-03-06
 updated: 2026-03-09
-assignee: AGENT-006
+assignee: AGENT-b0774726
 acceptance:
   - "fs:default, shell:default, dialog:default, notification:default removed"
   - "Only dialog:allow-open retained"
   - Content Security Policy enabled
 relationships:
-  - target: EPIC-039
+  - target: EPIC-897bbe8f
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-329
+  - target: TASK-fca01488
     type: depended-on-by
 ---
 ## What

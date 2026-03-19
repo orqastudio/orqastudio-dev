@@ -1,25 +1,25 @@
 ---
-id: TASK-189
+id: TASK-4556173e
 title: Integrate enforcement with agent tool approval pipeline
 description: Wire the Rust enforcement engine into the agent execution pipeline for pre-tool-use checks.
 status: surpassed
 created: 2026-03-11
 updated: 2026-03-11
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 docs:
-  - DOC-021
+  - DOC-4b4fbc0f
 acceptance:
   - Tool approval pipeline calls enforcement engine before each tool execution
   - Blocked tools return enforcement message to the agent
   - Warned tools include enforcement context in the response
   - Violations are logged to SQLite for audit trail
 relationships:
-  - target: EPIC-050
+  - target: EPIC-3a8ad459
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-188
+  - target: TASK-6f15cbb0
     type: depends-on
-  - target: TASK-340
+  - target: TASK-fa39671d
     type: depended-on-by
 ---
 

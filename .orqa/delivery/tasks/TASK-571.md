@@ -1,10 +1,10 @@
 ---
-id: TASK-571
+id: TASK-b38f4704
 title: "Create @orqastudio/plugin-tauri with skills, docs, and agent"
 status: completed
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
-  - target: EPIC-090
+  - target: EPIC-83b67d0f
     type: delivers
 ---

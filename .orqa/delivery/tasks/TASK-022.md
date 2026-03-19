@@ -1,20 +1,20 @@
 ---
-id: TASK-022
+id: TASK-04c0045a
 title: Session resume and code research tool
 description: "Enables conversation continuity across app restarts via session ID persistence, and implements a native code research tool that combines semantic search with LLM analysis."
 status: completed
 created: 2026-03-05
 updated: 2026-03-09
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - Sessions resume across app restarts
   - code_research tool implemented natively
   - Process violation hook fixes applied
 relationships:
-  - target: EPIC-037
+  - target: EPIC-c0ab7529
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-327
+  - target: TASK-428a887f
     type: depended-on-by
 ---
 ## What

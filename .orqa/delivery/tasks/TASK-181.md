@@ -1,11 +1,11 @@
 ---
-id: TASK-181
+id: TASK-61be543f
 title: Implement SessionStart hook (orchestrator injection + session checks)
 description: Plugin SessionStart hook injects orchestrator context and runs session-start checks.
 status: completed
 created: 2026-03-11
 updated: 2026-03-12
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 docs: []
 acceptance:
   - SessionStart hook reads .orqa/process/agents/orchestrator.md
@@ -13,14 +13,14 @@ acceptance:
   - "Hook runs session-start checks (stashes, worktrees, uncommitted files)"
   - Hook replaces the current .claude/hooks/session-start-hook.sh functionality
 relationships:
-  - target: EPIC-050
+  - target: EPIC-3a8ad459
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-177
+  - target: TASK-869c27b5
     type: depends-on
-  - target: TASK-185
+  - target: TASK-11cf4c1d
     type: depended-on-by
-  - target: TASK-340
+  - target: TASK-fa39671d
     type: depended-on-by
 ---
 

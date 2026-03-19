@@ -1,5 +1,5 @@
 ---
-id: TASK-423
+id: TASK-b9cb39f8
 title: Wire orqa-studio to import from packages + update pre-commit and make verify
 description: "Update the main orqa-studio app to import types, SDK, and stores from the extracted packages instead of local files. Replace verify-links.mjs and verify-pipeline-integrity.mjs with @orqastudio/integrity-validator. Update pre-commit hook and make targets."
 status: completed
@@ -23,14 +23,14 @@ acceptance:
   - All existing tests pass
   - App builds and runs correctly with package imports
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: Integration — wires the main app to use the extracted packages
-  - target: TASK-419
+  - target: TASK-248a0485
     type: depends-on
-  - target: TASK-421
+  - target: TASK-2aca491a
     type: depends-on
-  - target: TASK-422
+  - target: TASK-51959c4d
     type: depends-on
 ---
 

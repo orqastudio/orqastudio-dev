@@ -1,5 +1,5 @@
 ---
-id: TASK-170
+id: TASK-21b461ea
 title: "Frontend: Spotlight-style AI search overlay"
 description: Build a floating search overlay (Ctrl+Space) that sends queries to the AI provider with artifact graph context and renders structured results.
 status: active
@@ -15,10 +15,10 @@ acceptance:
   - ActivityBar search icon opens the overlay
   - make typecheck passes
 relationships:
-  - target: EPIC-005
+  - target: EPIC-6787bb93
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-312
+  - target: TASK-3b119193
     type: depended-on-by
 ---
 

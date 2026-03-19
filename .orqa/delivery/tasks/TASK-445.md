@@ -1,5 +1,5 @@
 ---
-id: TASK-445
+id: TASK-9d2545ba
 title: Implement toast notification system
 description: "Install and configure a toast notification library with configurable position, duration, and severity levels."
 status: completed
@@ -19,15 +19,15 @@ acceptance:
   - Position and duration configurable
   - Toasts render correctly in both dark and light themes
 relationships:
-  - target: EPIC-069
+  - target: EPIC-2649e450
     type: delivers
     rationale: Toast system is the core notification infrastructure
-  - target: TASK-444
+  - target: TASK-86eb98e4
     type: depends-on
-  - target: TASK-446
+  - target: TASK-c071d202
     type: depended-on-by
 ---
 
 ## Scope
 
-Install and configure the chosen toast library (from TASK-444 research). Create a toast store/utility for triggering notifications programmatically. Support configurable position, duration, and severity levels (info, success, warning, error).
+Install and configure the chosen toast library (from TASK-86eb98e4 research). Create a toast store/utility for triggering notifications programmatically. Support configurable position, duration, and severity levels (info, success, warning, error).

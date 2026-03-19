@@ -1,5 +1,5 @@
 ---
-id: TASK-281
+id: TASK-e7324438
 title: Integrate integrity checks into pre-commit hook
 description: Add staged-file mode to verify-links.mjs and verify-pipeline-integrity.mjs. Add both to .githooks/pre-commit in the ORQA_CHANGED block. Broken links and missing inverses on staged files block the commit.
 status: completed
@@ -15,14 +15,14 @@ acceptance:
   - Missing bidirectional inverses on staged files block the commit
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-283
+  - target: TASK-8954343c
     type: depended-on-by
-  - target: TASK-284
+  - target: TASK-c4a7b6bb
     type: depended-on-by
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

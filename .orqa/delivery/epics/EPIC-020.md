@@ -1,5 +1,5 @@
 ---
-id: EPIC-020
+id: EPIC-d3fcb4ed
 title: "Discovery & Research Artifacts"
 description: "Build structured research artifacts, decision traceability graph, research-to-AD promotion, and conversational research workflow."
 status: captured
@@ -13,12 +13,12 @@ scoring:
   complexity: 3
   dependencies: 2
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: AD-023
+  - target: AD-c3700062
     type: driven-by
-  - target: AD-023
+  - target: AD-c3700062
     type: driven-by
 ---
 ## Tasks

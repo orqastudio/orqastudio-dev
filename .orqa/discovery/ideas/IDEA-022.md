@@ -1,5 +1,5 @@
 ---
-id: IDEA-022
+id: IDEA-88288601
 title: Platform Access
 description: "Expand beyond desktop with web companion, mobile companion, API access, and CLI companion."
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - Mobile companion scope
   - API design for programmatic access
 relationships:
-  - target: PILLAR-003
+  - target: PILLAR-94b281db
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Candidate Items

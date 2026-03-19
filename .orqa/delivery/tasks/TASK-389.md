@@ -1,5 +1,5 @@
 ---
-id: TASK-389
+id: TASK-ce651394
 title: Add typed traversal methods to artifactGraphSDK
 description: "Add traverse(), pipelineChain(), missingInverses(), and relationship-filtered query methods to the artifact graph SDK so components can follow typed edges without parsing frontmatter."
 status: completed
@@ -13,18 +13,18 @@ acceptance:
   - All methods are synchronous (operate on cached graph data)
   - make check passes
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-388
+  - target: TASK-2ffc45f7
     type: depends-on
-  - target: TASK-390
+  - target: TASK-f6fd3161
     type: depended-on-by
-  - target: TASK-394
+  - target: TASK-c5f53141
     type: depended-on-by
-  - target: TASK-396
+  - target: TASK-b155317a
     type: depended-on-by
-  - target: TASK-397
+  - target: TASK-d624db8f
     type: depended-on-by
 ---
 
@@ -46,7 +46,7 @@ Add to `ArtifactGraphSDK`:
 
 - Unit tests for traverse, pipelineChain, missingInverses
 - `make check` passes
-- Manual verification: `sdk.traverse("AD-029", "enforced-by")` returns the rules that enforce AD-029
+- Manual verification: `sdk.traverse("AD-774cc3d0", "enforced-by")` returns the rules that enforce AD-774cc3d0
 
 ## Lessons
 

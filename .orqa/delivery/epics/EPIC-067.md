@@ -1,5 +1,5 @@
 ---
-id: EPIC-067
+id: EPIC-58ba6d53
 title: "Artifact viewer redesign — layout, relationships, and graph enrichment"
 description: "Redesign the artifact viewer information hierarchy, relationships panel, and pipeline stepper. Enrich graph nodes with metadata for display. The largest systemic theme from UAT round 2."
 status: completed
@@ -14,50 +14,50 @@ updated: 2026-03-14
 deadline: null
 horizon: active
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-429
+  - target: TASK-e9219bfd
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-430
+  - target: TASK-1f8f15b9
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-431
+  - target: TASK-d5e090bf
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-432
+  - target: TASK-41df15c4
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-433
+  - target: TASK-c744d86a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-434
+  - target: TASK-0905e285
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-435
+  - target: TASK-2830a2da
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-436
+  - target: TASK-173d2618
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-437
+  - target: TASK-e0165bca
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-438
+  - target: TASK-a00f73cf
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-458
+  - target: TASK-c6514b53
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-459
+  - target: TASK-47a4b670
     type: delivered-by
     rationale: Epic contains this task
-  - target: IMPL-058
+  - target: IMPL-3fbabea8
     type: cautioned-by
-  - target: IMPL-059
+  - target: IMPL-2ba0fc33
     type: cautioned-by
-  - target: IMPL-064
+  - target: IMPL-e5ddb8f2
     type: cautioned-by
 ---
 ## Context
@@ -99,22 +99,22 @@ Reorder the artifact viewer:
 
 ## Tasks
 
-- [TASK-429](TASK-429): Enrich graph nodes with status, title, priority as first-class fields
-- [TASK-430](TASK-430): Reorder artifact viewer layout — actions needed, pipeline, metadata, acceptance, body
-- [TASK-431](TASK-431): Reusable pipeline stepper component with configurable stages and visual refresh
-- [TASK-432](TASK-432): Relationships panel — equal columns, overflow toggle, status dots on chips
-- [TASK-433](TASK-433): Relationships graph visualization view (node-link diagram grouped by edge type)
-- [TASK-434](TASK-434): Migrate scope fields to relationships array (rules + skills schemas)
-- [TASK-435](TASK-435): Add documents/documented-by relationship types + body-text edge extraction
-- [TASK-436](TASK-436): Field display improvements — badges, checkbox icons, display order
-- [TASK-437](TASK-437): Configurable relationship chip display per type in project settings
-- [TASK-438](TASK-438): Actions needed icon indicator in artifact list view + epics without tasks
-- [TASK-458](TASK-458): Migrate epic/milestone and task/epic references to relationship types
-- [TASK-459](TASK-459): Surface prioritisation criteria and require justification on epics/tasks
+- [TASK-e9219bfd](TASK-e9219bfd): Enrich graph nodes with status, title, priority as first-class fields
+- [TASK-1f8f15b9](TASK-1f8f15b9): Reorder artifact viewer layout — actions needed, pipeline, metadata, acceptance, body
+- [TASK-d5e090bf](TASK-d5e090bf): Reusable pipeline stepper component with configurable stages and visual refresh
+- [TASK-41df15c4](TASK-41df15c4): Relationships panel — equal columns, overflow toggle, status dots on chips
+- [TASK-c744d86a](TASK-c744d86a): Relationships graph visualization view (node-link diagram grouped by edge type)
+- [TASK-0905e285](TASK-0905e285): Migrate scope fields to relationships array (rules + skills schemas)
+- [TASK-2830a2da](TASK-2830a2da): Add documents/documented-by relationship types + body-text edge extraction
+- [TASK-173d2618](TASK-173d2618): Field display improvements — badges, checkbox icons, display order
+- [TASK-e0165bca](TASK-e0165bca): Configurable relationship chip display per type in project settings
+- [TASK-a00f73cf](TASK-a00f73cf): Actions needed icon indicator in artifact list view + epics without tasks
+- [TASK-c6514b53](TASK-c6514b53): Migrate epic/milestone and task/epic references to relationship types
+- [TASK-47a4b670](TASK-47a4b670): Surface prioritisation criteria and require justification on epics/tasks
 
 ## Out of Scope
 
-- Dashboard redesign (EPIC-068)
-- Notification system (EPIC-069)
-- Dynamic table components in markdown (EPIC-070)
-- Roadmap kanban view (EPIC-071)
+- Dashboard redesign (EPIC-6e774e50)
+- Notification system (EPIC-2649e450)
+- Dynamic table components in markdown (EPIC-f684378f)
+- Roadmap kanban view (EPIC-7d587280)

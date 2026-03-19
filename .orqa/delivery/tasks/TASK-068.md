@@ -1,27 +1,27 @@
 ---
-id: TASK-068
-title: Promote IMPL-015 to enforcement artifacts
-description: Promote IMPL-015 to enforcement artifacts
+id: TASK-648a5a90
+title: Promote IMPL-2e30e4ab to enforcement artifacts
+description: Promote IMPL-2e30e4ab to enforcement artifacts
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
-  - IMPL-015 promoted-to field updated with references to updated rule and skill
-  - Verification that all root causes identified in IMPL-015 are addressed
+  - IMPL-2e30e4ab promoted-to field updated with references to updated rule and skill
+  - Verification that all root causes identified in IMPL-2e30e4ab are addressed
 relationships:
-  - target: EPIC-047
+  - target: EPIC-39860e8b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-064
+  - target: TASK-80b08c75
     type: depends-on
-  - target: TASK-065
+  - target: TASK-5a90e7e0
     type: depends-on
-  - target: TASK-066
+  - target: TASK-58372e60
     type: depends-on
-  - target: TASK-067
+  - target: TASK-e1d418de
     type: depends-on
-  - target: TASK-337
+  - target: TASK-5e116826
     type: depended-on-by
 ---
 

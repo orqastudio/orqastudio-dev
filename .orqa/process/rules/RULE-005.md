@@ -1,17 +1,17 @@
 ---
-id: RULE-005
+id: RULE-5e03e67b
 title: Code Search Usage
 description: Prefer semantic search over Grep/Glob for multi-file searches. Load the correct search skill for your context.
 status: active
 created: 2026-03-07
 updated: 2026-03-07
 relationships:
-  - target: AD-024
+  - target: AD-99c2a969
     type: enforces
-    rationale: Auto-generated inverse of enforces relationship from AD-024
-  - target: AD-037
+    rationale: Auto-generated inverse of enforces relationship from AD-99c2a969
+  - target: AD-0f6286cd
     type: enforces
-    rationale: Auto-generated inverse of enforces relationship from AD-037
+    rationale: Auto-generated inverse of enforces relationship from AD-0f6286cd
 ---
 **Prefer semantic search over Grep/Glob for any search that spans more than one file or directory.**
 
@@ -65,8 +65,8 @@ If neither tool set is available in the current session:
 
 ## Related Rules
 
-- [RULE-026](RULE-026) (skill-enforcement) — search skills are universal, required for every agent
-- [RULE-012](RULE-012) (error-ownership) — use `search_regex` to find function signatures before calling them
-- [RULE-024](RULE-024) (reusable-components) — use `search_semantic` to find similar components
-- [RULE-010](RULE-010) (end-to-end-completeness) — use `code_research` to map the full request chain
-- [RULE-020](RULE-020) (no-stubs) — use `search_regex` to verify implementations exist
+- [RULE-deab6ea7](RULE-deab6ea7) (skill-enforcement) — search skills are universal, required for every agent
+- [RULE-57ccb4a3](RULE-57ccb4a3) (error-ownership) — use `search_regex` to find function signatures before calling them
+- [RULE-cb65b5d0](RULE-cb65b5d0) (reusable-components) — use `search_semantic` to find similar components
+- [RULE-1acb1602](RULE-1acb1602) (end-to-end-completeness) — use `code_research` to map the full request chain
+- [RULE-e9c54567](RULE-e9c54567) (no-stubs) — use `search_regex` to verify implementations exist

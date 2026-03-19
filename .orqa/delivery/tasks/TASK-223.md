@@ -1,5 +1,5 @@
 ---
-id: TASK-223
+id: TASK-e258e6cb
 title: Create skill for epic-requirement inference during project setup
 description: "Create a skill that informs the project-setup process about whether epics should be required, based on the project type, structure, and intended use. The skill provides heuristics and questions to determine the right workflow.epics-required setting."
 status: completed
@@ -8,16 +8,16 @@ updated: 2026-03-12
 docs: []
 acceptance:
   - A skill exists that can recommend epics-required true or false based on project signals
-  - SKILL-023 skill uses this recommendation during setup
+  - SKILL-e0dec720 skill uses this recommendation during setup
   - project.json has a workflow.epics-required field after setup
   - Software-like projects default to true
   - Research/planning projects default to false
   - Ambiguous projects prompt the user for a choice
 relationships:
-  - target: EPIC-053
+  - target: EPIC-dc1e3e4b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: depended-on-by
 ---
 ## What

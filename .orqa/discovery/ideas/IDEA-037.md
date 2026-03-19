@@ -1,19 +1,19 @@
 ---
-id: IDEA-037
+id: IDEA-a99c270e
 title: Artifact Node Graph
 description: "Build a bidirectional graph of all governance artifacts with typed relationships, enabling backreference queries, broken link detection, orphan detection, and a plugin-ready SDK for unified artifact access."
 status: completed
 created: 2026-03-10
 updated: 2026-03-13
 research-needed:
-  - Inter-artifact linking design (RES-033)
-  - Graph SDK design (RES-034)
+  - Inter-artifact linking design (RES-c387773d)
+  - Graph SDK design (RES-06ba5474)
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation
@@ -29,4 +29,4 @@ A node graph makes all relationships queryable in both directions, enables broke
 - Live refresh via `.orqa/` file watcher with debounced graph rebuild
 - Replaces all ad-hoc artifact access patterns (prefix map, label matching, raw file reads for metadata)
 
-Research: [RES-033](RES-033) (linking design), [RES-034](RES-034) (graph SDK design). Implementation: [EPIC-048](EPIC-048).
+Research: [RES-c387773d](RES-c387773d) (linking design), [RES-06ba5474](RES-06ba5474) (graph SDK design). Implementation: [EPIC-0a8a5e72](EPIC-0a8a5e72).

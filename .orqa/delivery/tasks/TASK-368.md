@@ -1,5 +1,5 @@
 ---
-id: TASK-368
+id: TASK-2ecb94ed
 title: Recurrence auto-tracking and promotion readiness detection
 description: Add tooling to auto-track lesson recurrence from review output and detect lessons ready for promotion
 status: completed
@@ -8,14 +8,14 @@ updated: 2026-03-13
 acceptance:
   - "Tooling auto-increments recurrence when review output matches existing lessons and surfaces lessons with recurrence >= 2 that lack promotion"
 relationships:
-  - target: EPIC-061
+  - target: EPIC-4e6e9eae
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-362
+  - target: TASK-4017a3de
     type: depends-on
-  - target: TASK-374
+  - target: TASK-6b0459ea
     type: depended-on-by
-  - target: TASK-375
+  - target: TASK-7cf80542
     type: depended-on-by
 ---
 
@@ -29,7 +29,7 @@ Extend verify-pipeline-integrity.mjs or create new tooling to scan review agent 
 
 ## Verification
 
-Completed as part of [EPIC-061](EPIC-061) Phase 3.
+Completed as part of [EPIC-4e6e9eae](EPIC-4e6e9eae) Phase 3.
 
 ## Lessons
 

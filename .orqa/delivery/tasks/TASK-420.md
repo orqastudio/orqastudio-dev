@@ -1,5 +1,5 @@
 ---
-id: TASK-420
+id: TASK-3b56186e
 title: "Create @orqastudio/sdk package — graph + IPC + frontmatter"
 description: "Create the SDK package with ArtifactGraphSDK, IPC invoke wrapper, and frontmatter parser. This is the core layer — stores are added in subsequent tasks."
 status: completed
@@ -23,14 +23,14 @@ acceptance:
   - "Unit tests for graph resolution, traversal, and subscription API"
   - Published to GitHub Packages
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: Core SDK — graph, IPC, and utilities
-  - target: TASK-417
+  - target: TASK-e6732238
     type: depends-on
-  - target: TASK-421
+  - target: TASK-2aca491a
     type: depended-on-by
-  - target: TASK-422
+  - target: TASK-51959c4d
     type: depended-on-by
 ---
 

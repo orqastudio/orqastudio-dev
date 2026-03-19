@@ -1,11 +1,11 @@
 ---
-id: TASK-071
+id: TASK-6a4eea2f
 title: Add body template linting to pre-commit hook
 description: Extend validate-schema.mjs to check that artifact bodies contain required section headings defined in the bodyTemplate schema key.
 status: completed
 created: 2026-03-10
 updated: 2026-03-10
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - Pre-commit hook reads bodyTemplate from schema.json for each artifact type
   - Hook checks that required headings exist in the markdown body
@@ -13,14 +13,14 @@ acceptance:
   - Research artifacts are exempt (intentionally freeform)
   - Optional sections are not enforced
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-070
+  - target: TASK-f950424e
     type: depends-on
-  - target: TASK-072
+  - target: TASK-8c0e5f1d
     type: depended-on-by
-  - target: TASK-338
+  - target: TASK-12eec0f3
     type: depended-on-by
 ---
 ## What

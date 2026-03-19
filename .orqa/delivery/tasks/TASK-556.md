@@ -1,10 +1,10 @@
 ---
-id: TASK-556
+id: TASK-e59d348f
 title: "Add language badge detection to README auditor"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-088
+  - target: EPIC-429b493d
     type: delivers
 ---

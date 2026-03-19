@@ -1,5 +1,5 @@
 ---
-id: TASK-108
+id: TASK-012ea89f
 title: Define design system
 description: "Established the visual design system including typography, colour palette, spacing scale, and iconography conventions."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - All tokens map to Tailwind configuration
   - Conventions are enforceable by lint rules
 relationships:
-  - target: EPIC-028
+  - target: EPIC-5573bb70
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-318
+  - target: TASK-34fa0772
     type: depended-on-by
 ---
 ## What

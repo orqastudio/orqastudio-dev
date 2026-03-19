@@ -1,5 +1,5 @@
 ---
-id: TASK-430
+id: TASK-1f8f15b9
 title: "Reorder artifact viewer layout — actions needed, pipeline, metadata, acceptance, body"
 description: Change the ArtifactViewer component ordering so the most actionable information appears first.
 status: completed
@@ -17,10 +17,10 @@ acceptance:
   - ArtifactViewer.svelte renders sections in the specified order for all artifact types
   - "Sections that have no data (e.g., no actions needed) are hidden, not rendered empty"
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: delivers
     rationale: Reordered viewer layout puts actionable information first
-  - target: TASK-431
+  - target: TASK-d5e090bf
     type: depends-on
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-451
+id: TASK-0d04a7ba
 title: Fix docs nav — show categories instead of status
 description: "Update documentation navigation to show top-level categories (Architecture, Product, Development, etc.) instead of status values."
 status: completed
@@ -18,7 +18,7 @@ acceptance:
   - Each category shows its README icon and label if available
   - Clicking a category expands to show the pages within it
 relationships:
-  - target: EPIC-071
+  - target: EPIC-7d587280
     type: delivers
     rationale: Category-based nav matches how users think about documentation
 ---

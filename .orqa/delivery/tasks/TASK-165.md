@@ -1,5 +1,5 @@
 ---
-id: TASK-165
+id: TASK-e6d10f6f
 title: "Backend: Extend DocNode with frontmatter and NavType with schema metadata"
 description: "Extend the Rust DocNode to carry all scalar frontmatter fields, extract filterable/sortable fields from schema.json, and read _navigation.json per type directory."
 status: completed
@@ -12,12 +12,12 @@ acceptance:
   - "_navigation.json is parsed when present, None when absent"
   - make lint-backend and make test-rust pass
 relationships:
-  - target: EPIC-005
+  - target: EPIC-6787bb93
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-166
+  - target: TASK-d05c56ea
     type: depended-on-by
-  - target: TASK-312
+  - target: TASK-3b119193
     type: depended-on-by
 ---
 

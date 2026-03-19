@@ -1,5 +1,5 @@
 ---
-id: TASK-117
+id: TASK-a83ae593
 title: Design Rust module architecture
 description: "Defined domain boundaries, service interfaces, and the repository pattern for the Rust backend."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Repository pattern is defined with trait interfaces
   - Dependency direction flows one way
 relationships:
-  - target: EPIC-029
+  - target: EPIC-f132980b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-319
+  - target: TASK-8dd8819a
     type: depended-on-by
 ---
 ## What

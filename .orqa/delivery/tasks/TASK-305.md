@@ -1,7 +1,7 @@
 ---
-id: TASK-305
+id: TASK-65f6b166
 title: Fix broken forward-references to non-existent artifacts
-description: "verify-links reports 9 broken-link errors for references to artifacts that don't exist: SKILL-045 (4 refs), AGENT-003/004/005, VER-NNN (2 refs). Either create the referenced artifacts or remove the forward references."
+description: "verify-links reports 9 broken-link errors for references to artifacts that don't exist: SKILL-bcfeb64e (4 refs), AGENT-1dab5ebe/004/005, VER-NNN (2 refs). Either create the referenced artifacts or remove the forward references."
 status: completed
 created: 2026-03-13
 updated: 2026-03-13
@@ -10,10 +10,10 @@ acceptance:
   - "Each resolution is either: artifact created, or reference removed with rationale"
   - node tools/verify-links.mjs --check-paths reports zero errors
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 
@@ -21,10 +21,10 @@ relationships:
 
 Resolve all 9 broken-link errors reported by `verify-links`:
 
-- SKILL-045 — 4 references in various artifacts
-- AGENT-003 — 1 reference
-- AGENT-004 — 1 reference
-- AGENT-005 — 1 reference
+- SKILL-bcfeb64e — 4 references in various artifacts
+- AGENT-1dab5ebe — 1 reference
+- AGENT-caff7bc1 — 1 reference
+- AGENT-fb0ce261 — 1 reference
 - VER-NNN — 2 references
 
 ## How

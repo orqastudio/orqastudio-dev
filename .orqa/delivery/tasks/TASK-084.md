@@ -1,5 +1,5 @@
 ---
-id: TASK-084
+id: TASK-b6e9df91
 title: Audit all agent definitions for accuracy
 description: "Verify every agent YAML definition in .orqa/process/agents/ has correct skills lists, valid required reading paths, accurate role descriptions, and no stale references."
 status: completed
@@ -9,18 +9,18 @@ acceptance:
   - All agent skills references point to existing skill directories
   - All Required Reading paths resolve to existing files
   - "No references to deprecated concepts (plans, Forge, decisions.md index)"
-  - Role descriptions align with AD-029
+  - Role descriptions align with AD-774cc3d0
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-088
+  - target: TASK-1ac4d16f
     type: depended-on-by
-  - target: TASK-089
+  - target: TASK-77b6e5bd
     type: depended-on-by
-  - target: TASK-093
+  - target: TASK-4a8c3c6a
     type: depended-on-by
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What

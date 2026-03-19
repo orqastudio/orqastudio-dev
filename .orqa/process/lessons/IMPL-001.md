@@ -1,5 +1,5 @@
 ---
-id: IMPL-001
+id: IMPL-eb748de2
 title: Vite Optimize After New Dependencies
 description: "After installing new npm dependencies, run npx vite optimize before starting the dev server to avoid WebView2 white screen on Windows."
 status: active

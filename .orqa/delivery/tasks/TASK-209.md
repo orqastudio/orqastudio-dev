@@ -1,5 +1,5 @@
 ---
-id: TASK-209
+id: TASK-199f5d5a
 title: Backfill docs field on existing tasks from git history
 description: "Analyse git history and task scope to populate the docs field on existing todo tasks, creating graph edges from tasks to the documentation that should be loaded during implementation."
 status: completed
@@ -10,14 +10,14 @@ acceptance:
   - docs entries point to existing documentation files
   - Documentation selection matches task scope and epic context
 relationships:
-  - target: EPIC-053
+  - target: EPIC-dc1e3e4b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-208
+  - target: TASK-d8813639
     type: depends-on
-  - target: TASK-211
+  - target: TASK-0c6ac8d8
     type: depended-on-by
-  - target: TASK-343
+  - target: TASK-dd9c8538
     type: depended-on-by
 ---
 

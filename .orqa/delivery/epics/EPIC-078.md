@@ -1,5 +1,5 @@
 ---
-id: EPIC-078
+id: EPIC-ed09464b
 title: Configuration-driven delivery pipeline
 description: "Replace hardcoded delivery artifact types (milestones, epics, tasks) with project-configurable type definitions in project.json. The code becomes a generic enforcement engine for whatever delivery pipeline the project defines. Core artifacts (ideas, research, rules, lessons, decisions, skills, agents, pillars) remain hardcoded as firmware."
 status: completed
@@ -14,21 +14,21 @@ updated: 2026-03-15
 deadline: null
 horizon: active
 relationships:
-  - target: AD-051
+  - target: AD-c8535011
     type: driven-by
     rationale: Implements the config-driven delivery pipeline decision
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-509
+  - target: TASK-bc24af0b
     type: delivered-by
-  - target: TASK-510
+  - target: TASK-fcb7ddc4
     type: delivered-by
-  - target: TASK-511
+  - target: TASK-c2db174d
     type: delivered-by
-  - target: TASK-512
+  - target: TASK-a5606ccd
     type: delivered-by
-  - target: TASK-513
+  - target: TASK-26acd796
     type: delivered-by
 ---
 
@@ -40,7 +40,7 @@ Currently the codebase hardcodes knowledge of delivery artifact types:
 - Parent-child relationships (task→epic→milestone) are hardcoded
 - The StatusKanban groups by hardcoded status values
 
-Per AD-051, the delivery pipeline should be configurable. A software project defines milestones/epics/tasks. A different project might define phases/workstreams/actions.
+Per AD-c8535011, the delivery pipeline should be configurable. A software project defines milestones/epics/tasks. A different project might define phases/workstreams/actions.
 
 ## Implementation Design
 
@@ -92,8 +92,8 @@ Ensure all existing delivery artifacts conform to the configured type definition
 
 ## Tasks
 
-- [x] [TASK-509](TASK-509): Define delivery type schema in project.json and Rust/TS types
-- [x] [TASK-510](TASK-510): Replace hardcoded parent-child field references in integrity checks
-- [x] [TASK-511](TASK-511): Make roadmap components read type hierarchy from config
-- [ ] [TASK-512](TASK-512): Validate existing artifacts against delivery type configuration
-- [ ] [TASK-513](TASK-513): Project settings UI for managing delivery types and state machine
+- [x] [TASK-bc24af0b](TASK-bc24af0b): Define delivery type schema in project.json and Rust/TS types
+- [x] [TASK-fcb7ddc4](TASK-fcb7ddc4): Replace hardcoded parent-child field references in integrity checks
+- [x] [TASK-c2db174d](TASK-c2db174d): Make roadmap components read type hierarchy from config
+- [ ] [TASK-a5606ccd](TASK-a5606ccd): Validate existing artifacts against delivery type configuration
+- [ ] [TASK-26acd796](TASK-26acd796): Project settings UI for managing delivery types and state machine

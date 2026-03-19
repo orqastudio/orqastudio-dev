@@ -1,11 +1,11 @@
 ---
-id: TASK-002
+id: TASK-df17333f
 title: Verify end-to-end AI transparency rendering
 description: "Verify the full AI transparency pipeline works end-to-end: Rust emission to Channel<T> to store accumulation to component rendering."
 status: completed
 created: 2026-03-07
 updated: 2026-03-07
-assignee: AGENT-006
+assignee: AGENT-b0774726
 acceptance:
   - System prompt sent (N chars) appears inline above assistant response when project is loaded
   - Clicking the entry opens ContextDetailDialog with governance prompt text visible
@@ -13,15 +13,15 @@ acceptance:
   - No context entry appears when no project is loaded
   - Conversation streaming works normally in all cases (no regression)
 relationships:
-  - target: EPIC-001
+  - target: EPIC-e045ab6d
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-311
+  - target: TASK-b6aa7a3b
     type: depended-on-by
 ---
 ## What
 
-After [TASK-001](TASK-001) is implemented, verify the full pipeline works: Rust emission → Channel<T> → store accumulation → component rendering.
+After [TASK-58a9d218](TASK-58a9d218) is implemented, verify the full pipeline works: Rust emission → Channel<T> → store accumulation → component rendering.
 
 ## Test Cases
 

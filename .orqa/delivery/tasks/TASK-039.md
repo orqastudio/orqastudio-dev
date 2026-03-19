@@ -1,11 +1,11 @@
 ---
-id: TASK-039
+id: TASK-3e2a9187
 title: Shared list item and status indicator components
 description: "Extracts duplicated list item and status display logic into reusable shared components covering all artifact lifecycle statuses, used consistently across the sidebar and landing grid."
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-001
+assignee: AGENT-c5284fde
 acceptance:
   - A shared StatusIndicator component exists with semantic colours and icons per status value
   - StatusIndicator works in list items
@@ -32,10 +32,10 @@ acceptance:
   - or colour)
   - Components are reusable across planning AND governance sections
 relationships:
-  - target: EPIC-043
+  - target: EPIC-a2fa3068
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-333
+  - target: TASK-34eaf518
     type: depended-on-by
 ---
 ## Findings Addressed

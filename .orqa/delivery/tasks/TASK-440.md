@@ -1,5 +1,5 @@
 ---
-id: TASK-440
+id: TASK-2fcf37c5
 title: "Pipeline health: collapse all-clear, remove Refresh, auto-rescan after refresh"
 description: "Streamline the pipeline health display — collapse all-clear state, remove redundant Refresh button, auto-run integrity scan after graph refresh."
 status: completed
@@ -17,7 +17,7 @@ acceptance:
   - Refresh button removed from dashboard (Re-index in statusbar suffices)
   - Integrity scan auto-runs after any graph refresh
 relationships:
-  - target: EPIC-068
+  - target: EPIC-6e774e50
     type: delivers
     rationale: Reduced visual noise on dashboard when everything is healthy
 ---

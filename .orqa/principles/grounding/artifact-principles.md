@@ -1,5 +1,5 @@
 ---
-id: DOC-066
+id: DOC-bfdf76ba
 title: Artifact Principles — Agent Grounding
 description: "Concise grounding document for Orchestrator, Writer, Researcher, and Governance Steward roles. Injected into agent context at initialization."
 created: 2026-03-14
@@ -19,7 +19,7 @@ Artifacts are not files. They are nodes in a graph. Every `epic` field, every `d
 
 **Orphaned artifacts are failures.** An epic without a milestone reference is disconnected from the plan. A task without an epic reference cannot be prioritised. A research document not referenced by any epic's `research-refs` is lost knowledge.
 
-**Every relationship has an inverse.** If epic EPIC-001 says it is `informed-by` RES-001, then RES-001 must say it `informs` EPIC-001. One-sided relationships indicate a broken edge. The pre-commit hook catches this. Do not bypass it.
+**Every relationship has an inverse.** If epic EPIC-e045ab6d says it is `informed-by` RES-4124820a, then RES-4124820a must say it `informs` EPIC-e045ab6d. One-sided relationships indicate a broken edge. The pre-commit hook catches this. Do not bypass it.
 
 ## Creating Artifacts With Purpose
 

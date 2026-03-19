@@ -1,5 +1,5 @@
 ---
-id: TASK-207
+id: TASK-34007190
 title: Integration testing for all enforcement layers
 description: |
   End-to-end verification that all four enforcement layers work together in
@@ -14,26 +14,26 @@ acceptance:
   - All new rules validate against schema
   - No regression in existing enforcement
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-196
+  - target: TASK-15370e74
     type: depends-on
-  - target: TASK-197
+  - target: TASK-4fa7dd50
     type: depends-on
-  - target: TASK-198
+  - target: TASK-8232a533
     type: depends-on
-  - target: TASK-199
+  - target: TASK-6cd46196
     type: depends-on
-  - target: TASK-200
+  - target: TASK-439fa554
     type: depends-on
-  - target: TASK-201
+  - target: TASK-50b3aa55
     type: depends-on
-  - target: TASK-203
+  - target: TASK-2bbc5077
     type: depends-on
-  - target: TASK-206
+  - target: TASK-965b2b81
     type: depends-on
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 
@@ -53,7 +53,7 @@ Verify all enforcement layers work end-to-end:
 3. Injection test: Edit domain file → skills injected as systemMessage
 4. Injection test: Second edit same area → skills NOT re-injected
 5. Linter test: `make check` catches all documented standards
-6. Schema test: All rules (including [RULE-041](RULE-041)/042/043) validate
+6. Schema test: All rules (including [RULE-c95f4444](RULE-c95f4444)/042/043) validate
 
 ## Verification
 

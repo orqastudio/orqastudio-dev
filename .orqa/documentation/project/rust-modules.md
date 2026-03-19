@@ -1,5 +1,5 @@
 ---
-id: DOC-010
+id: DOC-2f60e3a2
 title: Rust Module Architecture
 category: architecture
 description: Module layout and dependency structure of the Rust backend crate.
@@ -7,20 +7,20 @@ created: 2026-03-02
 updated: 2026-03-10
 sort: 7
 relationships:
-  - target: AD-001
+  - target: AD-e513c9e4
     type: documents
-    rationale: Documentation page references AD-001
-  - target: AD-003
+    rationale: Documentation page references AD-e513c9e4
+  - target: AD-1ad08e5f
     type: documents
-    rationale: Documentation page references AD-003
-  - target: AD-014
+    rationale: Documentation page references AD-1ad08e5f
+  - target: AD-8b91f5a4
     type: documents
-    rationale: Documentation page references AD-014
+    rationale: Documentation page references AD-8b91f5a4
 ---
 
-**References:** [Claude Integration](RES-002), [Tauri v2](RES-007), [Persistence](RES-006)
+**References:** [Claude Integration](RES-7f87b149), [Tauri v2](RES-00c5dbc3), [Persistence](RES-a68430ce)
 
-Module tree, domain types, command handlers, and dependency graph for `backend/src-tauri/src/`. Rust owns the domain model [AD-001](AD-001). All functions return `Result<T, E>` [AD-003](AD-003). No `unwrap()`, `expect()`, or `panic!()` in production code.
+Module tree, domain types, command handlers, and dependency graph for `backend/src-tauri/src/`. Rust owns the domain model [AD-e513c9e4](AD-e513c9e4). All functions return `Result<T, E>` [AD-1ad08e5f](AD-1ad08e5f). No `unwrap()`, `expect()`, or `panic!()` in production code.
 
 ---
 
@@ -62,7 +62,7 @@ backend/src-tauri/src/
 │   ├── session_title.rs             # Heuristics for deriving session titles from first message
 │   ├── settings.rs                  # Setting, SidecarStatus, SidecarState, ResolvedTheme, ThemeToken
 │   ├── setup.rs                     # SetupStatus, SetupStepStatus, StepStatus, ClaudeCliInfo
-│   ├── skill_injector.rs            # Path-to-skill injection engine (RULE-042): maps file patterns to skills
+│   ├── skill_injector.rs            # Path-to-skill injection engine (RULE-f9d0279c): maps file patterns to skills
 │   ├── stream_loop.rs               # Stream loop orchestration: sidecar -> DB -> channel
 │   ├── system_prompt.rs             # System prompt assembly from governance context
 │   ├── time_utils.rs                # Timestamp formatting helpers
@@ -350,8 +350,8 @@ Arrows point from the dependent module to the module it depends on.
 ## Related Documents
 
 - IPC Commands — full command catalog with signatures
-- [AD-001](AD-001) — thick backend principle
-- [AD-003](AD-003) — error propagation via Result + thiserror
-- [AD-014](AD-014) — repository pattern
+- [AD-e513c9e4](AD-e513c9e4) — thick backend principle
+- [AD-1ad08e5f](AD-1ad08e5f) — error propagation via Result + thiserror
+- [AD-8b91f5a4](AD-8b91f5a4) — repository pattern
 
 ---

@@ -1,10 +1,10 @@
 ---
-id: TASK-543
+id: TASK-643705c5
 title: "Create orqa test command"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-086
+  - target: EPIC-00e54475
     type: delivers
 ---

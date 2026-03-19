@@ -1,22 +1,22 @@
 ---
-id: TASK-072
+id: TASK-8c0e5f1d
 title: Backfill existing artifacts to match body templates
 description: Audit all existing planning and governance artifacts and add missing required body sections so they pass the new body template linting.
 status: completed
 created: 2026-03-10
 updated: 2026-03-10
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - All artifacts pass body template linting via pre-commit hook
   - No empty placeholder sections — each section has meaningful content or a brief note
   - Existing content preserved and reorganised into correct sections where needed
 relationships:
-  - target: EPIC-048
+  - target: EPIC-0a8a5e72
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-071
+  - target: TASK-6a4eea2f
     type: depends-on
-  - target: TASK-338
+  - target: TASK-12eec0f3
     type: depended-on-by
 ---
 ## What

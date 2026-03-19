@@ -1,6 +1,6 @@
 ---
-id: TASK-100
-title: Record persistence and governance decisions (AD-011 through AD-014)
+id: TASK-97dfe088
+title: Record persistence and governance decisions (AD-5d9ac6bd through AD-8b91f5a4)
 description: "Captured architecture decisions for persistence strategy, governance artifact format, data ownership boundaries, and configuration management."
 status: completed
 created: 2026-03-02
@@ -10,10 +10,10 @@ acceptance:
   - Persistence and governance boundaries are clearly delineated
   - Decisions are added to the decisions index
 relationships:
-  - target: EPIC-026
+  - target: EPIC-46e5f406
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-316
+  - target: TASK-737a5c6c
     type: depended-on-by
 ---
 ## What
@@ -26,4 +26,4 @@ Authored each AD artifact with full context and rationale, ensuring the SQLite/f
 
 ## Verification
 
-[AD-011](AD-011) through [AD-014](AD-014) exist in `.orqa/process/decisions/` with all required schema fields and are listed in the decisions index.
+[AD-5d9ac6bd](AD-5d9ac6bd) through [AD-8b91f5a4](AD-8b91f5a4) exist in `.orqa/process/decisions/` with all required schema fields and are listed in the decisions index.

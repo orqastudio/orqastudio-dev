@@ -1,5 +1,5 @@
 ---
-id: TASK-499
+id: TASK-595ffcaf
 title: Replace GraphHealthWidget scoring with graph-theoretic metrics
 description: "Migrate GraphHealthWidget from file-based scan counts to graph-theoretic metrics sourced from the artifactGraphSDK's graphHealth property. Health score becomes largestComponentRatio; orphan count uses structural 0-degree detection; component count is displayed as disconnected clusters."
 status: blocked
@@ -19,9 +19,9 @@ acceptance:
   - "Component count shown as 'N disconnected clusters'"
   - Store graph metrics in health snapshots for trend tracking
 relationships:
-  - target: EPIC-076
+  - target: EPIC-dbbbb5ac
     type: delivers
-  - target: TASK-498
+  - target: TASK-f8f9b6e7
     type: depends-on
 ---
 ## What

@@ -1,7 +1,7 @@
 ---
-id: IDEA-043
+id: IDEA-8868a71c
 title: Rich Popovers on Artifact Links
-description: "When hovering over an ArtifactLink chip (e.g. EPIC-001, TASK-045, AGENT-002), show a rich popover with the artifact's title, status, description, and key metadata — without navigating away from the current view."
+description: "When hovering over an ArtifactLink chip (e.g. EPIC-e045ab6d, TASK-06914ff4, AGENT-cc255bc8), show a rich popover with the artifact's title, status, description, and key metadata — without navigating away from the current view."
 status: captured
 created: 2026-03-10
 updated: 2026-03-13
@@ -11,9 +11,9 @@ research-needed:
   - Performance implications of prefetching artifact metadata on hover
   - Debounce/delay strategy to avoid flicker on fast mouse movement
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation

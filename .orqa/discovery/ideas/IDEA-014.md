@@ -1,5 +1,5 @@
 ---
-id: IDEA-014
+id: IDEA-3bcdd78b
 title: Chaos-to-Clarity Engine
 description: Dedicated workflows for transforming unstructured situations into structured understanding through brain-dump flows and AI-driven triage.
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - Theme detection accuracy
   - Situation mapping visualisation
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Candidate Items

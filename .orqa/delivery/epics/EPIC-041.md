@@ -1,7 +1,7 @@
 ---
-id: EPIC-041
+id: EPIC-e881130b
 title: "Vision & Brand Identity"
-description: "Evolve OrqaStudio's vision from software development tool to domain-agnostic PILLAR-001 engine. Rename pillars, broaden personas, establish licensing, and align all documentation with canonical strategic vision."
+description: "Evolve OrqaStudio's vision from software development tool to domain-agnostic PILLAR-569581e0 engine. Rename pillars, broaden personas, establish licensing, and align all documentation with canonical strategic vision."
 status: completed
 priority: P1
 created: 2026-03-07
@@ -13,31 +13,31 @@ scoring:
   complexity: 3
   dependencies: 4
 relationships:
-  - target: RES-015
+  - target: RES-0a797991
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-015
-  - target: RES-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-0a797991
+  - target: RES-4124820a
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-001
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-4124820a
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-030
+  - target: TASK-53bfe6e9
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-031
+  - target: TASK-4fb1b91f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-331
+  - target: TASK-ddbcf6e0
     type: delivered-by
     rationale: Epic contains this task
-  - target: AD-027
+  - target: AD-44a033cf
     type: driven-by
-  - target: RES-001
+  - target: RES-4124820a
     type: guided-by
-  - target: RES-015
+  - target: RES-0a797991
     type: guided-by
-  - target: AD-027
+  - target: AD-44a033cf
     type: driven-by
 ---
 ## Implementation Design
@@ -64,7 +64,7 @@ relationships:
 
 ## Produced Decision
 
-[AD-027](AD-027) (Vision Evolution)
+[AD-44a033cf](AD-44a033cf) (Vision Evolution)
 
 ## Git Evidence
 

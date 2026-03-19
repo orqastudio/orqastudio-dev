@@ -1,10 +1,10 @@
 ---
-id: TASK-529
+id: TASK-c8543fd5
 title: "Create vocabulary-compliance, required-relationships, circular-dependencies checks"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-085
+  - target: EPIC-bc67563e
     type: delivers
 ---

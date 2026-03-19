@@ -1,5 +1,5 @@
 ---
-id: TASK-115
+id: TASK-c4e706e8
 title: Design SQLite schema
 description: "Designed all SQLite tables, columns, indexes, and foreign key constraints for conversation persistence."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Indexes support the IPC command query patterns
   - Schema is documented with migration strategy
 relationships:
-  - target: EPIC-029
+  - target: EPIC-f132980b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-319
+  - target: TASK-8dd8819a
     type: depended-on-by
 ---
 ## What

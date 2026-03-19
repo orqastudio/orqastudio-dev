@@ -1,10 +1,10 @@
 ---
-id: TASK-533
+id: TASK-53852eeb
 title: "Wire plugin relationship loading into Rust integrity engine"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-085
+  - target: EPIC-bc67563e
     type: delivers
 ---

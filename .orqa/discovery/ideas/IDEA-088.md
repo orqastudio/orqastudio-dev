@@ -1,5 +1,5 @@
 ---
-id: IDEA-088
+id: IDEA-a56a0b94
 title: Acknowledged constraints as a decision sub-category with impact tracking
 description: "Decisions that acknowledge known limitations, trade-offs, or temporary compromises should be tracked as a distinct sub-category with impact assessment and resolution priority. Ensures acknowledged constraints don't get forgotten by surfacing them and their impact during planning."
 status: captured
@@ -15,12 +15,12 @@ research-needed:
   - "How does this relate to lessons? A constraint is different from a lesson — a lesson captures understanding, a constraint acknowledges a gap"
   - "What does the dashboard widget look like? Aging constraints sorted by impact?"
 relationships:
-  - target: AD-047
+  - target: AD-aa6b409a
     type: crystallises
-    rationale: "AD-047's scanner is acknowledged as a known constraint (stopgap before linter plugins)"
-  - target: PILLAR-002
+    rationale: "AD-aa6b409a's scanner is acknowledged as a known constraint (stopgap before linter plugins)"
+  - target: PILLAR-cdf756ff
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 
@@ -46,7 +46,7 @@ constraint:
   type: temporary  # temporary | accepted | resolved
   impact: high     # high | medium | low
   workaround: "Pre-commit scanner instead of linter plugin"
-  resolution-condition: "Linter integration plugins built (IDEA-087)"
+  resolution-condition: "Linter integration plugins built (IDEA-cc13aea9)"
   last-assessed: "2026-03-13"
 ```
 

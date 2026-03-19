@@ -1,5 +1,5 @@
 ---
-id: TASK-134
+id: TASK-975eb726
 title: Implement governance coverage analysis
 description: Built the analysis engine that evaluates collected governance artifacts and identifies coverage gaps.
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Gaps are reported with specific missing artifact types
   - Analysis results are structured for frontend display
 relationships:
-  - target: EPIC-031
+  - target: EPIC-b1b3f5db
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-321
+  - target: TASK-51007152
     type: depended-on-by
 ---
 ## What

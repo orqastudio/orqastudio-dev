@@ -1,5 +1,5 @@
 ---
-id: TASK-191
+id: TASK-fde17fff
 title: Move rule-enforcement skill to core + rename plugin skill
 description: |
   Move the rule-enforcement SKILL.md from the plugin to .orqa/process/skills/ as a
@@ -12,12 +12,12 @@ acceptance:
   - "rule-enforcement SKILL.md exists as real file in .orqa/process/skills/ with layer: core"
   - Plugin skill still exists and is distinct from core skill
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-192
+  - target: TASK-835e2645
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

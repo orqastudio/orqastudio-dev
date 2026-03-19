@@ -1,5 +1,5 @@
 ---
-id: IDEA-027
+id: IDEA-52c65fc8
 title: Native Hooks System
 description: "Design a hooks layer that works in both app and CLI contexts, with richer lifecycle events and backwards compatibility with Claude Code hooks."
 status: completed
@@ -16,11 +16,11 @@ research-needed:
   - Evaluate building a custom Claude Code MCP plugin for CLI enforcement parity
   - Design HOOK-NNN identifiers for app-managed hooks (completing the promotion chain IMPL → RULE → HOOK)
 relationships:
-  - target: EPIC-050
+  - target: EPIC-3a8ad459
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Motivation
@@ -59,4 +59,4 @@ The lesson documents the pattern, the rule codifies it, and the hook enforces it
 
 ## Origin
 
-UAT Round 1 [EPIC-043](EPIC-043): F18 — Hooks section shows empty despite Claude hooks existing
+UAT Round 1 [EPIC-a2fa3068](EPIC-a2fa3068): F18 — Hooks section shows empty despite Claude hooks existing

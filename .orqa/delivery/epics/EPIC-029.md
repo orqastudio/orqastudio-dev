@@ -1,5 +1,5 @@
 ---
-id: EPIC-029
+id: EPIC-f132980b
 title: Technical Design
 description: "The complete technical blueprint: database schema, IPC commands, Rust modules, streaming pipeline, tool definitions, and error taxonomy."
 status: completed
@@ -13,34 +13,34 @@ scoring:
   complexity: 4
   dependencies: 5
 relationships:
-  - target: MS-000
+  - target: MS-85b9269b
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-115
+  - target: TASK-c4e706e8
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-116
+  - target: TASK-f94de4b5
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-117
+  - target: TASK-a83ae593
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-118
+  - target: TASK-59b04e4d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-119
+  - target: TASK-74363fc7
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-120
+  - target: TASK-e5435ce9
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-121
+  - target: TASK-a42481af
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-122
+  - target: TASK-3fd8a442
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-319
+  - target: TASK-8dd8819a
     type: delivered-by
     rationale: Epic contains this task
 ---
@@ -77,11 +77,11 @@ Implementation approach to be defined during planning.
 
 ## Tasks
 
-- [TASK-115](TASK-115): Design SQLite schema
-- [TASK-116](TASK-116): Design IPC command catalogue
-- [TASK-117](TASK-117): Design Rust module architecture
-- [TASK-118](TASK-118): Design Svelte component tree
-- [TASK-119](TASK-119): Design streaming pipeline
-- [TASK-120](TASK-120): Define tool system and permission model
-- [TASK-121](TASK-121): Design MCP host interface
-- [TASK-122](TASK-122): Define error taxonomy
+- [TASK-c4e706e8](TASK-c4e706e8): Design SQLite schema
+- [TASK-f94de4b5](TASK-f94de4b5): Design IPC command catalogue
+- [TASK-a83ae593](TASK-a83ae593): Design Rust module architecture
+- [TASK-59b04e4d](TASK-59b04e4d): Design Svelte component tree
+- [TASK-74363fc7](TASK-74363fc7): Design streaming pipeline
+- [TASK-e5435ce9](TASK-e5435ce9): Define tool system and permission model
+- [TASK-a42481af](TASK-a42481af): Design MCP host interface
+- [TASK-3fd8a442](TASK-3fd8a442): Define error taxonomy

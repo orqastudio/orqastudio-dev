@@ -1,32 +1,32 @@
 ---
-id: TASK-172
+id: TASK-561205e2
 title: Update agent schema to support capabilities field
 description: "Replace the tools field in the agent schema with capabilities. The rule owns the tool mapping, not the agent."
 status: completed
 created: 2026-03-11
 updated: 2026-03-12
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 docs:
-  - DOC-036
+  - DOC-01ddd8aa
 acceptance:
   - Agent schema includes a capabilities field (array of strings)
   - Schema validates against existing agent definitions (backwards compatible)
   - Schema passes JSON Schema validation
 relationships:
-  - target: EPIC-051
+  - target: EPIC-0a7b21cf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-171
+  - target: TASK-ad922861
     type: depends-on
-  - target: TASK-173
+  - target: TASK-f936b9b2
     type: depended-on-by
-  - target: TASK-341
+  - target: TASK-413692fe
     type: depended-on-by
 ---
 
 ## What
 
-Replace `tools` with `capabilities` in the agent schema. The rule (RULE-034) owns
+Replace `tools` with `capabilities` in the agent schema. The rule (RULE-2f7b6a31) owns
 the mapping from capabilities to provider-specific tools — agent definitions only
 declare what they need, never concrete tool names.
 

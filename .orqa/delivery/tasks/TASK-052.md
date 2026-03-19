@@ -1,11 +1,11 @@
 ---
-id: TASK-052
+id: TASK-4a2936f9
 title: Remove old software-specific agents
 description: "Delete the 14 old agent files that have been merged into universal roles. Update all cross-references in rules, skills, epics, and documentation that mention old agent names."
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - 14 old agent files deleted (backend-engineer
   - frontend-engineer
@@ -26,18 +26,18 @@ acceptance:
   - No broken references to old agent names in orchestrator.md
   - All references updated to use universal role names
 relationships:
-  - target: EPIC-045
+  - target: EPIC-be023ed2
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-051
+  - target: TASK-7d550875
     type: depends-on
-  - target: TASK-053
+  - target: TASK-f6850c71
     type: depends-on
-  - target: TASK-055
+  - target: TASK-58887d38
     type: depended-on-by
-  - target: TASK-056
+  - target: TASK-2ac2d88f
     type: depended-on-by
-  - target: TASK-335
+  - target: TASK-0d8b4a06
     type: depended-on-by
 ---
 

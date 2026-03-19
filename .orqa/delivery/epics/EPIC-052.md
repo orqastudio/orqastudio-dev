@@ -1,5 +1,5 @@
 ---
-id: EPIC-052
+id: EPIC-4440cdd4
 title: Structured Thinking Enforcement
 description: |
   Shift OrqaStudio's enforcement system from code-pattern regex matching to
@@ -20,66 +20,66 @@ scoring:
   complexity: 4
   dependencies: 4
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-191
+  - target: TASK-fde17fff
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-192
+  - target: TASK-835e2645
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-193
+  - target: TASK-49c63248
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-194
+  - target: TASK-4f45e5b9
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-195
+  - target: TASK-ff48daa1
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-196
+  - target: TASK-15370e74
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-197
+  - target: TASK-4fa7dd50
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-198
+  - target: TASK-8232a533
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-199
+  - target: TASK-6cd46196
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-200
+  - target: TASK-439fa554
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-201
+  - target: TASK-50b3aa55
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-202
+  - target: TASK-05357368
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-203
+  - target: TASK-2bbc5077
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-204
+  - target: TASK-24ef68ce
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-205
+  - target: TASK-2143a39a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-206
+  - target: TASK-965b2b81
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-207
+  - target: TASK-34007190
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: delivered-by
     rationale: Epic contains this task
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
-  - target: DOC-002
+  - target: DOC-4db3a417
     type: documented-by
 ---
 
@@ -135,35 +135,35 @@ determine if prerequisites are met before allowing transitions.
 ## Tasks
 
 ### Setup
-- [ ] [TASK-191](TASK-191): Move rule-enforcement skill to core + rename plugin skill
-- [ ] [TASK-192](TASK-192): Update plugin README
+- [ ] [TASK-fde17fff](TASK-fde17fff): Move rule-enforcement skill to core + rename plugin skill
+- [ ] [TASK-835e2645](TASK-835e2645): Update plugin README
 
 ### Engine
-- [ ] [TASK-193](TASK-193): Add `inject` action to enforcement schema
-- [ ] [TASK-194](TASK-194): Add `lint` event type to enforcement schema
+- [ ] [TASK-49c63248](TASK-49c63248): Add `inject` action to enforcement schema
+- [ ] [TASK-4f45e5b9](TASK-4f45e5b9): Add `lint` event type to enforcement schema
 
 ### Process Gates
-- [ ] [TASK-195](TASK-195): Design WorkflowTracker domain type
-- [ ] [TASK-196](TASK-196): Implement understand-first + docs-before-code gates
-- [ ] [TASK-197](TASK-197): Implement plan-before-build + structure-before-code gates
-- [ ] [TASK-198](TASK-198): Implement evidence-before-done + learn-after-doing gates
+- [ ] [TASK-ff48daa1](TASK-ff48daa1): Design WorkflowTracker domain type
+- [ ] [TASK-15370e74](TASK-15370e74): Implement understand-first + docs-before-code gates
+- [ ] [TASK-4fa7dd50](TASK-4fa7dd50): Implement plan-before-build + structure-before-code gates
+- [ ] [TASK-8232a533](TASK-8232a533): Implement evidence-before-done + learn-after-doing gates
 
 ### Knowledge Injection
-- [ ] [TASK-199](TASK-199): Implement skill injection in plugin rule-engine.mjs
-- [ ] [TASK-200](TASK-200): Implement skill injection in Rust enforcement engine
-- [ ] [TASK-201](TASK-201): Add injection map entries to relevant rules
+- [ ] [TASK-6cd46196](TASK-6cd46196): Implement skill injection in plugin rule-engine.mjs
+- [ ] [TASK-439fa554](TASK-439fa554): Implement skill injection in Rust enforcement engine
+- [ ] [TASK-50b3aa55](TASK-50b3aa55): Add injection map entries to relevant rules
 
 ### Tooling Ecosystem
-- [ ] [TASK-202](TASK-202): Document linter-to-standard mapping
-- [ ] [TASK-203](TASK-203): Consolidate code-pattern rules
+- [ ] [TASK-05357368](TASK-05357368): Document linter-to-standard mapping
+- [ ] [TASK-2bbc5077](TASK-2bbc5077): Consolidate code-pattern rules
 
 ### Prompt-Based Injection
-- [ ] [TASK-204](TASK-204): Add prompt event handler to plugin rule-engine.mjs
-- [ ] [TASK-205](TASK-205): Add prompt-based injection to Rust system prompt builder
+- [ ] [TASK-24ef68ce](TASK-24ef68ce): Add prompt event handler to plugin rule-engine.mjs
+- [ ] [TASK-2143a39a](TASK-2143a39a): Add prompt-based injection to Rust system prompt builder
 
 ### New Rules + Verification
-- [ ] [TASK-206](TASK-206): Create [RULE-041](RULE-041), [RULE-042](RULE-042), [RULE-043](RULE-043)
-- [ ] [TASK-207](TASK-207): Integration testing
+- [ ] [TASK-965b2b81](TASK-965b2b81): Create [RULE-c95f4444](RULE-c95f4444), [RULE-f9d0279c](RULE-f9d0279c), [RULE-7f416d7d](RULE-7f416d7d)
+- [ ] [TASK-34007190](TASK-34007190): Integration testing
 
 ## Out of Scope
 

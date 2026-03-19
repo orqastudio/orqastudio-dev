@@ -1,5 +1,5 @@
 ---
-id: IDEA-005
+id: IDEA-72903969
 title: "Knowledge & Artifact Intelligence"
 description: "Make the accumulated knowledge base actively useful through semantic search, knowledge graphs, and staleness detection."
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - Knowledge graph representation
   - Staleness detection heuristics
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Candidate Items

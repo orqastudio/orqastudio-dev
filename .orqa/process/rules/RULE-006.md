@@ -1,5 +1,5 @@
 ---
-id: RULE-006
+id: RULE-b49142be
 title: Coding Standards
 description: "Rust and TypeScript coding standards: formatting, linting, error handling, component patterns, and coverage requirements."
 status: active
@@ -17,22 +17,22 @@ enforcement:
   - "event: lint"
   - "event: lint"
 relationships:
-  - target: AD-013
+  - target: AD-afc78f6e
     type: enforces
-    rationale: Auto-generated inverse of enforces relationship from AD-013
-  - target: AD-003
+    rationale: Auto-generated inverse of enforces relationship from AD-afc78f6e
+  - target: AD-1ad08e5f
     type: enforces
-  - target: AD-004
+  - target: AD-8d552e96
     type: enforces
-  - target: AD-006
+  - target: AD-61087142
     type: enforces
-  - target: AD-026
+  - target: AD-6cd1ff6f
     type: enforces
-  - target: AD-047
+  - target: AD-aa6b409a
     type: enforces
-  - target: DOC-021
+  - target: DOC-4b4fbc0f
     type: documented-by
-  - target: DOC-002
+  - target: DOC-4db3a417
     type: documented-by
 ---
 **Source of Truth:** `.orqa/documentation/development/coding-standards.md`
@@ -63,8 +63,8 @@ relationships:
 - **Coverage**: 80%+ test coverage. No exceptions without documented justification.
 - **No TODO comments**: If something isn't done, it's tracked in `.orqa/delivery/tasks/`, not scattered across the codebase. TODO comments in committed code are a build failure.
 - **No commented-out code**: Delete it. Git history preserves it.
-- **No hardcoded fake data**: See [RULE-020](RULE-020) (no-stubs).
-- **MUST use shared components**: See [RULE-024](RULE-024) (reusable-components) for the shared component library.
+- **No hardcoded fake data**: See [RULE-e9c54567](RULE-e9c54567) (no-stubs).
+- **MUST use shared components**: See [RULE-cb65b5d0](RULE-cb65b5d0) (reusable-components) for the shared component library.
 
 ## Enforcement
 
@@ -107,7 +107,7 @@ Coding standards MUST be reflected in automated linting rules. If a standard exi
 
 ## Related Rules
 
-- [RULE-012](RULE-012) (error-ownership) — *when* to verify (always, before every call)
-- [RULE-024](RULE-024) (reusable-components) — *which* components to use (shared library)
-- [RULE-029](RULE-029) (testing-standards) — testing patterns and coverage requirements
-- [RULE-005](RULE-005) (code-search-usage) — use semantic search before creating new code
+- [RULE-57ccb4a3](RULE-57ccb4a3) (error-ownership) — *when* to verify (always, before every call)
+- [RULE-cb65b5d0](RULE-cb65b5d0) (reusable-components) — *which* components to use (shared library)
+- [RULE-f10bb5de](RULE-f10bb5de) (testing-standards) — testing patterns and coverage requirements
+- [RULE-5e03e67b](RULE-5e03e67b) (code-search-usage) — use semantic search before creating new code

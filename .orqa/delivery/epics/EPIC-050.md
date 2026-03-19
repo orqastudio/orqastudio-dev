@@ -1,5 +1,5 @@
 ---
-id: EPIC-050
+id: EPIC-3a8ad459
 title: Rule Enforcement Engine with Claude Code Companion Plugin
 description: |
   Build a two-context rule enforcement engine: a Claude Code companion plugin
@@ -17,64 +17,64 @@ scoring:
   complexity: 5
   dependencies: 5
 relationships:
-  - target: RES-056
+  - target: RES-5657d9f6
     type: guided-by
     rationale: Research analyzing what this epic built vs. what remains incomplete
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-177
+  - target: TASK-869c27b5
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-178
+  - target: TASK-0b584382
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-179
+  - target: TASK-2df410be
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-180
+  - target: TASK-73f7e0fa
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-181
+  - target: TASK-61be543f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-182
+  - target: TASK-18229566
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-183
+  - target: TASK-b4c3c05d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-184
+  - target: TASK-bd0e805b
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-185
+  - target: TASK-11cf4c1d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-186
+  - target: TASK-3fc8be56
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-187
+  - target: TASK-c083a1c8
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-188
+  - target: TASK-6f15cbb0
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-189
+  - target: TASK-4556173e
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-190
+  - target: TASK-7e02fb8e
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-340
+  - target: TASK-fa39671d
     type: delivered-by
     rationale: Epic contains this task
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
-  - target: IDEA-027
+  - target: IDEA-52c65fc8
     type: realised-by
-  - target: IDEA-034
+  - target: IDEA-abf847bb
     type: realised-by
-  - target: RES-056
+  - target: RES-5657d9f6
     type: guided-by
 ---
 ## Context
@@ -86,7 +86,7 @@ OrqaStudio has 39 rules in `.orqa/process/rules/` with structured frontmatter
   Enforcement is self-policed — agents read rules but nothing stops violations.
   Shell-script hooks in `.claude/settings.json` handle session-start checks and
   pre-commit reminders, but these are invisible to the app and broke when
-  `.claude/hooks/` was gitignored (RES-036 finding F-01).
+  `.claude/hooks/` was gitignored (RES-a6311b1b finding F-01).
 
 - **App context**: The app scans `.orqa/process/rules/` for display but doesn't
   enforce rules during agent execution. The enforcement architecture doc
@@ -94,7 +94,7 @@ OrqaStudio has 39 rules in `.orqa/process/rules/` with structured frontmatter
   engine that evaluates rules against file writes and bash commands, but it's not
   yet connected to the agent execution pipeline.
 
-Both [IDEA-034](IDEA-034) (structured enforcement engine) and [IDEA-027](IDEA-027) (native hooks / CLI
+Both [IDEA-abf847bb](IDEA-abf847bb) (structured enforcement engine) and [IDEA-52c65fc8](IDEA-52c65fc8) (native hooks / CLI
 parity) converge on the same solution: **rules are the enforcement layer, and
 hooks are the mechanical implementation detail that users don't need to see**.
 
@@ -164,11 +164,11 @@ enforcement:
     pattern: "unwrap\\(\\)"
     paths: ["backend/src-tauri/src/**/*.rs"]
     action: block
-    message: "No unwrap() in production code (RULE-006)"
+    message: "No unwrap() in production code (RULE-b49142be)"
   - event: bash
     pattern: "git commit.*--no-verify"
     action: block
-    message: "Never bypass pre-commit hooks (RULE-013)"
+    message: "Never bypass pre-commit hooks (RULE-633e636d)"
 ```
 
 Rules without `enforcement` entries are guidance-only — loaded into agent context
@@ -293,23 +293,23 @@ Everything else comes from `.orqa/` via the plugin. The symlinks are deleted.
 
 ### Phase 1: Companion Plugin (COMPLETE)
 
-- [x] [TASK-183](TASK-183): Add `enforcement` field to rule schema + add entries to key rules
-- [x] [TASK-177](TASK-177): Create `orqa-plugin` repository with Claude Code plugin scaffold
-- [x] [TASK-178](TASK-178): Implement rule engine core (loader, parser, pattern matcher)
-- [x] [TASK-179](TASK-179): Implement agent & skill loading from `.orqa/process/`
-- [x] [TASK-180](TASK-180): Implement PreToolUse hook (file + bash event enforcement)
-- [x] [TASK-181](TASK-181): Implement SessionStart hook (orchestrator injection + session checks)
-- [x] [TASK-182](TASK-182): Implement Stop hook (replaces pre-commit-reminder.sh)
-- [x] [TASK-184](TASK-184): Implement `/orqa` command (basic version shipped)
-- [x] [TASK-187](TASK-187): Document plugin installation and configuration
+- [x] [TASK-b4c3c05d](TASK-b4c3c05d): Add `enforcement` field to rule schema + add entries to key rules
+- [x] [TASK-869c27b5](TASK-869c27b5): Create `orqa-plugin` repository with Claude Code plugin scaffold
+- [x] [TASK-0b584382](TASK-0b584382): Implement rule engine core (loader, parser, pattern matcher)
+- [x] [TASK-2df410be](TASK-2df410be): Implement agent & skill loading from `.orqa/process/`
+- [x] [TASK-73f7e0fa](TASK-73f7e0fa): Implement PreToolUse hook (file + bash event enforcement)
+- [x] [TASK-61be543f](TASK-61be543f): Implement SessionStart hook (orchestrator injection + session checks)
+- [x] [TASK-18229566](TASK-18229566): Implement Stop hook (replaces pre-commit-reminder.sh)
+- [x] [TASK-bd0e805b](TASK-bd0e805b): Implement `/orqa` command (basic version shipped)
+- [x] [TASK-c083a1c8](TASK-c083a1c8): Document plugin installation and configuration
 
-### Absorbed into EPIC-064 (Enforcement Bootstrapping)
+### Absorbed into EPIC-915291e7 (Enforcement Bootstrapping)
 
-- [TASK-185](TASK-185): Integration testing → surpassed by [TASK-414](TASK-414)
-- [TASK-186](TASK-186): Symlink removal → surpassed (premature, symlinks still needed alongside plugin)
-- [TASK-188](TASK-188): Rust enforcement engine → surpassed by [TASK-415](TASK-415) (engine already exists)
-- [TASK-189](TASK-189): Agent pipeline integration → surpassed by [TASK-415](TASK-415)
-- [TASK-190](TASK-190): Governance UI violations → absorbed into [EPIC-064](EPIC-064)
+- [TASK-11cf4c1d](TASK-11cf4c1d): Integration testing → surpassed by [TASK-70762a1f](TASK-70762a1f)
+- [TASK-3fc8be56](TASK-3fc8be56): Symlink removal → surpassed (premature, symlinks still needed alongside plugin)
+- [TASK-6f15cbb0](TASK-6f15cbb0): Rust enforcement engine → surpassed by [TASK-84e27636](TASK-84e27636) (engine already exists)
+- [TASK-4556173e](TASK-4556173e): Agent pipeline integration → surpassed by [TASK-84e27636](TASK-84e27636)
+- [TASK-7e02fb8e](TASK-7e02fb8e): Governance UI violations → absorbed into [EPIC-915291e7](EPIC-915291e7)
 
 ## Out of Scope
 

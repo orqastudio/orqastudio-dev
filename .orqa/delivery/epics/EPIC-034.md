@@ -1,5 +1,5 @@
 ---
-id: EPIC-034
+id: EPIC-9bdef0ce
 title: Native Search Engine
 description: "Implement native code search engine using DuckDB for storage, ONNX Runtime for embeddings, and DirectML for hardware acceleration. Three search modes: regex, semantic, and code_research."
 status: completed
@@ -13,30 +13,30 @@ scoring:
   complexity: 5
   dependencies: 3
 relationships:
-  - target: RES-016
+  - target: RES-5a9e6375
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-016
-  - target: RES-006
+    rationale: Auto-generated inverse of informed-by relationship from RES-5a9e6375
+  - target: RES-a68430ce
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-006
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-a68430ce
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-013
+  - target: TASK-e1b911d8
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-014
+  - target: TASK-9f54c3bb
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-015
+  - target: TASK-e5fb0123
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-324
+  - target: TASK-b470c205
     type: delivered-by
     rationale: Epic contains this task
-  - target: RES-006
+  - target: RES-a68430ce
     type: guided-by
-  - target: RES-016
+  - target: RES-5a9e6375
     type: guided-by
 ---
 ## Implementation Design
@@ -60,7 +60,7 @@ relationships:
 
 ## Produced Decision
 
-[AD-024](AD-024)
+[AD-99c2a969](AD-99c2a969)
 
 ## Git Evidence
 

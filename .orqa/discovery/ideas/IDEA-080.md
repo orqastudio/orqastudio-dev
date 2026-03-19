@@ -1,7 +1,7 @@
 ---
-id: IDEA-080
+id: IDEA-0d3f67de
 title: Dev controller as standalone repository — attachable to dev and production processes
-description: "Extract the dev controller into its own Tauri app in a standalone repository. Auto-detects dev or production OrqaStudio instances via process discovery. In dev mode it manages process lifecycle + log aggregation. In production mode it attaches to running instances for debugging. Lightweight standalone download — not a webview, a proper Tauri desktop app. Works with the unified logger from IDEA-079."
+description: "Extract the dev controller into its own Tauri app in a standalone repository. Auto-detects dev or production OrqaStudio instances via process discovery. In dev mode it manages process lifecycle + log aggregation. In production mode it attaches to running instances for debugging. Lightweight standalone download — not a webview, a proper Tauri desktop app. Works with the unified logger from IDEA-29bdf6cf."
 status: captured
 created: 2026-03-13
 updated: 2026-03-13
@@ -12,11 +12,11 @@ research-needed:
   - "How does the controller discover running processes in dev vs production mode? What process signatures distinguish them?"
   - "What is the right Tauri app architecture for a lightweight tool app — minimal frontend, system tray?"
   - "What security considerations exist for attaching to production processes?"
-  - "How does this interact with IDEA-079 (unified logger)? The controller would be the log aggregation point."
+  - "How does this interact with IDEA-29bdf6cf (unified logger)? The controller would be the log aggregation point."
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 
@@ -28,7 +28,7 @@ The dev controller currently lives inside the OrqaStudio repository and is tight
 
 2. **Production debugging**: Users experiencing issues with OrqaStudio could attach the controller to their running instance. The controller captures structured logs from all runtimes (Rust backend, Vite frontend, sidecar) and presents them in a single stream. This turns "something went wrong" into diagnosable evidence.
 
-The combination with [IDEA-079](IDEA-079) (unified logger) is key: the logger produces structured events, the controller aggregates them. In dev mode it's automatic. In production mode the user opts in.
+The combination with [IDEA-29bdf6cf](IDEA-29bdf6cf) (unified logger) is key: the logger produces structured events, the controller aggregates them. In dev mode it's automatic. In production mode the user opts in.
 
 ## Sketch
 

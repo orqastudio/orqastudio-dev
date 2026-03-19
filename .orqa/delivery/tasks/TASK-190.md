@@ -1,28 +1,28 @@
 ---
-id: TASK-190
+id: TASK-7e02fb8e
 title: Surface violations in governance UI
 description: "Display enforcement violations in the app's governance view with history and filtering."
 status: completed
 created: 2026-03-11
 updated: 2026-03-14
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 docs:
-  - DOC-021
+  - DOC-4b4fbc0f
 acceptance:
   - Governance UI shows violation history
   - "Violations are filterable by rule, agent, and time"
   - "Each violation shows the rule, the blocked action, and the enforcement message"
   - Violation count is visible in the governance nav
 relationships:
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: delivers
-    rationale: Absorbed from EPIC-050 — surface violations in governance UI
-  - target: EPIC-050
+    rationale: Absorbed from EPIC-3a8ad459 — surface violations in governance UI
+  - target: EPIC-3a8ad459
     type: delivers
-    rationale: "Auto-generated inverse of belongs-to relationship from EPIC-050"
-  - target: TASK-415
+    rationale: "Auto-generated inverse of belongs-to relationship from EPIC-3a8ad459"
+  - target: TASK-84e27636
     type: depends-on
-  - target: TASK-340
+  - target: TASK-fa39671d
     type: depended-on-by
 ---
 ## What

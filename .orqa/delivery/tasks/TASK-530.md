@@ -1,10 +1,10 @@
 ---
-id: TASK-530
+id: TASK-1f14edc1
 title: "Add multi-directory scanning to graph builder"
 status: completed
 created: 2026-03-18
 updated: 2026-03-19
 relationships:
-  - target: EPIC-085
+  - target: EPIC-bc67563e
     type: delivers
 ---

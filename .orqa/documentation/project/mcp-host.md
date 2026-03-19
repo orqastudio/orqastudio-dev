@@ -1,5 +1,5 @@
 ---
-id: DOC-007
+id: DOC-7290a3df
 title: MCP Host Interface
 category: architecture
 description: "Design for OrqaStudio's Model Context Protocol host interface for tool integration."
@@ -7,18 +7,18 @@ created: 2026-03-02
 updated: 2026-03-04
 sort: 22
 relationships:
-  - target: AD-007
+  - target: AD-dc919e52
     type: documents
-    rationale: Documentation page references AD-007
-  - target: AD-010
+    rationale: Documentation page references AD-dc919e52
+  - target: AD-0dbba717
     type: documents
-    rationale: Documentation page references AD-010
-  - target: AD-011
+    rationale: Documentation page references AD-0dbba717
+  - target: AD-5d9ac6bd
     type: documents
-    rationale: Documentation page references AD-011
-  - target: AD-017
+    rationale: Documentation page references AD-5d9ac6bd
+  - target: AD-1d928079
     type: documents
-    rationale: Documentation page references AD-017
+    rationale: Documentation page references AD-1d928079
 ---
 
 
@@ -26,7 +26,7 @@ relationships:
 
 How OrqaStudio™ discovers, connects to, and manages MCP servers. OrqaStudio plays two MCP roles simultaneously: it is an **MCP server** (exposing its native tools to the Agent SDK sidecar) and an **MCP host** (connecting to external user-installed MCP servers and aggregating their tools for the sidecar).
 
-**Architecture References:** [AD-007](AD-007) (sidecar integration), [AD-010](AD-010) (tool implementation as MCP), [AD-011](AD-011) (security model), [AD-017](AD-017) (composability principle)
+**Architecture References:** [AD-dc919e52](AD-dc919e52) (sidecar integration), [AD-0dbba717](AD-0dbba717) (tool implementation as MCP), [AD-5d9ac6bd](AD-5d9ac6bd) (security model), [AD-1d928079](AD-1d928079) (composability principle)
 
 ---
 
@@ -396,7 +396,7 @@ MCP servers operate at one of three trust levels, which determine what capabilit
 
 ### Capability Scoping
 
-**Built-in tools** operate within Tauri's file system security scopes [AD-011](AD-011):
+**Built-in tools** operate within Tauri's file system security scopes [AD-5d9ac6bd](AD-5d9ac6bd):
 
 - Base scope: `$HOME/**`
 - Project scope: dynamically expanded via `app_handle.fs_scope().allow_directory()` when a project is opened
@@ -548,7 +548,7 @@ The `projectOverrides` section stores per-project trust decisions for project-le
 
 ## Related Documents
 
-- [AD-007](AD-007), [AD-010](AD-010), [AD-011](AD-011), [AD-017](AD-017)
+- [AD-dc919e52](AD-dc919e52), [AD-0dbba717](AD-0dbba717), [AD-5d9ac6bd](AD-5d9ac6bd), [AD-1d928079](AD-1d928079)
 - [Error Taxonomy](./error-taxonomy.md) -- Error types for MCP/sidecar/tool failures
 - MVP Specification -- F-002 (sidecar lifecycle), F-012 (MCP tool server)
 - Interaction Patterns -- Tool call display, error states

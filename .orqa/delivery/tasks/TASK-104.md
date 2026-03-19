@@ -1,5 +1,5 @@
 ---
-id: TASK-104
+id: TASK-acbe6489
 title: Define user personas
 description: "Created target user archetypes with goals, contexts, pain points, and usage patterns for OrqaStudio."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Persona goals trace to product pillars
   - Pain points inform feature prioritization
 relationships:
-  - target: EPIC-027
+  - target: EPIC-1f21b578
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-317
+  - target: TASK-a88d16bb
     type: depended-on-by
 ---
 ## What

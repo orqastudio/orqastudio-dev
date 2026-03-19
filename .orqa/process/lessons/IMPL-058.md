@@ -1,5 +1,5 @@
 ---
-id: IMPL-058
+id: IMPL-3fbabea8
 title: "Frontmatter reference fields should be relationship types, not standalone fields"
 description: "Fields like epic, milestone, scope, depends-on are semantically relationships but stored as standalone frontmatter fields. This creates two classes of graph edges — relationship array edges (scannable, typed, invertible) and field-based edges (invisible to relationship tooling)."
 status: active
@@ -8,9 +8,9 @@ updated: 2026-03-14
 recurrence: 1
 maturity: understanding
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: cautions
-    rationale: "TASK-434 (scope migration) and TASK-458 (epic/milestone migration) address this"
+    rationale: "TASK-0905e285 (scope migration) and TASK-c6514b53 (epic/milestone migration) address this"
 ---
 
 ## Pattern

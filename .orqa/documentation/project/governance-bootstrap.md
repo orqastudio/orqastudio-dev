@@ -1,5 +1,5 @@
 ---
-id: DOC-004
+id: DOC-d498eac8
 title: Governance Bootstrap
 category: architecture
 description: How governance artifacts are loaded and initialized when a project is first opened.

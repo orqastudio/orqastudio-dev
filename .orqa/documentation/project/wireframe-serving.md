@@ -1,5 +1,5 @@
 ---
-id: DOC-018
+id: DOC-fe637e80
 title: Wireframe Serving Infrastructure
 category: architecture
 description: Infrastructure for serving and rendering wireframe assets within the application.
@@ -11,7 +11,7 @@ relationships: []
 
 
 **Date:** 2026-03-02
-**References:** [Wireframing Research](RES-008) (Q1 verdict: PlantUML Salt), SQLite Schema, Design System
+**References:** [Wireframing Research](RES-11bee8a4) (Q1 verdict: PlantUML Salt), SQLite Schema, Design System
 
 How OrqaStudio™ stores, renders, caches, and serves PlantUML Salt wireframes as themed images within its Tauri WebView.
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-403
+id: TASK-d622e989
 title: Fix navigation and layout bugs
 description: "Fix 6 navigation/layout bugs: missing sidebar icons, duplicate key error in ReferencesPanel, settings secondary nav not rendering, and config modal double-rendering."
 status: completed
@@ -18,7 +18,7 @@ acceptance:
   - Navigating to Project Settings hides the artifact secondary nav and shows the settings category nav
   - Opening app configuration modal does NOT replace content viewer behind the modal
 relationships:
-  - target: EPIC-063
+  - target: EPIC-fd22ca6c
     type: delivers
     rationale: Theme A — navigation and layout bug fixes from UAT
 ---

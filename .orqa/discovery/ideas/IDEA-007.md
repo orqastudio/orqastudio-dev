@@ -1,5 +1,5 @@
 ---
-id: IDEA-007
+id: IDEA-0540dcd6
 title: "Spaces & Organisational Structure"
 description: "Containers for organising projects as adoption scales, with space-level governance and aggregated insights."
 status: surpassed
@@ -12,17 +12,17 @@ research-needed:
   - Multi-project aggregation UX
 relationships:
   - type: merged-into
-    target: IDEA-115
+    target: IDEA-791c9641
   - type: realises
-    target: EPIC-081
-  - target: AD-055
+    target: EPIC-3343ed49
+  - target: AD-c6abc8e6
     type: crystallises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
-n> **Surpassed 2026-03-16**: Flat organisation model merged into EPIC-081 via AD-055. Nested spaces and governance inheritance split into IDEA-115.
+n> **Surpassed 2026-03-16**: Flat organisation model merged into EPIC-3343ed49 via AD-c6abc8e6. Nested spaces and governance inheritance split into IDEA-791c9641.
 
 ## Candidate Items
 

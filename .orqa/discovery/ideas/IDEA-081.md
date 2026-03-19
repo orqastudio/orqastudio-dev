@@ -1,5 +1,5 @@
 ---
-id: IDEA-081
+id: IDEA-129f0d35
 title: Local ONNX-based intent interpreter for artifact graph traversal pre-processing
 description: Small local-run ONNX fine-tuned LLM that pre-processes user prompts before the orchestrator receives them. Interprets intent to help the orchestrator decide how to crawl the artifact graph. Does not crawl itself — acts as a lightweight intent classifier fine-tuned on the core artifacts. Optionally extends to include a local fine-tuning pipeline that ingests process artifacts from all locally installed projects.
 status: captured
@@ -15,9 +15,9 @@ research-needed:
   - "How should the intent classifier output be structured? (graph traversal hints, artifact type weights, scope signals)"
   - "What is the fallback when the model is not available or not trained? (degrade gracefully to current prompt-injector)"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-003
+  - target: PERSONA-a4b15450
     type: benefits
 ---
 
@@ -27,7 +27,7 @@ The current prompt-injector uses regex pattern matching to detect artifact refer
 
 A small fine-tuned model sitting between the user and the orchestrator solves this:
 
-1. **Intent classification**: "refactor session handling" → {area: persistence, artifacts: [AD-005, AD-032], skills: [orqa-repository-pattern, orqa-domain-services]}
+1. **Intent classification**: "refactor session handling" → {area: persistence, artifacts: [AD-dffc3d30, AD-2aa4d6db], skills: [orqa-repository-pattern, orqa-domain-services]}
 2. **Graph traversal hints**: Instead of the orchestrator reading every artifact to find relevance, the intent model provides starting nodes for the graph walk
 3. **Reduced orchestrator context load**: The model pre-selects what matters, keeping the orchestrator focused on coordination
 
@@ -61,7 +61,7 @@ When not available:
 {
   "intent": "refactor",
   "domain": ["persistence", "domain-services"],
-  "suggested_artifacts": ["AD-005", "AD-032"],
+  "suggested_artifacts": ["AD-dffc3d30", "AD-2aa4d6db"],
   "suggested_skills": ["orqa-repository-pattern", "orqa-domain-services"],
   "scope_signal": "backend-only",
   "confidence": 0.87

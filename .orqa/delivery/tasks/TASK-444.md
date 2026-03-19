@@ -1,5 +1,5 @@
 ---
-id: TASK-444
+id: TASK-86eb98e4
 title: Research notification strategy
 description: "Research toast library choice, desktop notification API, in-app panel design, and event-to-channel mapping for the notification system."
 status: completed
@@ -19,10 +19,10 @@ acceptance:
   - Event-to-channel mapping defined (which app events trigger which notification type)
   - Recommendation for library choice with rationale
 relationships:
-  - target: EPIC-069
+  - target: EPIC-2649e450
     type: delivers
     rationale: Research informs all notification implementation decisions
-  - target: TASK-445
+  - target: TASK-9d2545ba
     type: depended-on-by
 ---
 

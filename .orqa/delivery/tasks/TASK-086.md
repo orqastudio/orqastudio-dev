@@ -1,5 +1,5 @@
 ---
-id: TASK-086
+id: TASK-f32f3eba
 title: Audit all rules for enforcement accuracy
 description: "Verify every rule in .orqa/process/rules/ has accurate enforcement mechanisms, valid cross-references, current code patterns in FORBIDDEN sections, and no stale content."
 status: completed
@@ -11,16 +11,16 @@ acceptance:
   - All FORBIDDEN code examples reflect actual anti-patterns
   - Rule statuses accurately reflect enforcement state
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-088
+  - target: TASK-1ac4d16f
     type: depended-on-by
-  - target: TASK-089
+  - target: TASK-77b6e5bd
     type: depended-on-by
-  - target: TASK-093
+  - target: TASK-4a8c3c6a
     type: depended-on-by
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What

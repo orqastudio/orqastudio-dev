@@ -1,5 +1,5 @@
 ---
-id: IDEA-096
+id: IDEA-a5f04c5c
 title: Exploration whiteboard — visual canvas for organising ideas and research before they enter the pipeline
 description: "The Exploring section of Delivery has ideas and research but no spatial/visual way to organise and relate them. A whiteboard-style view (like the roadmap kanban is for the pipeline) could give users a canvas to collect, group, and connect ideas and research before they're shaped into epics. Exact interaction model TBD."
 status: captured
@@ -10,12 +10,12 @@ research-needed:
   - "What interaction model works for pre-pipeline exploration? Canvas, mind-map, clustering?"
   - "How does the whiteboard relate to the artifact graph? Are items on the canvas just ideas/research with spatial metadata?"
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: realises
-    rationale: "Auto-generated inverse of informs relationship from EPIC-073"
-  - target: PILLAR-001
+    rationale: "Auto-generated inverse of informs relationship from EPIC-b2ca1ea3"
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation

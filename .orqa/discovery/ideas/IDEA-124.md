@@ -1,5 +1,5 @@
 ---
-id: IDEA-124
+id: IDEA-2d7ac819
 title: "Coding standards as rules — plugin-provided tooling, project-level enforcement, org-level sync"
 description: "Coding standards become OrqaStudio rules with enforcement entries keyed by plugin. Plugins provide linting/testing infrastructure. Rules define the config. Organisation mode syncs standards to sub-projects with override tracking."
 status: captured
@@ -14,12 +14,12 @@ research-needed:
   - How does this interact with existing eslint-config and test-config libraries? Migration path?
   - Can we validate that enforcement config entries are valid for their target tool at rule creation time?
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
     rationale: Coding standards as visible governance artifacts with traceable decisions — not hidden config files
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
-  - target: EPIC-090
+  - target: EPIC-83b67d0f
     type: realises
 ---
 
@@ -82,7 +82,7 @@ enforcement:
 In organisation mode, coding standards rules propagate from the org level to all sub-projects. A sub-project can override specific config lines by redeclaring them in its own rule:
 
 ```yaml
-# Org-level rule: RULE-006
+# Org-level rule: RULE-b49142be
 enforcement:
   - plugin: "@orqastudio/plugin-svelte"
     tool: eslint
@@ -90,9 +90,9 @@ enforcement:
       - rule: "@typescript-eslint/no-explicit-any"
         severity: error
 
-# Sub-project override in app/.orqa/process/rules/RULE-006-override.md
+# Sub-project override in app/.orqa/process/rules/RULE-b49142be-override.md
 overrides:
-  - source: RULE-006
+  - source: RULE-b49142be
     plugin: "@orqastudio/plugin-svelte"
     tool: eslint
     config:

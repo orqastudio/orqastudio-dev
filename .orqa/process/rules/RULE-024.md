@@ -1,14 +1,14 @@
 ---
-id: RULE-024
+id: RULE-cb65b5d0
 title: Reusable Components
 description: "Check shared component library before creating new UI elements. Use EmptyState, LoadingSpinner, ErrorDisplay, etc."
 status: active
 created: 2026-03-07
 updated: 2026-03-11
 relationships:
-  - target: DOC-016
+  - target: DOC-52bbfba5
     type: documented-by
-  - target: AD-006
+  - target: AD-61087142
     type: enforces
 ---
 ## Shared Component Library
@@ -75,5 +75,5 @@ Use `search_semantic` to find similar components across the *entire* frontend, n
 
 ## Related Rules
 
-- [RULE-006](RULE-006) (coding-standards) — component size limits and variant patterns
-- [RULE-005](RULE-005) (code-search-usage) — semantic search for finding existing implementations
+- [RULE-b49142be](RULE-b49142be) (coding-standards) — component size limits and variant patterns
+- [RULE-5e03e67b](RULE-5e03e67b) (code-search-usage) — semantic search for finding existing implementations

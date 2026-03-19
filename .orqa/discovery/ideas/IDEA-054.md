@@ -1,5 +1,5 @@
 ---
-id: IDEA-054
+id: IDEA-c599e4ac
 title: Web Search Skill for Agent Research
 description: "A skill that teaches agents how to effectively use web search and web fetch tools for external research — query formulation, source evaluation, result synthesis, and citation practices."
 status: captured
@@ -13,9 +13,9 @@ research-needed:
   - "How should web research findings be captured in .orqa/ artifacts?"
   - "Should web search results be cached/indexed for future sessions?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Motivation
@@ -33,4 +33,4 @@ A web research skill would be the counterpart to `code-search` (which teaches co
 
 - Skill covers: query strategies (exact phrases, site-scoped, date-filtered), source hierarchy (official docs > GitHub issues > blog posts > forums), synthesis patterns (extract key facts, note version constraints), citation format for research documents
 - Complements the `code-search` skill (internal) with external research capability
-- Could link to [IDEA-053](IDEA-053) (tool-linked skills) — the web search tool gets this skill as its documentation
+- Could link to [IDEA-59ce25c3](IDEA-59ce25c3) (tool-linked skills) — the web search tool gets this skill as its documentation

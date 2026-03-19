@@ -1,5 +1,5 @@
 ---
-id: IMPL-063
+id: IMPL-8c7da939
 title: Duplicate controls for the same operation confuse users
 description: Multiple buttons that trigger the same underlying function (Refresh on dashboard and Re-index on statusbar both call artifactGraphSDK.refresh()) create confusion about whether they do different things.
 status: active
@@ -8,9 +8,9 @@ updated: 2026-03-14
 recurrence: 1
 maturity: observation
 relationships:
-  - target: EPIC-068
+  - target: EPIC-6e774e50
     type: cautions
-    rationale: "TASK-440 removes the duplicate Refresh button"
+    rationale: "TASK-2fcf37c5 removes the duplicate Refresh button"
 ---
 
 ## Pattern

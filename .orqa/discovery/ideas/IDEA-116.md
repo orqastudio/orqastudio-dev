@@ -1,5 +1,5 @@
 ---
-id: IDEA-116
+id: IDEA-c40febb6
 title: "Artifact graph as agent memory — .orqa/ replaces separate memory systems"
 description: >
   AI agents built with the Agent SDK could use the .orqa/ artifact graph
@@ -11,9 +11,9 @@ status: captured
 created: 2026-03-17
 horizon: someday
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 

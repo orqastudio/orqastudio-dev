@@ -1,5 +1,5 @@
 ---
-id: IDEA-002
+id: IDEA-3ff06133
 title: Transportable Governance Format
 description: Move governance from .claude/-specific format to generic .orqa/process/ with environment-specific adapters.
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - "Adapter pattern for .claude/, .continue/, .cursor/"
   - Migration tooling and backwards compatibility
 relationships:
-  - target: PILLAR-002
+  - target: PILLAR-cdf756ff
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Candidate Items

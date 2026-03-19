@@ -1,5 +1,5 @@
 ---
-id: RULE-041
+id: RULE-c95f4444
 title: Data Persistence Boundaries
 description: "Defines which data belongs in SQLite, which in file-based artifacts, and which is ephemeral. Prevents misplaced persistence."
 status: active
@@ -7,7 +7,7 @@ created: 2026-03-11
 updated: 2026-03-13
 enforcement: []
 relationships:
-  - target: AD-032
+  - target: AD-2aa4d6db
     type: enforces
 ---
 
@@ -25,7 +25,7 @@ Data persistence in OrqaStudio follows three channels, each with clear boundarie
 
 ### SQLite (conversation persistence only)
 
-Per [AD-032](AD-032), SQLite is scoped to conversation persistence:
+Per [AD-2aa4d6db](AD-2aa4d6db), SQLite is scoped to conversation persistence:
 - Sessions, messages, tool calls, stream events
 - Project metadata (path, stack detection, settings)
 - Search index (DuckDB, separate from SQLite)
@@ -64,9 +64,9 @@ Ephemeral state MUST NOT:
 - Storing governance artifacts in SQLite
 - Storing conversation data in .orqa/ files
 - Relying on ephemeral state for data integrity
-- Using localStorage for any application state ([AD-032](AD-032))
+- Using localStorage for any application state ([AD-2aa4d6db](AD-2aa4d6db))
 
 ## Related Rules
 
-- [RULE-003](RULE-003) (artifact-config-integrity) — file-based artifact scanning
-- [RULE-010](RULE-010) (end-to-end-completeness) — all layers must agree on persistence strategy
+- [RULE-6c0496e0](RULE-6c0496e0) (artifact-config-integrity) — file-based artifact scanning
+- [RULE-1acb1602](RULE-1acb1602) (end-to-end-completeness) — all layers must agree on persistence strategy

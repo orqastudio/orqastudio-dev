@@ -1,5 +1,5 @@
 ---
-id: IMPL-003
+id: IMPL-e53df28b
 title: Orchestrator must manage the dev environment lifecycle automatically
 description: The orchestrator should automatically manage dev server restart instead of telling the user to do it manually.\n
 status: active
@@ -15,7 +15,7 @@ After making code changes, the orchestrator reported what needed to happen ("you
 ## Fix
 When changes require a dev server restart (Rust changes, new dependencies, config changes), the orchestrator must automatically:
 1. Kill any existing dev server processes
-2. Run `npx vite optimize` if dependencies changed [IMPL-001](IMPL-001)
+2. Run `npx vite optimize` if dependencies changed [IMPL-eb748de2](IMPL-eb748de2)
 3. Start `make dev` in the background
 4. Verify the server started successfully before reporting to the user
 

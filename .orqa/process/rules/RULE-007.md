@@ -1,5 +1,5 @@
 ---
-id: RULE-007
+id: RULE-c71f1c3f
 title: Development Commands
 description: All development commands must be invoked via make targets. Raw cargo and npm commands are forbidden.
 status: active
@@ -10,7 +10,7 @@ enforcement:
   - "event: bash"
   - "event: bash"
 relationships:
-  - target: AD-045
+  - target: AD-ea4a5979
     type: enforces
 ---
 All development commands MUST be invoked via `make` targets. Raw `cargo` and `npm run` commands are forbidden for tasks that have a `make` equivalent.
@@ -97,6 +97,6 @@ When adding a new recurring command to the project:
 
 ## Related Rules
 
-- [RULE-006](RULE-006) (coding-standards) — references `make check` for pre-commit verification
-- [RULE-029](RULE-029) (testing-standards) — references `make test` variants for running tests
-- [RULE-013](RULE-013) (git-workflow) — git commands remain raw (no make wrapper needed)
+- [RULE-b49142be](RULE-b49142be) (coding-standards) — references `make check` for pre-commit verification
+- [RULE-f10bb5de](RULE-f10bb5de) (testing-standards) — references `make test` variants for running tests
+- [RULE-633e636d](RULE-633e636d) (git-workflow) — git commands remain raw (no make wrapper needed)

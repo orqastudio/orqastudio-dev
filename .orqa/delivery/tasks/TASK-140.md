@@ -1,5 +1,5 @@
 ---
-id: TASK-140
+id: TASK-a5f1b36d
 title: Reclassify tech skills as Tier 2 in orchestrator
 description: "Move rust-async-patterns, svelte5-best-practices, tailwind-design-system, typescript-advanced-types, and tauri-v2 from the Tier 1 table to the Tier 2 injection table in the orchestrator's Skills section."
 status: completed
@@ -11,10 +11,10 @@ acceptance:
   - "Tier 1 definition updated to clarify purpose (universal principles, not domain tech)"
   - No agent YAML skills lists contain tech stack skills
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-464
+id: TASK-46275b63
 title: Create delegation reference document
 description: "Create the orchestrator's single source of truth for delegation — a lookup table mapping every work type to agent role, required skills, and grounding document. Makes delegation a lookup, not a judgement call."
 status: completed
@@ -19,10 +19,10 @@ acceptance:
   - Document states clearly that the orchestrator writing anything other than coordination output is a system failure
   - Connected to orchestrator via grounded-by relationship
 relationships:
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: delivers
     rationale: Phase 2 — delegation reference grounds the orchestrator's coordination behavior
-  - target: TASK-463
+  - target: TASK-349bc911
     type: depends-on
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: IDEA-093
+id: IDEA-c4f10c20
 title: OrqaStudio package ecosystem for plugin portability
 description: "Extract shared code into scoped npm packages hosted on GitHub Packages so that plugins can import types, validation, SDK, and UI components without depending on the full app."
 status: completed
@@ -12,14 +12,14 @@ research-needed:
   - "Monorepo vs multi-repo — should packages live in separate repos or a monorepo with workspaces?"
   - "Versioning strategy — how do package versions relate to app versions?"
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: realises
-    rationale: "Auto-generated inverse of informs relationship from EPIC-066"
-  - target: EPIC-066
+    rationale: "Auto-generated inverse of informs relationship from EPIC-a210c825"
+  - target: EPIC-a210c825
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Motivation

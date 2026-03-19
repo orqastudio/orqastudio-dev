@@ -1,5 +1,5 @@
 ---
-id: IMPL-030
+id: IMPL-3b5fe409
 title: Capability fulfilment should be a user choice between native provider tools and app MCP
 description: "The system requires a set of capabilities to function (file_read, file_edit, etc.). Whether those capabilities are fulfilled by the AI provider's native tools or by the app's built-in capabilities exposed via MCP should be a user choice per capability. This also allows new provider capabilities to be used before the app has native support."
 status: active
@@ -11,7 +11,7 @@ relationships: []
 ---
 ## Pattern
 
-Currently [RULE-040](RULE-040) defines a fixed capability-to-tool mapping per provider. Claude Code CLI maps `file_read` → `Read` (native tool). But there's a choice the user should be able to make:
+Currently [RULE-92dba0cb](RULE-92dba0cb) defines a fixed capability-to-tool mapping per provider. Claude Code CLI maps `file_read` → `Read` (native tool). But there's a choice the user should be able to make:
 
 - **Native**: `file_read` → provider's built-in `Read` tool (fast, provider-controlled)
 - **App MCP**: `file_read` → app's MCP server `orqa_read` (app-controlled, consistent behaviour, additional governance)

@@ -1,5 +1,5 @@
 ---
-id: DOC-064
+id: DOC-1e0dcc5d
 title: Product Purpose — Agent Grounding
 description: "Concise grounding document for Orchestrator, Planner, and Writer roles. Injected into agent context at initialization."
 created: 2026-03-14

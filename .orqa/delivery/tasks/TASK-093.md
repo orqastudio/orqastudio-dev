@@ -1,5 +1,5 @@
 ---
-id: TASK-093
+id: TASK-4a8c3c6a
 title: Audit for missing and miscategorised governance artifacts
 description: "Identify governance concepts that lack artifacts (undocumented conventions, implicit rules) and artifacts that are miscategorised (rules that should be skills, skills that should be rules, lessons that should be promoted, patterns enforced but not captured)."
 status: completed
@@ -11,16 +11,16 @@ acceptance:
   - Each recommendation includes rationale based on the governance concept taxonomy (CLAUDE.md)
   - "Where both rule and skill are needed, describe how framing differs"
 relationships:
-  - target: EPIC-049
+  - target: EPIC-4a7aeacb
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-084
+  - target: TASK-b6e9df91
     type: depends-on
-  - target: TASK-085
+  - target: TASK-69b7753b
     type: depends-on
-  - target: TASK-086
+  - target: TASK-f32f3eba
     type: depends-on
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: depended-on-by
 ---
 ## What

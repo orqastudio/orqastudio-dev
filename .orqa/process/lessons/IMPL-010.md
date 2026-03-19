@@ -1,5 +1,5 @@
 ---
-id: IMPL-010
+id: IMPL-3de505e8
 title: Documentation Must Be App-Native
 description: External documentation tools (like Docsify) create parallel navigation and rendering systems that diverge from the app. First-class features should be rendered natively by the app itself.\n
 status: active
@@ -19,7 +19,7 @@ Docsify seemed like a quick way to get documentation browsing working — it's a
 
 ## The Correct Approach
 
-Documentation browsing is a first-class feature of OrqaStudio, not a bolted-on external tool. The artifact scanner reads markdown files directly, extracts frontmatter, and renders them in the app's artifact panel. This was formalized in [AD-020](AD-020) and [AD-022](AD-022).
+Documentation browsing is a first-class feature of OrqaStudio, not a bolted-on external tool. The artifact scanner reads markdown files directly, extracts frontmatter, and renders them in the app's artifact panel. This was formalized in [AD-8b7c4ac5](AD-8b7c4ac5) and [AD-0c56aa90](AD-0c56aa90).
 
 ## Git Evidence
 

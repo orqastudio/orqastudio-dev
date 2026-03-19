@@ -1,5 +1,5 @@
 ---
-id: IDEA-015
+id: IDEA-af73e0af
 title: Multi-View Output System
 description: "Expand artifact projections beyond backlogs with strategy maps, experiment frameworks, and audience-tailored summaries."
 status: captured
@@ -10,9 +10,9 @@ research-needed:
   - View projection architecture
   - Audience-tailored output generation
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Candidate Items

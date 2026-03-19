@@ -1,5 +1,5 @@
 ---
-id: TASK-449
+id: TASK-53eb8161
 title: Research personas as top-level artifact type
 description: "Investigate whether personas should be a first-class artifact type with their own schema, lifecycle, and relationships."
 status: completed
@@ -20,7 +20,7 @@ acceptance:
   - Directory placement within .orqa/ proposed
   - "Value assessment: clear recommendation on whether personas warrant first-class status with rationale"
 relationships:
-  - target: EPIC-070
+  - target: EPIC-f684378f
     type: delivers
     rationale: Research determines whether personas warrant first-class artifact status
 ---

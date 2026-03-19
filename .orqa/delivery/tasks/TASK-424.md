@@ -1,5 +1,5 @@
 ---
-id: TASK-424
+id: TASK-a6dcd46b
 title: "Create @orqastudio/test-config package — shared vitest + testing utilities"
 description: "Extract shared test configuration (vitest config, test utilities, fixture helpers) into a standalone package. All orqastudio repos and plugins use this for consistent testing with full CI/CD integration."
 status: completed
@@ -20,7 +20,7 @@ acceptance:
   - "All orqastudio repos (integrity-validator, sdk, types) use this package"
   - CI/CD runs full test suite on every PR and push to main
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: Shared testing framework for the package ecosystem
 ---

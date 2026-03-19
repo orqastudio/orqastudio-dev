@@ -1,5 +1,5 @@
 ---
-id: TASK-120
+id: TASK-e5435ce9
 title: Define tool system and permission model
 description: "Defined file tools, search tools, and governance tools with their permission model and execution patterns."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Permission model is specified
   - Tool execution flows through the sidecar NDJSON protocol
 relationships:
-  - target: EPIC-029
+  - target: EPIC-f132980b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-319
+  - target: TASK-8dd8819a
     type: depended-on-by
 ---
 ## What

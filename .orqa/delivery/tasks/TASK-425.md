@@ -1,5 +1,5 @@
 ---
-id: TASK-425
+id: TASK-f3091875
 title: "Fix CI workflows for independent builds (no file: references)"
 description: "CI workflows fail because packages reference each other via file: paths that don't exist in CI. Update each package's CI to either use npm pack from a checkout or publish tier-0 packages first."
 status: completed
@@ -20,10 +20,10 @@ acceptance:
   - SDK CI builds and tests with types from GitHub Packages
   - All CI workflows pass on GitHub Actions
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: CI must work for packages to be publishable
-  - target: TASK-426
+  - target: TASK-c3abf5c1
     type: depended-on-by
 ---
 ## Scope

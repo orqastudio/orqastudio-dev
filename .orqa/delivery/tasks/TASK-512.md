@@ -1,6 +1,6 @@
 ---
 
-id: TASK-512
+id: TASK-a5606ccd
 title: Validate existing artifacts against delivery type configuration
 description: "Extend the integrity scanner to verify that delivery artifacts exist in their configured paths, that parent references point to valid parent types, and that no delivery directory contains artifacts whose type is not covered by the delivery type config. Current artifacts must pass validation cleanly."
 status: blocked
@@ -19,14 +19,14 @@ acceptance:
   - Reports any artifacts in delivery directories not covered by the type config
   - Current artifacts pass validation cleanly
 relationships:
-  - target: EPIC-078
+  - target: EPIC-ed09464b
     type: delivers
-  - target: TASK-510
+  - target: TASK-fcb7ddc4
     type: depends-on
 ---
 ## What
 
-Once the delivery type config is in place (TASK-509) and the parent-child consistency checks read from it (TASK-510), this task adds a complementary validation pass that works the other direction: given the configured delivery types, scan the configured paths and verify that every artifact found belongs to a recognised type and that its parent field references an artifact of the correct parent type. Any artifact in a delivery directory that isn't covered by the config is reported as an anomaly.
+Once the delivery type config is in place (TASK-bc24af0b) and the parent-child consistency checks read from it (TASK-fcb7ddc4), this task adds a complementary validation pass that works the other direction: given the configured delivery types, scan the configured paths and verify that every artifact found belongs to a recognised type and that its parent field references an artifact of the correct parent type. Any artifact in a delivery directory that isn't covered by the config is reported as an anomaly.
 
 ## How
 

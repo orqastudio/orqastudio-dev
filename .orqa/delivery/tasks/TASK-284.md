@@ -1,5 +1,5 @@
 ---
-id: TASK-284
+id: TASK-c4a7b6bb
 title: Backfill missing bidirectional inverses
 description: "For every relationship A --type--> B, ensure B --inverse--> A exists. Add relationships arrays to artifact types that need them."
 status: completed
@@ -13,16 +13,16 @@ acceptance:
   - Pillar schemas support optional relationships for receiving grounded-by edges
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-281
+  - target: TASK-e7324438
     type: depends-on
-  - target: TASK-282
+  - target: TASK-d5d3e417
     type: depends-on
-  - target: TASK-285
+  - target: TASK-5da55ccb
     type: depended-on-by
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

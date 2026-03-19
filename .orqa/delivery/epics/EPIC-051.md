@@ -1,5 +1,5 @@
 ---
-id: EPIC-051
+id: EPIC-0a7b21cf
 title: Provider-Agnostic Tool Abstraction Layer
 description: |
   Replace concrete tool names in agent definitions with abstract capabilities.
@@ -18,33 +18,33 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-171
+  - target: TASK-ad922861
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-172
+  - target: TASK-561205e2
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-173
+  - target: TASK-f936b9b2
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-174
+  - target: TASK-2067fdaf
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-175
+  - target: TASK-027139e7
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-176
+  - target: TASK-65c86121
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-341
+  - target: TASK-413692fe
     type: delivered-by
     rationale: Epic contains this task
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
-  - target: IDEA-057
+  - target: IDEA-889dffd4
     type: realised-by
 ---
 
@@ -153,7 +153,7 @@ delegating.
 ### Phase 2: Agent Definition Migration
 
 Update all 7 agent definitions to use capabilities instead of concrete tools.
-Capabilities **replace** tools entirely — the rule (RULE-040) owns the mapping
+Capabilities **replace** tools entirely — the rule (RULE-92dba0cb) owns the mapping
 from capabilities to provider-specific tools. Agent definitions only declare
 what they need, never how it's provided.
 
@@ -190,7 +190,7 @@ capabilities:
 
 Update the agent schema: remove `tools` field, add `capabilities` (array of strings).
 
-### Phase 3: Companion Plugin Resolution (when [EPIC-050](EPIC-050) lands)
+### Phase 3: Companion Plugin Resolution (when [EPIC-3a8ad459](EPIC-3a8ad459) lands)
 
 The companion plugin reads agent `capabilities` and resolves them to Claude Code
 tool names automatically via `SubagentStart` hooks. This eliminates the need for
@@ -204,19 +204,19 @@ when building agent execution context. Same mapping table, different consumer.
 ## Tasks
 
 ### Phase 1: Capability Rule
-- [ ] [TASK-171](TASK-171): Create [RULE-040](RULE-040) defining capability vocabulary and provider mappings
-- [ ] [TASK-174](TASK-174): Update [RULE-001](RULE-001) and [RULE-026](RULE-026) for capability-based delegation
+- [ ] [TASK-ad922861](TASK-ad922861): Create [RULE-92dba0cb](RULE-92dba0cb) defining capability vocabulary and provider mappings
+- [ ] [TASK-2067fdaf](TASK-2067fdaf): Update [RULE-532100d9](RULE-532100d9) and [RULE-deab6ea7](RULE-deab6ea7) for capability-based delegation
 
 ### Phase 2: Agent Definition Migration
-- [ ] [TASK-172](TASK-172): Update agent schema — replace `tools` with `capabilities`
-- [ ] [TASK-173](TASK-173): Migrate all 7 agent definitions from `tools` to `capabilities`
-- [ ] [TASK-174](TASK-174): Update [RULE-001](RULE-001) and [RULE-026](RULE-026) for capability-based delegation
+- [ ] [TASK-561205e2](TASK-561205e2): Update agent schema — replace `tools` with `capabilities`
+- [ ] [TASK-f936b9b2](TASK-f936b9b2): Migrate all 7 agent definitions from `tools` to `capabilities`
+- [ ] [TASK-2067fdaf](TASK-2067fdaf): Update [RULE-532100d9](RULE-532100d9) and [RULE-deab6ea7](RULE-deab6ea7) for capability-based delegation
 
-### Phase 3: Plugin Resolution (depends on EPIC-050)
-- [ ] [TASK-175](TASK-175): Implement capability resolution in companion plugin SubagentStart hook
+### Phase 3: Plugin Resolution (depends on EPIC-3a8ad459)
+- [ ] [TASK-027139e7](TASK-027139e7): Implement capability resolution in companion plugin SubagentStart hook
 
 ### Phase 4: App-Native Resolution
-- [ ] [TASK-176](TASK-176): Implement capability resolution in Rust agent execution pipeline
+- [ ] [TASK-65c86121](TASK-65c86121): Implement capability resolution in Rust agent execution pipeline
 
 ## Out of Scope
 

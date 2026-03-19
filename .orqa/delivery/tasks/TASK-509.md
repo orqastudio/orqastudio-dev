@@ -1,5 +1,5 @@
 ---
-id: TASK-509
+id: TASK-bc24af0b
 title: Define delivery type schema in project.json and Rust/TS types
 description: "Introduce a delivery.types array in project.json that describes the hierarchy of delivery artifact types (milestone, epic, task), including their key, label, path, and parent config. Add corresponding Rust and TypeScript types so the rest of the system can read the hierarchy from config rather than hardcoding it."
 status: completed
@@ -18,13 +18,13 @@ acceptance:
   - "TypeScript: DeliveryTypeConfig interface in project.ts"
   - Existing artifact scanning still works (paths are already in artifacts config — delivery.types adds hierarchy metadata)
 relationships:
-  - target: EPIC-078
+  - target: EPIC-ed09464b
     type: delivers
-  - target: TASK-510
+  - target: TASK-fcb7ddc4
     type: depended-on-by
-  - target: TASK-511
+  - target: TASK-c2db174d
     type: depended-on-by
-  - target: TASK-513
+  - target: TASK-26acd796
     type: depended-on-by
 ---
 ## What

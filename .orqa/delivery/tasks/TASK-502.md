@@ -1,5 +1,5 @@
 ---
-id: TASK-502
+id: TASK-75917a42
 title: Add backbone artifacts widget to dashboard (PageRank)
 description: "Add a dashboard widget that shows the top 10 artifacts by PageRank score, computed from the artifact graph via the artifactGraphSDK. Each entry shows artifact ID, title, type, and score. Entries are clickable and navigate to the artifact. Widget is labeled 'Backbone Artifacts — most structurally important'."
 status: blocked
@@ -18,9 +18,9 @@ acceptance:
   - Clickable — navigates to artifact
   - "Labeled as 'Backbone Artifacts — most structurally important'"
 relationships:
-  - target: EPIC-076
+  - target: EPIC-dbbbb5ac
     type: delivers
-  - target: TASK-498
+  - target: TASK-f8f9b6e7
     type: depends-on
 ---
 ## What

@@ -1,5 +1,5 @@
 ---
-id: IDEA-076
+id: IDEA-1db13693
 title: Bug and tweak tracking — milestone-direct attachment without epic overhead
 description: "Bugs and UI tweaks often don't relate to any epic but still need tracking, prioritisation, and milestone assignment. Introduce a mechanism for tasks to attach directly to milestones without requiring an epic wrapper. Same principle for small UI polish items."
 status: captured
@@ -10,12 +10,12 @@ research-needed:
   - "Should tasks be allowed to reference a milestone directly (no epic) or should there be a lightweight 'bug' or 'chore' epic type?"
   - "How does milestone completion gate change if tasks can attach directly — do direct tasks count as P1 blockers?"
   - "Should bugs have their own artifact type (BUG-NNN) or reuse TASK with a category field?"
-  - "How do UI tweaks (IDEA-073) fit — are they bugs, tasks, or their own thing?"
+  - "How do UI tweaks (IDEA-bcf96889) fit — are they bugs, tasks, or their own thing?"
   - "What changes to the task schema are needed (optional epic field, milestone field, category/type field)?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 
@@ -24,7 +24,7 @@ relationships:
 Current artifact structure requires: Task → Epic → Milestone. But bugs and small polish items don't fit this model well:
 
 - **Bugs** are discovered during use, not planned as features. Creating an epic for each bug adds overhead without value. But bugs still need to be prioritised and assigned to milestones so they can block completion if needed.
-- **UI tweaks** (like [IDEA-073](IDEA-073)'s favicon/titlebar fixes) are similar — small, concrete, not part of a feature epic.
+- **UI tweaks** (like [IDEA-bcf96889](IDEA-bcf96889)'s favicon/titlebar fixes) are similar — small, concrete, not part of a feature epic.
 - **Both** need milestone assignment so milestone completion gates can include them ("all P1 bugs fixed" as a gate).
 
 The current workaround is either creating a catch-all "bug fix" epic (loses traceability) or skipping the epic entirely (loses milestone assignment).

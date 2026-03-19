@@ -1,7 +1,7 @@
 ---
-id: EPIC-008
+id: EPIC-b2f0399e
 title: Code Quality Audit
-description: "Audit the codebase against coding standards, fix violations, and feed findings into the PILLAR-002 loop as lessons."
+description: "Audit the codebase against coding standards, fix violations, and feed findings into the PILLAR-cdf756ff loop as lessons."
 status: captured
 priority: P2
 created: 2026-03-07
@@ -13,7 +13,7 @@ scoring:
   complexity: 2
   dependencies: 2
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
 ---

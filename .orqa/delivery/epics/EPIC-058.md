@@ -1,7 +1,7 @@
 ---
-id: EPIC-058
+id: EPIC-ca7b398b
 title: Knowledge Maturity Pipeline — Full Migration
-description: "Migrate all governance artifacts to the AD-042 knowledge maturity pipeline: rule-overrides mechanism, relationship backfill on ~150 artifacts, schema enforcement, deprecated field removal. Done in one pass to avoid mid-migration drift."
+description: "Migrate all governance artifacts to the AD-a76663db knowledge maturity pipeline: rule-overrides mechanism, relationship backfill on ~150 artifacts, schema enforcement, deprecated field removal. Done in one pass to avoid mid-migration drift."
 status: completed
 priority: P1
 created: 2026-03-12
@@ -14,54 +14,54 @@ scoring:
   complexity: 4
   dependencies: 4
 rule-overrides:
-  - "rule: RULE-032"
-  - "rule: RULE-004"
+  - "rule: RULE-a764b2ae"
+  - "rule: RULE-7b770593"
 relationships:
-  - target: RES-048
+  - target: RES-132fbb38
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-048
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-132fbb38
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-271
+  - target: TASK-845e2653
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-272
+  - target: TASK-354c88f2
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-273
+  - target: TASK-1ec1a07c
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-274
+  - target: TASK-fedfd82a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-275
+  - target: TASK-4eb0c231
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-276
+  - target: TASK-da2965a2
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-277
+  - target: TASK-c4685a41
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-278
+  - target: TASK-d40d7b76
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-279
+  - target: TASK-7b2f5ee7
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-280
+  - target: TASK-78abb39a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-348
+  - target: TASK-508cf6cd
     type: delivered-by
     rationale: Epic contains this task
-  - target: RES-048
+  - target: RES-132fbb38
     type: guided-by
 ---
 ## Context
 
-[AD-042](AD-042) defines the Knowledge Maturity Pipeline — restructuring governance artifacts around a six-stage learning lifecycle with mandatory bidirectional relationships. The design is complete. This epic is the full migration.
+[AD-a76663db](AD-a76663db) defines the Knowledge Maturity Pipeline — restructuring governance artifacts around a six-stage learning lifecycle with mandatory bidirectional relationships. The design is complete. This epic is the full migration.
 
 This must be done in one pass. A half-migrated state — some artifacts with relationships, some without; some schemas requiring fields, others not — creates exactly the kind of drift the pipeline is designed to prevent. Mid-migration hell is worse than the current state.
 
@@ -131,16 +131,16 @@ Single commit after Phase 3 is stable:
 
 | ID | Title | Depends On | Phase |
 |----|-------|-----------|-------|
-| [TASK-271](TASK-271) | Implement rule-overrides in CLI plugin prompt injection | — | 0 |
-| [TASK-272](TASK-272) | Implement rule-overrides in pre-commit hook | — | 0 |
-| [TASK-273](TASK-273) | Build AI-assisted backfill and link verification tooling | [TASK-271](TASK-271), [TASK-272](TASK-272) | 1.5 |
-| [TASK-274](TASK-274) | Backfill rules with relationships | [TASK-273](TASK-273) | 2 |
-| [TASK-275](TASK-275) | Backfill skills with category and relationships | [TASK-274](TASK-274) | 2 |
-| [TASK-276](TASK-276) | Backfill decisions with relationships | [TASK-275](TASK-275) | 2 |
-| [TASK-277](TASK-277) | Backfill lessons with maturity and relationships | [TASK-276](TASK-276) | 2 |
-| [TASK-278](TASK-278) | Make relationship fields required in schemas | [TASK-277](TASK-277) | 3 |
-| [TASK-279](TASK-279) | Remove deprecated fields from schemas and artifacts | [TASK-278](TASK-278) | 4 |
-| [TASK-280](TASK-280) | Verify pipeline integrity — all artifacts connected, no orphans | [TASK-279](TASK-279) | 4 |
+| [TASK-845e2653](TASK-845e2653) | Implement rule-overrides in CLI plugin prompt injection | — | 0 |
+| [TASK-354c88f2](TASK-354c88f2) | Implement rule-overrides in pre-commit hook | — | 0 |
+| [TASK-1ec1a07c](TASK-1ec1a07c) | Build AI-assisted backfill and link verification tooling | [TASK-845e2653](TASK-845e2653), [TASK-354c88f2](TASK-354c88f2) | 1.5 |
+| [TASK-fedfd82a](TASK-fedfd82a) | Backfill rules with relationships | [TASK-1ec1a07c](TASK-1ec1a07c) | 2 |
+| [TASK-4eb0c231](TASK-4eb0c231) | Backfill skills with category and relationships | [TASK-fedfd82a](TASK-fedfd82a) | 2 |
+| [TASK-da2965a2](TASK-da2965a2) | Backfill decisions with relationships | [TASK-4eb0c231](TASK-4eb0c231) | 2 |
+| [TASK-c4685a41](TASK-c4685a41) | Backfill lessons with maturity and relationships | [TASK-da2965a2](TASK-da2965a2) | 2 |
+| [TASK-d40d7b76](TASK-d40d7b76) | Make relationship fields required in schemas | [TASK-c4685a41](TASK-c4685a41) | 3 |
+| [TASK-7b2f5ee7](TASK-7b2f5ee7) | Remove deprecated fields from schemas and artifacts | [TASK-d40d7b76](TASK-d40d7b76) | 4 |
+| [TASK-78abb39a](TASK-78abb39a) | Verify pipeline integrity — all artifacts connected, no orphans | [TASK-7b2f5ee7](TASK-7b2f5ee7) | 4 |
 
 ## Out of Scope
 

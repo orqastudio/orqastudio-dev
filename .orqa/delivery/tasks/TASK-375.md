@@ -1,75 +1,75 @@
 ---
-id: TASK-375
-title: Reconcile EPIC-061
-description: "Final reconciliation of EPIC-061 — verify all tasks complete, all deliverables shipped, all enforcement tooling operational"
+id: TASK-7cf80542
+title: Reconcile EPIC-4e6e9eae
+description: "Final reconciliation of EPIC-4e6e9eae — verify all tasks complete, all deliverables shipped, all enforcement tooling operational"
 status: completed
 created: 2026-03-13
 updated: 2026-03-13
 acceptance:
-  - All EPIC-061 tasks are done and all deliverables verified as operational
+  - All EPIC-4e6e9eae tasks are done and all deliverables verified as operational
 relationships:
-  - target: EPIC-061
+  - target: EPIC-4e6e9eae
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-350
+  - target: TASK-b476bd8e
     type: depends-on
-  - target: TASK-351
+  - target: TASK-209f1646
     type: depends-on
-  - target: TASK-362
+  - target: TASK-4017a3de
     type: depends-on
-  - target: TASK-363
+  - target: TASK-2284f3e6
     type: depends-on
-  - target: TASK-364
+  - target: TASK-8f18cf73
     type: depends-on
-  - target: TASK-365
+  - target: TASK-fc7f41ca
     type: depends-on
-  - target: TASK-366
+  - target: TASK-ab350828
     type: depends-on
-  - target: TASK-367
+  - target: TASK-e5b83fae
     type: depends-on
-  - target: TASK-368
+  - target: TASK-2ecb94ed
     type: depends-on
-  - target: TASK-369
+  - target: TASK-530bb45d
     type: depends-on
-  - target: TASK-370
+  - target: TASK-9952c534
     type: depends-on
-  - target: TASK-371
+  - target: TASK-aab2e7a9
     type: depends-on
-  - target: TASK-372
+  - target: TASK-5f701f54
     type: depends-on
-  - target: TASK-373
+  - target: TASK-67dec092
     type: depends-on
-  - target: TASK-374
+  - target: TASK-6b0459ea
     type: depends-on
-  - target: TASK-376
+  - target: TASK-247b6ce4
     type: depends-on
-  - target: TASK-377
+  - target: TASK-db81ac75
     type: depends-on
-  - target: TASK-378
+  - target: TASK-75b09cdb
     type: depends-on
-  - target: TASK-379
+  - target: TASK-074e4088
     type: depends-on
-  - target: TASK-380
+  - target: TASK-81e74493
     type: depends-on
-  - target: TASK-381
+  - target: TASK-41d5cd97
     type: depends-on
-  - target: TASK-382
+  - target: TASK-9e9754a8
     type: depends-on
-  - target: TASK-383
+  - target: TASK-822d8c82
     type: depends-on
-  - target: TASK-384
+  - target: TASK-0b53e322
     type: depends-on
-  - target: TASK-385
+  - target: TASK-fc1f139e
     type: depends-on
-  - target: TASK-386
+  - target: TASK-92b1419d
     type: depends-on
-  - target: TASK-387
+  - target: TASK-47f0f832
     type: depends-on
 ---
 
 ## What
 
-Final reconciliation of [EPIC-061](EPIC-061) to verify completeness.
+Final reconciliation of [EPIC-4e6e9eae](EPIC-4e6e9eae) to verify completeness.
 
 ## How
 
@@ -77,7 +77,7 @@ Review all tasks, verify all deliverables shipped, and confirm all enforcement t
 
 ## Verification
 
-Completed as part of [EPIC-061](EPIC-061) reconciliation.
+Completed as part of [EPIC-4e6e9eae](EPIC-4e6e9eae) reconciliation.
 
 ## Lessons
 

@@ -1,7 +1,7 @@
 ---
-id: TASK-468
-title: "Quick fixes: broken link RES-035 and IDEA-095 categorisation"
-description: "Fix broken body link in RES-035 referencing TASK-069, and fix IDEA-095 appearing under Other in the artifact browser."
+id: TASK-b8d36c3f
+title: "Quick fixes: broken link RES-63578440 and IDEA-93949f43 categorisation"
+description: "Fix broken body link in RES-63578440 referencing TASK-3ce9c6dd, and fix IDEA-93949f43 appearing under Other in the artifact browser."
 status: completed
 priority: P1
 scoring:
@@ -13,10 +13,10 @@ created: 2026-03-14
 updated: 2026-03-14
 assignee: null
 acceptance:
-  - RES-035 body link to TASK-069 resolves correctly
-  - IDEA-095 appears under the correct category in the artifact browser
+  - RES-63578440 body link to TASK-3ce9c6dd resolves correctly
+  - IDEA-93949f43 appears under the correct category in the artifact browser
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
     rationale: Quick fixes from UAT round 3 (F3, F16)
 ---

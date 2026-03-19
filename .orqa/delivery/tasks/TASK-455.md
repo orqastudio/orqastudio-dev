@@ -1,5 +1,5 @@
 ---
-id: TASK-455
+id: TASK-464eadf4
 title: Documentation relationship audit — documents/documented-by edges
 description: Audit all documentation pages and populate documents/documented-by relationship edges across all docs.
 status: completed
@@ -16,13 +16,13 @@ acceptance:
   - All documentation pages have relationships to the artifacts they describe
   - documents/documented-by edges populated across all docs
 relationships:
-  - target: EPIC-071
+  - target: EPIC-7d587280
     type: delivers
     rationale: Document relationship edges connect documentation to the artifacts they describe
-  - target: TASK-435
+  - target: TASK-2830a2da
     type: depends-on
 ---
 
 ## Scope
 
-Audit all documentation pages in .orqa/documentation/ and backfill documents/documented-by relationship edges. Create a backfill script if needed. Depends on TASK-435 for the relationship type definitions.
+Audit all documentation pages in .orqa/documentation/ and backfill documents/documented-by relationship edges. Create a backfill script if needed. Depends on TASK-2830a2da for the relationship type definitions.

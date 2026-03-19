@@ -1,5 +1,5 @@
 ---
-id: IMPL-053
+id: IMPL-65c3ca6c
 title: "Dashboard widgets need actionable context, not just metrics"
 description: UAT revealed that showing counts and status labels without reasoning or suggested actions creates noise rather than insight. Metrics without actionability are decoration.
 status: active
@@ -8,7 +8,7 @@ updated: 2026-03-14
 recurrence: 1
 maturity: understanding
 relationships:
-  - target: EPIC-063
+  - target: EPIC-fd22ca6c
     type: cautions
     rationale: "Multiple UAT findings (#2, #8, #13) converge on this pattern"
 ---

@@ -1,5 +1,5 @@
 ---
-id: TASK-428
+id: TASK-9593e951
 title: "Switch orqa-studio from file: to published package versions"
 description: "Update the main app to consume published @orqastudio packages from GitHub Packages instead of file: references to sibling directories."
 status: completed
@@ -21,10 +21,10 @@ acceptance:
   - App builds and runs correctly
   - make verify-integrity works with published integrity-validator
 relationships:
-  - target: EPIC-066
+  - target: EPIC-a210c825
     type: delivers
     rationale: Main app fully consuming published packages — the loop is closed
-  - target: TASK-427
+  - target: TASK-82add1d1
     type: depends-on
 ---
 

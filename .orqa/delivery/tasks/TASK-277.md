@@ -1,5 +1,5 @@
 ---
-id: TASK-277
+id: TASK-c4685a41
 title: Backfill lessons with maturity and relationships
 description: Use backfill tooling to add maturity (observation/understanding) and grounded relationships to all 16 lessons.
 status: completed
@@ -14,16 +14,16 @@ acceptance:
   - Lessons with maturity=observation may have empty relationships (or informs)
   - Human reviewed and approved all proposals
 rule-overrides:
-  - "rule: RULE-032"
+  - "rule: RULE-a764b2ae"
 relationships:
-  - target: EPIC-058
+  - target: EPIC-ca7b398b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-276
+  - target: TASK-da2965a2
     type: depends-on
-  - target: TASK-278
+  - target: TASK-d40d7b76
     type: depended-on-by
-  - target: TASK-348
+  - target: TASK-508cf6cd
     type: depended-on-by
 ---
 

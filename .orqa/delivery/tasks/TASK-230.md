@@ -1,5 +1,5 @@
 ---
-id: TASK-230
+id: TASK-b40669f0
 title: Standardise scoring dimensions across all epics
 description: 4 different dimension sets exist. Choose canonical set and backfill all 53 epics.
 status: completed
@@ -9,10 +9,10 @@ acceptance:
   - All epics use same scoring dimension keys
   - Priority bands comparable across all epics
 relationships:
-  - target: EPIC-054
+  - target: EPIC-6f2d06d4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-344
+  - target: TASK-94149697
     type: depended-on-by
 ---
 

@@ -1,36 +1,36 @@
 ---
-id: PERSONA-003
+id: PERSONA-a4b15450
 title: "Jordan — The Independent"
 description: "Solo builder who relies heavily on AI for execution. Needs a tool that maximises AI assistance while maintaining quality without a team."
 status: active
 created: 2026-03-07
 updated: 2026-03-18
 relationships:
-  - target: IDEA-003
+  - target: IDEA-a9ea01b6
     type: benefited-by
-  - target: IDEA-032
+  - target: IDEA-9334b770
     type: benefited-by
-  - target: IDEA-038
+  - target: IDEA-b77e2955
     type: benefited-by
-  - target: IDEA-040
+  - target: IDEA-57537993
     type: benefited-by
-  - target: IDEA-062
+  - target: IDEA-0ea1fce4
     type: benefited-by
-  - target: IDEA-067
+  - target: IDEA-705723b2
     type: benefited-by
-  - target: IDEA-081
+  - target: IDEA-129f0d35
     type: benefited-by
-  - target: IDEA-098
+  - target: IDEA-60dd3dde
     type: benefited-by
-  - target: IDEA-108
+  - target: IDEA-ff21a84a
     type: benefited-by
-  - target: IDEA-109
+  - target: IDEA-2051515a
     type: benefited-by
-  - target: IDEA-110
+  - target: IDEA-2dfe18ae
     type: benefited-by
-  - target: IDEA-111
+  - target: IDEA-c496b2de
     type: benefited-by
-  - target: IDEA-122
+  - target: IDEA-1fb76817
     type: benefited-by
 ---
 

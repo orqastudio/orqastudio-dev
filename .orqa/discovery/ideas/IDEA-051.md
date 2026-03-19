@@ -1,5 +1,5 @@
 ---
-id: IDEA-051
+id: IDEA-6bb711d4
 title: Artifact Relationships Tab Panel
 description: "Add a relationships tab to the artifact detail view that visualises how the current artifact connects to other artifacts — showing inbound and outbound references as an interactive graph or structured list, powered by the Artifact Graph SDK."
 status: captured
@@ -12,11 +12,11 @@ research-needed:
   - "Should the panel show both directions (references-out and references-in) or separate them?"
   - "How to handle artifacts with many connections without overwhelming the view?"
   - "What interaction patterns make sense? (click to navigate, hover to preview, drag to explore)"
-  - "How does this relate to the full graph dashboard (IDEA-049) vs being a per-artifact contextual view?"
+  - "How does this relate to the full graph dashboard (IDEA-c3b01bfd) vs being a per-artifact contextual view?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation
@@ -25,7 +25,7 @@ Every artifact in `.orqa/` exists in a web of relationships — epics reference 
 
 A relationships tab on the artifact detail view would make these connections visible and navigable. When looking at an epic, you'd immediately see its tasks, the milestone it belongs to, the research that informed it, and the decisions it produced. When looking at a task, you'd see what blocks it and what it depends on.
 
-This is the per-artifact counterpart to the system-wide dashboard insights (IDEA-049) and funnel visualisation (IDEA-050). Those show the forest; this shows the tree and its immediate neighbours.
+This is the per-artifact counterpart to the system-wide dashboard insights (IDEA-c3b01bfd) and funnel visualisation (IDEA-c08c67c8). Those show the forest; this shows the tree and its immediate neighbours.
 
 ## Sketch
 

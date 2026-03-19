@@ -1,32 +1,32 @@
 ---
-id: EPIC-080
+id: EPIC-3f65c703
 title: "Plugin infrastructure and delivery plugin extraction"
 status: exploring
 created: 2026-03-16
 relationships:
   - type: driven-by
-    target: AD-055
-  - target: AD-056
+    target: AD-c6abc8e6
+  - target: AD-fc646168
     type: driven-by
   - type: fulfils
-    target: MS-002
-  - target: IDEA-030
+    target: MS-eea45fa8
+  - target: IDEA-d15d04a6
     type: realised-by
-  - target: IDEA-038
+  - target: IDEA-b77e2955
     type: realised-by
-  - target: IDEA-055
+  - target: IDEA-68d4e688
     type: realised-by
-  - target: IDEA-071
+  - target: IDEA-1287dd52
     type: realised-by
-  - target: IDEA-090
+  - target: IDEA-e0aa14a3
     type: realised-by
-  - target: IDEA-100
+  - target: IDEA-50d6e149
     type: realised-by
-  - target: IDEA-105
+  - target: IDEA-461e7f09
     type: realised-by
 ---
 
-# EPIC-080: Plugin infrastructure and delivery plugin extraction
+# EPIC-3f65c703: Plugin infrastructure and delivery plugin extraction
 
 ## Goal
 
@@ -41,7 +41,7 @@ Build the runtime plugin loading system and extract the "software project" deliv
 - Navigation system renders plugin-registered views in ActivityBar
 - Icon registry accepts plugin icon registrations
 - Dashboard widget registration: plugins contribute widgets with data contracts (read-only graph access)
-- Widget configuration persistence: per-project layout and visibility settings (from IDEA-090)
+- Widget configuration persistence: per-project layout and visibility settings (from IDEA-e0aa14a3)
 
 ### Phase 2: Core artifact isolation
 - Identify and lock down core artifact types that ship with the app: pillars, vision, personas, grounding, decisions, rules, lessons, skills, agents
@@ -55,7 +55,7 @@ Build the runtime plugin loading system and extract the "software project" deliv
 - Move views: RoadmapView, HorizonBoard, StatusKanban, KanbanCard, MilestoneCard, CollapsibleColumn, DrilldownBreadcrumbs
 - Move dashboard widgets: PipelineWidget, DecisionQueueWidget, MilestoneContextCard
 - Plugin manifest registers all types, views, icons, and relationship types (delivers, delivered-by, depends-on, depended-on-by)
-- Plugin contributes status transition rules for its artifact types (from IDEA-105)
+- Plugin contributes status transition rules for its artifact types (from IDEA-461e7f09)
 - App discovers and loads the plugin at startup
 
 ### Phase 4: Plugin bundling

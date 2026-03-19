@@ -1,5 +1,5 @@
 ---
-id: TASK-126
+id: TASK-a1e2f58a
 title: Implement session and message CRUD
 description: "Built complete CRUD operations for sessions and messages including creation, listing, retrieval, updating, and deletion via IPC commands."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - All message operations work end-to-end
   - Error cases return typed errors
 relationships:
-  - target: EPIC-030
+  - target: EPIC-cfd1ac79
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-320
+  - target: TASK-a5e7df28
     type: depended-on-by
 ---
 ## What

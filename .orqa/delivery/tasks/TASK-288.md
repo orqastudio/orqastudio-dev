@@ -1,5 +1,5 @@
 ---
-id: TASK-288
+id: TASK-1dad83f7
 title: Move team artifacts to process/
 description: "Move skills and agents from .orqa/process/ to .orqa/process/. Update project.json, all path references, .claude/ symlinks."
 status: completed
@@ -14,18 +14,18 @@ acceptance:
   - project.json paths updated
   - .claude/agents and .claude/skills symlinks point to new paths
 rule-overrides:
-  - "rule: RULE-003"
+  - "rule: RULE-6c0496e0"
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-286
+  - target: TASK-8b9c68ae
     type: depends-on
-  - target: TASK-291
+  - target: TASK-191958e7
     type: depended-on-by
-  - target: TASK-292
+  - target: TASK-b3aadbcd
     type: depended-on-by
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

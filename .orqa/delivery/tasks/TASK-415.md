@@ -1,5 +1,5 @@
 ---
-id: TASK-415
+id: TASK-84e27636
 title: Wire Rust EnforcementEngine to agent tool approval pipeline
 description: Connect the existing EnforcementEngine in the Rust backend to the agent execution pipeline so that enforcement entries are evaluated before tool execution in app context.
 status: completed
@@ -20,14 +20,14 @@ acceptance:
   - Inject verdicts load skill content and inject into agent context
   - Evaluation adds <10ms latency per tool call
 relationships:
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: delivers
     rationale: Phase 2 — app-context enforcement parity with CLI
-  - target: TASK-414
+  - target: TASK-70762a1f
     type: depends-on
-  - target: TASK-190
+  - target: TASK-7e02fb8e
     type: depended-on-by
-  - target: TASK-416
+  - target: TASK-6385a2ac
     type: depended-on-by
 ---
 

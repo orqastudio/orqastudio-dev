@@ -1,5 +1,5 @@
 ---
-id: TASK-257
+id: TASK-7a35077d
 title: Full integration test of reorganised repository
 description: "Run all quality gates, dev lifecycle, and production build to verify the reorganisation is complete and correct."
 status: completed
@@ -12,12 +12,12 @@ acceptance:
   - No stale path references remain in codebase
   - Watcher scoping verified (Vite only reloads on ui/src/ changes)
 relationships:
-  - target: EPIC-056
+  - target: EPIC-7b039d05
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-256
+  - target: TASK-50ed0c4a
     type: depends-on
-  - target: TASK-346
+  - target: TASK-03741ecb
     type: depended-on-by
 ---
 

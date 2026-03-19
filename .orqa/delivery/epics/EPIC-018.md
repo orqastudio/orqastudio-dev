@@ -1,5 +1,5 @@
 ---
-id: EPIC-018
+id: EPIC-1c8cddf8
 title: Sub-Agent Support
 description: "Build agent registry, spawn_agent tool, explore mode, output aggregation, and turn limits for sub-agent delegation."
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 4
   dependencies: 2
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
 ---

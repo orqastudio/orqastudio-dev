@@ -1,5 +1,5 @@
 ---
-id: EPIC-062
+id: EPIC-527de6a3
 title: Artifact Graph SDK extraction research
 description: "Research extracting the artifactGraphSDK into a standalone npm package that plugins can import, enabling the plugin architecture's data layer."
 status: captured
@@ -15,15 +15,15 @@ scoring:
   dependencies: 2
 rule-overrides: []
 relationships:
-  - target: RES-046
+  - target: RES-00ec6dd1
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-046
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-00ec6dd1
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: IDEA-059
+  - target: IDEA-53205849
     type: realised-by
-  - target: RES-046
+  - target: RES-00ec6dd1
     type: guided-by
 ---
 ## Context
@@ -37,9 +37,9 @@ The `artifactGraphSDK` in `ui/src/lib/sdk/artifact-graph.svelte.ts` is the singl
 - Integrity scanning, auto-fixes, health snapshots
 - Typed relationship traversal
 
-Currently it's a Svelte 5 rune-based singleton tightly coupled to the app. For the plugin architecture ([IDEA-038](IDEA-038), [IDEA-059](IDEA-059)), plugins need to consume this SDK as an importable package — same API, different distribution.
+Currently it's a Svelte 5 rune-based singleton tightly coupled to the app. For the plugin architecture ([IDEA-b77e2955](IDEA-b77e2955), [IDEA-53205849](IDEA-53205849)), plugins need to consume this SDK as an importable package — same API, different distribution.
 
-**Bundled idea**: [IDEA-059](IDEA-059) — Component Library SDK for Plugin Views (the Artifact Graph SDK is item #2 in that idea)
+**Bundled idea**: [IDEA-53205849](IDEA-53205849) — Component Library SDK for Plugin Views (the Artifact Graph SDK is item #2 in that idea)
 
 ### Research Questions
 
@@ -53,7 +53,7 @@ Currently it's a Svelte 5 rune-based singleton tightly coupled to the app. For t
 
 ### Phase 1: Research
 
-Investigate the five questions above. Produce findings in [RES-056](RES-056).
+Investigate the five questions above. Produce findings in [RES-5657d9f6](RES-5657d9f6).
 
 ### Phase 2: Extraction (if research validates)
 
@@ -64,11 +64,11 @@ Based on research findings, extract the SDK. Scope TBD by research.
 | ID | Title | Phase | Depends On |
 |----|-------|-------|------------|
 | TASK-TBD-1 | Research SDK extraction feasibility and package boundary | 1 | — |
-| TASK-TBD-2 | Reconcile EPIC-062 | — | all above |
+| TASK-TBD-2 | Reconcile EPIC-527de6a3 | — | all above |
 
 ## Out of Scope
 
-- Component library extraction (the other half of [IDEA-059](IDEA-059) — separate epic)
+- Component library extraction (the other half of [IDEA-53205849](IDEA-53205849) — separate epic)
 - View registration API
 - Theme token distribution
 - Actually building the plugin runtime — this epic is research + extraction only

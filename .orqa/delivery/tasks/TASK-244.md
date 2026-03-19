@@ -1,5 +1,5 @@
 ---
-id: TASK-244
+id: TASK-7dd0d161
 title: Add frontend store unit tests (all 10 stores)
 description: "Zero frontend tests exist. Add Vitest unit tests for all 10 Svelte 5 rune stores covering state transitions, error handling, and invoke mock patterns."
 status: completed
@@ -11,10 +11,10 @@ acceptance:
   - make test-frontend passes
   - "Coverage report shows >60% store coverage"
 relationships:
-  - target: EPIC-055
+  - target: EPIC-5f9fcf48
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-345
+  - target: TASK-389af55e
     type: depended-on-by
 ---
 

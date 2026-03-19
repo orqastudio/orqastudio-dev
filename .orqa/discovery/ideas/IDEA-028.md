@@ -1,5 +1,5 @@
 ---
-id: IDEA-028
+id: IDEA-e92d424a
 title: File-first data alignment audit
 description: Audit all persistent data to ensure clear file-vs-database justification. Files are the source of truth for governance artifacts; the database is a derived index rebuilt on scan. Verify no governance data is database-only.
 status: captured
@@ -11,9 +11,9 @@ research-needed:
   - "Can the artifacts table be treated as a pure scan cache?"
   - "Should governance_analyses be exportable as artifacts?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Context

@@ -1,5 +1,5 @@
 ---
-id: DOC-056
+id: DOC-05278b9c
 title: Responsive Behavior
 category: reference
 description: Responsive layout behavior across different window sizes and breakpoints.
@@ -9,7 +9,7 @@ sort: 7
 relationships: []
 ---
 
-**Date:** 2026-03-02 | **Informed by:** Information Architecture, [Frontend Research](RES-004)
+**Date:** 2026-03-02 | **Informed by:** Information Architecture, [Frontend Research](RES-df5560cb)
 
 How OrqaStudio™'s layout adapts to different window sizes. OrqaStudio is a desktop application — there is no mobile viewport — but windows can be resized from ultrawide monitors down to fairly small sizes.
 

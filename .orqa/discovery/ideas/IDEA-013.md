@@ -1,5 +1,5 @@
 ---
-id: IDEA-013
+id: IDEA-bfeda324
 title: Reasoning Transparency
 description: "Maintain clear reasoning trails with AI-generated summaries, confidence indicators, and chronological decision logs."
 status: completed
@@ -10,11 +10,11 @@ research-needed:
   - Confidence indicator calibration
   - Decision log UX design
 relationships:
-  - target: EPIC-001
+  - target: EPIC-e045ab6d
     type: realises
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Candidate Items

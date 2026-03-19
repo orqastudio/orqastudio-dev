@@ -1,5 +1,5 @@
 ---
-id: TASK-471
+id: TASK-88ed71e0
 title: Artifact link settings — display mode and per-type colour coding
 description: Add project settings for artifact link display mode (ID vs title) and per-type colour configuration. Settings stored in project.json.
 status: completed
@@ -18,9 +18,9 @@ acceptance:
   - Per-type colour configuration available with defaults
   - ArtifactLink component reads settings and applies colours/display mode
 relationships:
-  - target: EPIC-073
+  - target: EPIC-b2ca1ea3
     type: delivers
     rationale: Artifact link settings (F8, F27, F28)
-  - target: TASK-470
+  - target: TASK-ebc48b97
     type: depends-on
 ---

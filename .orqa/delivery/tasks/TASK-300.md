@@ -1,5 +1,5 @@
 ---
-id: TASK-300
+id: TASK-7f5b6792
 title: Update all path references across codebase
 description: "After directory moves, every hardcoded path in Rust, TypeScript, skills, rules, agents, documentation must be updated. Use verify-links to confirm zero broken references."
 status: completed
@@ -15,12 +15,12 @@ acceptance:
   - Pre-commit hook references correct paths
 rule-overrides: []
 relationships:
-  - target: EPIC-059
+  - target: EPIC-942c7678
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-292
+  - target: TASK-b3aadbcd
     type: depends-on
-  - target: TASK-349
+  - target: TASK-cea1bc37
     type: depended-on-by
 ---
 

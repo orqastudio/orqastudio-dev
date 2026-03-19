@@ -1,5 +1,5 @@
 ---
-id: EPIC-049
+id: EPIC-4a7aeacb
 title: "Agent, Skill, and Enforcement Artifact Audit"
 description: "Comprehensive audit of all agent definitions, skill definitions, and enforcement artifacts (rules, hooks) to verify accuracy against the current codebase, fix stale references, remove deprecated content, and ensure internal consistency."
 status: completed
@@ -14,121 +14,121 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: RES-035
+  - target: RES-63578440
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-035
-  - target: RES-037
+    rationale: Auto-generated inverse of informed-by relationship from RES-63578440
+  - target: RES-5484edbd
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-037
-  - target: RES-036
+    rationale: Auto-generated inverse of informed-by relationship from RES-5484edbd
+  - target: RES-a6311b1b
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-036
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-a6311b1b
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-084
+  - target: TASK-b6e9df91
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-085
+  - target: TASK-69b7753b
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-086
+  - target: TASK-f32f3eba
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-087
+  - target: TASK-b743b819
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-088
+  - target: TASK-1ac4d16f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-089
+  - target: TASK-77b6e5bd
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-093
+  - target: TASK-4a8c3c6a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-139
+  - target: TASK-cca73736
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-140
+  - target: TASK-a5f1b36d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-141
+  - target: TASK-809a14cc
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-142
+  - target: TASK-241f1480
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-143
+  - target: TASK-732d8f12
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-144
+  - target: TASK-50906c0c
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-145
+  - target: TASK-42d570dc
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-146
+  - target: TASK-a958f2d2
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-147
+  - target: TASK-e752886d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-148
+  - target: TASK-1033a8ed
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-149
+  - target: TASK-8b70b4c1
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-150
+  - target: TASK-ab739ac3
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-151
+  - target: TASK-8120e247
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-152
+  - target: TASK-448102a7
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-153
+  - target: TASK-22b0ab76
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-154
+  - target: TASK-59ff2cfe
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-155
+  - target: TASK-58d6a5ca
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-156
+  - target: TASK-77f6948d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-157
+  - target: TASK-786b1168
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-158
+  - target: TASK-7cbdca2a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-159
+  - target: TASK-03c8cc85
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-160
+  - target: TASK-44de1cec
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-163
+  - target: TASK-61934d01
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-339
+  - target: TASK-ec136ce9
     type: delivered-by
     rationale: Epic contains this task
-  - target: RES-035
+  - target: RES-63578440
     type: guided-by
-  - target: RES-036
+  - target: RES-a6311b1b
     type: guided-by
-  - target: RES-037
+  - target: RES-5484edbd
     type: guided-by
 ---
 ## Context
 
-The comprehensive planning artifact audit (EPIC-048 review cycle) revealed that while planning artifacts, milestones, decisions, and documentation pages have been audited and fixed, the **team layer** (agents and skills) and **enforcement layer** (rules and hooks) have not been systematically verified against the current codebase state.
+The comprehensive planning artifact audit (EPIC-0a8a5e72 review cycle) revealed that while planning artifacts, milestones, decisions, and documentation pages have been audited and fixed, the **team layer** (agents and skills) and **enforcement layer** (rules and hooks) have not been systematically verified against the current codebase state.
 
 Agent definitions may reference outdated required reading paths, list skills that no longer exist, or describe workflows that have evolved. Skill definitions may contain stale code patterns, reference removed modules, or describe APIs that have changed. Rules may enforce patterns that are no longer relevant or miss patterns that should be enforced. Hooks may reference stale paths or commands.
 
@@ -142,7 +142,7 @@ For each agent in `.orqa/process/agents/`:
 1. Read the agent definition
 2. Verify `skills:` list — do all referenced skills exist in `.orqa/process/skills/`?
 3. Verify Required Reading paths — do all referenced documents exist?
-4. Verify role description matches current universal role model (AD-029)
+4. Verify role description matches current universal role model (AD-774cc3d0)
 5. Check for stale references (old app names, deprecated concepts, wrong paths)
 6. Check that delegation instructions match current subagent types available
 
@@ -192,7 +192,7 @@ Audit the boundaries between governance artifact types:
 
 ### Phase 7: Create Artifact Audit Skill
 
-Encode the audit methodology from [EPIC-048](EPIC-048) and [EPIC-049](EPIC-049) into a reusable skill:
+Encode the audit methodology from [EPIC-0a8a5e72](EPIC-0a8a5e72) and [EPIC-4a7aeacb](EPIC-4a7aeacb) into a reusable skill:
 1. Per-artifact-type checklists (status, cross-references, paths, codebase alignment)
 2. Systemic pattern grouping approach
 3. Cross-layer consistency checks
@@ -200,16 +200,16 @@ Encode the audit methodology from [EPIC-048](EPIC-048) and [EPIC-049](EPIC-049) 
 
 ## Tasks
 
-- [TASK-084](TASK-084): Audit all agent definitions for accuracy
-- [TASK-085](TASK-085): Audit all skill definitions against codebase
-- [TASK-086](TASK-086): Audit all rules for enforcement accuracy
-- [TASK-087](TASK-087): Audit hooks for correctness
-- [TASK-088](TASK-088): Cross-layer consistency verification
-- [TASK-089](TASK-089): Create artifact audit skill
-- [TASK-093](TASK-093): Audit for missing and miscategorised governance artifacts
+- [TASK-b6e9df91](TASK-b6e9df91): Audit all agent definitions for accuracy
+- [TASK-69b7753b](TASK-69b7753b): Audit all skill definitions against codebase
+- [TASK-f32f3eba](TASK-f32f3eba): Audit all rules for enforcement accuracy
+- [TASK-b743b819](TASK-b743b819): Audit hooks for correctness
+- [TASK-1ac4d16f](TASK-1ac4d16f): Cross-layer consistency verification
+- [TASK-77b6e5bd](TASK-77b6e5bd): Create artifact audit skill
+- [TASK-4a8c3c6a](TASK-4a8c3c6a): Audit for missing and miscategorised governance artifacts
 
 ## Out of Scope
 
 - Rewriting skills from scratch (fix what's wrong, don't redesign)
-- Adding new rules or skills (except the audit skill — TASK-089)
+- Adding new rules or skills (except the audit skill — TASK-77b6e5bd)
 - Changes to the rule/skill/agent schema (schema changes are a separate epic)

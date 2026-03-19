@@ -1,5 +1,5 @@
 ---
-id: IDEA-041
+id: IDEA-48e79f74
 title: Centralised error surfacing to the frontend
 description: "Ensure all backend errors, failed invokes, and silent promise rejections are surfaced visibly to the user. No error should be silently swallowed — every failure should either appear in a toast, status indicator, or error panel."
 status: captured
@@ -13,9 +13,9 @@ research-needed:
   - Evaluate Svelte 5 error boundary patterns for component-level error catching
   - "Review Tauri event-based error propagation for backend errors that aren't invoke responses"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 

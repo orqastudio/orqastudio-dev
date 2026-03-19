@@ -1,5 +1,5 @@
 ---
-id: IMPL-023
+id: IMPL-f2b140da
 title: "Observation logging and recurrence tracking should be automated, not manual"
 description: "Agents and orchestrators encounter 'why did that happen?' moments during implementation but don't automatically log observations or increment recurrence on existing lessons. The learning loop depends on manual discipline which breaks under cognitive load. Automation would make the loop self-sustaining."
 status: completed
@@ -15,7 +15,7 @@ The Knowledge Maturity Pipeline has an automated observation-to-enforcement path
 
 1. **Observation creation is manual.** When an agent hits a surprising failure (e.g., stale paths after a directory move), it fixes the problem but doesn't create an IMPL entry unless specifically prompted by the user or a review agent.
 
-2. **Recurrence tracking is manual.** Even when a lesson exists (e.g., [IMPL-017](IMPL-017) about stale paths), the next agent that hits the same pattern doesn't search lessons and increment the count. The recurrence counter stays at 1 forever.
+2. **Recurrence tracking is manual.** Even when a lesson exists (e.g., [IMPL-262e63e1](IMPL-262e63e1) about stale paths), the next agent that hits the same pattern doesn't search lessons and increment the count. The recurrence counter stays at 1 forever.
 
 3. **The promotion threshold is never reached.** Because recurrence isn't tracked, lessons never hit the >= 2 threshold that triggers promotion to rules or skills. The pipeline stalls at the observation stage.
 
@@ -23,7 +23,7 @@ The root cause: creating/updating lessons is a context switch that competes with
 
 ## Fix
 
-Three-tier logging discipline (user-approved via RES-052):
+Three-tier logging discipline (user-approved via RES-cd3d33bf):
 1. **Clearly blocking** (affects other in-flight tasks) — log immediately, surface to orchestrator, pause affected tasks
 2. **Clearly non-blocking** (self-contained) — log at task completion in Lessons section
 3. **Borderline** — orchestrator asks user preference (block vs continue with caveat). Decision and rationale recorded on the task. Context-dependent: overnight autonomous work favours continue, supervised work favours block.
@@ -32,4 +32,4 @@ Learning checkpoint at task completion: orchestrator asks "what observations wer
 
 ## Triage
 
-Promoted — three-tier observation logging discipline (blocking/non-blocking/borderline) promoted to [RULE-017](RULE-017) update. Learning checkpoint at task completion encoded as process requirement.
+Promoted — three-tier observation logging discipline (blocking/non-blocking/borderline) promoted to [RULE-551bde31](RULE-551bde31) update. Learning checkpoint at task completion encoded as process requirement.

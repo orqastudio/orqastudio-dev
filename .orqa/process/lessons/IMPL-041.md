@@ -1,5 +1,5 @@
 ---
-id: IMPL-041
+id: IMPL-336adfc0
 title: "Orchestrator should think critically about user suggestions, not just accept them"
 description: "When the user shares an instinct or preference, the orchestrator should evaluate it against the system's principles and present a reasoned assessment — agreeing, disagreeing, or offering alternatives — rather than immediately accepting. The user explicitly asked for critical thinking, indicating the default behaviour is too deferential."
 status: completed
@@ -17,10 +17,10 @@ The user proposed extending existing pillars rather than creating a new one. The
 ## Fix
 
 Not yet determined. Possible approaches:
-1. Design discussion skill (IDEA-072) should include a "devil's advocate" checkpoint for user proposals
+1. Design discussion skill (IDEA-5e90b487) should include a "devil's advocate" checkpoint for user proposals
 2. When presenting options, the orchestrator should always include its own recommendation with rationale
 3. When the user states a preference, the orchestrator should evaluate it against system principles before accepting
 
 ## Triage
 
-Promoted — extends [RULE-031](RULE-031)'s 'questioning misaligned instructions' requirement. Orchestrator should evaluate all user suggestions against system principles and offer independent analysis, not just accept.
+Promoted — extends [RULE-1e8a1914](RULE-1e8a1914)'s 'questioning misaligned instructions' requirement. Orchestrator should evaluate all user suggestions against system principles and offer independent analysis, not just accept.

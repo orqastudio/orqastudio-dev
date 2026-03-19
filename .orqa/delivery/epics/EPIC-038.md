@@ -1,5 +1,5 @@
 ---
-id: EPIC-038
+id: EPIC-bdf61169
 title: UX Polish Sprint
 description: "UX improvements identified during early dogfooding: streaming fix, output truncation, tool call grouping, auto-naming sessions, custom titlebar."
 status: completed
@@ -13,19 +13,19 @@ scoring:
   complexity: 2
   dependencies: 2
 relationships:
-  - target: RES-023
+  - target: RES-a602a623
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-023
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-a602a623
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-023
+  - target: TASK-faffc209
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-328
+  - target: TASK-16a4b326
     type: delivered-by
     rationale: Epic contains this task
-  - target: RES-023
+  - target: RES-a602a623
     type: guided-by
 ---
 ## Implementation Design

@@ -1,5 +1,5 @@
 ---
-id: TASK-106
+id: TASK-ac63f1fd
 title: Define information architecture
 description: "Designed the app's navigation structure, content hierarchy, and organizational patterns for all content types."
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - Hierarchy is consistent and predictable
   - Information architecture supports the multi-panel layout
 relationships:
-  - target: EPIC-027
+  - target: EPIC-1f21b578
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-317
+  - target: TASK-a88d16bb
     type: depended-on-by
 ---
 ## What

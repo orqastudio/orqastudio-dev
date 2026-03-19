@@ -1,5 +1,5 @@
 ---
-id: IDEA-091
+id: IDEA-e41039bc
 title: Rethink knowledge pipeline flow model
 description: The current pipeline widget assumes strict left-to-right flow (lesson→research→decision→skill→rule) but real knowledge flows in multiple directions based on context. Needs a new model that reflects how artifacts actually connect rather than enforcing a single pipeline direction.
 status: captured
@@ -11,12 +11,12 @@ research-needed:
   - "What dashboard signal would be most useful — coverage, connectivity, maturity distribution, or something else?"
   - "Should the pipeline be directional at all, or is it better modeled as a network?"
 relationships:
-  - target: EPIC-068
+  - target: EPIC-6e774e50
     type: realises
-    rationale: "Auto-generated inverse of informs relationship from EPIC-068"
-  - target: PILLAR-001
+    rationale: "Auto-generated inverse of informs relationship from EPIC-6e774e50"
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 ## Motivation

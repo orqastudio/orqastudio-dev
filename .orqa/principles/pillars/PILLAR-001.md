@@ -1,5 +1,5 @@
 ---
-id: PILLAR-001
+id: PILLAR-569581e0
 title: Clarity Through Structure
 description: "Making thinking, standards, and decisions visible and structured."
 status: active
@@ -14,195 +14,195 @@ gate:
 relationships:
   - target: VISION-001
     type: upholds
-  - target: IDEA-004
+  - target: IDEA-db339134
     type: grounded-by
-  - target: IDEA-005
+  - target: IDEA-72903969
     type: grounded-by
-  - target: IDEA-007
+  - target: IDEA-0540dcd6
     type: grounded-by
-  - target: IDEA-008
+  - target: IDEA-11688d04
     type: grounded-by
-  - target: IDEA-010
+  - target: IDEA-125f4ec8
     type: grounded-by
-  - target: IDEA-011
+  - target: IDEA-9ccb91a2
     type: grounded-by
-  - target: IDEA-013
+  - target: IDEA-bfeda324
     type: grounded-by
-  - target: IDEA-014
+  - target: IDEA-3bcdd78b
     type: grounded-by
-  - target: IDEA-015
+  - target: IDEA-af73e0af
     type: grounded-by
-  - target: IDEA-016
+  - target: IDEA-d2567a13
     type: grounded-by
-  - target: IDEA-018
+  - target: IDEA-8ebeb1a2
     type: grounded-by
-  - target: IDEA-019
+  - target: IDEA-efc3e79c
     type: grounded-by
-  - target: IDEA-020
+  - target: IDEA-3354aefe
     type: grounded-by
-  - target: IDEA-021
+  - target: IDEA-b30da6b5
     type: grounded-by
-  - target: IDEA-023
+  - target: IDEA-76b657e4
     type: grounded-by
-  - target: IDEA-024
+  - target: IDEA-f3a08e7a
     type: grounded-by
-  - target: IDEA-025
+  - target: IDEA-b153fabd
     type: grounded-by
-  - target: IDEA-026
+  - target: IDEA-adce6c86
     type: grounded-by
-  - target: IDEA-027
+  - target: IDEA-52c65fc8
     type: grounded-by
-  - target: IDEA-028
+  - target: IDEA-e92d424a
     type: grounded-by
-  - target: IDEA-029
+  - target: IDEA-9e91c17f
     type: grounded-by
-  - target: IDEA-030
+  - target: IDEA-d15d04a6
     type: grounded-by
-  - target: IDEA-031
+  - target: IDEA-8a9283e7
     type: grounded-by
-  - target: IDEA-032
+  - target: IDEA-9334b770
     type: grounded-by
-  - target: IDEA-033
+  - target: IDEA-464ab876
     type: grounded-by
-  - target: IDEA-034
+  - target: IDEA-abf847bb
     type: grounded-by
-  - target: IDEA-035
+  - target: IDEA-14f3874c
     type: grounded-by
-  - target: IDEA-036
+  - target: IDEA-75424fb8
     type: grounded-by
-  - target: IDEA-037
+  - target: IDEA-a99c270e
     type: grounded-by
-  - target: IDEA-039
+  - target: IDEA-0b05f1fd
     type: grounded-by
-  - target: IDEA-040
+  - target: IDEA-57537993
     type: grounded-by
-  - target: IDEA-041
+  - target: IDEA-48e79f74
     type: grounded-by
-  - target: IDEA-043
+  - target: IDEA-8868a71c
     type: grounded-by
-  - target: IDEA-044
+  - target: IDEA-93f86ece
     type: grounded-by
-  - target: IDEA-045
+  - target: IDEA-325a4ddc
     type: grounded-by
-  - target: IDEA-046
+  - target: IDEA-2e9d2045
     type: grounded-by
-  - target: IDEA-048
+  - target: IDEA-bfa5ca93
     type: grounded-by
-  - target: IDEA-049
+  - target: IDEA-c3b01bfd
     type: grounded-by
-  - target: IDEA-050
+  - target: IDEA-c08c67c8
     type: grounded-by
-  - target: IDEA-051
+  - target: IDEA-6bb711d4
     type: grounded-by
-  - target: IDEA-052
+  - target: IDEA-770dc935
     type: grounded-by
-  - target: IDEA-053
+  - target: IDEA-59ce25c3
     type: grounded-by
-  - target: IDEA-054
+  - target: IDEA-c599e4ac
     type: grounded-by
-  - target: IDEA-055
+  - target: IDEA-68d4e688
     type: grounded-by
-  - target: IDEA-056
+  - target: IDEA-25cfa2e0
     type: grounded-by
-  - target: IDEA-058
+  - target: IDEA-3293309b
     type: grounded-by
-  - target: IDEA-059
+  - target: IDEA-53205849
     type: grounded-by
-  - target: IDEA-060
+  - target: IDEA-0915667e
     type: grounded-by
-  - target: IDEA-061
+  - target: IDEA-c773575b
     type: grounded-by
-  - target: IDEA-062
+  - target: IDEA-0ea1fce4
     type: grounded-by
-  - target: IDEA-063
+  - target: IDEA-95654649
     type: grounded-by
-  - target: IDEA-064
+  - target: IDEA-6522afe2
     type: grounded-by
-  - target: IDEA-065
+  - target: IDEA-9bfb9012
     type: grounded-by
-  - target: IDEA-066
+  - target: IDEA-2ffe9ff9
     type: grounded-by
-  - target: IDEA-067
+  - target: IDEA-705723b2
     type: grounded-by
-  - target: IDEA-068
+  - target: IDEA-d9c48c83
     type: grounded-by
-  - target: IDEA-069
+  - target: IDEA-1c7ebe74
     type: grounded-by
-  - target: IDEA-070
+  - target: IDEA-d21b99f1
     type: grounded-by
-  - target: IDEA-071
+  - target: IDEA-1287dd52
     type: grounded-by
-  - target: IDEA-072
+  - target: IDEA-5e90b487
     type: grounded-by
-  - target: IDEA-073
+  - target: IDEA-bcf96889
     type: grounded-by
-  - target: IDEA-074
+  - target: IDEA-46dee261
     type: grounded-by
-  - target: IDEA-075
+  - target: IDEA-d145c669
     type: grounded-by
-  - target: IDEA-076
+  - target: IDEA-1db13693
     type: grounded-by
-  - target: IDEA-077
+  - target: IDEA-289ecd64
     type: grounded-by
-  - target: IDEA-078
+  - target: IDEA-3c8085b6
     type: grounded-by
-  - target: IDEA-079
+  - target: IDEA-29bdf6cf
     type: grounded-by
-  - target: IDEA-080
+  - target: IDEA-0d3f67de
     type: grounded-by
-  - target: IDEA-081
+  - target: IDEA-129f0d35
     type: grounded-by
-  - target: IDEA-082
+  - target: IDEA-11dfa751
     type: grounded-by
-  - target: IDEA-083
+  - target: IDEA-7b76c23e
     type: grounded-by
-  - target: IDEA-084
+  - target: IDEA-0f690b5f
     type: grounded-by
-  - target: IDEA-085
+  - target: IDEA-34a6bbf5
     type: grounded-by
-  - target: IDEA-086
+  - target: IDEA-64f9ef1c
     type: grounded-by
-  - target: IDEA-090
+  - target: IDEA-e0aa14a3
     type: grounded-by
-  - target: IDEA-091
+  - target: IDEA-e41039bc
     type: grounded-by
-  - target: IDEA-092
+  - target: IDEA-a620e1f5
     type: grounded-by
-  - target: IDEA-093
+  - target: IDEA-c4f10c20
     type: grounded-by
-  - target: IDEA-095
+  - target: IDEA-93949f43
     type: grounded-by
-  - target: IDEA-096
+  - target: IDEA-a5f04c5c
     type: grounded-by
-  - target: IDEA-097
+  - target: IDEA-f0caec95
     type: grounded-by
-  - target: IDEA-099
+  - target: IDEA-744c341a
     type: grounded-by
-  - target: IDEA-100
+  - target: IDEA-50d6e149
     type: grounded-by
-  - target: IDEA-101
+  - target: IDEA-aabbab9d
     type: grounded-by
-  - target: IDEA-102
+  - target: IDEA-6f1d94a8
     type: grounded-by
-  - target: IDEA-103
+  - target: IDEA-0128a151
     type: grounded-by
-  - target: IDEA-104
+  - target: IDEA-d6ec2210
     type: grounded-by
-  - target: IDEA-105
+  - target: IDEA-461e7f09
     type: grounded-by
-  - target: IDEA-106
+  - target: IDEA-8b056951
     type: grounded-by
-  - target: IDEA-107
+  - target: IDEA-49a009ae
     type: grounded-by
-  - target: IDEA-116
+  - target: IDEA-c40febb6
     type: grounded-by
-  - target: IDEA-119
+  - target: IDEA-b1953a83
     type: grounded-by
-  - target: IDEA-122
+  - target: IDEA-1fb76817
     type: grounded-by
-  - target: IDEA-123
+  - target: IDEA-112a4b5d
     type: grounded-by
-  - target: IDEA-124
+  - target: IDEA-2d7ac819
     type: grounded-by
 ---
 ## What This Pillar Means

@@ -1,11 +1,11 @@
 ---
-id: TASK-038
+id: TASK-c740060f
 title: Null field handling and YAML display ordering
 description: "Fixes the artifact detail renderer to suppress null, empty, and invalid-date field values, and makes field render order follow YAML source order rather than a hardcoded list."
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - "Null, empty string, and undefined YAML values are not displayed in read views"
   - Invalid Date never shown for null/missing date fields
@@ -13,10 +13,10 @@ acceptance:
   - Priority labels (P1/P2/P3) include a human-readable explanation
   - Milestone gate question renders as the last field in the detail view
 relationships:
-  - target: EPIC-043
+  - target: EPIC-a2fa3068
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-333
+  - target: TASK-34eaf518
     type: depended-on-by
 ---
 ## Findings Addressed
@@ -29,7 +29,7 @@ relationships:
 
 `FrontmatterHeader.svelte` has hardcoded field lists with a predefined render order. The generic "extra fields" loop (line 261) does not filter nulls. Date fields render `Invalid Date` when the value is null.
 
-Current field order is hardcoded in the component. The fix should respect YAML source order instead, with the component simply iterating and rendering — but the YAML field order in the artifacts themselves must be audited to ensure it makes sense from a content hierarchy perspective (separate data quality task [TASK-040](TASK-040)).
+Current field order is hardcoded in the component. The fix should respect YAML source order instead, with the component simply iterating and rendering — but the YAML field order in the artifacts themselves must be audited to ensure it makes sense from a content hierarchy perspective (separate data quality task [TASK-32932be1](TASK-32932be1)).
 
 ## Root Cause
 

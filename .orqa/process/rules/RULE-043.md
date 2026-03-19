@@ -1,5 +1,5 @@
 ---
-id: RULE-043
+id: RULE-7f416d7d
 title: Tooling Ecosystem Management
 description: "OrqaStudio manages linter configuration to match documented standards. Code quality enforcement belongs in linters, not in regex matching."
 status: active
@@ -12,7 +12,7 @@ enforcement:
   - "event: lint"
   - "event: lint"
 relationships:
-  - target: AD-047
+  - target: AD-aa6b409a
     type: enforces
 ---
 OrqaStudio delegates code quality enforcement to the appropriate linting tools. The
@@ -22,7 +22,7 @@ OrqaStudio ensures the tooling ecosystem is configured to match documented stand
 ## The Chain
 
 ```
-Documented standard (RULE-006, skills)
+Documented standard (RULE-b49142be, skills)
   → Linter configuration (clippy.toml, eslint.config.js)
   → Hook trigger (.githooks/pre-commit, make check)
   → Violation reported to developer
@@ -86,6 +86,6 @@ If a pattern is NOT caught by any linter:
 
 ## Related Rules
 
-- [RULE-006](RULE-006) (coding-standards) — the standards this rule maps to linters
-- [RULE-042](RULE-042) (skill-injection) — skill injection complements linter delegation
-- [RULE-012](RULE-012) (error-ownership) — pre-commit hook enforcement
+- [RULE-b49142be](RULE-b49142be) (coding-standards) — the standards this rule maps to linters
+- [RULE-f9d0279c](RULE-f9d0279c) (skill-injection) — skill injection complements linter delegation
+- [RULE-57ccb4a3](RULE-57ccb4a3) (error-ownership) — pre-commit hook enforcement

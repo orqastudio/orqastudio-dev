@@ -1,25 +1,25 @@
 ---
-id: TASK-062
+id: TASK-47df8cbd
 title: Update system prompt assembly to inject pillars
 description: Update system prompt assembly to inject pillars
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - Orchestrator instructions reference pillar artifacts directory
   - System prompt guidance reads pillar titles and test-questions from artifacts
   - AI conversations have structured awareness of project pillars
   - Changing a pillar artifact changes what the AI knows without editing rules
 relationships:
-  - target: EPIC-046
+  - target: EPIC-962a7bc9
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-058
+  - target: TASK-ba209f54
     type: depends-on
-  - target: TASK-059
+  - target: TASK-19a7f11e
     type: depends-on
-  - target: TASK-336
+  - target: TASK-6ea994f2
     type: depended-on-by
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: TASK-500
+id: TASK-afe17917
 title: Add dependency chain tracing to artifact viewer
 description: Extend the artifact viewer with a Trace section that shows upward (task→epic→milestone→pillar) and downward (what this artifact affects) dependency chains. Uses BFS over relationship edges from the artifactGraphSDK. Each artifact in the chain is a clickable ArtifactLink.
 status: blocked
@@ -18,9 +18,9 @@ acceptance:
   - Clickable chain — each artifact in the path is an ArtifactLink
   - "Shows both upward (why does this exist?) and downward (what does this affect?) chains"
 relationships:
-  - target: EPIC-076
+  - target: EPIC-dbbbb5ac
     type: delivers
-  - target: TASK-498
+  - target: TASK-f8f9b6e7
     type: depends-on
 ---
 ## What
@@ -38,7 +38,7 @@ Add a "Trace" section to the artifact viewer that shows the full dependency chai
    - "Why does this exist?" — upward chain rendered as a breadcrumb-style list of `ArtifactLink` components
    - "What does this affect?" — downward chain rendered as a flat list of `ArtifactLink` components
 4. If a chain is empty (e.g., a pillar has no upward chain), hide that subsection entirely.
-5. Display components receive chain arrays as props — no `invoke()` inside display components ([RULE-002](RULE-002)).
+5. Display components receive chain arrays as props — no `invoke()` inside display components ([RULE-65973a88](RULE-65973a88)).
 
 ## Verification
 

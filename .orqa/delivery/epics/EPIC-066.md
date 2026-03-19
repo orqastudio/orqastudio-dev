@@ -1,5 +1,5 @@
 ---
-id: EPIC-066
+id: EPIC-a210c825
 title: Package ecosystem extraction for plugin portability
 description: "Extract types, integrity validator, eslint config, and SDK into standalone @orqastudio/ npm packages hosted on GitHub Packages. Gives plugins parity access to the frontend-backend connection, artifact graph, and code standards."
 status: completed
@@ -14,76 +14,76 @@ updated: 2026-03-14
 deadline: null
 horizon: active
 relationships:
-  - target: RES-057
+  - target: RES-d3f58f2d
     type: guided-by
     rationale: Integrity check alignment audit identified the need for a single check library
-  - target: RES-058
+  - target: RES-f9356600
     type: guided-by
     rationale: SDK extraction research confirmed architecture is clean and extraction-ready
-  - target: RES-059
+  - target: RES-0fd8fe85
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-059
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-0fd8fe85
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-417
+  - target: TASK-e6732238
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-418
+  - target: TASK-ff56038f
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-419
+  - target: TASK-248a0485
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-420
+  - target: TASK-3b56186e
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-421
+  - target: TASK-2aca491a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-422
+  - target: TASK-51959c4d
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-423
+  - target: TASK-b9cb39f8
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-424
+  - target: TASK-a6dcd46b
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-425
+  - target: TASK-f3091875
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-426
+  - target: TASK-c3abf5c1
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-427
+  - target: TASK-82add1d1
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-428
+  - target: TASK-9593e951
     type: delivered-by
     rationale: Epic contains this task
-  - target: IDEA-093
+  - target: IDEA-c4f10c20
     type: realised-by
-  - target: IDEA-092
+  - target: IDEA-a620e1f5
     type: realised-by
-  - target: RES-057
+  - target: RES-d3f58f2d
     type: guided-by
-  - target: RES-058
+  - target: RES-f9356600
     type: guided-by
-  - target: RES-059
+  - target: RES-0fd8fe85
     type: guided-by
 ---
 ## Context
 
 OrqaStudio plugins need to import shared code — types, validation, the artifact graph SDK, and code standards. Currently everything lives inside the monolith. Three research documents confirmed:
 
-1. [RES-057](RES-057): Integrity checks are duplicated across Rust, CLI, and pre-commit with no single source of truth
-2. [RES-058](RES-058): 10 of 11 stores are fully portable; zero circular dependencies; three trivial modifications needed
+1. [RES-d3f58f2d](RES-d3f58f2d): Integrity checks are duplicated across Rust, CLI, and pre-commit with no single source of truth
+2. [RES-f9356600](RES-f9356600): 10 of 11 stores are fully portable; zero circular dependencies; three trivial modifications needed
 3. The integrity validator repo already exists but needs types extracted and tests added
 
 ## Implementation Design
 
-### Package architecture (Option B from RES-058)
+### Package architecture (Option B from RES-f9356600)
 
 ```
 @orqastudio/types                    ← stable, tiny, used by everything
@@ -118,15 +118,15 @@ Wire orqa-studio main app to import from the packages instead of local files. Up
 
 ## Tasks
 
-- [TASK-417](TASK-417): Create @orqastudio/types package
-- [TASK-418](TASK-418): Create @orqastudio/eslint-config package
-- [TASK-419](TASK-419): Wire types + eslint-config into integrity validator + add tests
-- [TASK-420](TASK-420): Create @orqastudio/sdk package — graph + IPC + frontmatter
-- [TASK-421](TASK-421): Extract stores into SDK — session, project, artifact, conversation
-- [TASK-422](TASK-422): Extract stores into SDK — enforcement, lessons, setup, settings, errors
-- [TASK-423](TASK-423): Wire orqa-studio to import from packages + update pre-commit/make verify
-- [TASK-424](TASK-424): Create @orqastudio/test-config — shared vitest + testing utilities
-- [TASK-425](TASK-425): Fix CI workflows for independent builds (no file: references)
-- [TASK-426](TASK-426): Initial publish of tier-0 packages to GitHub Packages
-- [TASK-427](TASK-427): Switch tier-1 packages from file: to published deps + publish
-- [TASK-428](TASK-428): Switch orqa-studio from file: to published package versions
+- [TASK-e6732238](TASK-e6732238): Create @orqastudio/types package
+- [TASK-ff56038f](TASK-ff56038f): Create @orqastudio/eslint-config package
+- [TASK-248a0485](TASK-248a0485): Wire types + eslint-config into integrity validator + add tests
+- [TASK-3b56186e](TASK-3b56186e): Create @orqastudio/sdk package — graph + IPC + frontmatter
+- [TASK-2aca491a](TASK-2aca491a): Extract stores into SDK — session, project, artifact, conversation
+- [TASK-51959c4d](TASK-51959c4d): Extract stores into SDK — enforcement, lessons, setup, settings, errors
+- [TASK-b9cb39f8](TASK-b9cb39f8): Wire orqa-studio to import from packages + update pre-commit/make verify
+- [TASK-a6dcd46b](TASK-a6dcd46b): Create @orqastudio/test-config — shared vitest + testing utilities
+- [TASK-f3091875](TASK-f3091875): Fix CI workflows for independent builds (no file: references)
+- [TASK-c3abf5c1](TASK-c3abf5c1): Initial publish of tier-0 packages to GitHub Packages
+- [TASK-82add1d1](TASK-82add1d1): Switch tier-1 packages from file: to published deps + publish
+- [TASK-9593e951](TASK-9593e951): Switch orqa-studio from file: to published package versions

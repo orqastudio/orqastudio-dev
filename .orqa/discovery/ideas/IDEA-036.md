@@ -1,5 +1,5 @@
 ---
-id: IDEA-036
+id: IDEA-75424fb8
 title: Full-Codebase Artifact Graph
 description: "Expand the artifact graph beyond .orqa/ to include source code files, creating a unified knowledge graph that maps relationships between governance artifacts and the code they govern."
 status: captured
@@ -13,14 +13,14 @@ research-needed:
   - "How do task scope fields, code comments, and inline references create edges to source code?"
   - Integration with native search engine (semantic search over graph nodes)
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation
 
-[EPIC-048](EPIC-048) establishes an artifact graph covering `.orqa/` — governance artifacts and their relationships. But the real power comes from connecting governance to code: which tasks modified which files, which rules govern which modules, which decisions affected which components.
+[EPIC-0a8a5e72](EPIC-0a8a5e72) establishes an artifact graph covering `.orqa/` — governance artifacts and their relationships. But the real power comes from connecting governance to code: which tasks modified which files, which rules govern which modules, which decisions affected which components.
 
 A full-codebase graph would enable:
 - Impact analysis: "If I change this module, which epics and decisions are affected?"

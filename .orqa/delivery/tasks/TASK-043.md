@@ -1,14 +1,14 @@
 ---
-id: TASK-043
+id: TASK-e74f41ca
 title: Scanner frontmatter extraction
 description: Extends the artifact scanner to extract and expose the status field from YAML frontmatter so sidebar list items display correct titles and status indicators for all artifact types.
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - DocNode struct includes optional status field populated from YAML frontmatter
-  - DocNode label always uses frontmatter title when available (never raw filename like TASK-002)
+  - DocNode label always uses frontmatter title when available (never raw filename like TASK-df17333f)
   - ArtifactListItem receives status from DocNode and renders StatusIndicator dot
   - All tasks
   - epics
@@ -16,15 +16,15 @@ acceptance:
   - milestones show status dots in sidebar list
   - TypeScript NavTree types updated to match Rust struct
 relationships:
-  - target: EPIC-043
+  - target: EPIC-a2fa3068
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-333
+  - target: TASK-34eaf518
     type: depended-on-by
 ---
 ## Findings Addressed
 
-- **F19**: Tasks showing [TASK-002](TASK-002) instead of title
+- **F19**: Tasks showing [TASK-df17333f](TASK-df17333f) instead of title
 - **F21**: Status dots not showing on list items
 
 ## Root Cause

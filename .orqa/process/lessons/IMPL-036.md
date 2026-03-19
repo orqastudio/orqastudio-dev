@@ -1,5 +1,5 @@
 ---
-id: IMPL-036
+id: IMPL-3148326e
 title: "Design discussion mode should be a skill, not a mode or built-in behaviour"
 description: "User confirmed the design discussion protocol should be implemented as a skill the orchestrator loads, not a plan mode variant or hardcoded behaviour. This keeps it composable — loadable when needed, not always active."
 status: active

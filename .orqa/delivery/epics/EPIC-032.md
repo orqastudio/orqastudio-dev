@@ -1,5 +1,5 @@
 ---
-id: EPIC-032
+id: EPIC-766e2afa
 title: Artifact System Migration
 description: "Make the artifact system self-sustaining: correct default creation, historical content linkage, and framework coverage for all 8 types."
 status: completed
@@ -13,42 +13,42 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: RES-025
+  - target: RES-7ad6368f
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-025
-  - target: RES-028
+    rationale: Auto-generated inverse of informed-by relationship from RES-7ad6368f
+  - target: RES-8354435e
     type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-028
-  - target: MS-001
+    rationale: Auto-generated inverse of informed-by relationship from RES-8354435e
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-090
+  - target: TASK-e6418f4a
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-091
+  - target: TASK-953f7ac3
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-092
+  - target: TASK-b13e6846
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-322
+  - target: TASK-da84a27e
     type: delivered-by
     rationale: Epic contains this task
-  - target: AD-021
+  - target: AD-6ce44025
     type: driven-by
-  - target: AD-022
+  - target: AD-0c56aa90
     type: driven-by
-  - target: AD-023
+  - target: AD-c3700062
     type: driven-by
-  - target: RES-025
+  - target: RES-7ad6368f
     type: guided-by
-  - target: RES-028
+  - target: RES-8354435e
     type: guided-by
-  - target: AD-021
+  - target: AD-6ce44025
     type: driven-by
-  - target: AD-022
+  - target: AD-0c56aa90
     type: driven-by
-  - target: AD-023
+  - target: AD-c3700062
     type: driven-by
 ---
 ## Workstreams
@@ -66,14 +66,14 @@ relationships:
 - [x] Index links to all individual artifacts
 
 ### WS-3: Roadmap & Cross-Reference Integrity (DONE)
-- [x] Roadmap completed work section references [MS-000](MS-000) and [EPIC-025](EPIC-025)-031
+- [x] Roadmap completed work section references [MS-85b9269b](MS-85b9269b) and [EPIC-a8a7e205](EPIC-a8a7e205)-031
 - [x] All research ↔ decision cross-references validated and fixed
-- [x] [MS-001](MS-001) completed-epics count updated (0 → 1)
+- [x] [MS-654badde](MS-654badde) completed-epics count updated (0 → 1)
 
 ### WS-4: Migration Tracking (DONE)
-- [x] This epic [EPIC-032](EPIC-032) created to track the migration
+- [x] This epic [EPIC-766e2afa](EPIC-766e2afa) created to track the migration
 
-### WS-5: Viewer Infrastructure (DEFERRED → [EPIC-005](EPIC-005))
+### WS-5: Viewer Infrastructure (DEFERRED → [EPIC-6787bb93](EPIC-6787bb93))
 - [ ] Backend readers for milestones, epics, tasks, ideas, decisions
 - [ ] Tauri commands for artifact scanning and reading
 - [ ] Store bindings for new artifact types
@@ -88,13 +88,13 @@ relationships:
 - [x] CLAUDE.md lists `.orqa/decisions/` in resources table
 - [x] Monolithic `decisions.md` is an index only
 - [x] All cross-references resolve (research ↔ decisions)
-- [x] Roadmap references [MS-000](MS-000) with epic breakdown
+- [x] Roadmap references [MS-85b9269b](MS-85b9269b) with epic breakdown
 - [x] Migration tracked as this epic
-- [ ] Viewer infrastructure built (WS-5 → [EPIC-005](EPIC-005))
+- [ ] Viewer infrastructure built (WS-5 → [EPIC-6787bb93](EPIC-6787bb93))
 
 ## Notes
 
-WS-1 through WS-4 are documentation/rules changes completed in a single session. WS-5 is code work deferred to [EPIC-005](EPIC-005) (Artifact Browser) which was already planned as a P1 dogfooding epic.
+WS-1 through WS-4 are documentation/rules changes completed in a single session. WS-5 is code work deferred to [EPIC-6787bb93](EPIC-6787bb93) (Artifact Browser) which was already planned as a P1 dogfooding epic.
 
 ## Context
 

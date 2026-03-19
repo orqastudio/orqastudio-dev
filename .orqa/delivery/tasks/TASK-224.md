@@ -1,5 +1,5 @@
 ---
-id: TASK-224
+id: TASK-3f426c14
 title: Backfill missing description fields across all artifact types
 description: "Add description frontmatter to 106 artifacts (ideas, decisions, lessons, epics, tasks) that predate the required field"
 status: completed
@@ -10,10 +10,10 @@ acceptance:
   - "Every idea, decision, lesson, epic, and task has a non-empty description field"
   - "Descriptions are concise summaries, not duplicates of the title"
 relationships:
-  - target: EPIC-054
+  - target: EPIC-6f2d06d4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-344
+  - target: TASK-94149697
     type: depended-on-by
 ---
 

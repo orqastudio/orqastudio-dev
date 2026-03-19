@@ -1,8 +1,8 @@
 ---
-id: IDEA-123
+id: IDEA-112a4b5d
 title: "Hash-based routing for the explorer panel"
 description: "Replace the if/else view chain in AppLayout with hash-based URL routing. Enables back/forward navigation, hot reload preserves the current view, deep linking to artifacts, and data-driven view resolution instead of hardcoded conditionals."
-status: captured
+status: completed
 created: 2026-03-19
 updated: 2026-03-19
 research-needed:
@@ -10,15 +10,15 @@ research-needed:
   - How does the NavigationStore interact with the URL? Does it drive the hash, or react to it?
   - How do plugin views register their routes? From project.json navigation config?
   - Can we lazy-load view components based on route (code splitting)?
-  - How does artifact deep linking work? #/artifacts/EPIC-001 → load artifact, show in viewer
+  - How does artifact deep linking work? #/artifacts/EPIC-e045ab6d → load artifact, show in viewer
   - How do we handle query params for view state (e.g. #/plugin/software/roadmap?filter=active)?
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
     rationale: URL-based routing makes the current view state visible and addressable — you can share a link to a specific artifact or view
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
-  - target: EPIC-089
+  - target: EPIC-a80f16b4
     type: realises
 ---
 
@@ -96,7 +96,7 @@ This maps to: `#/plugin/@orqastudio/plugin-software-project/roadmap`
 
 - **Back/forward** — navigate through view history with browser buttons
 - **Hot reload** — view state preserved across reloads (critical for development)
-- **Deep linking** — share `#/artifacts/EPIC-001` with a colleague
+- **Deep linking** — share `#/artifacts/EPIC-e045ab6d` with a colleague
 - **Data-driven views** — no hardcoded if/else, just route → component mapping
 - **Plugin views** — naturally routed without special handling
 - **Lazy loading** — views can be code-split and loaded on demand per route

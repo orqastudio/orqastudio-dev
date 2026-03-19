@@ -1,5 +1,5 @@
 ---
-id: TASK-204
+id: TASK-24ef68ce
 title: Add prompt event handler to plugin rule-engine.mjs
 description: |
   Add UserPromptSubmit hook handling to the plugin that classifies user intent
@@ -12,12 +12,12 @@ acceptance:
   - Skills returned as systemMessage
   - Skills not re-injected if already loaded in session
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-199
+  - target: TASK-6cd46196
     type: depends-on
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

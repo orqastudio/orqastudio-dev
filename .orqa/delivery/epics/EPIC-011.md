@@ -1,5 +1,5 @@
 ---
-id: EPIC-011
+id: EPIC-50a2ec6f
 title: Chat-Guided Onboarding
 description: "Make the chat conversation itself guide new users through setup, with project state awareness and entry mode detection."
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
 ---

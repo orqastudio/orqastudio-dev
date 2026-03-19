@@ -1,7 +1,7 @@
 ---
-id: IMPL-068
+id: IMPL-0381c943
 title: Duplicate relationship types on same artifact — contains AND delivered-by for same target
-description: EPIC-073 had both contains and delivered-by relationships for 38 task targets. These are the same relationship from different directions — only one should exist on each artifact.
+description: EPIC-b2ca1ea3 had both contains and delivered-by relationships for 38 task targets. These are the same relationship from different directions — only one should exist on each artifact.
 status: captured
 created: 2026-03-15
 updated: 2026-03-15

@@ -1,5 +1,5 @@
 ---
-id: TASK-505
+id: TASK-a2384d29
 title: Build automatic status transition engine in Rust
 description: Implement a Rust domain module that evaluates artifact transition conditions across the loaded graph and returns a list of proposed status transitions. The engine does not auto-apply — it returns proposals that callers can approve or queue for auto-apply.
 status: ready
@@ -18,13 +18,13 @@ acceptance:
   - "Returns a list of proposed transitions (artifact ID, current status, proposed status, reason)"
   - Does NOT auto-apply — returns proposals for approval or auto-apply
 relationships:
-  - target: EPIC-077
+  - target: EPIC-9fbc17c0
     type: delivers
-  - target: TASK-504
+  - target: TASK-8024efcb
     type: depends-on
-  - target: TASK-506
+  - target: TASK-332477b0
     type: depended-on-by
-  - target: TASK-508
+  - target: TASK-47fc9eb2
     type: depended-on-by
 ---
 ## What

@@ -1,5 +1,5 @@
 ---
-id: TASK-404
+id: TASK-b1688502
 title: Redesign dashboard widgets for actionable artifact insight
 description: Merge artifact graph and governance widgets into per-type cards with count and status breakdown. Exclude documentation from orphan detection. Auto-scan integrity on navigation. Replace collapsible categories with sortable/filterable data table.
 status: completed
@@ -20,7 +20,7 @@ acceptance:
   - "Integrity findings displayed as a sortable data table with columns for category, artifact, severity, message"
   - Table supports filtering by category and sorting by any column
 relationships:
-  - target: EPIC-063
+  - target: EPIC-fd22ca6c
     type: delivers
     rationale: Theme B — dashboard widget redesign from UAT
 ---

@@ -1,10 +1,10 @@
 ---
-id: TASK-576
+id: TASK-a77f3e56
 title: "Implement sub-project override merge in config generator"
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
-  - target: EPIC-090
+  - target: EPIC-83b67d0f
     type: delivers
 ---

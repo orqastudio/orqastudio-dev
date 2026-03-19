@@ -1,5 +1,5 @@
 ---
-id: EPIC-024
+id: EPIC-f8d7ca4d
 title: Additional MVP Polish
 description: "Nice-to-have polish items for MVP launch including search index UI, multi-window support, and sprint planning."
 status: captured
@@ -13,7 +13,7 @@ scoring:
   complexity: 3
   dependencies: 1
 relationships:
-  - target: MS-002
+  - target: MS-eea45fa8
     type: fulfils
     rationale: Epic belongs to this milestone
 ---

@@ -1,6 +1,6 @@
 ---
-id: TASK-347
-title: Reconcile EPIC-057
+id: TASK-91bc09f9
+title: Reconcile EPIC-4726cb3b
 description: "Standing reconciliation task — verify epic body accuracy: task table, pillars, docs-produced, scope."
 status: completed
 created: 2026-03-13
@@ -11,47 +11,47 @@ acceptance:
   - Epic docs-produced list matches actual documentation created/updated
   - Epic scope section accurately reflects what was in/out of scope
 relationships:
-  - target: EPIC-057
+  - target: EPIC-4726cb3b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-258
+  - target: TASK-caa1dd3c
     type: depends-on
-  - target: TASK-259
+  - target: TASK-e3e503a9
     type: depends-on
-  - target: TASK-260
+  - target: TASK-efaf25d7
     type: depends-on
-  - target: TASK-261
+  - target: TASK-54fae8bf
     type: depends-on
-  - target: TASK-262
+  - target: TASK-0baf0584
     type: depends-on
-  - target: TASK-263
+  - target: TASK-9ca53d45
     type: depends-on
-  - target: TASK-264
+  - target: TASK-e0cbdfe2
     type: depends-on
-  - target: TASK-265
+  - target: TASK-e5775999
     type: depends-on
-  - target: TASK-266
+  - target: TASK-76e79dba
     type: depends-on
-  - target: TASK-267
+  - target: TASK-d9d85326
     type: depends-on
-  - target: TASK-268
+  - target: TASK-dce77e0b
     type: depends-on
-  - target: TASK-269
+  - target: TASK-7e7d1e02
     type: depends-on
-  - target: TASK-270
+  - target: TASK-c75be77c
     type: depends-on
 ---
 
 ## What
 
-Standing reconciliation task for [EPIC-057](EPIC-057). Ensures the epic body stays accurate as work evolves.
+Standing reconciliation task for [EPIC-4726cb3b](EPIC-4726cb3b). Ensures the epic body stays accurate as work evolves.
 
 ## Verification
 
-- Epic body task table matches actual tasks with `epic: [EPIC-057](EPIC-057)`
+- Epic body task table matches actual tasks with `epic: [EPIC-4726cb3b](EPIC-4726cb3b)`
 - Pillars array is accurate
 - docs-produced entries exist on disk
 
 ## Lessons
 
-- Backfilled per [RULE-004](RULE-004) epic reconciliation requirement
+- Backfilled per [RULE-7b770593](RULE-7b770593) epic reconciliation requirement

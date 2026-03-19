@@ -1,5 +1,5 @@
 ---
-id: IMPL-065
+id: IMPL-86f05cc5
 title: Static markdown views should be dynamic graph views when the data exists
 description: "The roadmap is a manually maintained markdown page, but all the data (milestones, epics, tasks, statuses, priorities) already lives in the artifact graph. Maintaining a static view of dynamic data guarantees staleness."
 status: active
@@ -8,7 +8,7 @@ updated: 2026-03-14
 recurrence: 1
 maturity: understanding
 relationships:
-  - target: EPIC-072
+  - target: EPIC-85c55435
     type: cautions
     rationale: "Roadmap kanban view replaces static doc with dynamic graph view"
 ---

@@ -1,5 +1,5 @@
 ---
-id: TASK-507
+id: TASK-6aba71e3
 title: Add status validation to plugin graph-guardian
 description: "Extend graph-guardian.mjs with a PostToolUse hook that validates the status field whenever a .orqa/ artifact is written. If the status value is not in the valid enum for that artifact type, a warning is added to additionalContext listing the valid values."
 status: ready
@@ -17,14 +17,14 @@ acceptance:
   - Invalid statuses produce a warning in additionalContext
   - Warning includes the valid values from the project config
 relationships:
-  - target: EPIC-077
+  - target: EPIC-9fbc17c0
     type: delivers
-  - target: TASK-504
+  - target: TASK-8024efcb
     type: depends-on
 ---
 ## What
 
-Extend the graph-guardian plugin's PostToolUse hook to catch status validation errors at write time — before a commit reaches the pre-commit hook. When an agent writes a `.orqa/` artifact with an invalid status, the hook immediately surfaces a warning in `additionalContext` so the agent can self-correct in the same turn. The valid values are read from the project config (or schema.json) to stay in sync with the Rust-side validation added in TASK-504.
+Extend the graph-guardian plugin's PostToolUse hook to catch status validation errors at write time — before a commit reaches the pre-commit hook. When an agent writes a `.orqa/` artifact with an invalid status, the hook immediately surfaces a warning in `additionalContext` so the agent can self-correct in the same turn. The valid values are read from the project config (or schema.json) to stay in sync with the Rust-side validation added in TASK-8024efcb.
 
 ## How
 

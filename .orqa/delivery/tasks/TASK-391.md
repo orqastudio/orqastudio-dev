@@ -1,5 +1,5 @@
 ---
-id: TASK-391
+id: TASK-ee4681f4
 title: "Dashboard integrity widget — health score, issue list, scan action"
 description: "Add an integrity health widget to the ProjectDashboard that calls run_integrity_scan, displays categorised findings with severity badges, and provides a Scan button to refresh. This is the first user-visible output of the pipeline health system."
 status: completed
@@ -14,14 +14,14 @@ acceptance:
   - Widget appears on ProjectDashboard below existing GraphStats
   - make typecheck passes
 relationships:
-  - target: EPIC-060
+  - target: EPIC-e37794bf
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-390
+  - target: TASK-f6fd3161
     type: depends-on
-  - target: TASK-393
+  - target: TASK-614122c8
     type: depended-on-by
-  - target: TASK-397
+  - target: TASK-d624db8f
     type: depended-on-by
 ---
 

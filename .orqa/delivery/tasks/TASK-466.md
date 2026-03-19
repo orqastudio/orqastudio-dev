@@ -1,5 +1,5 @@
 ---
-id: TASK-466
+id: TASK-f9f933b5
 title: Connect documentation to artifact graph via relationships
 description: "Backfill relationships on documentation files, skills, and agents so documentation participates in graph traversal. Skills link to their documentation, docs link to the rules/decisions they describe, agents link to their grounding."
 status: completed
@@ -21,12 +21,12 @@ acceptance:
   - All relationships are bidirectional (inverses present on both sides)
   - make verify passes clean
 relationships:
-  - target: EPIC-064
+  - target: EPIC-915291e7
     type: delivers
     rationale: Phase 2 — graph connectivity is the structural foundation for grounding injection
-  - target: TASK-465
+  - target: TASK-ca282ce0
     type: depends-on
-  - target: TASK-467
+  - target: TASK-269b3f8f
     type: depended-on-by
 ---
 
@@ -57,7 +57,7 @@ Add `grounded-by` relationships from each agent definition to its grounding docu
 
 ### Wireframes → Epics
 
-Link wireframe docs (DOC-057 through DOC-061) to relevant epics via `docs-required` where appropriate.
+Link wireframe docs (DOC-99d7fbe5 through DOC-53b07f55) to relevant epics via `docs-required` where appropriate.
 
 ### Verification
 

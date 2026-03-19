@@ -1,5 +1,5 @@
 ---
-id: TASK-192
+id: TASK-835e2645
 title: Update plugin README with installation docs
 description: |
   Update the companion plugin README.md with installation instructions,
@@ -11,12 +11,12 @@ acceptance:
   - Plugin README.md has installation instructions
   - "All plugin components (hooks, skills) are listed in README"
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-191
+  - target: TASK-fde17fff
     type: depends-on
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

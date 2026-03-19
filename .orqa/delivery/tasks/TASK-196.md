@@ -1,5 +1,5 @@
 ---
-id: TASK-196
+id: TASK-15370e74
 title: Implement understand-first + docs-before-code gates
 description: |
   Process gates that fire when the first code write in a session happens without
@@ -13,14 +13,14 @@ acceptance:
   - Gates fire only once per session
   - "Gates return systemMessage, not block"
 relationships:
-  - target: EPIC-052
+  - target: EPIC-4440cdd4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-195
+  - target: TASK-ff48daa1
     type: depends-on
-  - target: TASK-207
+  - target: TASK-34007190
     type: depended-on-by
-  - target: TASK-342
+  - target: TASK-d6727d2f
     type: depended-on-by
 ---
 

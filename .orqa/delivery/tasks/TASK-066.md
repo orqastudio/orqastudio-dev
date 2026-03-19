@@ -1,11 +1,11 @@
 ---
-id: TASK-066
+id: TASK-58372e60
 title: Update git-workflow rule for governance-only work
 description: Update git-workflow rule for governance-only work
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - Rule addresses governance-only work patterns explicitly
   - Commit-at-boundaries principle documented (end of task
@@ -15,14 +15,14 @@ acceptance:
   - Guidance for orchestrator direct-edit sessions included
   - Rule distinguishes worktree workflow (code) from direct-commit workflow (governance)
 relationships:
-  - target: EPIC-047
+  - target: EPIC-39860e8b
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-067
+  - target: TASK-e1d418de
     type: depended-on-by
-  - target: TASK-068
+  - target: TASK-648a5a90
     type: depended-on-by
-  - target: TASK-337
+  - target: TASK-5e116826
     type: depended-on-by
 ---
 

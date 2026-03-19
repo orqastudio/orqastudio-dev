@@ -1,5 +1,5 @@
 ---
-id: IDEA-053
+id: IDEA-59ce25c3
 title: Tool-Linked Skills — Documentation Per Tool with UI Integration
 description: "Every tool in OrqaStudio should have a companion skill that documents how to use it effectively. The UI tool list should link directly to the tool's skill, making tool documentation discoverable and actionable."
 status: captured
@@ -13,9 +13,9 @@ research-needed:
   - "How does this interact with MCP tools that come from external servers?"
   - "What's the minimum viable skill for a tool? (parameters, examples, common patterns, anti-patterns)"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-001
+  - target: PERSONA-cda6edd6
     type: benefits
 ---
 ## Motivation

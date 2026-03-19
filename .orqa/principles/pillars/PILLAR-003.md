@@ -1,5 +1,5 @@
 ---
-id: PILLAR-003
+id: PILLAR-94b281db
 title: Purpose Through Continuity
 description: "The system actively maintains coherence between intention and action. It prevents drift between what the user set out to do and what is actually being done, ensuring purpose is never lost during implementation."
 status: active
@@ -14,37 +14,37 @@ gate:
 relationships:
   - target: VISION-001
     type: upholds
-  - target: IDEA-001
+  - target: IDEA-7035530f
     type: grounded-by
-  - target: IDEA-003
+  - target: IDEA-a9ea01b6
     type: grounded-by
-  - target: IDEA-012
+  - target: IDEA-167c0362
     type: grounded-by
-  - target: IDEA-022
+  - target: IDEA-88288601
     type: grounded-by
-  - target: IDEA-042
+  - target: IDEA-6bd0622f
     type: grounded-by
-  - target: IDEA-047
+  - target: IDEA-c31c1c6b
     type: grounded-by
-  - target: IDEA-057
+  - target: IDEA-889dffd4
     type: grounded-by
-  - target: IDEA-089
+  - target: IDEA-f9bb2c66
     type: grounded-by
-  - target: IDEA-094
+  - target: IDEA-bcb32ace
     type: grounded-by
-  - target: IDEA-108
+  - target: IDEA-ff21a84a
     type: grounded-by
-  - target: IDEA-109
+  - target: IDEA-2051515a
     type: grounded-by
-  - target: IDEA-110
+  - target: IDEA-2dfe18ae
     type: grounded-by
-  - target: IDEA-111
+  - target: IDEA-c496b2de
     type: grounded-by
-  - target: IDEA-112
+  - target: IDEA-4e095061
     type: grounded-by
-  - target: IDEA-118
+  - target: IDEA-5c25ac99
     type: grounded-by
-  - target: IDEA-121
+  - target: IDEA-3f67dc75
     type: grounded-by
 ---
 ## What This Pillar Means

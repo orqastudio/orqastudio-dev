@@ -1,5 +1,5 @@
 ---
-id: IMPL-034
+id: IMPL-a2bec916
 title: The orchestrator should periodically zoom out and sanity-check scope
 description: "During extended design discussions, the orchestrator can lose sight of the bigger picture — accumulating decisions, observations, and tasks without pausing to verify the whole still makes sense. A periodic zoom-out sanity check should be automatic, not user-prompted."
 status: active
@@ -11,7 +11,7 @@ relationships: []
 ---
 ## Pattern
 
-This session has produced 17 observations (IMPL-018 through IMPL-034), 2 ideas (IDEA-069, 070), 8 tasks, a research document, and numerous design decisions. At no point did the orchestrator pause unprompted to ask: "Are we still on track? Has the scope drifted? Is the epic still coherent?"
+This session has produced 17 observations (IMPL-c306b136 through IMPL-a2bec916), 2 ideas (IDEA-1c7ebe74, 070), 8 tasks, a research document, and numerous design decisions. At no point did the orchestrator pause unprompted to ask: "Are we still on track? Has the scope drifted? Is the epic still coherent?"
 
 The user had to prompt the zoom-out. This should be automatic — after N decisions or N observations, the orchestrator should pause and present a coherence check: here's what we've decided, here's the current scope, here's what's changed, does this still make sense?
 

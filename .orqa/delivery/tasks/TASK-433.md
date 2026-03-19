@@ -1,5 +1,5 @@
 ---
-id: TASK-433
+id: TASK-c744d86a
 title: Relationships graph visualization view
 description: "Add a toggle between list and graph view in the relationships panel, with a radial graph showing the focused artifact at centre."
 status: completed
@@ -16,10 +16,10 @@ acceptance:
   - Toggle between list and graph view in relationships panel
   - Graph shows focused artifact at centre with nodes radiating out grouped by edge type
 relationships:
-  - target: EPIC-067
+  - target: EPIC-58ba6d53
     type: delivers
     rationale: Graph visualization provides spatial understanding of artifact relationships
-  - target: TASK-429
+  - target: TASK-e9219bfd
     type: depends-on
 ---
 

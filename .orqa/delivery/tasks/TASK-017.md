@@ -1,11 +1,11 @@
 ---
-id: TASK-017
+id: TASK-81028445
 title: First-run setup wizard
 description: "Implements an onboarding wizard for first-time users covering Claude CLI detection, auth verification, and project name, icon, and model configuration."
 status: completed
 created: 2026-03-04
 updated: 2026-03-09
-assignee: AGENT-002
+assignee: AGENT-cc255bc8
 acceptance:
   - Claude CLI detection (binary on PATH)
   - Auth status verification
@@ -14,10 +14,10 @@ acceptance:
   - model configuration
   - Custom project icon upload/removal
 relationships:
-  - target: EPIC-035
+  - target: EPIC-a2cfc2b4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-325
+  - target: TASK-ebe49b1a
     type: depended-on-by
 ---
 ## What

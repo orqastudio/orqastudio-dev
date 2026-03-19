@@ -1,11 +1,11 @@
 ---
-id: TASK-051
+id: TASK-7d550875
 title: Create universal agent definitions
 description: "Write the 4 new universal role agent files (researcher, planner, implementer, reviewer), rename documentation-writer to writer, and broaden designer to cover experience/interface/structure design beyond just UI."
 status: completed
 created: 2026-03-09
 updated: 2026-03-09
-assignee: AGENT-003
+assignee: AGENT-1dab5ebe
 acceptance:
   - researcher.md exists with universal investigation role definition
   - planner.md exists with universal approach design role definition
@@ -18,21 +18,21 @@ acceptance:
   - ownership boundaries
   - Claude Code subagent_type mapping documented per role
 relationships:
-  - target: EPIC-045
+  - target: EPIC-be023ed2
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-057
+  - target: TASK-3cb01b3f
     type: depends-on
-  - target: TASK-052
+  - target: TASK-4a2936f9
     type: depended-on-by
-  - target: TASK-053
+  - target: TASK-f6850c71
     type: depended-on-by
-  - target: TASK-335
+  - target: TASK-0d8b4a06
     type: depended-on-by
 ---
 ## Reference
 
-- [AD-029](AD-029) defines the 7 universal roles and migration path
+- [AD-774cc3d0](AD-774cc3d0) defines the 7 universal roles and migration path
 - universal-roles-ownership.md has the ownership boundaries and subagent mapping
 - Orchestrator already restructured (Section 1 + 2) — not in scope here
 

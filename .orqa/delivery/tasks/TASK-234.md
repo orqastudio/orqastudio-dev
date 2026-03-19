@@ -1,5 +1,5 @@
 ---
-id: TASK-234
+id: TASK-97ae6841
 title: Fix skill layer misclassifications
 description: "orqa-native-search (core should be project), orqa-code-search (project but universal). Fix layer fields."
 status: completed
@@ -8,10 +8,10 @@ updated: 2026-03-12
 acceptance:
   - All skill layers pass portability test for their layer
 relationships:
-  - target: EPIC-054
+  - target: EPIC-6f2d06d4
     type: delivers
     rationale: Task belongs to this epic
-  - target: TASK-344
+  - target: TASK-94149697
     type: depended-on-by
 ---
 

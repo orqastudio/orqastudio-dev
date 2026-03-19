@@ -1,5 +1,5 @@
 ---
-id: EPIC-072
+id: EPIC-85c55435
 title: Roadmap kanban view
 description: "Replace the static roadmap documentation page with a dynamic kanban board view under Process. Milestone-level board with drill-down into epics and tasks, all data from the graph."
 status: completed
@@ -14,16 +14,16 @@ updated: 2026-03-14
 deadline: null
 horizon: next
 relationships:
-  - target: MS-001
+  - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
-  - target: TASK-456
+  - target: TASK-7fcdc743
     type: delivered-by
     rationale: Epic contains this task
-  - target: TASK-457
+  - target: TASK-15e676d7
     type: delivered-by
     rationale: Epic contains this task
-  - target: IMPL-065
+  - target: IMPL-86f05cc5
     type: cautioned-by
 ---
 ## Context
@@ -32,8 +32,8 @@ The roadmap is currently a manually maintained markdown page. It should be an in
 
 ## Tasks
 
-- [TASK-456](TASK-456): Roadmap kanban view — milestone columns, epic cards, task drill-down
-- [TASK-457](TASK-457): Register roadmap view under Process navigation (replace static doc)
+- [TASK-7fcdc743](TASK-7fcdc743): Roadmap kanban view — milestone columns, epic cards, task drill-down
+- [TASK-15e676d7](TASK-15e676d7): Register roadmap view under Process navigation (replace static doc)
 
 ## Out of Scope
 

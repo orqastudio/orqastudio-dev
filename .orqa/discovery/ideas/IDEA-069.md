@@ -1,5 +1,5 @@
 ---
-id: IDEA-069
+id: IDEA-1c7ebe74
 title: Make sidecars transportable as plugins
 description: "Currently sidecars (AI provider integrations like the Claude Code CLI bridge) are native app code, while plugins are the extension mechanism. If sidecars were themselves transportable as plugins, the provider definition and its integration plugin would be a single artefact — eliminating the need for separate provider config in the app and requirement declarations in the plugin."
 status: captured
@@ -12,9 +12,9 @@ research-needed:
   - "What security/trust model applies to a plugin that controls AI provider communication?"
   - "How does this interact with the five-layer trust model (core/plugin/community/user)?"
 relationships:
-  - target: PILLAR-001
+  - target: PILLAR-569581e0
     type: grounded
-  - target: PERSONA-002
+  - target: PERSONA-015e8c2c
     type: benefits
 ---
 
