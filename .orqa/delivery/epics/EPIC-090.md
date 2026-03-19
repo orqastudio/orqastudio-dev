@@ -10,6 +10,26 @@ relationships:
     type: fulfils
   - target: IDEA-124
     type: realised-by
+  - target: TASK-570
+    type: delivered-by
+  - target: TASK-571
+    type: delivered-by
+  - target: TASK-572
+    type: delivered-by
+  - target: TASK-573
+    type: delivered-by
+  - target: TASK-574
+    type: delivered-by
+  - target: TASK-575
+    type: delivered-by
+  - target: TASK-576
+    type: delivered-by
+  - target: TASK-577
+    type: delivered-by
+  - target: TASK-578
+    type: delivered-by
+  - target: TASK-579
+    type: delivered-by
 ---
 
 # EPIC-090: Coding Standards Plugins
