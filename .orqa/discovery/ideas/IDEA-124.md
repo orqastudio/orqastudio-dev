@@ -165,7 +165,19 @@ Each plugin ships dedicated agents that are NOT conversational — they're scope
 
 These agents have constrained tool access (file read/write, no shell, no web), a defined output schema, and no memory between runs. They're implementation tools, not thinking partners. The orchestrator delegates to them for specific jobs — they don't participate in conversations.
 
-**Plugin installation** is handled by a core platform agent (not plugin-specific). Each plugin ships an installation skill that teaches the core installer agent how to install that plugin — what dependencies to add, what config to generate, what questions to ask about sub-projects. The agent is generic; the knowledge comes from the plugin's skill.
+**Plugin installation** is handled by a core platform agent (not plugin-specific). Each plugin ships an installation skill that teaches the core installer agent how to install that plugin — what dependencies to add, what config to generate, how to configure sub-projects. The agent is generic; the knowledge comes from the plugin's skill.
+
+### Installation UI
+
+Plugin installation is NOT conversational. The UI is a deterministic form populated from the plugin's manifest and installation skill:
+
+1. **Plugin card** — name, description, thumbnail, capabilities (from registry)
+2. **Requirements** — what will be installed (dependencies, tools, config files)
+3. **Sub-project selection** — checkboxes with AI-recommended defaults based on detected languages
+4. **Collision warnings** — if any relationship/schema keys conflict with installed plugins
+5. **Install button** — the agent runs the installation skill, shows progress, reports result
+
+No chat. No back-and-forth. The manifest declares what's needed, the UI surfaces it as a form, the user confirms, the agent executes. Same pattern as any package manager — `npm install` doesn't have a conversation.
 
 ## orqa check
 
