@@ -55,3 +55,6 @@
 [submodule "plugins/typescript"]
 	path = plugins/typescript
 	url = git@github.com:orqastudio/orqastudio-plugin-typescript.git
+[submodule "plugins/coding-standards"]
+	path = plugins/coding-standards
+	url = git@github.com:orqastudio/orqastudio-plugin-coding-standards.git
