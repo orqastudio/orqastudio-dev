@@ -18,6 +18,10 @@ research-needed:
   - What about GitLab/Bitbucket equivalents — should the plugin be provider-agnostic?
   - Can we manage PR reviews through OrqaStudio's review gate model?
   - How do we handle community engagement — external contributors file issues on GitHub, maintainers triage in OrqaStudio?
+  - Can GitHub Issue labels map to pillar alignment, priority, and artifact type?
+  - Can we auto-draft GitHub Releases from completed epic bodies?
+  - Can we track contributor activity in the artifact graph (who contributed to which artifacts)?
+  - How does the PR workflow from CONTRIBUTING.md (multi-repo PRs in dependency order) map to GitHub's PR model?
 relationships:
   - target: PILLAR-001
     type: grounded
@@ -56,6 +60,19 @@ This means the maintainer works in OrqaStudio with the full governance framework
 ## Source of Truth
 
 OrqaStudio artifacts are the source of truth for governance. GitHub is the distribution channel. When conflicts arise, the OrqaStudio version wins — but changes from GitHub are surfaced as proposals, not overwrites.
+
+## Community Contributions to the Project
+
+The dev environment CONTRIBUTING.md directs all contributions through `orqastudio-dev`. But with a GitHub integration, community engagement could be richer:
+
+- **Bug reports** filed as GitHub Issues → appear as ideas or tasks in OrqaStudio for triage
+- **Feature proposals** as GitHub Discussions → appear as ideas for pillar alignment assessment
+- **PRs** linked to the task/decision that drives them → review gate status visible in the app
+- **Release management** — when an epic completes, draft a GitHub Release from the epic body
+- **Contributor tracking** — who contributed what, surfaced in the artifact graph
+- **Issue labels** map to OrqaStudio concepts (pillar alignment, priority, artifact type)
+
+The key question: how much of the contribution workflow can live in OrqaStudio while keeping GitHub as the public-facing interface? The goal is that maintainers never need to context-switch — they manage everything through the governance framework, and GitHub stays in sync.
 
 ## Provider Agnostic?
 
