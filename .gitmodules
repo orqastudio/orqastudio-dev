@@ -16,12 +16,6 @@
 [submodule "libs/brand"]
 	path = libs/brand
 	url = git@github.com:orqastudio/orqastudio-lib-brand.git
-[submodule "libs/eslint-config"]
-	path = libs/eslint-config
-	url = git@github.com:orqastudio/orqastudio-lib-eslint-config.git
-[submodule "libs/test-config"]
-	path = libs/test-config
-	url = git@github.com:orqastudio/orqastudio-lib-test-config.git
 [submodule "libs/cli"]
 	path = libs/cli
 	url = git@github.com:orqastudio/orqastudio-lib-cli.git
