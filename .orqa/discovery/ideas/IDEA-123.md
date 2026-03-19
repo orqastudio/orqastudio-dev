@@ -18,6 +18,8 @@ relationships:
     rationale: URL-based routing makes the current view state visible and addressable — you can share a link to a specific artifact or view
   - target: PERSONA-002
     type: benefits
+  - target: EPIC-089
+    type: realises
 ---
 
 # Hash-Based Routing for the Explorer Panel

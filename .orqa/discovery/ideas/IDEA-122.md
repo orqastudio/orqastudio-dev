@@ -17,6 +17,8 @@ relationships:
     rationale: Loading plugins uniformly from disk makes the plugin architecture visible and consistent — no hidden compiled-in exceptions
   - target: PERSONA-003
     type: benefits
+  - target: EPIC-089
+    type: realises
 ---
 
 # Remove Embedded Software Plugin
