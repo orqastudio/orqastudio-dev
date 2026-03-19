@@ -1,18 +1,15 @@
 # OrqaStudio Dev Environment
 #
-# The Makefile bootstraps the orqa CLI. After that, use orqa directly:
+# make install    Bootstrap the CLI then run orqa install
+# make dev        Start the dev environment (Vite + Tauri)
 #
-#   make install          Bootstrap CLI then run orqa install
-#   orqa install          Full setup (prereqs, submodules, deps, link, verify)
-#   orqa verify           Run all checks
-#   orqa version check    Check version drift
-#   orqa repo license     Audit licenses
-#   orqa repo readme      Audit READMEs
-#   orqa validate         Run integrity validation
-#
-# See 'orqa --help' for all available commands.
+# After install, use orqa directly for everything else:
+#   orqa verify / check / test / validate / version / repo / plugin / graph
 
 .DEFAULT_GOAL := install
 
 install: ## Bootstrap the CLI then run orqa install
 	@bash scripts/install.sh
+
+dev: ## Start the dev environment
+	@cd app && node ../tools/debug/dev.mjs dev
