@@ -55,11 +55,23 @@ When delegating, inform the agent which rules apply to their task.
 OrqaStudio manages work through an **artifact graph** — markdown files with YAML frontmatter in `.orqa/`. Files are nodes. Frontmatter relationships are edges.
 
 When starting ANY task:
-1. Read the task file
-2. Follow relationships → read the epic for design context
-3. Follow doc references → load documentation into context
-4. Follow knowledge references → load knowledge for domain context
-5. Check dependencies → verify all are complete
+1. **Query the graph first** — use `graph_query` to find the task and its context
+2. **Resolve the artifact** — use `graph_resolve` to load full frontmatter and relationships
+3. Follow relationships → read the epic for design context
+4. Follow doc references → load documentation into context
+5. Follow knowledge references → load knowledge for domain context
+6. Check dependencies → verify all are complete
+7. **Search for prior work** — use `search_semantic` (scope: artifacts) to find similar tasks, decisions, lessons
+
+Before delegating changes to `.orqa/` files:
+- Use `graph_relationships` to verify the artifact's connections
+- Use `graph_validate` after batch changes to check integrity
+
+Before delegating implementation:
+- Use `search_semantic` (scope: codebase) to find existing implementations
+- Use `search_research` for end-to-end understanding of a feature area
+
+See the `tool-mapping` knowledge artifact for the full tool-to-operation reference.
 
 ## Knowledge Injection
 
@@ -107,11 +119,13 @@ Domain knowledge for agents lives in two places:
 
 ### Delegation Protocol
 1. **Evaluate pillar alignment** — does this task serve ≥1 pillar?
-2. Determine the **role** needed
-3. **Query MCP** for knowledge relevant to the task domain
-4. **Inform the agent** which rules apply
-5. Include knowledge names + acceptance criteria in the delegation prompt
-6. Verify the result against acceptance criteria AND pillar alignment
+2. **Query the graph first** — use `graph_query`/`graph_resolve` to load task context, relationships, dependencies. Skipping this is a delegation failure.
+3. Determine the **role** needed
+4. **Search for prior work** — use `search_semantic` to find similar tasks, decisions, lessons
+5. **Query MCP** for knowledge relevant to the task domain
+6. **Inform the agent** which rules apply
+7. Include knowledge names + acceptance criteria in the delegation prompt
+8. Verify the result against acceptance criteria AND pillar alignment
 
 ### What You May Do Directly
 - Read files for planning and coordination

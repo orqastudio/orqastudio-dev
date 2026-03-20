@@ -1,4 +1,4 @@
-## Session: 2026-03-20T22:39:12Z
+## Session: 2026-03-20T22:49:39Z
 
 ### Active Epics
 - EPIC-6787bb93: Artifact Browser — Sort, Filter, Search
@@ -16,11 +16,11 @@
 - TASK-367f0026: Fix connector basics — path bugs, intent mappings, license, dual manifests
 
 ### Recent Commits
+76ad4fd Fix MCP registration + hook telemetry (EPIC-099)
 67480bf Dev controller: managed search/MCP/LSP processes + plugin specialist agents (EPIC-099)
 7e4775c Update submodule pointers for extracted crates (EPIC-099)
 2dd7d35 Extract search + LSP into standalone crates, add submodules (EPIC-099)
 02f1c06 INTENT_MAP full coverage + bash safety hook (EPIC-099)
-b4b1388 Purge all ChunkHound references — native ONNX search only (EPIC-099)
 
 ### Uncommitted Changes
 7 files with uncommitted changes
