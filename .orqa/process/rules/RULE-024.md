@@ -69,7 +69,7 @@ OrqaStudio uses a multi-panel layout (conversation + artifact panels) built on s
 - Support collapsed/expanded states
 - Maintain state across navigation
 
-## ChunkHound Integration
+## Search Integration
 
 Use `search_semantic` to find similar components across the *entire* frontend, not just `$lib/components/shared/`. Searching "empty state component" or "progress indicator" may find page-specific implementations that should be extracted to shared.
 

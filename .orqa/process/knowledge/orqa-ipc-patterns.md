@@ -299,7 +299,7 @@ try {
 
 ## Verification
 
-Before committing any IPC change, use `search_regex` (or `mcp__chunkhound__search_regex` in CLI) to verify:
+Before committing any IPC change, use `search_regex` to verify:
 
 1. The command name appears in `backend/src-tauri/src/lib.rs` (registered)
 2. The command name appears in a `#[tauri::command]` function (implemented)

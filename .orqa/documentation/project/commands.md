@@ -443,43 +443,29 @@ bun build sidecar/index.ts --compile --outfile backend/src-tauri/binaries/sideca
 
 ### `make index`
 
-Build or update the ChunkHound code search index.
+Build or update the native code search index.
 
 **Underlying command:**
 
 ```bash
-uvx chunkhound index
+orqa index
 ```
 
-**When to use:** After adding new files or making significant structural changes that should be discoverable via semantic search. Run on first setup to build the initial index.
+**When to use:** After adding new files or making significant structural changes that should be discoverable via semantic search. Run on first setup to build the initial index. Indexing is also triggered automatically by the search engine when files change.
 
 ---
 
 ### `make reindex`
 
-Force a full rebuild of the ChunkHound code search index, discarding the existing index.
+Force a full rebuild of the native code search index, discarding the existing index.
 
 **Underlying command:**
 
 ```bash
-uvx chunkhound index --force
+orqa index --force
 ```
 
 **When to use:** When the index appears stale, after large refactors that move many files, or when search results seem incomplete.
-
----
-
-### `make calibrate`
-
-Calibrate the ChunkHound similarity thresholds for the current codebase.
-
-**Underlying command:**
-
-```bash
-uvx chunkhound calibrate
-```
-
-**When to use:** After significant codebase growth or after a reindex, if semantic search results feel too broad or too narrow.
 
 ---
 

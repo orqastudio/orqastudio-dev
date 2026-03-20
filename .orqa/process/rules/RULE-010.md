@@ -95,9 +95,9 @@ A task that adds or modifies features is NOT complete until:
 3. No legacy fallback paths remain
 4. Tests cover the new feature at the integration level
 
-## ChunkHound Integration
+## Search Integration
 
-Use `code_research` to map the full request chain (component -> store -> invoke -> Rust command) in one query. Use `search_regex` with the command name (e.g. `"get_hardware_info"`) to verify each layer exists before committing.
+Use `search_research` to map the full request chain (component -> store -> invoke -> Rust command) in one query. Use `search_regex` with the command name (e.g. `"get_hardware_info"`) to verify each layer exists before committing.
 
 ## Related Rules
 

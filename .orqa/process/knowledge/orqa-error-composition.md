@@ -84,7 +84,7 @@ Serializes as `{"code": "not_found", "message": "session 42"}` — the frontend 
 | `Scan` | Governance scanner failures, invalid globs |
 | `Serialization` | JSON/YAML parse failures |
 | `PermissionDenied` | Path traversal, scope violations |
-| `Search` | ChunkHound / code search failures |
+| `Search` | Native search engine / code search failures |
 
 ## From Implementations
 

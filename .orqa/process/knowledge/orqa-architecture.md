@@ -176,4 +176,4 @@ Use this when reviewing an implementation plan:
 ## Related Skills
 
 - See the **planning** skill for how to structure implementation plans with compliance sections
-- See the **chunkhound** skill for code_research to map architectural boundaries
+- See the **search** skill for search_research to map architectural boundaries

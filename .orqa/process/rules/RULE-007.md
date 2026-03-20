@@ -38,7 +38,7 @@ All development commands MUST be invoked via `make` targets. Raw `cargo` and `np
 | Run frontend type checks | `make typecheck` | `npm run check` |
 | Build production | `make build` | `cargo tauri build` |
 | Install deps | `make install` | `npm install && cargo fetch` |
-| Index code search | `make index` | `uvx chunkhound index` |
+| Index code search | `make index` | `orqa index` |
 
 ## Why
 

@@ -112,7 +112,7 @@ For each agent definition file, the registry extracts:
 name: backend-engineer
 description: "Rust / Tauri v2, IPC commands, domain logic, SQLite persistence"
 skills:
-  - chunkhound
+  - search
   - rust-async-patterns
   - tauri-v2
 required_reading:
@@ -132,7 +132,7 @@ capabilities:
 
 Explore mode is a lightweight variant of `spawn_agent` optimized for codebase research. The explore-mode sub-agent:
 
-- Has access to read-only tools only: `Read`, `Glob`, `Grep`, ChunkHound MCP tools
+- Has access to read-only tools only: `Read`, `Glob`, `Grep`, orqastudio MCP search tools
 - Cannot write files or run bash commands
 - Does not require tool approval (all reads are auto-approved)
 - Has a default turn limit of 10

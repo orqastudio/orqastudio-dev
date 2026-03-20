@@ -14,7 +14,7 @@ relationships: []
 The companion plugin (`orqastudio-claude-plugin`) contains hooks, rules, skills, and agents designed specifically for the Claude Code CLI sidecar. These artifacts assume:
 
 - Claude Code tool names (PascalCase: `Read`, `Edit`, `Bash`)
-- Claude Code MCP server availability (ChunkHound)
+- Claude Code MCP server availability (orqastudio MCP server)
 - Claude Code slash command and skill loading mechanisms
 
 If a user switches to a different sidecar (e.g., Cursor with its own plugin ecosystem), the Claude-specific plugin's hooks would fire in the wrong context, its skills would reference unavailable tools, and its agents would try to use capabilities that don't exist.
