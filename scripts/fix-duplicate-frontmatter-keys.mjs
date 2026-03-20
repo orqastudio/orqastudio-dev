@@ -2,8 +2,8 @@
 /**
  * Fix duplicate YAML frontmatter keys across all .orqa/ artifacts.
  *
- * Uses the `yaml` library for proper parsing and stringification.
- * Merges duplicate `relationships:` arrays and removes duplicate scalar keys.
+ * Reads raw text (since YAML is invalid), finds duplicate `relationships:`
+ * blocks, merges all entries into one block, then validates with yaml.parse().
  *
  * Usage:
  *   node scripts/fix-duplicate-frontmatter-keys.mjs              # dry run
@@ -12,7 +12,7 @@
 
 import { readFileSync, writeFileSync, readdirSync } from "fs";
 import { join, relative } from "path";
-import { parse, stringify } from "yaml";
+import { parse as parseYaml } from "yaml";
 
 const ROOT = process.cwd();
 const APPLY = process.argv.includes("--apply");
@@ -30,107 +30,154 @@ function walkFiles(dir, results = []) {
 }
 
 /**
- * Parse frontmatter manually to detect and merge duplicates.
- * The `yaml` library rejects duplicates, so we pre-process first.
+ * Fix frontmatter by rebuilding it line-by-line.
+ *
+ * Strategy:
+ * 1. Split into frontmatter lines and body
+ * 2. Walk lines, tracking which top-level key we're in
+ * 3. For `relationships:`, collect ALL entries across all occurrences
+ * 4. For other duplicate keys, keep the last value
+ * 5. Rebuild with one occurrence of each key
+ * 6. Validate with yaml.parse()
  */
 function fixFrontmatter(content) {
-  const fmStart = content.indexOf("---\n");
-  if (fmStart !== 0) return null;
+  if (!content.startsWith("---\n")) return null;
 
-  const fmEnd = content.indexOf("\n---", 4);
-  if (fmEnd === -1) return null;
-
-  const fmText = content.substring(4, fmEnd);
-  const body = content.substring(fmEnd + 4); // includes the \n---
-
-  // Check for duplicate top-level keys
-  const lines = fmText.split("\n");
-  const keyPositions = new Map(); // key → [line indices]
-
-  for (let i = 0; i < lines.length; i++) {
-    const match = lines[i].match(/^([a-zA-Z][\w-]*):/);
-    if (match) {
-      const key = match[1];
-      if (!keyPositions.has(key)) keyPositions.set(key, []);
-      keyPositions.get(key).push(i);
+  // Find closing ---
+  const lines = content.split("\n");
+  let fmEndLine = -1;
+  for (let i = 1; i < lines.length; i++) {
+    if (lines[i].trimEnd() === "---") {
+      fmEndLine = i;
+      break;
     }
   }
+  if (fmEndLine === -1) return null;
 
-  // Find keys with duplicates
-  const duplicateKeys = [...keyPositions.entries()].filter(([, positions]) => positions.length > 1);
-  if (duplicateKeys.length === 0) return null; // no duplicates
+  const fmLines = lines.slice(1, fmEndLine);
+  const bodyLines = lines.slice(fmEndLine); // includes the closing ---
 
-  // For each duplicate key, merge the entries
-  const processedLines = [];
-  const skipRanges = new Set();
+  // Parse into blocks: each top-level key starts a block
+  const blocks = []; // { key, lines[] }
+  let currentBlock = null;
 
-  for (const [key, positions] of duplicateKeys) {
-    // Keep the first occurrence, merge subsequent ones into it
-    const firstPos = positions[0];
+  for (const line of fmLines) {
+    // Top-level key (not indented, has colon)
+    const topKeyMatch = line.match(/^([a-zA-Z][\w-]*):\s*(.*)/);
+    if (topKeyMatch) {
+      if (currentBlock) blocks.push(currentBlock);
+      currentBlock = { key: topKeyMatch[1], lines: [line] };
+    } else if (currentBlock) {
+      currentBlock.lines.push(line);
+    }
+  }
+  if (currentBlock) blocks.push(currentBlock);
 
-    for (let p = 1; p < positions.length; p++) {
-      const dupPos = positions[p];
+  // Group by key
+  const keyGroups = new Map();
+  for (const block of blocks) {
+    if (!keyGroups.has(block.key)) keyGroups.set(block.key, []);
+    keyGroups.get(block.key).push(block);
+  }
 
-      // Find the range of the duplicate block (the key line + indented lines after it)
-      let endOfBlock = dupPos + 1;
-      while (endOfBlock < lines.length && (lines[endOfBlock].startsWith("  ") || lines[endOfBlock].startsWith("\t") || lines[endOfBlock].trim() === "")) {
-        endOfBlock++;
+  // Check for duplicates
+  const hasDuplicates = [...keyGroups.values()].some(g => g.length > 1);
+  if (!hasDuplicates) return null;
+
+  // Rebuild: for each key, merge blocks
+  const newFmLines = [];
+  const seenKeys = new Set();
+
+  // Preserve original key order (first occurrence)
+  const keyOrder = [];
+  for (const block of blocks) {
+    if (!keyOrder.includes(block.key)) keyOrder.push(block.key);
+  }
+
+  for (const key of keyOrder) {
+    if (seenKeys.has(key)) continue;
+    seenKeys.add(key);
+
+    const group = keyGroups.get(key);
+
+    if (key === "relationships") {
+      // Merge all relationship entries
+      const allEntries = [];
+      for (const block of group) {
+        // Skip the key line itself, collect indented content
+        const firstLine = block.lines[0];
+        // Check if it's "relationships: []" (empty)
+        if (firstLine.includes("[]")) continue;
+
+        for (let i = 1; i < block.lines.length; i++) {
+          const line = block.lines[i];
+          if (line.trim()) allEntries.push(line);
+        }
       }
 
-      // If this is an array key (like relationships:), collect the array items
-      if (key === "relationships") {
-        // Find where the first block ends
-        let firstEnd = firstPos + 1;
-        while (firstEnd < lines.length && (lines[firstEnd].startsWith("  ") || lines[firstEnd].startsWith("\t"))) {
-          firstEnd++;
-        }
-
-        // Collect items from the duplicate block (skip the key line itself)
-        const dupItems = [];
-        for (let i = dupPos + 1; i < endOfBlock; i++) {
-          if (lines[i].trim()) dupItems.push(lines[i]);
-        }
-
-        // Insert duplicate items before firstEnd
-        if (dupItems.length > 0) {
-          // We'll handle this by marking the insert position
-          lines[firstEnd - 1] = lines[firstEnd - 1] + "\n" + dupItems.join("\n");
+      // Deduplicate entries (by target + type combo)
+      const seen = new Set();
+      const uniqueEntries = [];
+      for (let i = 0; i < allEntries.length; i++) {
+        const line = allEntries[i];
+        if (line.trim().startsWith("- target:")) {
+          const target = line.trim().replace("- target:", "").trim();
+          const nextLine = allEntries[i + 1];
+          const type = nextLine?.trim().startsWith("type:") ? nextLine.trim().replace("type:", "").trim() : "";
+          const key = `${target}|${type}`;
+          if (!seen.has(key)) {
+            seen.add(key);
+            uniqueEntries.push(line);
+            if (nextLine?.trim().startsWith("type:")) {
+              uniqueEntries.push(nextLine);
+              i++; // skip the type line
+            }
+            // Also grab any additional fields (rationale, etc.)
+            while (i + 1 < allEntries.length && allEntries[i + 1].trim() && !allEntries[i + 1].trim().startsWith("- target:")) {
+              i++;
+              uniqueEntries.push(allEntries[i]);
+            }
+          } else {
+            // Skip this duplicate entry + its type line + any extra fields
+            if (nextLine?.trim().startsWith("type:")) i++;
+            while (i + 1 < allEntries.length && allEntries[i + 1].trim() && !allEntries[i + 1].trim().startsWith("- target:")) {
+              i++;
+            }
+          }
         }
       }
 
-      // Mark the duplicate block for removal
-      // Handle empty array syntax: "relationships: []"
-      if (lines[dupPos].includes("[]")) {
-        skipRanges.add(dupPos);
+      if (uniqueEntries.length > 0) {
+        newFmLines.push("relationships:");
+        for (const entry of uniqueEntries) {
+          newFmLines.push(entry);
+        }
       } else {
-        for (let i = dupPos; i < endOfBlock; i++) {
-          skipRanges.add(i);
-        }
+        newFmLines.push("relationships: []");
       }
+    } else if (group.length > 1) {
+      // For non-array duplicate keys, keep the last occurrence
+      const lastBlock = group[group.length - 1];
+      newFmLines.push(...lastBlock.lines);
+    } else {
+      // Single occurrence — keep as-is
+      newFmLines.push(...group[0].lines);
     }
   }
 
-  // Rebuild frontmatter without skipped lines
-  const newLines = [];
-  for (let i = 0; i < lines.length; i++) {
-    if (!skipRanges.has(i)) {
-      newLines.push(lines[i]);
-    }
-  }
+  const newFmText = newFmLines.join("\n");
 
-  const newFm = newLines.join("\n");
-
-  // Validate the result parses correctly
+  // Validate
   try {
-    parse(newFm);
+    parseYaml(newFmText);
   } catch (e) {
-    return { error: e.message.split("\n")[0], file: null };
+    return { error: `Still invalid after fix: ${e.message.split("\n")[0]}` };
   }
 
-  return {
-    content: "---\n" + newFm + "\n---" + body,
-    duplicates: duplicateKeys.map(([k, p]) => `${k} (${p.length}x)`),
-  };
+  const newContent = "---\n" + newFmText + "\n" + bodyLines.join("\n");
+  const duplicates = [...keyGroups.entries()].filter(([, g]) => g.length > 1).map(([k, g]) => `${k} (${g.length}x)`);
+
+  return { content: newContent, duplicates };
 }
 
 // Main
@@ -151,14 +198,14 @@ for (const file of allFiles) {
 
   if (!result) continue;
 
+  const rel = relative(ROOT, file);
+
   if (result.error) {
-    const rel = relative(ROOT, file);
     console.log(`  ERROR: ${rel} — ${result.error}`);
     errors++;
     continue;
   }
 
-  const rel = relative(ROOT, file);
   console.log(`  ${APPLY ? "fixed" : "would fix"}: ${rel} — ${result.duplicates.join(", ")}`);
 
   if (APPLY) {

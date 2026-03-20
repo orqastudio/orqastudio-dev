@@ -14,11 +14,9 @@ file-patterns:
   - "sidecar/src/**"
 version: 1.0.0
 user-invocable: true
-relationships: []
 relationships:
   - target: DOC-4b4fbc0f
     type: synchronised-with
-
 ---
 OrqaStudio streams Claude conversations through a multi-layer pipeline. Understanding this pipeline is critical for anyone touching streaming, tool execution, or the sidecar.
 

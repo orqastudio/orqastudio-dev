@@ -8,11 +8,9 @@ updated: 2026-03-11
 category: domain
 version: 0.2.0
 user-invocable: false
-relationships: []
 relationships:
   - target: DOC-4b4fbc0f
     type: synchronised-with
-
 ---
 
 # Rule Enforcement

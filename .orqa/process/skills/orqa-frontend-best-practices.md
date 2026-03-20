@@ -12,11 +12,9 @@ updated: 2026-03-11
 category: domain
 version: 1.0.0
 user-invocable: true
-relationships: []
 relationships:
   - target: DOC-4b4fbc0f
     type: synchronised-with
-
 ---
 This skill ensures every frontend agent has the right mental model before writing code. It does not duplicate content from deeper skills — it establishes principles and points to the right references.
 

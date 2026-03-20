@@ -14,11 +14,9 @@ file-patterns:
   - "backend/src-tauri/src/commands/**"
 version: 1.0.0
 user-invocable: true
-relationships: []
 relationships:
   - target: DOC-4b4fbc0f
     type: synchronised-with
-
 ---
 OrqaStudio uses Tauri v2's `invoke()` as the ONLY interface between the Svelte frontend and the Rust backend. There are no HTTP servers, no direct FFI calls, and no side channels.
 

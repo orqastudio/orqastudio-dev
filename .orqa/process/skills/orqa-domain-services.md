@@ -15,11 +15,9 @@ file-patterns:
   - "backend/src-tauri/src/domain/**"
 version: 1.0.0
 user-invocable: true
-relationships: []
 relationships:
   - target: DOC-4b4fbc0f
     type: synchronised-with
-
 ---
 
 
