@@ -15,7 +15,7 @@ relationships:
 
 ## What Was Done
 
-1. **Three-tier skill architecture** — defined clear separation between platform-level plugin guidance (SKILL-b453410f), first-party plugin development workflow (SKILL-12ed4953), and third-party/community plugin development (SKILL-c60144c1). Each tier has appropriate scope and access.
+1. **Three-tier skill architecture** — defined clear separation between platform-level plugin guidance (SKILL-b453410f), first-party plugin development workflow (SKILL-e1333874), and third-party/community plugin development (SKILL-63cc1a00). Each tier has appropriate scope and access.
 
 2. **Plugin templates updated** — plugin template repositories now include:
    - Thumbnails per plugin folder for registry display

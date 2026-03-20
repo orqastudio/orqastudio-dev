@@ -1,13 +1,15 @@
 ---
 id: DOC-c65f07b7
-title: "Dependency License Compatibility"
-description: "How to ensure that every dependency we use is compatible with our licensing model — what's allowed, what's not, and how to check."
+title: Dependency License Compatibility
+description: How to ensure that every dependency we use is compatible with our licensing model — what's allowed, what's not, and how to check.
 category: how-to
 created: 2026-03-18
 updated: 2026-03-18
 relationships:
   - target: AD-fc646168
     type: documents
+  - target: SKILL-63cc1a00
+    type: synchronised-with
   - target: SKILL-c60144c1
     type: synchronised-with
 ---

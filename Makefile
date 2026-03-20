@@ -4,7 +4,7 @@
 # make dev        Start the dev environment (Vite + Tauri)
 #
 # After install, use orqa directly for everything else:
-#   orqa verify / check / test / validate / version / repo / plugin / graph
+#   orqa audit / check / test / validate / id / version / repo / plugin / graph
 
 .DEFAULT_GOAL := install
 
