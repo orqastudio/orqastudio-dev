@@ -1,6 +1,6 @@
 ---
 id: TASK-6675ad7c
-title: "LSP server — real-time frontmatter validation"
+title: LSP server — real-time frontmatter validation
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -9,6 +9,8 @@ relationships:
     type: delivers
   - target: TASK-c9880303
     type: depends-on
+  - target: TASK-bd4e7250
+    type: depended-on-by
 ---
 
 # TASK-6675ad7c: LSP Server

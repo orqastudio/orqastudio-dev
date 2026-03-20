@@ -1,7 +1,7 @@
 ---
 id: TASK-60598b3d
 type: task
-title: "Register the connector plugin in Claude Code settings"
+title: Register the connector plugin in Claude Code settings
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -10,6 +10,8 @@ relationships:
     type: delivers
   - target: TASK-c6dd7927
     type: depends-on
+  - target: TASK-afeac1b7
+    type: depended-on-by
 ---
 
 # TASK-60598b3d: Register Connector Plugin in Claude Code Settings

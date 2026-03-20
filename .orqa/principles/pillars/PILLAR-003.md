@@ -1,16 +1,16 @@
 ---
 id: PILLAR-94b281db
 title: Purpose Through Continuity
-description: "The system actively maintains coherence between intention and action. It prevents drift between what the user set out to do and what is actually being done, ensuring purpose is never lost during implementation."
+description: The system actively maintains coherence between intention and action. It prevents drift between what the user set out to do and what is actually being done, ensuring purpose is never lost during implementation.
 status: active
 created: 2026-03-13
 updated: 2026-03-13
 gate:
-  - "Does this feature help users stay oriented toward their original purpose during extended work?"
-  - "Does this prevent knowledge, decisions, or context from being silently lost?"
-  - "Does this make scope drift visible and require explicit approval rather than happening implicitly?"
-  - "Does this reduce the user's cognitive burden rather than adding to it?"
-  - "Is the gap between declared intent and actual enforcement visible and shrinking?"
+  - Does this feature help users stay oriented toward their original purpose during extended work?
+  - Does this prevent knowledge, decisions, or context from being silently lost?
+  - Does this make scope drift visible and require explicit approval rather than happening implicitly?
+  - Does this reduce the user's cognitive burden rather than adding to it?
+  - Is the gap between declared intent and actual enforcement visible and shrinking?
 relationships:
   - target: VISION-001
     type: upholds
@@ -45,6 +45,8 @@ relationships:
   - target: IDEA-5c25ac99
     type: grounded-by
   - target: IDEA-3f67dc75
+    type: grounded-by
+  - target: IDEA-1be10a72
     type: grounded-by
 ---
 ## What This Pillar Means

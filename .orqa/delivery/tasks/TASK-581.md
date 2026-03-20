@@ -1,6 +1,6 @@
 ---
 id: TASK-b5f9240b
-title: "Agent mapping — 9 Claude Code subagent definitions + new skills"
+title: Agent mapping — 9 Claude Code subagent definitions + new skills
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -9,6 +9,8 @@ relationships:
     type: delivers
   - target: TASK-367f0026
     type: depends-on
+  - target: TASK-cd24193f
+    type: depended-on-by
 ---
 
 # TASK-b5f9240b: Agent Mapping + New Skills

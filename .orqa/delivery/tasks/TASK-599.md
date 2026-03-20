@@ -1,7 +1,7 @@
 ---
 id: TASK-15a03760
 type: task
-title: "Refactor skill sync to proactive-only — coding standards and agent preloads"
+title: Refactor skill sync to proactive-only — coding standards and agent preloads
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -10,6 +10,8 @@ relationships:
     type: delivers
   - target: TASK-945e12fa
     type: depends-on
+  - target: TASK-52a123bd
+    type: depended-on-by
 ---
 
 # TASK-15a03760: Skill Sync Refactor

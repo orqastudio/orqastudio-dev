@@ -1,7 +1,7 @@
 ---
 id: TASK-6827dc2b
 type: task
-title: "Implement code_research compound search tool"
+title: Implement code_research compound search tool
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -10,6 +10,8 @@ relationships:
     type: delivers
   - target: TASK-9fb85edf
     type: depends-on
+  - target: TASK-945e12fa
+    type: depended-on-by
 ---
 
 # TASK-6827dc2b: code_research Compound Search

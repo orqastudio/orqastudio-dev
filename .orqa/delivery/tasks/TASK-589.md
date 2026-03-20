@@ -1,7 +1,7 @@
 ---
 id: TASK-db0e3e3c
 type: task
-title: "Update integrity scanner to validate hex ID format"
+title: Update integrity scanner to validate hex ID format
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -10,6 +10,8 @@ relationships:
     type: delivers
   - target: TASK-ad41ea9b
     type: depends-on
+  - target: TASK-bd4e7250
+    type: depended-on-by
 ---
 
 # TASK-db0e3e3c: Integrity Scanner — Hex ID Validation

@@ -1,7 +1,7 @@
 ---
 id: TASK-ad41ea9b
 type: task
-title: "Bulk ID migration script — sequential to hex"
+title: Bulk ID migration script — sequential to hex
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -10,6 +10,8 @@ relationships:
     type: delivers
   - target: TASK-0b703fd2
     type: depends-on
+  - target: TASK-db0e3e3c
+    type: depended-on-by
 ---
 
 # TASK-ad41ea9b: Bulk ID Migration Script

@@ -1,16 +1,16 @@
 ---
 id: PILLAR-569581e0
 title: Clarity Through Structure
-description: "Making thinking, standards, and decisions visible and structured."
+description: Making thinking, standards, and decisions visible and structured.
 status: active
 created: 2026-03-09
 updated: 2026-03-09
 gate:
-  - "Does this make governance artifacts visible and manageable?"
-  - "Does it produce structured knowledge (plans, decisions, rules)?"
-  - "Does it enforce a workflow that ensures understanding precedes action?"
-  - "Does it surface what would otherwise be hidden in files, terminal output, or people's heads?"
-  - "Does the system mechanically enforce its own structural rules?"
+  - Does this make governance artifacts visible and manageable?
+  - Does it produce structured knowledge (plans, decisions, rules)?
+  - Does it enforce a workflow that ensures understanding precedes action?
+  - Does it surface what would otherwise be hidden in files, terminal output, or people's heads?
+  - Does the system mechanically enforce its own structural rules?
 relationships:
   - target: VISION-001
     type: upholds
@@ -203,6 +203,14 @@ relationships:
   - target: IDEA-112a4b5d
     type: grounded-by
   - target: IDEA-2d7ac819
+    type: grounded-by
+  - target: IDEA-9c58fbb6
+    type: grounded-by
+  - target: IDEA-37a23ec0
+    type: grounded-by
+  - target: IDEA-66d2cbeb
+    type: grounded-by
+  - target: IDEA-c48df450
     type: grounded-by
 ---
 ## What This Pillar Means

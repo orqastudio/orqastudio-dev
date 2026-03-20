@@ -1,7 +1,7 @@
 ---
 id: TASK-afeac1b7
 type: task
-title: "Reset Claude Code auto-memory to rebuild from governed sources"
+title: Reset Claude Code auto-memory to rebuild from governed sources
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -10,6 +10,8 @@ relationships:
     type: delivers
   - target: TASK-60598b3d
     type: depends-on
+  - target: TASK-2647d288
+    type: depended-on-by
 ---
 
 # TASK-afeac1b7: Reset Claude Code Auto-Memory

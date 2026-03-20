@@ -2,7 +2,7 @@
 id: DOC-4b4fbc0f
 title: Coding Standards
 category: reference
-description: "Coding standards for Rust and TypeScript/Svelte covering formatting, linting, error handling, and component patterns."
+description: Coding standards for Rust and TypeScript/Svelte covering formatting, linting, error handling, and component patterns.
 created: 2026-03-02
 updated: 2026-03-08
 sort: 3
@@ -16,6 +16,32 @@ relationships:
   - target: RULE-b49142be
     type: documents
     rationale: This document is the source-of-truth referenced by RULE-b49142be — it defines the specific standards that rule enforces
+  - target: SKILL-01a64d58
+    type: synchronised-with
+  - target: SKILL-025fc31d
+    type: synchronised-with
+  - target: SKILL-5ad0bf1b
+    type: synchronised-with
+  - target: SKILL-58611337
+    type: synchronised-with
+  - target: SKILL-dac84f00
+    type: synchronised-with
+  - target: SKILL-8a821622
+    type: synchronised-with
+  - target: SKILL-282c0305
+    type: synchronised-with
+  - target: SKILL-49f495ff
+    type: synchronised-with
+  - target: SKILL-2b6147c9
+    type: synchronised-with
+  - target: SKILL-1b990160
+    type: synchronised-with
+  - target: SKILL-65f5aa67
+    type: synchronised-with
+  - target: SKILL-3f34e682
+    type: synchronised-with
+  - target: SKILL-7a96b952
+    type: synchronised-with
 ---
 ## Purpose
 

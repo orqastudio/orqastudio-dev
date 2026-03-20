@@ -1,7 +1,7 @@
 ---
 id: TASK-945e12fa
 type: task
-title: "Consolidate search skills — merge chunkhound, orqa-code-search, orqa-native-search into search"
+title: Consolidate search skills — merge chunkhound, orqa-code-search, orqa-native-search into search
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -10,6 +10,8 @@ relationships:
     type: delivers
   - target: TASK-6827dc2b
     type: depends-on
+  - target: TASK-15a03760
+    type: depended-on-by
 ---
 
 # TASK-945e12fa: Search Skill Consolidation

@@ -1,12 +1,16 @@
 ---
 id: TASK-367f0026
-title: "Fix connector basics — path bugs, intent mappings, license, dual manifests"
+title: Fix connector basics — path bugs, intent mappings, license, dual manifests
 status: active
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
   - target: EPIC-6967c7dc
     type: delivers
+  - target: TASK-b5f9240b
+    type: depended-on-by
+  - target: TASK-c9880303
+    type: depended-on-by
 ---
 
 # TASK-367f0026: Fix Connector Basics

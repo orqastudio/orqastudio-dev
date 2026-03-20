@@ -1,7 +1,7 @@
 ---
 id: TASK-2647d288
 type: task
-title: "Verify hooks, agents, skills, and MCP all work end-to-end"
+title: Verify hooks, agents, skills, and MCP all work end-to-end
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -10,6 +10,8 @@ relationships:
     type: delivers
   - target: TASK-afeac1b7
     type: depends-on
+  - target: TASK-05a35e0e
+    type: depended-on-by
 ---
 
 # TASK-2647d288: Verify Hooks, Agents, Skills, MCP End-to-End

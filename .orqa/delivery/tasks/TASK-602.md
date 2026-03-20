@@ -1,13 +1,15 @@
 ---
 id: TASK-c6dd7927
 type: task
-title: "Clear stale .claude/ symlinks and session state"
+title: Clear stale .claude/ symlinks and session state
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
   - target: EPIC-5edafb59
     type: delivers
+  - target: TASK-60598b3d
+    type: depended-on-by
 ---
 
 # TASK-c6dd7927: Clear Stale .claude/ Symlinks and Session State

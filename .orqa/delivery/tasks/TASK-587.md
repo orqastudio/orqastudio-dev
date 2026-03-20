@@ -1,13 +1,17 @@
 ---
 id: TASK-0b703fd2
 type: task
-title: "ID generation utilities — Rust and TypeScript"
+title: ID generation utilities — Rust and TypeScript
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
   - target: EPIC-4cedf7bc
     type: delivers
+  - target: TASK-ad41ea9b
+    type: depended-on-by
+  - target: TASK-cae3c8c7
+    type: depended-on-by
 ---
 
 # TASK-0b703fd2: ID Generation Utilities

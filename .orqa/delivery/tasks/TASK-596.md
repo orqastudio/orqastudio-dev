@@ -1,13 +1,15 @@
 ---
 id: TASK-9fb85edf
 type: task
-title: "Add native search tools to MCP server (search_regex, search_semantic)"
+title: Add native search tools to MCP server (search_regex, search_semantic)
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
   - target: EPIC-cdb03816
     type: delivers
+  - target: TASK-6827dc2b
+    type: depended-on-by
 ---
 
 # TASK-9fb85edf: Native Search as MCP Tools

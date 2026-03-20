@@ -1,13 +1,17 @@
 ---
 id: TASK-2eeb847c
 type: task
-title: "Add synchronised-with constraint to core.json for skills"
+title: Add synchronised-with constraint to core.json for skills
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
 relationships:
   - target: EPIC-4cedf7bc
     type: delivers
+  - target: TASK-8f8b1dba
+    type: depended-on-by
+  - target: TASK-bd4e7250
+    type: depended-on-by
 ---
 
 # TASK-2eeb847c: Enforce Skill Documentation Constraint

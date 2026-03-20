@@ -1,6 +1,6 @@
 ---
 id: TASK-cd24193f
-title: "Hook improvements — validate-artifact, save-context, subagent-review"
+title: Hook improvements — validate-artifact, save-context, subagent-review
 status: captured
 created: 2026-03-19
 updated: 2026-03-19
@@ -9,6 +9,10 @@ relationships:
     type: delivers
   - target: TASK-b5f9240b
     type: depends-on
+  - target: TASK-0751c0ff
+    type: depended-on-by
+  - target: TASK-e9a4f8f3
+    type: depended-on-by
 ---
 
 # TASK-cd24193f: Hook Improvements
