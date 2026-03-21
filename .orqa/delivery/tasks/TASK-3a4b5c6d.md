@@ -2,7 +2,7 @@
 id: TASK-3a4b5c6d
 type: task
 title: "Mass artifact rename: skills/ → knowledge/ directories, SKILL-* → KNOW-* IDs"
-description: "Rename all .orqa/process/skills/ directories to .orqa/process/knowledge/ and migrate all SKILL-XXXXXXXX IDs to KNOW-XXXXXXXX across the project, app, and all consuming plugins."
+description: Rename all .orqa/process/skills/ directories to .orqa/process/knowledge/ and migrate all SKILL-XXXXXXXX IDs to KNOW-XXXXXXXX across the project, app, and all consuming plugins.
 status: ready
 created: 2026-03-20
 updated: 2026-03-20
@@ -20,6 +20,8 @@ relationships:
   - target: TASK-c3d4e5f6
     type: depended-on-by
   - target: TASK-7e8f9a0b
+    type: depended-on-by
+  - target: TASK-c5d6e7f8
     type: depended-on-by
 ---
 

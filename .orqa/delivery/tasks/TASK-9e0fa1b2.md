@@ -2,7 +2,7 @@
 id: TASK-9e0fa1b2
 type: task
 title: "Update UI navigation: Skills → Knowledge labels, icons"
-description: "Update the OrqaStudio frontend navigation to display 'Knowledge' instead of 'Skills', update any icons or visual indicators, and ensure the artifact browser routes correctly to knowledge artifacts."
+description: Update the OrqaStudio frontend navigation to display 'Knowledge' instead of 'Skills', update any icons or visual indicators, and ensure the artifact browser routes correctly to knowledge artifacts.
 status: ready
 created: 2026-03-20
 updated: 2026-03-20
@@ -18,6 +18,8 @@ relationships:
   - target: TASK-e5f6a7b8
     type: depends-on
   - target: TASK-c9d0e1f2
+    type: depends-on
+  - target: TASK-a1b2c3d4
     type: depends-on
 ---
 

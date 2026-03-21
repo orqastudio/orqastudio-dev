@@ -2,7 +2,7 @@
 id: TASK-a1b2c3d4
 type: task
 title: "Update core.json schema: skill → knowledge type, SKILL → KNOW idPrefix"
-description: "Change the artifact type definition in core.json from 'skill' to 'knowledge' and update the idPrefix from 'SKILL' to 'KNOW'."
+description: Change the artifact type definition in core.json from 'skill' to 'knowledge' and update the idPrefix from 'SKILL' to 'KNOW'.
 status: ready
 created: 2026-03-20
 updated: 2026-03-20
@@ -27,6 +27,8 @@ relationships:
   - target: TASK-5a6b7c8d
     type: depended-on-by
   - target: TASK-9e0fa1b2
+    type: depended-on-by
+  - target: TASK-c5d6e7f8
     type: depended-on-by
 ---
 

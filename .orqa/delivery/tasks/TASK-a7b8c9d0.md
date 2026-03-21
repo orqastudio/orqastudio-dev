@@ -1,7 +1,7 @@
 ---
 id: TASK-a7b8c9d0
 type: task
-title: "Implement knowledge resolution from project.json plugin paths"
+title: Implement knowledge resolution from project.json plugin paths
 description: "Implement the connector's knowledge resolution logic: at delegation time, read project.json to find plugin paths, then read knowledge files from those canonical locations."
 status: ready
 created: 2026-03-20
@@ -18,6 +18,8 @@ relationships:
   - target: TASK-c3d4e5f6
     type: depends-on
   - target: TASK-e1f2a3b4
+    type: depended-on-by
+  - target: TASK-a9b0c1d2
     type: depended-on-by
 ---
 
