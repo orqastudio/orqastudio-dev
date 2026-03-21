@@ -1,4 +1,4 @@
-## Session: 2026-03-21T08:55:06Z
+## Session: 2026-03-21T09:01:42Z
 
 ### Active Epics
 - EPIC-6787bb93: Artifact Browser — Sort, Filter, Search
@@ -15,11 +15,11 @@
 - TASK-367f0026: Fix connector basics — path bugs, intent mappings, license, dual manifests
 
 ### Recent Commits
+2340747 Fix dev startup errors: deps, types, stale processes
 114832f Fix all 541 validation errors — graph integrity clean
 1e86cc7 Fix artifact type resolution: project.json path registry + singular keys
 81e4b80 Fix MCP server build on Windows — add rstrtmgr link for DuckDB
 bebaa9a Fix orqa mcp: standalone crate fallback when app not running (EPIC-099)
-930168d Semantic knowledge injection — EPIC-099 complete
 
 ### Uncommitted Changes
 10 files with uncommitted changes
