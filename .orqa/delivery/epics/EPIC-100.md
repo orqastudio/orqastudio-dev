@@ -67,6 +67,24 @@ LSP server imports graph-level checks from `libs/validation`. The 8 LSP file-lev
 
 Graph visualiser calls server-computed metrics from `libs/validation` (via MCP) instead of running its own Cytoscape analysis. Dashboard clarity view and graph visualiser show identical numbers because they query the same source.
 
+**Dashboard widgets** (Clarity column) — high-level health for glancing:
+- Overall health score (traffic light)
+- Trend over time (store health snapshots, show trend lines for key metrics)
+- Threshold alerts (orphan % > 5%, clusters > 3, traceability < 90%)
+- Action buttons (scan, auto-fix)
+- Store health snapshots in SQLite (the app already uses SQLite for conversation persistence — per AD-2aa4d6db, metrics are structured queryable data, appropriate for SQLite)
+- Expand snapshots to capture all metrics, not just error/warning counts
+- Trend queries: metric values over time, deltas between snapshots
+
+**Graph visualiser health panel** — detailed metrics for investigating:
+- Full metric breakdown with values and traffic-light status per metric
+- Per-artifact drilldowns (which nodes are orphans, bottlenecks, disconnected)
+- Cluster visualisation (colour-code nodes by connected component)
+- Pillar traceability tree (which artifacts trace to which pillars, and which don't)
+- Historical comparison (metric deltas since last snapshot)
+
+Both surfaces consume the same `libs/validation` data — dashboard summarises, visualiser explores.
+
 Expand graph-theoretic metrics beyond current set:
 
 | Metric | Purpose |
@@ -129,6 +147,10 @@ The graph self-heals on every commit. Human review is only needed for subjective
 - [ ] Pre-commit hook runs `orqa validate --fix` and fails on remaining errors
 - [ ] Dashboard alerts when metrics cross thresholds
 - [ ] Pillar traceability metric computed and displayed
+- [ ] Health snapshots stored in SQLite with all 12+ metrics
+- [ ] Dashboard trend lines show metric history over time
+- [ ] Graph visualiser has dedicated health panel with full metric breakdown
+- [ ] Graph visualiser shows cluster colouring and pillar traceability tree
 - [ ] `make check` passes after all changes
 
 ## Risks
