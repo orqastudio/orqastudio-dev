@@ -1,4 +1,5 @@
 ---
+
 id: TASK-d5d3e417
 title: Add make verify targets
 description: Add make targets for full .orqa/ link verification and pipeline integrity checking.
@@ -23,8 +24,10 @@ relationships:
     type: depended-on-by
   - target: TASK-cea1bc37
     type: depended-on-by
+  - target: RULE-c71f1c3f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Add `make verify-links`, `make verify-integrity`, and `make verify` targets to the Makefile.

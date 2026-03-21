@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-95654649
 title: Verification definition and scheduling system
 description: "Verification definitions on artifacts (mode, cadence, trigger, source, parameters, prompt) with a scheduling system that creates VER-NNN records from automated checks and TASK-NNN from failures or reflection prompts."
@@ -16,8 +17,10 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: AD-a76663db
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## Motivation
 
 [AD-a76663db](AD-a76663db) defines two verification paths: automated (plugin data snapshots compared against parameters) and human (tasks created on failure or for reflection). The scheduling system is the mechanism that triggers these at the configured cadence and creates the appropriate records.

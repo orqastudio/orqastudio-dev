@@ -1,4 +1,7 @@
 ---
+
+
+
 id: TASK-bd4fb2bc
 title: "Establish learning loop and completion discipline (IMPL-97e2788f, 022, 023, 024)"
 description: "Create enforcement for: tracking open items during implementation, human-gated epic completion, automated observation logging by agents, and recording lessons on task completion artifacts."
@@ -22,7 +25,17 @@ relationships:
     type: depended-on-by
   - target: IMPL-ccb23768
     type: yields
+  - target: app::RULE-7b770593
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IMPL-97e2788f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IMPL-257c8303
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
+
 ## What
 
 Address four related process gaps:

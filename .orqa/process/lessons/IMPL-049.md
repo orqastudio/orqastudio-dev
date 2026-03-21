@@ -1,5 +1,9 @@
 ---
+
+
+
 id: IMPL-3d4cc12c
+type: lesson
 title: Out of Scope sections created without user verification — RULE-e120bb70 violated
 description: "The orchestrator wrote Out of Scope sections on epics without presenting them to the user for approval. RULE-e120bb70 requires every scope reduction to be a user decision. This is a self-compliance-only rule (no mechanical enforcement) and was violated twice in the same session — first on EPIC-e37794bf, then on EPIC-4e6e9eae."
 status: review
@@ -7,8 +11,15 @@ created: 2026-03-13
 updated: 2026-03-13
 maturity: observation
 recurrence: 2
-relationships: []
+relationships:
+  - target: app::RULE-e120bb70
+    type: informed-by
+    rationale: "Auto-generated from body text reference" []
+  - target: app::RULE-303c1cc8
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
+
 ## Pattern
 
 When creating epics, the orchestrator decides what is "out of scope" and writes it into the epic without asking the user. This violates [RULE-e120bb70](RULE-e120bb70)'s principle that scope reductions are user decisions. The rule exists but is self-compliance only — no tooling flags when an Out of Scope section is created without an approval step.

@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-75424fb8
 title: Full-Codebase Artifact Graph
 description: "Expand the artifact graph beyond .orqa/ to include source code files, creating a unified knowledge graph that maps relationships between governance artifacts and the code they govern."
@@ -17,6 +18,9 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: EPIC-0a8a5e72
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Motivation
 

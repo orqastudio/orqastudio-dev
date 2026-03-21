@@ -1,4 +1,5 @@
 ---
+
 id: TASK-ab087863
 title: Implement 7 high-priority integrity checks + codebase-wide clippy compliance
 description: Implement all 7 graph-implementable integrity checks identified in TASK-07218422 audit. Also fix all clippy too_many_lines violations across the entire backend codebase to achieve zero-warning clippy compliance.
@@ -23,8 +24,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-07218422
     type: depends-on
+  - target: AD-aa6b409a
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Implement 7 integrity checks identified by the TASK-07218422 audit as high-impact and graph-implementable. Additionally fix all pre-existing clippy too_many_lines violations to achieve zero-warning compliance.

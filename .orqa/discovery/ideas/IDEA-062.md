@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-0ea1fce4
 title: Project initialization — tooling detection and plugin suggestion
 description: "During project setup, detect existing tooling (automated scan + user interview), suggest verification plugins, recommend options if none exist. Mature plugin system could offer to generate plugins automatically."
@@ -16,8 +17,10 @@ relationships:
     type: grounded
   - target: PERSONA-a4b15450
     type: benefits
+  - target: AD-a76663db
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## Motivation
 
 [AD-a76663db](AD-a76663db) defines three discovery paths during project initialization: automated detection of codebase tooling, user interview about metrics/monitoring tools, and recommendation of options based on project context. This turns OrqaStudio setup into a guided process that connects the project to the verification pipeline from day one.

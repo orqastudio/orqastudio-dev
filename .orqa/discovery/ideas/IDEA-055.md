@@ -1,4 +1,7 @@
 ---
+
+
+
 id: IDEA-68d4e688
 title: Plugin-Based Tool Architecture
 description: "Redesign the tool system so tools are implemented as plugins rather than hardcoded Rust functions — enabling user-created tools, community tool packs, and dynamic tool registration without app rebuilds."
@@ -25,8 +28,16 @@ relationships:
     type: grounded
   - target: PERSONA-015e8c2c
     type: benefits
+  - target: AD-0dbba717
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IDEA-b77e2955
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IDEA-59ce25c3
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 > **Surpassed 2026-03-16**: Plugin architecture concept merged into EPIC-3f65c703 via AD-c6abc8e6. Runtime tool registration (WASM/MCP/script formats, capability-based permissions) split into IDEA-2dfe18ae as architecturally distinct from artifact/view plugins.
 
 ## Motivation

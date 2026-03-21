@@ -1,4 +1,6 @@
 ---
+
+
 id: IDEA-14f3874c
 title: Configurable Priority Scoring
 description: "Make the epic scoring/prioritisation system configurable per project — custom dimensions, formulas, and priority bands — with the ability to disable scoring entirely for projects that don't need it."
@@ -17,6 +19,12 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: IDEA-464ab876
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IDEA-abf847bb
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Problem
 

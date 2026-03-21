@@ -1,4 +1,6 @@
 ---
+
+
 id: IDEA-9bfb9012
 title: Friction is the feature — evaluate as foundational principle or pillar
 description: "The purposeful friction of mandatory relationships (forcing connection to purpose before creation) may be significant enough to become a pillar. AI makes the friction nearly free, but the friction itself is non-negotiable."
@@ -15,8 +17,13 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: AD-a76663db
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: PILLAR-94b281db
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## Motivation
 
 Emerged during the [AD-a76663db](AD-a76663db) design conversation. The insight: OrqaStudio's value is not in removing friction from thinking, but in ensuring the RIGHT friction exists at the RIGHT moments — the friction that prevents drift from purpose. The system blocks creation without relationships, but the AI makes answering the questions nearly effortless. The friction is the feature; the AI is the lubricant.

@@ -1,4 +1,5 @@
 ---
+
 id: TASK-84fc1180
 title: Split 8 core rules with project-specific content
 description: "RULE-9daf29c0,012,018,020,022,025,026,031 embed Tauri/Svelte/Rust in core rules. Extract to project companions."
@@ -14,8 +15,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-94149697
     type: depended-on-by
+  - target: app::RULE-9daf29c0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 [RULE-9daf29c0](RULE-9daf29c0),012,018,020,022,025,026,031 embed Tauri/Svelte/Rust in core rules. Extract to project companions.

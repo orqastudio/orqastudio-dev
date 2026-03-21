@@ -1,4 +1,5 @@
 ---
+
 id: DOC-fe637e80
 title: Wireframe Serving Infrastructure
 category: architecture
@@ -6,10 +7,11 @@ description: Infrastructure for serving and rendering wireframe assets within th
 created: 2026-03-02
 updated: 2026-03-04
 sort: 17
-relationships: []
+relationships:
+  - target: RES-11bee8a4
+    type: informed-by
+    rationale: "Auto-generated from body text reference" []
 ---
-
-
 **Date:** 2026-03-02
 **References:** [Wireframing Research](RES-11bee8a4) (Q1 verdict: PlantUML Salt), SQLite Schema, Design System
 

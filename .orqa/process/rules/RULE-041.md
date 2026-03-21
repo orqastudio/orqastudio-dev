@@ -1,4 +1,6 @@
 ---
+
+
 id: RULE-c95f4444
 title: Data Persistence Boundaries
 description: "Defines which data belongs in SQLite, which in file-based artifacts, and which is ephemeral. Prevents misplaced persistence."
@@ -9,8 +11,13 @@ enforcement: []
 relationships:
   - target: AD-2aa4d6db
     type: enforces
+  - target: app::RULE-6c0496e0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-1acb1602
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 Data persistence in OrqaStudio follows three channels, each with clear boundaries.
 
 ## Persistence Channels

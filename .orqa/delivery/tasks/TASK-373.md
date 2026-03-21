@@ -1,4 +1,5 @@
 ---
+
 id: TASK-67dec092
 title: Define priority dimensions and auto-classification rules
 description: Define project-level priority dimensions based on RES-dd35bbf0 gap patterns and encode auto-classification rules
@@ -15,8 +16,10 @@ relationships:
     type: depends-on
   - target: TASK-7cf80542
     type: depended-on-by
+  - target: RES-dd35bbf0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Define priority dimensions and auto-classification rules for the project.

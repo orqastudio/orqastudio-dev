@@ -1,4 +1,6 @@
 ---
+
+
 id: TASK-ad922861
 title: Create capability vocabulary rule (RULE-92dba0cb)
 description: "Create a rule defining the abstract capability vocabulary, provider mapping tables, and delegation resolution protocol."
@@ -28,8 +30,13 @@ relationships:
     type: depended-on-by
   - target: TASK-413692fe
     type: depended-on-by
+  - target: app::RULE-92dba0cb
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: EPIC-3a8ad459
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Create [RULE-92dba0cb](RULE-92dba0cb) that governs how agent capabilities map to provider-specific tools.

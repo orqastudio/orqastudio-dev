@@ -1,4 +1,5 @@
 ---
+
 id: TASK-027139e7
 title: Implement capability resolution in companion plugin SubagentStart hook
 description: The companion plugin resolves agent capabilities to Claude Code tool names when subagents spawn.
@@ -20,8 +21,10 @@ relationships:
     type: depends-on
   - target: TASK-413692fe
     type: depended-on-by
+  - target: app::RULE-92dba0cb
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 When the companion plugin (EPIC-3a8ad459) spawns a subagent, the `SubagentStart` hook

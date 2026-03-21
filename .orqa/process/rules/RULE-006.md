@@ -1,4 +1,9 @@
 ---
+
+
+
+
+
 id: RULE-b49142be
 title: Coding Standards
 description: "Rust and TypeScript coding standards: formatting, linting, error handling, component patterns, and coverage requirements."
@@ -34,6 +39,21 @@ relationships:
     type: documented-by
   - target: DOC-4db3a417
     type: documented-by
+  - target: app::RULE-e9c54567
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-cb65b5d0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-57ccb4a3
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-f10bb5de
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-5e03e67b
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 **Source of Truth:** `.orqa/documentation/development/coding-standards.md`
 

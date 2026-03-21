@@ -1,4 +1,5 @@
 ---
+
 id: TASK-9f1f8b4b
 title: Agents content audit (7 agents)
 description: "Audit all 7 agent definitions: expand Tier 1 skills where gaps exist, match capabilities to RULE-f809076f role matrix, update orchestrator prompt for pipeline philosophy."
@@ -21,8 +22,10 @@ relationships:
     type: depends-on
   - target: TASK-cea1bc37
     type: depended-on-by
+  - target: app::RULE-f809076f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Content audit of all 7 agent definitions for skill coverage and pipeline alignment.

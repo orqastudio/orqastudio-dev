@@ -1,4 +1,5 @@
 ---
+
 id: TASK-a958f2d2
 title: Create systems-thinking companion skill for RULE-d90112d9
 description: "Create a systems-thinking skill that provides practical methodology for applying RULE-d90112d9's systems-thinking principle to real codebases."
@@ -17,6 +18,9 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-ec136ce9
     type: depended-on-by
+  - target: app::RULE-d90112d9
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

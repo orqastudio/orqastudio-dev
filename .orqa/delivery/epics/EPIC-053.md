@@ -1,4 +1,8 @@
 ---
+
+
+
+
 id: EPIC-dc1e3e4b
 title: Graph-Based Knowledge Injection
 description: |
@@ -75,7 +79,20 @@ relationships:
     rationale: Epic contains this task
   - target: MS-654badde
     type: fulfils
+  - target: EPIC-3a8ad459
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: EPIC-4440cdd4
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: EPIC-0a7b21cf
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-2783985c
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
+
 
 ## Context
 

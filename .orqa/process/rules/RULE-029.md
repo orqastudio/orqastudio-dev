@@ -1,4 +1,7 @@
 ---
+
+
+
 id: RULE-f10bb5de
 title: Testing Standards
 description: "Test organisation, coverage requirements, mock boundaries, and isolation rules."
@@ -8,6 +11,15 @@ updated: 2026-03-07
 relationships:
   - target: AD-e156310d
     type: enforces
+  - target: RULE-b49142be
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-e9c54567
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-57ccb4a3
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 **Source of Truth:** This file defines testing patterns. `.orqa/documentation/development/coding-standards.md` defines coverage requirements.
 

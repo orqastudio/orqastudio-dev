@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-f3a08e7a
 title: "Git Integration & Worktree-Aware Workspace"
 description: "Git awareness for OrqaStudio including branch status, worktree visibility, and version control operations surfaced through the app UI."
@@ -18,6 +19,9 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: MS-654badde
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Problem
 

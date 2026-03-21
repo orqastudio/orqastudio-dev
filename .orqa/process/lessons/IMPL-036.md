@@ -1,5 +1,7 @@
 ---
+
 id: IMPL-3148326e
+type: lesson
 title: "Design discussion mode should be a skill, not a mode or built-in behaviour"
 description: "User confirmed the design discussion protocol should be implemented as a skill the orchestrator loads, not a plan mode variant or hardcoded behaviour. This keeps it composable — loadable when needed, not always active."
 status: active
@@ -9,7 +11,6 @@ maturity: understanding
 recurrence: 1
 relationships: []
 ---
-
 ## Pattern
 
 Skills are the right vehicle for protocols that shape orchestrator behaviour. A skill is loadable, versionable, and composable. A mode or built-in behaviour is always present and rigid.

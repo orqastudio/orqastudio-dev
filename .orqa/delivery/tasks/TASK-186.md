@@ -1,4 +1,5 @@
 ---
+
 id: TASK-3fc8be56
 title: Remove .claude/ symlinks and update RULE-6c0496e0
 description: Remove the .claude/ symlink architecture and update RULE-6c0496e0 to describe plugin-based loading.
@@ -24,8 +25,10 @@ relationships:
     type: depends-on
   - target: TASK-fa39671d
     type: depended-on-by
+  - target: app::RULE-6c0496e0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Once the plugin is tested and working (TASK-11cf4c1d), the symlink architecture is no

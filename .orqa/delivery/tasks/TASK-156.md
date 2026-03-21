@@ -1,4 +1,5 @@
 ---
+
 id: TASK-77f6948d
 title: Fix RULE-89155a7f scope field to use valid value
 description: "Change RULE-89155a7f's scope field from the undocumented value software-engineering to a valid value from the documented set."
@@ -14,6 +15,9 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-ec136ce9
     type: depended-on-by
+  - target: RULE-89155a7f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

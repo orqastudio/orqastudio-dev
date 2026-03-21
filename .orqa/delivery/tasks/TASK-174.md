@@ -1,4 +1,7 @@
 ---
+
+
+
 id: TASK-2067fdaf
 title: Update delegation rules for capability resolution
 description: Update RULE-532100d9 and RULE-deab6ea7 to reference capability-based delegation and skill loading.
@@ -20,8 +23,16 @@ relationships:
     type: depends-on
   - target: TASK-413692fe
     type: depended-on-by
+  - target: app::RULE-532100d9
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-deab6ea7
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-92dba0cb
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Update the two rules most affected by the tool abstraction:

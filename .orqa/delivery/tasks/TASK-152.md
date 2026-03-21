@@ -1,4 +1,5 @@
 ---
+
 id: TASK-448102a7
 title: Create schema validation pre-commit hook
 description: "Pre-commit hook that validates YAML frontmatter of staged .orqa/ markdown files against their directory's schema.json before allowing the commit."
@@ -23,6 +24,9 @@ relationships:
     type: depended-on-by
   - target: TASK-ec136ce9
     type: depended-on-by
+  - target: app::RULE-a764b2ae
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

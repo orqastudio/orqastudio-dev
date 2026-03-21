@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-b77e2955
 title: Plugin Distribution via Git Submodules
 description: "An official plugins repository under the GitHub org that embeds each plugin as a git submodule. The app reads the repository catalogue, pulls plugins based on user selection, and manages versioning/updates. Each plugin is its own repo with independent releases."
@@ -26,8 +27,10 @@ relationships:
     type: grounded
   - target: PERSONA-a4b15450
     type: benefits
+  - target: TASK-30307a19
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 > **Surpassed 2026-03-16**: Core plugin distribution mechanism merged into EPIC-3f65c703 via AD-c6abc8e6. Plugin catalogue/marketplace concept split into IDEA-ff21a84a. User plugin development workflow split into IDEA-2051515a.
 
 ## Motivation

@@ -1,4 +1,5 @@
 ---
+
 id: DOC-1ab26625
 title: Lesson Promotion Pipeline Architecture
 category: architecture
@@ -6,10 +7,11 @@ description: Architecture of the lesson promotion pipeline that converts impleme
 created: 2026-03-05
 updated: 2026-03-05
 sort: 18
-relationships: []
+relationships:
+  - target: IMPL-eb748de2
+    type: informed-by
+    rationale: "Auto-generated from body text reference" []
 ---
-
-
 **Date:** 2026-03-05
 
 The lesson promotion pipeline captures implementation mistakes, tracks their recurrence across sessions, and promotes recurring patterns into enforceable governance artifacts. Lessons are individual markdown files with YAML frontmatter. SQLite caches metadata for fast queries and dashboard display. Promoted lessons become enforcement entries in rule files.

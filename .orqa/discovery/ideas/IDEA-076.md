@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-1db13693
 title: Bug and tweak tracking — milestone-direct attachment without epic overhead
 description: "Bugs and UI tweaks often don't relate to any epic but still need tracking, prioritisation, and milestone assignment. Introduce a mechanism for tasks to attach directly to milestones without requiring an epic wrapper. Same principle for small UI polish items."
@@ -17,8 +18,10 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: IDEA-bcf96889
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## Motivation
 
 Current artifact structure requires: Task → Epic → Milestone. But bugs and small polish items don't fit this model well:

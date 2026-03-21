@@ -1,4 +1,6 @@
 ---
+
+
 id: TASK-97dfe088
 title: Record persistence and governance decisions (AD-5d9ac6bd through AD-8b91f5a4)
 description: "Captured architecture decisions for persistence strategy, governance artifact format, data ownership boundaries, and configuration management."
@@ -15,6 +17,12 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-737a5c6c
     type: depended-on-by
+  - target: AD-5d9ac6bd
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-8b91f5a4
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

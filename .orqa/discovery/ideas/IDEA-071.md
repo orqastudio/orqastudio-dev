@@ -1,4 +1,6 @@
 ---
+
+
 id: IDEA-1287dd52
 title: "Plugin ecosystem: type system, provider integration, capability routing"
 description: "Implement the plugin type taxonomy, AI provider schema, capability fulfilment model, and plugin installation wiring designed in RES-cd3d33bf. Covers plugin.json schema extension, .orqa/providers/ definitions, per-project capability routing, and load-time plugin filtering."
@@ -24,8 +26,13 @@ relationships:
     type: grounded
   - target: PERSONA-015e8c2c
     type: benefits
+  - target: RES-cd3d33bf
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IDEA-1c7ebe74
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 > **Surpassed 2026-03-16**: Basic plugin ecosystem concept merged into EPIC-3f65c703 via AD-c6abc8e6. Provider-aware plugin system (provider detection, capability routing, load-time filtering) split into IDEA-c496b2de as a distinct capability layer needed for multi-model AI support.
 
 ## Motivation

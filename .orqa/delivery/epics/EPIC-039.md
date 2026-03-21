@@ -1,7 +1,7 @@
 ---
 id: EPIC-897bbe8f
 title: Composability Refactoring
-description: "Major refactoring sprint establishing the domain service extraction pattern. Decomposed monolithic command files, decoupled stores, extracted utilities, added semantic design tokens, and established the thin-command → domain service → repository pattern."
+description: Major refactoring sprint establishing the domain service extraction pattern. Decomposed monolithic command files, decoupled stores, extracted utilities, added semantic design tokens, and established the thin-command → domain service → repository pattern.
 status: completed
 priority: P1
 created: 2026-03-06
@@ -13,38 +13,32 @@ scoring:
   complexity: 4
   dependencies: 4
 relationships:
-  - target: RES-45cffcbe
-    type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-45cffcbe
-  - target: RES-b5d6ae6e
-    type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-b5d6ae6e
-  - target: MS-654badde
-    type: fulfils
-    rationale: Epic belongs to this milestone
-  - target: TASK-320eb399
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-8b482a0a
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-c09db10b
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-570f27e0
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-fca01488
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: AD-6cd1ff6f
-    type: driven-by
-  - target: RES-45cffcbe
-    type: guided-by
-  - target: RES-b5d6ae6e
-    type: guided-by
-  - target: AD-6cd1ff6f
-    type: driven-by
+- target: RES-45cffcbe
+  type: guided-by
+  rationale: Auto-generated inverse of informed-by relationship from RES-45cffcbe
+- target: RES-b5d6ae6e
+  type: guided-by
+  rationale: Auto-generated inverse of informed-by relationship from RES-b5d6ae6e
+- target: MS-654badde
+  type: fulfils
+  rationale: Epic belongs to this milestone
+- target: TASK-320eb399
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-8b482a0a
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-c09db10b
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-570f27e0
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-fca01488
+  type: delivered-by
+  rationale: Epic contains this task
+- target: AD-6cd1ff6f
+  type: driven-by
 ---
 ## Implementation Design
 

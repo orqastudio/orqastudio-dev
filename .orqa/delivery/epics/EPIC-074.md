@@ -1,7 +1,7 @@
 ---
 id: EPIC-11561c51
 title: Dashboard redesign — narrative flow layout grounded in pillars
-description: "Replace the current metrics-dump dashboard with a narrative flow layout: milestone context at top, three pillar-aligned columns (clarity/learning/purpose), collapsible power user section. The dashboard answers what matters, not what exists."
+description: 'Replace the current metrics-dump dashboard with a narrative flow layout: milestone context at top, three pillar-aligned columns (clarity/learning/purpose), collapsible power user section. The dashboard answers what matters, not what exists.'
 status: completed
 priority: P1
 scoring:
@@ -14,28 +14,26 @@ updated: 2026-03-14
 deadline: null
 horizon: active
 relationships:
-  - target: RES-627d3b37
-    type: guided-by
-    rationale: Dashboard research drives the design
-  - target: MS-654badde
-    type: fulfils
-    rationale: Epic belongs to this milestone
-  - target: TASK-cae0706a
-    type: delivered-by
-    rationale: "Auto-generated inverse of delivered-by relationship from TASK-cae0706a"
-  - target: TASK-2e078ea2
-    type: delivered-by
-    rationale: "Auto-generated inverse of delivered-by relationship from TASK-2e078ea2"
-  - target: TASK-79f51e7d
-    type: delivered-by
-    rationale: "Auto-generated inverse of delivered-by relationship from TASK-79f51e7d"
-  - target: TASK-c68a16cf
-    type: delivered-by
-    rationale: "Auto-generated inverse of delivered-by relationship from TASK-c68a16cf"
-  - target: TASK-75f8d4bf
-    type: delivered-by
-  - target: RES-627d3b37
-    type: guided-by
+- target: RES-627d3b37
+  type: guided-by
+  rationale: Dashboard research drives the design
+- target: MS-654badde
+  type: fulfils
+  rationale: Epic belongs to this milestone
+- target: TASK-cae0706a
+  type: delivered-by
+  rationale: Auto-generated inverse of delivered-by relationship from TASK-cae0706a
+- target: TASK-2e078ea2
+  type: delivered-by
+  rationale: Auto-generated inverse of delivered-by relationship from TASK-2e078ea2
+- target: TASK-79f51e7d
+  type: delivered-by
+  rationale: Auto-generated inverse of delivered-by relationship from TASK-79f51e7d
+- target: TASK-c68a16cf
+  type: delivered-by
+  rationale: Auto-generated inverse of delivered-by relationship from TASK-c68a16cf
+- target: TASK-75f8d4bf
+  type: delivered-by
 ---
 ## Context
 

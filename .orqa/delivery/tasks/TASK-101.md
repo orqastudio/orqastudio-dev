@@ -1,4 +1,6 @@
 ---
+
+
 id: TASK-cb6280ff
 title: Record composability and integration decisions (AD-69072318 through AD-1d928079)
 description: "Captured architecture decisions for composability principle, tool execution model, and provider-agnostic design."
@@ -15,6 +17,12 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-737a5c6c
     type: depended-on-by
+  - target: AD-69072318
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-1d928079
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

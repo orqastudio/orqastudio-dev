@@ -1,4 +1,5 @@
 ---
+
 id: EPIC-1dcf5ffa
 title: Context Injection on Failed Resume
 description: Add fallback context injection when SDK session resume fails due to app restart or cleared storage.
@@ -16,6 +17,9 @@ relationships:
   - target: MS-654badde
     type: fulfils
     rationale: Epic belongs to this milestone
+  - target: EPIC-e045ab6d
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Why P1
 

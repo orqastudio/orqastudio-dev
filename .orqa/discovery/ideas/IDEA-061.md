@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-c773575b
 title: Plugin architecture for verification data collection
 description: "Plugins that provide skill + hooks + data collection for enforcement tooling. Each plugin closes the enforcement-verification loop: the same plugin that enforces also provides metrics for automated verification."
@@ -15,8 +16,10 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: AD-a76663db
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## Motivation
 
 [AD-a76663db](AD-a76663db) defines enforcement tooling as plugins providing three capabilities: skill (how the tool works), data collection (metrics for automated verification), and enforcement (hooks). OrqaStudio core provides the interfaces; plugins provide the specifics. This idea covers building those interfaces.

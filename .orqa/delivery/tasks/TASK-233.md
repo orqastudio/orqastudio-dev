@@ -1,4 +1,5 @@
 ---
+
 id: TASK-507ce554
 title: Split composability skill core vs project
 description: composability KNOW-f0c40eaf has 37 project references but is core. Split into portable principle and project examples.
@@ -14,8 +15,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-94149697
     type: depended-on-by
+  - target: app::KNOW-f0c40eaf
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 composability [KNOW-f0c40eaf](KNOW-f0c40eaf) has 37 project references but is core. Split into portable principle and project examples.

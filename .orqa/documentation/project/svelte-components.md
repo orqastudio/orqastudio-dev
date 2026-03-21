@@ -1,4 +1,5 @@
 ---
+
 id: DOC-52bbfba5
 title: Svelte Component Tree
 description: Component tree structure and hierarchy of the Svelte 5 frontend application.
@@ -28,8 +29,10 @@ relationships:
   - target: AD-fcd55d44
     type: documents
     rationale: Documentation page references AD-fcd55d44
+  - target: RES-df5560cb
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 **References:** [Frontend Research](RES-df5560cb), Information Architecture
 
 Describes the Svelte component directory structure, store architecture, IPC wrapper pattern, and data flow for the OrqaStudio frontend.

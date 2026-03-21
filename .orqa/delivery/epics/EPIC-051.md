@@ -1,4 +1,8 @@
 ---
+
+
+
+
 id: EPIC-0a7b21cf
 title: Provider-Agnostic Tool Abstraction Layer
 description: |
@@ -46,7 +50,20 @@ relationships:
     type: fulfils
   - target: IDEA-889dffd4
     type: realised-by
+  - target: EPIC-3a8ad459
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-92dba0cb
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-532100d9
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-deab6ea7
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
+
 
 ## Context
 

@@ -1,4 +1,7 @@
 ---
+
+
+
 id: IDEA-b153fabd
 title: Agent task ownership review
 description: "Audit agent definitions for process vs execution knowledge placement, define clear task ownership boundaries between orchestrator and specialist agents."
@@ -17,6 +20,15 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: app::RULE-532100d9
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: EPIC-a2fa3068
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IMPL-a4643199
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Motivation
 

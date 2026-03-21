@@ -1,4 +1,6 @@
 ---
+
+
 id: TASK-cdfd039f
 title: Triage EPIC-942c7678 observations (IMPL-c306b136 through IMPL-257c8303)
 description: "Review all 8 observations logged during EPIC-942c7678 implementation. For each: implement now if needed for epic completion, promote to rule/skill if at understanding maturity, or defer to a new IDEA if out of scope. No observation may remain untriaged when the epic closes."
@@ -19,8 +21,13 @@ relationships:
     type: depends-on
   - target: TASK-cea1bc37
     type: depended-on-by
+  - target: IMPL-c306b136
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IMPL-257c8303
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Triage each observation from [EPIC-942c7678](EPIC-942c7678) into one of three outcomes:

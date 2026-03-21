@@ -1,4 +1,5 @@
 ---
+
 id: TASK-e752886d
 title: Audit frontend for repeat patterns and create component reuse skill and enforcement rule
 description: "Audit ui/src/lib/components/ for repeated patterns, create a component extraction skill, and update RULE-cb65b5d0 enforcement to mandate component reuse as a composability requirement."
@@ -19,8 +20,10 @@ relationships:
     type: depends-on
   - target: TASK-ec136ce9
     type: depended-on-by
+  - target: RULE-cb65b5d0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Component reuse is part of the composability principle (PILLAR-569581e0). Audit the entire frontend (`ui/src/lib/components/`) to identify repeated patterns that should be extracted into shared components.

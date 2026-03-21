@@ -1,4 +1,15 @@
 ---
+
+
+
+
+
+
+
+
+
+
+
 id: KNOW-13ec986c
 title: Orqa Documentation Authoring
 description: |
@@ -19,8 +30,40 @@ relationships:
     type: employed-by
   - target: AGENT-ec1b3785
     type: employed-by
+  - target: ARTIFACT-ID
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-7b770593
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-2aa4d6db
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RES-df5560cb
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-2f7b6a31
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: DOC-NNN
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-NNN
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-a334623b
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-1ad08e5f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-afc78f6e
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::KNOW-4368d782
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 How to write documentation and artifact content in OrqaStudio. Covers the internal link format, cross-referencing conventions, markdown rendering pipeline, and content structure patterns.
 
 ## Internal Link Format (MANDATORY)

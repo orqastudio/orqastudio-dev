@@ -1,4 +1,5 @@
 ---
+
 id: TASK-ab739ac3
 title: Create task dependency validator hook
 description: Pre-task hook that checks depends-on tasks have status done before allowing a task to start.
@@ -15,6 +16,9 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-ec136ce9
     type: depended-on-by
+  - target: app::RULE-7b770593
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

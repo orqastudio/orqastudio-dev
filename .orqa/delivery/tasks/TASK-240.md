@@ -1,4 +1,6 @@
 ---
+
+
 id: TASK-3655ff27
 title: Archive stale ideas and fix IDEA-889dffd4
 description: "IDEA-b153fabd,032,045 should be archived. IDEA-889dffd4 should be promoted."
@@ -14,8 +16,13 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-94149697
     type: depended-on-by
+  - target: IDEA-b153fabd
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IDEA-889dffd4
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 [IDEA-b153fabd](IDEA-b153fabd),032,045 should be archived. [IDEA-889dffd4](IDEA-889dffd4) should be promoted.

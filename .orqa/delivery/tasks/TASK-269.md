@@ -1,4 +1,5 @@
 ---
+
 id: TASK-7e7d1e02
 title: Tighten RULE-532100d9 orchestrator content boundary
 description: Clarify in RULE-532100d9 that the orchestrator creates artifact structure but delegates content writing to Writer.
@@ -16,8 +17,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-91bc09f9
     type: depended-on-by
+  - target: app::RULE-532100d9
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 The orchestrator exception list says `.orqa/delivery/` is orchestrator territory, but writing research findings is content creation (Writer role). Tighten the boundary.

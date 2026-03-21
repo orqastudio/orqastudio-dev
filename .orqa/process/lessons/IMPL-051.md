@@ -1,5 +1,9 @@
 ---
+
+
+
 id: IMPL-38fcae1c
+type: lesson
 title: Epics are goal-completion units — never split for progress optics
 description: "Epics exist to achieve a goal. Until that goal is met to the best of current understanding, the epic isn't complete. Big epics should not be split just to feel like progress is being made. Scope is a user decision — the orchestrator should never unilaterally split an epic."
 status: active
@@ -7,8 +11,15 @@ created: 2026-03-13
 updated: 2026-03-13
 maturity: understanding
 recurrence: 1
-relationships: []
+relationships:
+  - target: EPIC-4e6e9eae
+    type: informed-by
+    rationale: "Auto-generated from body text reference" []
+  - target: app::RULE-7b770593
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
+
 
 ## Pattern
 

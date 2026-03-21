@@ -1,4 +1,5 @@
 ---
+
 id: TASK-7d550875
 title: Create universal agent definitions
 description: "Write the 4 new universal role agent files (researcher, planner, implementer, reviewer), rename documentation-writer to writer, and broaden designer to cover experience/interface/structure design beyond just UI."
@@ -29,6 +30,9 @@ relationships:
     type: depended-on-by
   - target: TASK-0d8b4a06
     type: depended-on-by
+  - target: AD-774cc3d0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Reference
 

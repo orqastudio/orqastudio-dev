@@ -1,4 +1,5 @@
 ---
+
 id: TASK-55c08ed7
 title: Mark surpassed research and connect orphans
 description: RES-8b971acf surpassed. 9 orphaned Phase 0 research files need connection or documentation.
@@ -14,8 +15,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-94149697
     type: depended-on-by
+  - target: RES-8b971acf
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 [RES-8b971acf](RES-8b971acf) surpassed. 9 orphaned Phase 0 research files need connection or documentation.

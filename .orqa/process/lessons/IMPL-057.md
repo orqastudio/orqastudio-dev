@@ -1,5 +1,7 @@
 ---
+
 id: IMPL-625de8d6
+type: lesson
 title: "Fix the problem, not the number"
 description: "When facing integrity errors, the orchestrator's instinct was to suppress the signal rather than fix the root cause. 'Quickest fix' thinking optimises for making error counts drop, not for working software."
 status: active
@@ -9,6 +11,7 @@ maturity: understanding
 recurrence: 1
 relationships: []
 ---
+
 
 ## Pattern
 

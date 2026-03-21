@@ -1,4 +1,6 @@
 ---
+
+
 id: IDEA-0915667e
 title: Open-Source Licensing and IP Protection
 description: Choose licensing strategy that protects OrqaStudio from big tech absorption while enabling open-source community participation.
@@ -15,8 +17,13 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: RES-f8578159
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-NNN
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## Description
 
 OrqaStudio currently ships with Apache 2.0 which offers zero protection against big tech absorption. [RES-f8578159](RES-f8578159) investigated options and recommends **FSL (Functional Source License) + Trademark**.

@@ -1,4 +1,7 @@
 ---
+
+
+
 id: EPIC-962a7bc9
 title: Pillars as First-Class Artifacts
 description: "Make product pillars structured artifacts in .orqa/process/pillars/ with frontmatter schema, referenced by ID from other artifacts, and injected into AI system prompts. Replaces hardcoded pillar strings across rules and documentation. Implements AD-47c41f0c."
@@ -37,6 +40,15 @@ relationships:
   - target: TASK-6ea994f2
     type: delivered-by
     rationale: Epic contains this task
+  - target: AD-47c41f0c
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: PILLAR-569581e0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: PILLAR-cdf756ff
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Context
 

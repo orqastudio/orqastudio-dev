@@ -1,4 +1,5 @@
 ---
+
 id: TASK-d8813639
 title: Add docs and skills fields to task schema
 description: Extend the task schema with optional docs (array of documentation paths) and skills (array of skill names) fields that create graph edges from tasks to their implementation context.
@@ -24,6 +25,9 @@ relationships:
     type: depended-on-by
   - target: TASK-dd9c8538
     type: depended-on-by
+  - target: TASK-21b461ea
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

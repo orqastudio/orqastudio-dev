@@ -1,4 +1,5 @@
 ---
+
 id: TASK-6b0459ea
 title: Automated gap audit tool (repeatable RES-dd35bbf0)
 description: "Build a repeatable version of the RES-dd35bbf0 audit as tooling that scans rules, ADs, lessons, and pipeline stages for enforcement gaps"
@@ -21,8 +22,10 @@ relationships:
     type: depended-on-by
   - target: TASK-247b6ce4
     type: depended-on-by
+  - target: RES-dd35bbf0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Build a repeatable automated gap audit tool that replaces the manual [RES-dd35bbf0](RES-dd35bbf0) audit.

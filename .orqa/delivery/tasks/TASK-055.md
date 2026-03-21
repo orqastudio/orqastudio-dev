@@ -1,4 +1,6 @@
 ---
+
+
 id: TASK-58887d38
 title: Update product documentation
 description: "Update governance.md with the concept taxonomy from AD-774cc3d0, create a new governance-hub.md page for the distribution and coexistence model from AD-6f0dea5e, and verify artifact-framework.md alignment."
@@ -26,6 +28,12 @@ relationships:
     type: depends-on
   - target: TASK-0d8b4a06
     type: depended-on-by
+  - target: AD-774cc3d0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-6f0dea5e
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Reference
 

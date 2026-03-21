@@ -1,4 +1,5 @@
 ---
+
 id: TASK-15bc3749
 title: Audit EPIC-3a8ad459 tasks against plugin codebase
 description: 14 tasks marked todo but plugin has working code. Verify each task against actual implementation.
@@ -14,8 +15,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-94149697
     type: depended-on-by
+  - target: EPIC-3a8ad459
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 14 tasks marked todo but plugin has working code. Verify each task against actual implementation.

@@ -1,4 +1,5 @@
 ---
+
 id: TASK-1ec1a07c
 title: Build AI-assisted backfill and link verification tooling
 description: "Build tooling that reads artifacts, proposes relationship connections based on content analysis, presents for human review, and batch-updates frontmatter. Includes link verification tooling that scans artifact content for contextual accuracy of cross-references. Reusable for future schema migrations. Usage documented as an injectable skill."
@@ -34,8 +35,10 @@ relationships:
     type: depended-on-by
   - target: TASK-508cf6cd
     type: depended-on-by
+  - target: ARTIFACT-ID
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Two complementary tools for the migration:

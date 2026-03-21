@@ -1,4 +1,5 @@
 ---
+
 id: TASK-d2842e47
 title: "Research: cross-cutting concerns of directory restructure"
 description: "Audit every config, import, and path reference affected by the proposed repository reorganisation into backend/, ui/src/, sidecars/, and debugger/ directories."
@@ -18,8 +19,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-03741ecb
     type: depended-on-by
+  - target: RES-c7b4b22f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Audit the entire repository for cross-cutting path references that would break when

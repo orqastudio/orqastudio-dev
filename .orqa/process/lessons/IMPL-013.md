@@ -1,5 +1,7 @@
 ---
+
 id: IMPL-a4643199
+type: lesson
 title: Process Skills at Orchestration Level
 description: "Orchestration-level process knowledge (like UAT methodology) must be loadable by the orchestrator. Embedding it in specialist agent definitions makes it available only during that agent's execution.\n"
 status: active
@@ -9,6 +11,7 @@ maturity: understanding
 recurrence: 1
 relationships: []
 ---
+
 ## What Happened
 
 During UAT Round 1, the UAT process was initially encoded only in the qa-tester agent definition. But UAT is orchestrator-led — the orchestrator collects findings, systematizes them, and creates tasks. The qa-tester only does technical verification later.

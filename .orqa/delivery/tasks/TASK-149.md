@@ -1,4 +1,5 @@
 ---
+
 id: TASK-8b70b4c1
 title: Create stub scanner pre-commit hook
 description: Pre-commit hook that greps staged production files for TODO/FIXME/HACK comments and blocks the commit if found.
@@ -16,6 +17,9 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-ec136ce9
     type: depended-on-by
+  - target: app::RULE-e9c54567
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

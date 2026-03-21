@@ -1,5 +1,7 @@
 ---
+
 id: IMPL-8a971261
+type: lesson
 title: Encode Improvements in Artifacts
 description: "If a process improvement exists only in conversation history, it is lost in the next session. Every improvement must be recorded as a lesson and encoded in the relevant agent, rule, or skill."
 status: completed
@@ -9,6 +11,7 @@ maturity: understanding
 recurrence: 1
 relationships: []
 ---
+
 ## What Happened
 
 During UAT Round 1, a better UAT process emerged organically: collect findings, group systemically, investigate architecture, then create tasks. The approach worked well but was only practiced — not encoded in any governance artifact.

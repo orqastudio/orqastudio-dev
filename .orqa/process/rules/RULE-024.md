@@ -1,4 +1,6 @@
 ---
+
+
 id: RULE-cb65b5d0
 title: Reusable Components
 description: "Check shared component library before creating new UI elements. Use EmptyState, LoadingSpinner, ErrorDisplay, etc."
@@ -10,6 +12,12 @@ relationships:
     type: documented-by
   - target: AD-61087142
     type: enforces
+  - target: RULE-b49142be
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-5e03e67b
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Shared Component Library
 

@@ -1,4 +1,6 @@
 ---
+
+
 id: DOC-2a7f1063
 title: Getting Started
 category: onboarding
@@ -19,9 +21,13 @@ relationships:
   - target: AD-afc78f6e
     type: documents
     rationale: Documentation page references AD-afc78f6e
+  - target: RES-00c5dbc3
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RES-df5560cb
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
-
 **Date:** 2026-03-02
 
 Prerequisites, installation, and development commands for working on OrqaStudio™.

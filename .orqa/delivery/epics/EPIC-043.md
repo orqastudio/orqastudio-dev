@@ -1,4 +1,9 @@
 ---
+
+
+
+
+
 id: EPIC-a2fa3068
 title: Dogfood Readiness Verification
 description: "First round of user acceptance testing. The user exercises the app end-to-end, testing conversation flow, artifact browsing, governance visibility, settings, and streaming behaviour. Findings are captured as tasks within this epic."
@@ -49,6 +54,21 @@ relationships:
   - target: TASK-34eaf518
     type: delivered-by
     rationale: Epic contains this task
+  - target: MS-85b9269b
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: TASK-df17333f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: TASK-429b41ad
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: TASK-4fb1b91f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: EPIC-31c9baca
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Implementation Design
 

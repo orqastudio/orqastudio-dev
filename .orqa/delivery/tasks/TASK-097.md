@@ -1,4 +1,5 @@
 ---
+
 id: TASK-de80141b
 title: SQLite persistence design
 description: "Evaluated SQLite via rusqlite for structured local storage of conversation data, sessions, and messages."
@@ -15,6 +16,9 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-03551f92
     type: depended-on-by
+  - target: AD-2aa4d6db
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

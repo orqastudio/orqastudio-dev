@@ -1,5 +1,10 @@
 ---
+
+
+
+
 id: IMPL-f40a935f
+type: lesson
 title: Orchestrator deferred scoped deliverable instead of implementing
 description: "The orchestrator marked an epic as nearly complete while deferring a task's implementation work to a future epic, violating RULE-e120bb70."
 status: active
@@ -7,8 +12,18 @@ created: 2026-03-12
 updated: 2026-03-12
 maturity: understanding
 recurrence: 1
-relationships: []
+relationships:
+  - target: EPIC-4726cb3b
+    type: informed-by
+    rationale: "Auto-generated from body text reference" []
+  - target: TASK-c75be77c
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-e120bb70
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
+
 
 ## Pattern
 

@@ -1,4 +1,5 @@
 ---
+
 id: TASK-d9d85326
 title: Document plugin architecture and SDK extraction plan
 description: Document the plugin system architecture and plan for component library / SDK extraction.
@@ -18,8 +19,10 @@ relationships:
     type: depends-on
   - target: TASK-91bc09f9
     type: depended-on-by
+  - target: RES-00ec6dd1
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Document the plugin architecture including the path to SDK extraction for dynamic plugin views.

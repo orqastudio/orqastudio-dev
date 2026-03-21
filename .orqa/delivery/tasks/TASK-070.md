@@ -1,4 +1,5 @@
 ---
+
 id: TASK-f950424e
 title: Document body templates in artifact-framework.md and schema.json
 description: "Add bodyTemplate definitions to each artifact type's schema.json and update artifact-framework.md with the canonical body structure for each type."
@@ -18,6 +19,9 @@ relationships:
     type: depended-on-by
   - target: TASK-12eec0f3
     type: depended-on-by
+  - target: RES-a15d38de
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

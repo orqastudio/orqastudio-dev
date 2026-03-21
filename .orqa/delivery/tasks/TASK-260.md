@@ -1,4 +1,5 @@
 ---
+
 id: TASK-efaf25d7
 title: Enable clippy pedantic in Cargo.toml
 description: Explicitly configure clippy pedantic lints in Cargo.toml and fix resulting warnings.
@@ -20,8 +21,10 @@ relationships:
     type: depended-on-by
   - target: TASK-91bc09f9
     type: depended-on-by
+  - target: RULE-b49142be
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 [RULE-b49142be](RULE-b49142be) claims clippy pedantic is enabled but it's not explicitly configured. Add it properly.

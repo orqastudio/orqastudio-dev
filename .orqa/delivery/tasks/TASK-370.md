@@ -1,4 +1,5 @@
 ---
+
 id: TASK-9952c534
 title: "Update RULE-7b770593: related idea surfacing during promotion"
 description: Add mandatory step to RULE-7b770593 promotion procedure requiring scanning for thematically related ideas before creating an epic
@@ -13,8 +14,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-7cf80542
     type: depended-on-by
+  - target: app::RULE-7b770593
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Update [RULE-7b770593](RULE-7b770593) to require related idea surfacing during the promotion procedure.

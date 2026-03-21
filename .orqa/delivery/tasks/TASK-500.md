@@ -1,4 +1,5 @@
 ---
+
 id: TASK-afe17917
 title: Add dependency chain tracing to artifact viewer
 description: Extend the artifact viewer with a Trace section that shows upward (task→epic→milestone→pillar) and downward (what this artifact affects) dependency chains. Uses BFS over relationship edges from the artifactGraphSDK. Each artifact in the chain is a clickable ArtifactLink.
@@ -22,6 +23,9 @@ relationships:
     type: delivers
   - target: TASK-f8f9b6e7
     type: depends-on
+  - target: RULE-65973a88
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

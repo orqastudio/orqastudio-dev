@@ -1,4 +1,5 @@
 ---
+
 id: TASK-77b6e5bd
 title: Create artifact audit skill
 description: "Create a reusable skill that captures the methodology, checklists, and patterns for auditing .orqa/ artifacts — enabling future audits to be systematic and repeatable without rediscovering the process each time."
@@ -26,6 +27,9 @@ relationships:
     type: depends-on
   - target: TASK-ec136ce9
     type: depended-on-by
+  - target: EPIC-0a8a5e72
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

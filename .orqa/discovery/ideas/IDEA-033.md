@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-464ab876
 title: Live Roadmap View
 description: Replace the static roadmap markdown document with a database-driven roadmap view that auto-updates as epic/milestone statuses change. First artifact type to be driven by SQLite rather than file scanning.
@@ -16,6 +17,9 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: IDEA-9334b770
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Problem
 

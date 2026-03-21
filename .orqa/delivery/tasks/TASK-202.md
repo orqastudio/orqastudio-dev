@@ -1,4 +1,5 @@
 ---
+
 id: TASK-05357368
 title: Document linter-to-standard mapping
 description: |
@@ -20,8 +21,10 @@ relationships:
     type: depended-on-by
   - target: TASK-d6727d2f
     type: depended-on-by
+  - target: RULE-b49142be
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Document the full chain from documented standard → linter config → hook trigger

@@ -1,4 +1,9 @@
 ---
+
+
+
+
+
 id: TASK-732d8f12
 title: "Deduplicate rule/skill content — rules keep constraints, skills keep methodology"
 description: "Remove duplicated methodology, templates, and code examples from three rules and move them into their companion skills, leaving rules with only constraints and FORBIDDEN sections."
@@ -18,6 +23,21 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-ec136ce9
     type: depended-on-by
+  - target: app::RULE-303c1cc8
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-4d4f540d
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-1acb1602
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-cb65b5d0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: TASK-cca73736
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

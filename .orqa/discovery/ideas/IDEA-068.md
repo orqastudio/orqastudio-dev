@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-d9c48c83
 title: AI-assisted artifact backfill tooling
 description: "Tooling that reads artifacts, analyses content against other artifacts, proposes relationship connections, presents for human review, and batch-updates frontmatter. Built as a precursor to the AD-a76663db migration, reusable for any future schema evolution."
@@ -16,8 +17,10 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: EPIC-ca7b398b
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## Motivation
 
 [EPIC-ca7b398b](EPIC-ca7b398b) Phase 2 requires backfilling relationships on ~150 artifacts. Doing this manually is error-prone and slow. Doing it with ad-hoc AI prompting loses consistency. Purpose-built tooling that can read an artifact, propose connections based on content analysis, and present them for human review makes the migration reliable AND creates a reusable capability for any future schema evolution.

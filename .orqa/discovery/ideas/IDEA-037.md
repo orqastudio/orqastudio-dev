@@ -1,4 +1,6 @@
 ---
+
+
 id: IDEA-a99c270e
 title: Artifact Node Graph
 description: "Build a bidirectional graph of all governance artifacts with typed relationships, enabling backreference queries, broken link detection, orphan detection, and a plugin-ready SDK for unified artifact access."
@@ -15,6 +17,12 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: RES-c387773d
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RES-06ba5474
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Motivation
 

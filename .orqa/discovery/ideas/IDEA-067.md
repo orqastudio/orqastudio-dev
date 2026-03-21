@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-705723b2
 title: AI-assisted plugin generation
 description: "When the plugin system is mature, OrqaStudio should be able to generate tooling plugins automatically. The structure (skill + hooks + data collection) is well-defined enough that AI can scaffold a working plugin from a tool description."
@@ -16,8 +17,10 @@ relationships:
     type: grounded
   - target: PERSONA-a4b15450
     type: benefits
+  - target: AD-a76663db
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## Motivation
 
 [AD-a76663db](AD-a76663db) notes that the structure and requirements for a tooling plugin (skill + hooks + data collection) are well-defined. During project initialization, if no existing plugin matches detected tooling, the system could offer to generate one. This is a natural extension of the plugin architecture once it matures.

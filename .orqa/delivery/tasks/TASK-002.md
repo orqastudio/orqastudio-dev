@@ -1,4 +1,5 @@
 ---
+
 id: TASK-df17333f
 title: Verify end-to-end AI transparency rendering
 description: "Verify the full AI transparency pipeline works end-to-end: Rust emission to Channel<T> to store accumulation to component rendering."
@@ -18,6 +19,9 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-b6aa7a3b
     type: depended-on-by
+  - target: TASK-58a9d218
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

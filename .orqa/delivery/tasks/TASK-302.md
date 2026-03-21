@@ -1,4 +1,5 @@
 ---
+
 id: TASK-2e138cb1
 title: "Complete RES-c4dd4c4d: behavioral directives research"
 description: "RES-c4dd4c4d (Agent Memory, User Directives, and the Knowledge Pipeline) is in draft status. Complete the research and discuss findings with user to determine where behavioral directives fit in the pipeline."
@@ -17,8 +18,10 @@ relationships:
     type: depended-on-by
   - target: TASK-cea1bc37
     type: depended-on-by
+  - target: RES-c4dd4c4d
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Complete the draft research document [RES-c4dd4c4d](RES-c4dd4c4d) which audits Claude memory files, categorizes what's duplicated vs genuinely missing from the artifact system, and proposes where behavioral directives should live in the Knowledge Maturity Pipeline.

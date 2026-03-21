@@ -1,4 +1,5 @@
 ---
+
 id: TASK-34007190
 title: Integration testing for all enforcement layers
 description: |
@@ -35,9 +36,10 @@ relationships:
     type: depends-on
   - target: TASK-d6727d2f
     type: depended-on-by
+  - target: RULE-c95f4444
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
-
 ## What
 
 Verify all enforcement layers work end-to-end:

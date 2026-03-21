@@ -1,4 +1,5 @@
 ---
+
 id: TASK-2bbc5077
 title: Consolidate code-pattern rules to reference linters
 description: |
@@ -22,8 +23,10 @@ relationships:
     type: depended-on-by
   - target: TASK-d6727d2f
     type: depended-on-by
+  - target: RULE-b49142be
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Rules like [RULE-b49142be](RULE-b49142be) currently have enforcement entries that regex-match code

@@ -1,4 +1,5 @@
 ---
+
 id: TASK-7b8ded48
 title: "Research: relationship and metadata display UX (RES-07667737)"
 description: "UX review investigating how artifacts should present their relationships, pipeline stage, and metadata to users in the app. Produces design recommendations for a future implementation epic."
@@ -23,8 +24,10 @@ relationships:
     type: depends-on
   - target: TASK-cea1bc37
     type: depended-on-by
+  - target: RES-07667737
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Complete the [RES-07667737](RES-07667737) research document investigating how artifacts should present relationships and metadata to users.

@@ -1,5 +1,7 @@
 ---
+
 id: DOC-ffd47d19
+type: persona
 title: User Personas
 description: "User personas describing target users, their goals, pain points, and usage patterns."
 created: 2026-03-02
@@ -7,7 +9,6 @@ updated: 2026-03-14
 sort: 3
 relationships: []
 ---
-
 **Date:** 2026-03-07
 
 Detailed profiles of OrqaStudio™'s target users. These personas drive UI design, feature prioritisation, and acceptance criteria throughout the product.

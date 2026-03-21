@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-52c65fc8
 title: Native Hooks System
 description: "Design a hooks layer that works in both app and CLI contexts, with richer lifecycle events and backwards compatibility with Claude Code hooks."
@@ -22,6 +23,9 @@ relationships:
     type: grounded
   - target: PERSONA-015e8c2c
     type: benefits
+  - target: EPIC-a2fa3068
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Motivation
 

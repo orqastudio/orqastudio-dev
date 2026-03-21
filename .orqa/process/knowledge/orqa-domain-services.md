@@ -1,4 +1,5 @@
 ---
+
 id: KNOW-58611337
 title: Orqa Domain Services
 description: |
@@ -18,9 +19,10 @@ user-invocable: true
 relationships:
   - target: DOC-4b4fbc0f
     type: synchronised-with
+  - target: AD-e513c9e4
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
-
 Domain services live in `backend/src-tauri/src/domain/`. They contain the business logic of OrqaStudio and are the heart of the thick-backend architecture [AD-e513c9e4](AD-e513c9e4). Commands in `backend/src-tauri/src/commands/` are thin wrappers that delegate to domain services and repositories.
 
 ## Service Anatomy

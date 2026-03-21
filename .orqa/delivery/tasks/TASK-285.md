@@ -1,4 +1,7 @@
 ---
+
+
+
 id: TASK-5da55ccb
 title: Create data integrity rule (RULE-130f1f63)
 description: "Codify data integrity requirements: all cross-references must resolve, pipeline relationships must have bidirectional inverses, pre-commit enforces both, make verify is the manual full-scan."
@@ -30,8 +33,16 @@ relationships:
     type: depended-on-by
   - target: TASK-cea1bc37
     type: depended-on-by
+  - target: app::RULE-130f1f63
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-2f7b6a31
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: TASK-e7324438
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Create [RULE-130f1f63](RULE-130f1f63) codifying the data integrity requirements established in Phase 0.

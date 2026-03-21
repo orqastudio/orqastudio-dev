@@ -1,4 +1,5 @@
 ---
+
 id: TASK-e74f41ca
 title: Scanner frontmatter extraction
 description: Extends the artifact scanner to extract and expose the status field from YAML frontmatter so sidebar list items display correct titles and status indicators for all artifact types.
@@ -21,6 +22,9 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-34eaf518
     type: depended-on-by
+  - target: TASK-df17333f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Findings Addressed
 

@@ -1,4 +1,5 @@
 ---
+
 id: TASK-8b9c68ae
 title: Create AD for directory reorganization (AD-71d44f5c)
 description: Architecture decision formalizing the three-level structure (process/delivery/documentation) and the first-class artifact principle.
@@ -25,8 +26,10 @@ relationships:
     type: depended-on-by
   - target: TASK-cea1bc37
     type: depended-on-by
+  - target: AD-71d44f5c
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Create an architecture decision documenting the directory reorganization from governance/team/planning to process/delivery/documentation.

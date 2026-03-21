@@ -1,4 +1,7 @@
 ---
+
+
+
 id: EPIC-4440cdd4
 title: Structured Thinking Enforcement
 description: |
@@ -81,7 +84,17 @@ relationships:
     type: fulfils
   - target: DOC-4db3a417
     type: documented-by
+  - target: RULE-c95f4444
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-f9d0279c
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-7f416d7d
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
+
 
 ## Context
 

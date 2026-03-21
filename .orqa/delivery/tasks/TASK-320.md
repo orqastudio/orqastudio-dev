@@ -1,4 +1,5 @@
 ---
+
 id: TASK-a5e7df28
 title: Reconcile EPIC-cfd1ac79
 description: "Standing reconciliation task — verify epic body accuracy: task table, pillars, docs-produced, scope."
@@ -34,8 +35,10 @@ relationships:
     type: depends-on
   - target: TASK-910302bc
     type: depends-on
+  - target: app::RULE-7b770593
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Standing reconciliation task for [EPIC-cfd1ac79](EPIC-cfd1ac79). Ensures the epic body stays accurate as work evolves.

@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-adce6c86
 title: Artifact platform audit — built-in vs external
 description: "Audit which artifact types are first-class platform citizens with enforced lifecycles versus display-only documents, mapped to the three-layer governance model."
@@ -18,6 +19,9 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: EPIC-a2fa3068
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 n> **Surpassed 2026-03-16**: Core vs plugin artifact split fully captured in AD-c6abc8e6. Implementation details covered in EPIC-3f65c703 Phase 2.
 

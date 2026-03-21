@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-6bd0622f
 title: Dev Controller — unified development lifecycle orchestrator
 description: "A persistent Node process that owns the entire dev lifecycle — spawning, monitoring, and restarting all app processes (Vite, Rust, sidecar) with unified output, IPC-based control, and dogfood session persistence."
@@ -17,9 +18,10 @@ relationships:
     type: grounded
   - target: PERSONA-015e8c2c
     type: benefits
+  - target: RES-5a9e6375
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
-
 ## Motivation
 
 Development workflow hits friction from three independent problems that share one root cause: **no single process owns the dev lifecycle**.

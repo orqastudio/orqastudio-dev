@@ -1,5 +1,7 @@
 ---
+
 id: IMPL-262e63e1
+type: lesson
 title: Directory reorganizations leave stale paths in source code
 description: "When .orqa/ directories are moved, hardcoded path references in Rust, TypeScript, and test fixtures are not caught by verify-links because it only scans markdown artifacts. Requires a maintained path manifest and source code scanning."
 status: active
@@ -9,6 +11,7 @@ maturity: understanding
 recurrence: 1
 relationships: []
 ---
+
 ## Pattern
 
 When directory structure changes (e.g., `.orqa/governance/` → `.orqa/process/`, `.orqa/planning/` → `.orqa/delivery/`), the following get updated:

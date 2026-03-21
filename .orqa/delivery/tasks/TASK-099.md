@@ -1,4 +1,6 @@
 ---
+
+
 id: TASK-62998ad6
 title: Record core architecture decisions (AD-dc919e52 through AD-0dbba717)
 description: "Captured foundational architecture decisions covering thick backend, IPC boundary, error propagation, and Svelte 5 runes-only policy."
@@ -15,6 +17,12 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-737a5c6c
     type: depended-on-by
+  - target: AD-dc919e52
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-0dbba717
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

@@ -1,4 +1,8 @@
 ---
+
+
+
+
 id: TASK-dce77e0b
 title: Fix EPIC-6787bb93 task statuses
 description: Correct task statuses that were marked done incorrectly.
@@ -16,8 +20,19 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-91bc09f9
     type: depended-on-by
+  - target: RES-9bcc7279
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: TASK-21b461ea
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: TASK-db9be55f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: EPIC-6787bb93
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 [RES-9bcc7279](RES-9bcc7279) found [TASK-21b461ea](TASK-21b461ea) (AI search) marked done but implementation is client-side text search only, not AI-driven. [TASK-db9be55f](TASK-db9be55f) (README audit) was never started.

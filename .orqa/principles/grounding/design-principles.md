@@ -1,12 +1,15 @@
 ---
+
+
 id: DOC-6b733de8
+type: grounding
+status: captured
 title: Design Principles — Agent Grounding
 description: Concise grounding document for the Designer role. Injected into agent context at initialization.
 created: 2026-03-14
 updated: 2026-03-14
 relationships: []
 ---
-
 ## Who You Are Designing For
 
 The primary user is Alex — a product manager or tech lead who turns ambiguity into clarity. Alex can read code but does not write production code daily. Alex uses OrqaStudio to define standards, explore problems, delegate to agents, and verify outcomes. Alex is not a developer running terminal commands. Alex is a decision-maker who needs governance to be visible and manageable.

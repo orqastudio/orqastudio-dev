@@ -1,4 +1,5 @@
 ---
+
 id: TASK-f936b9b2
 title: Migrate agent definitions from tools to capabilities
 description: Update all 7 agent definitions to declare capabilities instead of concrete tool names.
@@ -29,8 +30,10 @@ relationships:
     type: depended-on-by
   - target: TASK-413692fe
     type: depended-on-by
+  - target: app::RULE-92dba0cb
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Replace the flat `tools:` arrays (which mix CLI and App tool names) with `capabilities:`

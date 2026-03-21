@@ -1,4 +1,5 @@
 ---
+
 id: TASK-54fae8bf
 title: Set up Rust coverage tooling
 description: Configure cargo-tarpaulin or llvm-cov for Rust coverage measurement.
@@ -18,8 +19,10 @@ relationships:
     type: depends-on
   - target: TASK-91bc09f9
     type: depended-on-by
+  - target: RULE-b49142be
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Add Rust test coverage measurement so we can track the 80% target from [RULE-b49142be](RULE-b49142be).

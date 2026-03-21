@@ -1,7 +1,9 @@
 ---
+
+
 id: EPIC-e045ab6d
 title: AI Transparency Wiring
-description: "Wire the emission logic that connects existing AI transparency types, components, and store handling into a working end-to-end pipeline."
+description: Wire the emission logic that connects existing AI transparency types, components, and store handling into a working end-to-end pipeline.
 status: completed
 priority: P1
 created: 2026-03-07
@@ -13,30 +15,34 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: RES-b126f17a
-    type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-b126f17a
-  - target: MS-654badde
-    type: fulfils
-    rationale: Epic belongs to this milestone
-  - target: TASK-58a9d218
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-df17333f
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-fa777da9
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-b6aa7a3b
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: IDEA-bfeda324
-    type: realised-by
-  - target: RES-b126f17a
-    type: guided-by
-  - target: DOC-01ddd8aa
-    type: documented-by
+  - target: TASK-5e893805
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: EPIC-642234ba
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+- target: RES-b126f17a
+  type: guided-by
+  rationale: Auto-generated inverse of informed-by relationship from RES-b126f17a
+- target: MS-654badde
+  type: fulfils
+  rationale: Epic belongs to this milestone
+- target: TASK-58a9d218
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-df17333f
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-fa777da9
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-b6aa7a3b
+  type: delivered-by
+  rationale: Epic contains this task
+- target: IDEA-bfeda324
+  type: realised-by
+- target: DOC-01ddd8aa
+  type: documented-by
 ---
 ## Why P1
 

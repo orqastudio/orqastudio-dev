@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-3293309b
 title: OrqaDev Companion App + In-App Debug Overlay
 description: "Replace the dev dashboard HTML page with a pure SSE endpoint, build a dedicated OrqaDev companion app that consumes the feed, and add an optional in-app debug overlay that subscribes to the same stream."
@@ -16,8 +17,10 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: TASK-aadbf15a
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## Motivation
 
 The current OrqaDev dashboard (`debugger/dev-dashboard.html`) bundles the UI and the SSE server together. Separating these concerns — a pure SSE endpoint as the data layer, with multiple consumers — enables richer tooling without coupling to a single HTML page.

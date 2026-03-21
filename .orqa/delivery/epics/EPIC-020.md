@@ -1,7 +1,7 @@
 ---
 id: EPIC-d3fcb4ed
-title: "Discovery & Research Artifacts"
-description: "Build structured research artifacts, decision traceability graph, research-to-AD promotion, and conversational research workflow."
+title: Discovery & Research Artifacts
+description: Build structured research artifacts, decision traceability graph, research-to-AD promotion, and conversational research workflow.
 status: captured
 priority: P2
 created: 2026-03-07
@@ -13,14 +13,13 @@ scoring:
   complexity: 3
   dependencies: 2
 relationships:
-  - target: MS-eea45fa8
-    type: fulfils
-    rationale: Epic belongs to this milestone
-  - target: AD-c3700062
-    type: driven-by
-  - target: AD-c3700062
-    type: driven-by
+- target: MS-eea45fa8
+  type: fulfils
+  rationale: Epic belongs to this milestone
+- target: AD-c3700062
+  type: driven-by
 ---
+
 ## Tasks
 
 - [ ] Research artifact type — structured, queryable, filterable

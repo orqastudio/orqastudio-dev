@@ -1,4 +1,9 @@
 ---
+
+
+
+
+
 id: KNOW-5ad0bf1b
 title: OrqaStudio Backend Best Practices
 description: |
@@ -15,8 +20,22 @@ user-invocable: true
 relationships:
   - target: DOC-4b4fbc0f
     type: synchronised-with
+  - target: app::KNOW-f0c40eaf
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-65973a88
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-8d552e96
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-1acb1602
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-57ccb4a3
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 This skill ensures every backend agent has the right mental model before writing code. It does not duplicate content from deeper skills — it establishes principles and points to the right references.
 
 ## Always In Mind

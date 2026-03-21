@@ -1,4 +1,6 @@
 ---
+
+
 id: VISION-001
 title: Product Vision
 description: Product vision defining OrqaStudio as an AI-assisted clarity engine built on two pillars.
@@ -8,11 +10,16 @@ sort: 1
 relationships:
   - target: PILLAR-569581e0
     type: upheld-by
+  - target: AD-6f0dea5e
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+status: captured
   - target: PILLAR-cdf756ff
     type: upheld-by
   - target: PILLAR-94b281db
     type: upheld-by
 ---
+
 
 **Date:** 2026-03-07
 

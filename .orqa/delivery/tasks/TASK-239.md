@@ -1,4 +1,5 @@
 ---
+
 id: TASK-fa3388c2
 title: Update EPIC-31c9baca body canon to core
 description: EPIC-31c9baca uses canon throughout. Current vocabulary is core. Update.
@@ -13,8 +14,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-94149697
     type: depended-on-by
+  - target: EPIC-31c9baca
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 [EPIC-31c9baca](EPIC-31c9baca) uses canon throughout. Current vocabulary is core. Update.

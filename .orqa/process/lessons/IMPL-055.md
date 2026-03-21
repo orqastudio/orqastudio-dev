@@ -1,4 +1,9 @@
 ---
+
+
+
+
+
 id: IMPL-e848fb92
 title: Orchestrator creates artifacts without maintaining bidirectional relationships
 description: "When creating or modifying artifacts (AD-f9034c99, RULE-532100d9, RULE-551bde31), the orchestrator added content links in body text but failed to add bidirectional relationship entries in frontmatter. This happened repeatedly across multiple artifacts in the same session despite RULE-130f1f63 requiring bidirectional inverses."
@@ -11,7 +16,23 @@ relationships:
   - target: EPIC-915291e7
     type: cautions
     rationale: "Auto-generated inverse of informs relationship from EPIC-915291e7"
+  - target: AD-f9034c99
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-532100d9
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IMPL-85add0f1
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-551bde31
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-130f1f63
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
+
 ## Pattern
 
 When creating or modifying multiple artifacts in a session, the orchestrator:

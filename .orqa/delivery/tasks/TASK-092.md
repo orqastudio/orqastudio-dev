@@ -1,4 +1,5 @@
 ---
+
 id: TASK-b13e6846
 title: Validate cross-references and update roadmap
 description: "Validated all research-to-decision cross-references, fixed broken links, and updated the roadmap completed-work section to reference MS-85b9269b with retroactive epics."
@@ -17,6 +18,9 @@ relationships:
     type: depends-on
   - target: TASK-da84a27e
     type: depended-on-by
+  - target: MS-654badde
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

@@ -1,4 +1,5 @@
 ---
+
 id: TASK-f1ada1f5
 title: Create project setup skills
 description: "Write the four setup skills that replace templates for project initialisation: base scaffolding, folder inference, agentic config migration, and the software project type preset."
@@ -35,6 +36,9 @@ relationships:
     type: depends-on
   - target: TASK-0d8b4a06
     type: depended-on-by
+  - target: AD-6f0dea5e
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Reference
 

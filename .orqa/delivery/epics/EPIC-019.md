@@ -1,7 +1,7 @@
 ---
 id: EPIC-f0937072
 title: MCP Host — External Servers
-description: "Implement MCP host with JSON-RPC protocol handler, stdio and SSE transports, tool aggregation, and settings UI for external servers."
+description: Implement MCP host with JSON-RPC protocol handler, stdio and SSE transports, tool aggregation, and settings UI for external servers.
 status: captured
 priority: P2
 created: 2026-03-07
@@ -13,13 +13,11 @@ scoring:
   complexity: 4
   dependencies: 2
 relationships:
-  - target: MS-eea45fa8
-    type: fulfils
-    rationale: Epic belongs to this milestone
-  - target: AD-0dbba717
-    type: driven-by
-  - target: AD-0dbba717
-    type: driven-by
+- target: MS-eea45fa8
+  type: fulfils
+  rationale: Epic belongs to this milestone
+- target: AD-0dbba717
+  type: driven-by
 ---
 ## Tasks
 

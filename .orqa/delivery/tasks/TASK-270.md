@@ -1,4 +1,5 @@
 ---
+
 id: TASK-c75be77c
 title: Resolve AD-2aa4d6db SQLite scoping violation
 description: "Governance scan results should produce research artifacts (.orqa/ files), not SQLite rows. Migrate governance tables out of SQLite."
@@ -17,8 +18,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-91bc09f9
     type: depended-on-by
+  - target: AD-2aa4d6db
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Audit found `governance_analyses`, `governance_recommendations`, and `artifacts` tables in SQLite. [AD-2aa4d6db](AD-2aa4d6db) says governance data should be file-based with the node graph as query layer.

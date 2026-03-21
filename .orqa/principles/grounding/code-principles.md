@@ -1,12 +1,15 @@
 ---
+
+
 id: DOC-4aec151e
+type: grounding
+status: captured
 title: Code Principles — Agent Grounding
 description: Concise grounding document for Implementer and Reviewer roles. Injected into agent context at initialization.
 created: 2026-03-14
 updated: 2026-03-14
 relationships: []
 ---
-
 ## What Good Code Means Here
 
 Good code is code that a future agent can read, trust, and extend without fear. That requires three things: explicit structure, honest error paths, and testable units. When code is small, typed, and returns explicit results, it is safe to compose. When it silently swallows errors or grows past 50 lines, it becomes opaque — no one can reason about it, and neither can you.

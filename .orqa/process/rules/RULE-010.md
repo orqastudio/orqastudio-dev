@@ -1,4 +1,7 @@
 ---
+
+
+
 id: RULE-1acb1602
 title: End-to-End Completeness
 description: "Every feature must be implemented across all layers (Rust command, IPC type, Svelte component, store) in the same commit."
@@ -16,6 +19,15 @@ relationships:
     type: enforces
   - target: AD-a334623b
     type: enforces
+  - target: app::RULE-e9c54567
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-57ccb4a3
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-5e03e67b
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 Every feature MUST be implemented across ALL layers in the same commit. Partial implementations that work in isolation but fail at runtime due to missing layers are forbidden.
 

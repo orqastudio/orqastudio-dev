@@ -1,4 +1,5 @@
 ---
+
 id: TASK-75b09cdb
 title: "Update RULE-303c1cc8: loop-closure + scope verification requirements"
 description: Update RULE-303c1cc8 to require loop-closure phases in enforcement epics and explicit user approval for out-of-scope sections
@@ -15,8 +16,10 @@ relationships:
     type: depends-on
   - target: TASK-7cf80542
     type: depended-on-by
+  - target: app::RULE-303c1cc8
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Update [RULE-303c1cc8](RULE-303c1cc8) plan-mode-compliance with loop-closure and scope verification requirements.

@@ -1,4 +1,5 @@
 ---
+
 id: TASK-cca73736
 title: Audit shared component inventory and update RULE-cb65b5d0
 description: Audit all Svelte components under ui/src/lib/components/ and update RULE-cb65b5d0 to reflect the accurate shared component inventory.
@@ -19,8 +20,10 @@ relationships:
     type: depended-on-by
   - target: TASK-ec136ce9
     type: depended-on-by
+  - target: RULE-cb65b5d0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Audit all `.svelte` components under `ui/src/lib/components/` to produce a complete inventory of reusable/shared components. Map each against [RULE-cb65b5d0](RULE-cb65b5d0)'s current 12-item list. Identify:

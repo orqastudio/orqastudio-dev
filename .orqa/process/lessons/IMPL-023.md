@@ -1,5 +1,9 @@
 ---
+
+
+
 id: IMPL-f2b140da
+type: lesson
 title: "Observation logging and recurrence tracking should be automated, not manual"
 description: "Agents and orchestrators encounter 'why did that happen?' moments during implementation but don't automatically log observations or increment recurrence on existing lessons. The learning loop depends on manual discipline which breaks under cognitive load. Automation would make the loop self-sustaining."
 status: completed
@@ -7,7 +11,13 @@ created: 2026-03-13
 updated: 2026-03-13
 maturity: understanding
 recurrence: 1
-relationships: []
+relationships:
+  - target: IMPL-262e63e1
+    type: informed-by
+    rationale: "Auto-generated from body text reference" []
+  - target: app::RULE-551bde31
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Pattern
 

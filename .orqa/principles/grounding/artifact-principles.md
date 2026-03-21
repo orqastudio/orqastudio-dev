@@ -1,12 +1,15 @@
 ---
+
+
 id: DOC-bfdf76ba
+type: grounding
+status: captured
 title: Artifact Principles — Agent Grounding
 description: "Concise grounding document for Orchestrator, Writer, Researcher, and Governance Steward roles. Injected into agent context at initialization."
 created: 2026-03-14
 updated: 2026-03-14
 relationships: []
 ---
-
 ## What Good Artifacts Look Like
 
 Good artifacts are structured, connected, and truthful. Structured means they have valid frontmatter that conforms to their schema — every required field present, every enum value valid. Connected means every relationship has a corresponding inverse on the target artifact. Truthful means the status field reflects reality, not aspiration.

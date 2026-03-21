@@ -1,4 +1,5 @@
 ---
+
 id: TASK-e1d73ed7
 title: Rename RES-5a9e6375-tauri-dev-process-management.md
 description: "File has id: RES-ed556ff3 but wrong filename. Rename to RES-ed556ff3.md."
@@ -14,8 +15,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-94149697
     type: depended-on-by
+  - target: RES-ed556ff3
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 File has id: [RES-ed556ff3](RES-ed556ff3) but wrong filename. Rename to [RES-ed556ff3](RES-ed556ff3).md.

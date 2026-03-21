@@ -1,4 +1,6 @@
 ---
+
+
 id: TASK-8120e247
 title: Create epic readiness validator hook
 description: Validation hook that checks docs-required paths exist on disk before an epic can move to ready status.
@@ -16,6 +18,12 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-ec136ce9
     type: depended-on-by
+  - target: app::RULE-7b770593
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: AD-e513c9e4
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

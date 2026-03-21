@@ -1,4 +1,10 @@
 ---
+
+
+
+
+
+
 id: IDEA-289ecd64
 title: "Pipeline health dashboard — integrity surfacing, visualization, and process automation"
 description: "Surface pipeline integrity checks on the app dashboard with scan/fix actions, add pipeline thread visualization, temporal trend analysis, and automate two process improvements: related idea surfacing during promotion and intent-based observation capture from user prompts."
@@ -18,6 +24,24 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: IDEA-3c8085b6
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IDEA-6522afe2
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IDEA-c3b01bfd
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IMPL-40b0b5ca
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-7b770593
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: IMPL-8d666f0c
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Motivation
 

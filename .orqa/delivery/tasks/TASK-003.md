@@ -1,4 +1,7 @@
 ---
+
+
+
 id: TASK-fa777da9
 title: Update streaming pipeline documentation
 description: Update streaming-pipeline.md to reflect the new SystemPromptSent emission point added by TASK-58a9d218.
@@ -18,6 +21,15 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-b6aa7a3b
     type: depended-on-by
+  - target: TASK-58a9d218
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: EPIC-642234ba
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: EPIC-1dcf5ffa
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

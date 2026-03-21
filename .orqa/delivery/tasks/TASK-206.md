@@ -1,4 +1,7 @@
 ---
+
+
+
 id: TASK-965b2b81
 title: "Create RULE-c95f4444, RULE-f9d0279c, RULE-7f416d7d"
 description: |
@@ -23,8 +26,16 @@ relationships:
     type: depended-on-by
   - target: TASK-d6727d2f
     type: depended-on-by
+  - target: RULE-c95f4444
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-f9d0279c
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-7f416d7d
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Three new governance rules:

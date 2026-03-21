@@ -1,4 +1,5 @@
 ---
+
 id: TASK-bd34be90
 title: Fix KNOW-e3a559c9 ID collision
 description: Three skills share KNOW-e3a559c9. Assign unique IDs and update all agent references.
@@ -14,8 +15,10 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-94149697
     type: depended-on-by
+  - target: app::KNOW-e3a559c9
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Three skills share [KNOW-e3a559c9](KNOW-e3a559c9). Assign unique IDs and update all agent references.

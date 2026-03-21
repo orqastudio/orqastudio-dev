@@ -1,4 +1,6 @@
 ---
+
+
 id: TASK-73f7e0fa
 title: Implement PreToolUse hook (file + bash event enforcement)
 description: Plugin PreToolUse hook evaluates active rules against tool calls and blocks/warns on violations.
@@ -24,8 +26,13 @@ relationships:
     type: depended-on-by
   - target: TASK-fa39671d
     type: depended-on-by
+  - target: RULE-b49142be
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-633e636d
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 The PreToolUse hook is the primary enforcement mechanism. It intercepts tool calls

@@ -1,4 +1,7 @@
 ---
+
+
+
 id: DOC-2f60e3a2
 title: Rust Module Architecture
 category: architecture
@@ -16,8 +19,16 @@ relationships:
   - target: AD-8b91f5a4
     type: documents
     rationale: Documentation page references AD-8b91f5a4
+  - target: RES-7f87b149
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RES-00c5dbc3
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RES-a68430ce
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 **References:** [Claude Integration](RES-7f87b149), [Tauri v2](RES-00c5dbc3), [Persistence](RES-a68430ce)
 
 Module tree, domain types, command handlers, and dependency graph for `backend/src-tauri/src/`. Rust owns the domain model [AD-e513c9e4](AD-e513c9e4). All functions return `Result<T, E>` [AD-1ad08e5f](AD-1ad08e5f). No `unwrap()`, `expect()`, or `panic!()` in production code.

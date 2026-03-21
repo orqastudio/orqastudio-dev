@@ -1,4 +1,6 @@
 ---
+
+
 id: TASK-e6418f4a
 title: Add Decision type to artifact framework
 description: "Added Decision (AD-NNN) type schema to artifact-framework.md, decision creation section to artifact-workflow.md, decision enforcement to RULE-7b770593, and decision directory to orchestrator resources."
@@ -18,6 +20,12 @@ relationships:
     type: depended-on-by
   - target: TASK-da84a27e
     type: depended-on-by
+  - target: app::RULE-7b770593
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-65973a88
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## What
 

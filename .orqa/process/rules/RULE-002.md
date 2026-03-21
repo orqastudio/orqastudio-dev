@@ -1,4 +1,9 @@
 ---
+
+
+
+
+
 id: RULE-65973a88
 title: Architecture Decisions
 description: All code must comply with architecture decisions in .orqa/process/decisions/.
@@ -12,6 +17,21 @@ relationships:
     type: enforces
   - target: DOC-01ddd8aa
     type: documented-by
+  - target: AD-dffc3d30
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-303c1cc8
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-9daf29c0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-1e8a1914
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-1acb1602
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 **Source of Truth:** `.orqa/process/decisions/` — individual `AD-NNN.md` artifacts. Decisions are first-class artifacts browsable in the app's artifact navigation.
 

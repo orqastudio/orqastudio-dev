@@ -1,4 +1,9 @@
 ---
+
+
+
+
+
 id: TASK-b4c3c05d
 title: Add enforcement field to rule schema and key rules
 description: Add the enforcement array to the rule schema and add enforcement entries to key mechanically-enforceable rules.
@@ -21,8 +26,22 @@ relationships:
     type: depended-on-by
   - target: TASK-fa39671d
     type: depended-on-by
+  - target: RULE-b49142be
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-633e636d
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: RULE-c71f1c3f
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-e9c54567
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+  - target: app::RULE-1f30904a
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
-
 ## What
 
 Extend the rule schema with the `enforcement` field defined in [EPIC-3a8ad459](EPIC-3a8ad459)'s design.

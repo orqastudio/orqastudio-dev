@@ -1,4 +1,5 @@
 ---
+
 id: TASK-f6850c71
 title: Extract domain skills from old agents
 description: Read each old software-specific agent and extract its domain knowledge into a standalone skill file. These skills will be loaded into universal roles at runtime based on project context.
@@ -32,6 +33,9 @@ relationships:
     type: depended-on-by
   - target: TASK-0d8b4a06
     type: depended-on-by
+  - target: AD-774cc3d0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Reference
 

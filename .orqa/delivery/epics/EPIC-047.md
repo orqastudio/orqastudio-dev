@@ -1,4 +1,5 @@
 ---
+
 id: EPIC-39860e8b
 title: Git Workflow Enforcement Review
 description: "Review and strengthen git commit discipline enforcement after discovering 237 files uncommitted across multiple sessions. Update session hooks, git-workflow rule, and create a software project-type skill for commit discipline. Addresses IMPL-2e30e4ab."
@@ -34,6 +35,9 @@ relationships:
   - target: TASK-5e116826
     type: delivered-by
     rationale: Epic contains this task
+  - target: IMPL-2e30e4ab
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Context
 

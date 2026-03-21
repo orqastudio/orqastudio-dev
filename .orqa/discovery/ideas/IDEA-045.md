@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-325a4ddc
 title: "Document Browser Sorting, Filtering & Navigation Config"
 description: Enhance the artifact navigation pane with sorting and filtering controls. Include manual sort order that persists to a _navigation.json config file alongside the README in each artifact group directory. Filter and sort state also persists to this file so it is properly retained across sessions.
@@ -19,6 +20,9 @@ relationships:
     type: grounded
   - target: PERSONA-cda6edd6
     type: benefits
+  - target: RES-14aacfa0
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
 ## Archived
 

@@ -1,4 +1,5 @@
 ---
+
 id: IDEA-889dffd4
 title: Provider-Agnostic Tool Abstraction for Agent Definitions
 description: |
@@ -10,22 +11,22 @@ status: completed
 created: 2026-03-11
 updated: 2026-03-13
 research-needed:
-  - "Audit current tool availability per context (CLI Claude Code, App native, future providers)"
-  - Map concrete tools to abstract capabilities
-  - Design the capability → tool resolution mechanism
-  - "Determine where the mapping lives (rule, skill, or config)"
+- Audit current tool availability per context (CLI Claude Code, App native, future providers)
+- Map concrete tools to abstract capabilities
+- Design the capability → tool resolution mechanism
+- Determine where the mapping lives (rule, skill, or config)
 relationships:
-  - target: EPIC-0a7b21cf
-    type: realises
-    rationale: "Promoted to epic for implementation"
-  - target: EPIC-0a7b21cf
-    type: realises
-  - target: PILLAR-94b281db
-    type: grounded
-  - target: PERSONA-cda6edd6
-    type: benefits
+  - target: EPIC-3a8ad459
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
+- target: EPIC-0a7b21cf
+  type: realises
+  rationale: Promoted to epic for implementation
+- target: PILLAR-94b281db
+  type: grounded
+- target: PERSONA-cda6edd6
+  type: benefits
 ---
-
 ## Motivation
 
 Agent definitions currently list concrete tool names from multiple providers in a flat

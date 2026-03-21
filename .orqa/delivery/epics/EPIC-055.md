@@ -17,41 +17,39 @@ scoring:
   complexity: 3
   dependencies: 3
 relationships:
-  - target: RES-55eb9e55
-    type: guided-by
-    rationale: Auto-generated inverse of informed-by relationship from RES-55eb9e55
-  - target: MS-654badde
-    type: fulfils
-    rationale: Epic belongs to this milestone
-  - target: TASK-d88b98c2
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-7dd0d161
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-86293118
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-23af5ea6
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-da26ead7
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-c5865668
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-0fb46344
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-aadbf15a
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: TASK-389af55e
-    type: delivered-by
-    rationale: Epic contains this task
-  - target: RES-55eb9e55
-    type: guided-by
+- target: RES-55eb9e55
+  type: guided-by
+  rationale: Auto-generated inverse of informed-by relationship from RES-55eb9e55
+- target: MS-654badde
+  type: fulfils
+  rationale: Epic belongs to this milestone
+- target: TASK-d88b98c2
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-7dd0d161
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-86293118
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-23af5ea6
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-da26ead7
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-c5865668
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-0fb46344
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-aadbf15a
+  type: delivered-by
+  rationale: Epic contains this task
+- target: TASK-389af55e
+  type: delivered-by
+  rationale: Epic contains this task
 ---
 ## Context
 

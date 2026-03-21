@@ -1,4 +1,5 @@
 ---
+
 id: TASK-0bcbb927
 title: Replace hardcoded path constants with runtime config cache (IMPL-c306b136)
 description: "Remove paths.rs constants and all hardcoded .orqa/ paths. Load project.json once at startup, build a ProjectPaths struct, pass it through the call chain. Decision: Option C from RES-cd3d33bf, approved by user."
@@ -18,7 +19,11 @@ relationships:
     rationale: Task belongs to this epic
   - target: TASK-cea1bc37
     type: depended-on-by
+  - target: IMPL-c306b136
+    type: informed-by
+    rationale: "Auto-generated from body text reference"
 ---
+
 ## What
 
 Eliminate the constant/config duality by making `project.json` the single source of truth for all `.orqa/` paths at runtime. Load config once, cache in a struct, pass through the call chain.
