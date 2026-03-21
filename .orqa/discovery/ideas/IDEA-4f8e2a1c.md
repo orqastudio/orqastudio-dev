@@ -19,6 +19,9 @@ relationships:
   - target: IDEA-a3f2c17e
     type: grounded
     rationale: "Builds on the thinking mode classification system"
+  - target: IDEA-7c3d9f2e
+    type: grounded-by
+    rationale: "Cloud instance is the natural aggregation point for cross-project learning"
 ---
 
 ## The Idea
@@ -57,3 +60,51 @@ This is a semantic merge — understanding the intent of both versions, not just
 ### Privacy Principle
 
 The system must be as useful for projects that share nothing as for those that share everything. Opt-in telemetry is an enhancement, not a requirement. Local learning always works.
+
+### 4. Tiered Learning Architecture
+
+Learning operates at three distinct tiers. Each tier is fully independent — a project gains the full benefit of Tier 1 without any cloud dependency. Higher tiers are additive, not required.
+
+**Tier 1 — Local**
+
+The standard governance pipeline within a single project:
+
+- Observation → lesson → rule, all within one project
+- Always works with no external dependency and no sharing
+- This is the baseline. Every project gets this regardless of cloud or telemetry
+
+**Tier 2 — Organisation** (via Orqa Cloud)
+
+An intermediary learning loop stage across an organisation's projects:
+
+- Lessons from all of an org's projects are aggregated at the Cloud instance
+- Patterns that recur across multiple projects are candidates for cross-project rules
+- Org admins review and approve what propagates down to all org projects
+- User-controlled at the org tier: admins decide what rules cascade, teams can opt their project out
+- Cloud provides the aggregation and rollout mechanism — not the data capture mechanism
+- Data capture still requires analytics tooling (hooks, telemetry, observation events) configured on each project. Cloud receives and aggregates what the local tools produce
+
+**Tier 3 — Global** (via Orqa Cloud + analytics)
+
+Anonymised pattern learning across all consenting organisations:
+
+- Patterns observed across multiple consenting orgs feed into improved default starting artifacts
+- New projects and version upgrades ship with starting artifacts informed by real cross-org usage
+- Opt-in at two levels: org level (org admin decides whether the org participates) and project level (teams can opt individual projects out even if the org participates)
+- Same principle as Tier 2: Cloud is the aggregation/rollout mechanism; analytics tooling on each project is the capture mechanism
+- Anonymisation is non-negotiable: no org or project identity propagates upward
+
+**What Cloud provides vs. what analytics tools provide:**
+
+| Concern | Provided by |
+|---------|-------------|
+| Capturing observations locally (hook events, telemetry) | Analytics/observability tooling on each project |
+| Transmitting aggregated lessons upward | Orqa Cloud management API |
+| Cross-project pattern detection | Orqa Cloud |
+| Conflict detection and merge review | Orqa Cloud |
+| Controlled rollout to downstream projects | Orqa Cloud |
+| User consent and propagation control | Orqa Cloud admin UI |
+
+Cloud without analytics tooling means no data flows up. Analytics tooling without Cloud means all learning stays local (Tier 1). The two are complementary, not substitutes.
+
+**First-party hosted Cloud** opens a path to offering Tier 2 and Tier 3 as a managed service — organisations that don't want to run their own Cloud instance can subscribe to a hosted tier and get cross-project learning with zero infrastructure overhead.

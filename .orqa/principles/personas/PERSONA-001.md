@@ -194,6 +194,8 @@ relationships:
     type: "benefited-by"
   - target: "IDEA-c45ca5df"
     type: "benefited-by"
+  - target: "IDEA-7c3d9f2e"
+    type: "benefited-by"
   - target: "AGENT-1dab5ebe"
     type: "served-by"
     rationale: "This agent serves this pillar/persona"

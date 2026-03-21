@@ -34,6 +34,8 @@ relationships:
     type: "benefited-by"
   - target: "IDEA-4f8e2a1c"
     type: "benefited-by"
+  - target: "IDEA-7c3d9f2e"
+    type: "benefited-by"
   - target: "AGENT-c5284fde"
     type: "served-by"
     rationale: "This agent serves this pillar/persona"

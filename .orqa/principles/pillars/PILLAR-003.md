@@ -56,6 +56,8 @@ relationships:
     type: "grounded-by"
   - target: "IDEA-4f8e2a1c"
     type: "grounded-by"
+  - target: "IDEA-7c3d9f2e"
+    type: "grounded-by"
   - target: "AGENT-1dab5ebe"
     type: "served-by"
     rationale: "This agent serves this pillar/persona"
