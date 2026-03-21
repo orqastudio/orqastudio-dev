@@ -22,6 +22,9 @@ relationships:
   - target: EPIC-b2d9f506
     type: crystallises
     rationale: "This idea crystallised into the implementation epic"
+  - target: IDEA-4f8e2a1c
+    type: grounded-by
+    rationale: "Cross-project classification learning builds on the thinking mode classification system defined here"
 ---
 
 ## The Shift: From Pre-Injection to Self-Navigation
