@@ -27,9 +27,11 @@ AD-fc646168 defines the ethical licensing model. All licensing answers derive fr
 
 | Component type | License | Why |
 |---------------|---------|-----|
-| App, library, plugin | BSL-1.1 | Core product — protected for 4 years, then Apache 2.0 |
+| App, library, plugin, template, tool | BSL-1.1 with Ethical Use Addendum | Core product and infrastructure — protected for 4 years, then Apache 2.0 (+ Addendum) |
 | Connector | Apache-2.0 | Must interop with third-party tools that may require permissive licensing |
-| Tool, registry | MIT | Infrastructure should be freely usable |
+| Registry | MIT | Community infrastructure should be fully open |
+
+The Ethical Use Addendum is uniform across all BSL repos — there is no BSL variant without it. It includes explicit gender identity protection and remains in force permanently (even after the Apache 2.0 change date).
 
 ### Is this use permitted?
 

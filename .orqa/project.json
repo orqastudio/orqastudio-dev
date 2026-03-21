@@ -1,29 +1,81 @@
 {
   "name": "OrqaStudio Dev",
-  "description": "Organisation-mode development environment for the OrqaStudio ecosystem",
   "organisation": true,
-  "projects": [
-    { "name": "app", "path": "app" },
-    { "name": "types", "path": "libs/types" },
-    { "name": "sdk", "path": "libs/sdk" },
-    { "name": "cli", "path": "libs/cli" },
-    { "name": "connector-claude-code", "path": "connectors/claude-code" },
-    { "name": "components", "path": "libs/svelte-components" },
-    { "name": "visualiser", "path": "libs/graph-visualiser" }
-  ],
   "dogfood": true,
+  "projects": [
+    {
+      "name": "app",
+      "path": "app"
+    },
+    {
+      "name": "types",
+      "path": "libs/types"
+    },
+    {
+      "name": "sdk",
+      "path": "libs/sdk"
+    },
+    {
+      "name": "cli",
+      "path": "libs/cli"
+    },
+    {
+      "name": "connector-claude-code",
+      "path": "connectors/claude-code"
+    },
+    {
+      "name": "components",
+      "path": "libs/svelte-components"
+    },
+    {
+      "name": "visualiser",
+      "path": "libs/graph-visualiser"
+    }
+  ],
+  "description": "Organisation-mode development environment for the OrqaStudio ecosystem",
   "default_model": "auto",
-  "excluded_paths": ["node_modules", ".git", "target", "dist", "build"],
+  "excluded_paths": [
+    "node_modules",
+    ".git",
+    "target",
+    "dist",
+    "build"
+  ],
+  "stack": null,
+  "governance": null,
+  "icon": null,
+  "show_thinking": false,
+  "custom_system_prompt": null,
   "artifacts": [
     {
       "key": "principles",
       "label": "Principles",
       "icon": "landmark",
       "children": [
-        { "key": "pillar", "label": "Pillars", "icon": "columns-3", "path": ".orqa/principles/pillars" },
-        { "key": "vision", "label": "Vision", "icon": "eye", "path": ".orqa/principles/vision" },
-        { "key": "persona", "label": "Personas", "icon": "users", "path": ".orqa/principles/personas" },
-        { "key": "grounding", "label": "Grounding", "icon": "anchor", "path": ".orqa/principles/grounding" }
+        {
+          "key": "pillar",
+          "label": "Pillars",
+          "icon": "columns-3",
+          "path": ".orqa/principles/pillars"
+        },
+        {
+          "key": "vision",
+          "label": "Vision",
+          "icon": "eye",
+          "path": ".orqa/principles/vision"
+        },
+        {
+          "key": "persona",
+          "label": "Personas",
+          "icon": "users",
+          "path": ".orqa/principles/personas"
+        },
+        {
+          "key": "grounding",
+          "label": "Grounding",
+          "icon": "anchor",
+          "path": ".orqa/principles/grounding"
+        }
       ]
     },
     {
@@ -31,9 +83,24 @@
       "label": "Discovery",
       "icon": "compass",
       "children": [
-        { "key": "idea", "label": "Ideas", "icon": "lightbulb", "path": ".orqa/discovery/ideas" },
-        { "key": "research", "label": "Research", "icon": "book-open", "path": ".orqa/discovery/research" },
-        { "key": "wireframe", "label": "Wireframes", "icon": "layout", "path": ".orqa/discovery/wireframes" }
+        {
+          "key": "idea",
+          "label": "Ideas",
+          "icon": "lightbulb",
+          "path": ".orqa/discovery/ideas"
+        },
+        {
+          "key": "research",
+          "label": "Research",
+          "icon": "book-open",
+          "path": ".orqa/discovery/research"
+        },
+        {
+          "key": "wireframe",
+          "label": "Wireframes",
+          "icon": "layout",
+          "path": ".orqa/discovery/wireframes"
+        }
       ]
     },
     {
@@ -41,11 +108,36 @@
       "label": "Learning",
       "icon": "brain",
       "children": [
-        { "key": "decision", "label": "Decisions", "icon": "scale", "path": ".orqa/process/decisions" },
-        { "key": "rule", "label": "Rules", "icon": "shield", "path": ".orqa/process/rules" },
-        { "key": "lesson", "label": "Lessons", "icon": "book-open", "path": ".orqa/process/lessons" },
-        { "key": "knowledge", "label": "Knowledge", "icon": "book-open", "path": ".orqa/process/knowledge" },
-        { "key": "agent", "label": "Agents", "icon": "bot", "path": ".orqa/process/agents" }
+        {
+          "key": "decision",
+          "label": "Decisions",
+          "icon": "scale",
+          "path": ".orqa/process/decisions"
+        },
+        {
+          "key": "rule",
+          "label": "Rules",
+          "icon": "shield",
+          "path": ".orqa/process/rules"
+        },
+        {
+          "key": "lesson",
+          "label": "Lessons",
+          "icon": "book-open",
+          "path": ".orqa/process/lessons"
+        },
+        {
+          "key": "knowledge",
+          "label": "Knowledge",
+          "icon": "book-open",
+          "path": ".orqa/process/knowledge"
+        },
+        {
+          "key": "agent",
+          "label": "Agents",
+          "icon": "bot",
+          "path": ".orqa/process/agents"
+        }
       ]
     },
     {
@@ -53,9 +145,24 @@
       "label": "Delivery",
       "icon": "package",
       "children": [
-        { "key": "milestone", "label": "Milestones", "icon": "flag", "path": ".orqa/delivery/milestones" },
-        { "key": "epic", "label": "Epics", "icon": "layers", "path": ".orqa/delivery/epics" },
-        { "key": "task", "label": "Tasks", "icon": "check-square", "path": ".orqa/delivery/tasks" }
+        {
+          "key": "milestone",
+          "label": "Milestones",
+          "icon": "flag",
+          "path": ".orqa/delivery/milestones"
+        },
+        {
+          "key": "epic",
+          "label": "Epics",
+          "icon": "layers",
+          "path": ".orqa/delivery/epics"
+        },
+        {
+          "key": "task",
+          "label": "Tasks",
+          "icon": "check-square",
+          "path": ".orqa/delivery/tasks"
+        }
       ]
     },
     {
@@ -63,59 +170,278 @@
       "label": "Documentation",
       "icon": "file-text",
       "children": [
-        { "key": "doc", "label": "Project Docs", "icon": "file-text", "path": ".orqa/documentation/project" }
+        {
+          "key": "doc",
+          "label": "Project Docs",
+          "icon": "file-text",
+          "path": ".orqa/documentation/project"
+        }
       ]
     }
   ],
+  "artifactLinks": {
+    "displayModes": {
+      "TASK": "title",
+      "DOC": "title",
+      "AD": "title",
+      "RULE": "title",
+      "PILLAR": "title",
+      "KNOW": "title",
+      "MS": "title",
+      "EPIC": "title",
+      "IMPL": "title",
+      "RES": "title",
+      "IDEA": "title",
+      "AGENT": "title"
+    },
+    "colors": {
+      "AD": "#8b5cf6",
+      "TASK": "#06b6d4",
+      "RULE": "#a78bfa",
+      "IDEA": "#c084fc",
+      "PILLAR": "#818cf8",
+      "DOC": "#94a3b8",
+      "KNOW": "#2dd4bf",
+      "RES": "#6366f1",
+      "AGENT": "#f472b6",
+      "EPIC": "#3b82f6",
+      "IMPL": "#67e8f9",
+      "MS": "#38bdf8"
+    }
+  },
   "statuses": [
-    { "key": "captured", "label": "Captured", "icon": "circle-dot", "transitions": ["exploring", "ready", "archived"] },
-    { "key": "exploring", "label": "Exploring", "icon": "search", "transitions": ["ready", "captured", "archived"] },
-    { "key": "ready", "label": "Ready", "icon": "check-circle", "transitions": ["prioritised", "exploring", "archived"] },
-    { "key": "prioritised", "label": "Prioritised", "icon": "arrow-up-circle", "transitions": ["active", "ready", "archived"] },
-    { "key": "active", "label": "Active", "icon": "loader", "spin": true, "transitions": ["review", "hold", "blocked"], "auto_rules": [] },
-    { "key": "hold", "label": "Hold", "icon": "pause-circle", "transitions": ["active", "archived"] },
-    { "key": "blocked", "label": "Blocked", "icon": "x-circle", "transitions": ["active", "archived"], "auto_rules": [{ "condition": "all-dependencies-completed", "target": "active" }] },
-    { "key": "review", "label": "Review", "icon": "eye", "transitions": ["completed", "active"] },
-    { "key": "completed", "label": "Completed", "icon": "check-circle-2", "transitions": ["archived"] },
-    { "key": "surpassed", "label": "Surpassed", "icon": "fast-forward", "transitions": ["archived"] },
-    { "key": "archived", "label": "Archived", "icon": "archive", "transitions": [] },
-    { "key": "recurring", "label": "Recurring", "icon": "repeat", "transitions": ["archived"] }
+    {
+      "key": "captured",
+      "label": "Captured",
+      "icon": "circle-dot",
+      "spin": false,
+      "transitions": [
+        "exploring",
+        "ready",
+        "archived"
+      ],
+      "auto_rules": []
+    },
+    {
+      "key": "exploring",
+      "label": "Exploring",
+      "icon": "search",
+      "spin": false,
+      "transitions": [
+        "ready",
+        "captured",
+        "archived"
+      ],
+      "auto_rules": []
+    },
+    {
+      "key": "ready",
+      "label": "Ready",
+      "icon": "check-circle",
+      "spin": false,
+      "transitions": [
+        "prioritised",
+        "exploring",
+        "archived"
+      ],
+      "auto_rules": []
+    },
+    {
+      "key": "prioritised",
+      "label": "Prioritised",
+      "icon": "arrow-up-circle",
+      "spin": false,
+      "transitions": [
+        "active",
+        "ready",
+        "archived"
+      ],
+      "auto_rules": []
+    },
+    {
+      "key": "active",
+      "label": "Active",
+      "icon": "loader",
+      "spin": true,
+      "transitions": [
+        "review",
+        "hold",
+        "blocked"
+      ],
+      "auto_rules": []
+    },
+    {
+      "key": "hold",
+      "label": "Hold",
+      "icon": "pause-circle",
+      "spin": false,
+      "transitions": [
+        "active",
+        "archived"
+      ],
+      "auto_rules": []
+    },
+    {
+      "key": "blocked",
+      "label": "Blocked",
+      "icon": "x-circle",
+      "spin": false,
+      "transitions": [
+        "active",
+        "archived"
+      ],
+      "auto_rules": [
+        {
+          "condition": "all-dependencies-completed",
+          "target": "active"
+        }
+      ]
+    },
+    {
+      "key": "review",
+      "label": "Review",
+      "icon": "eye",
+      "spin": false,
+      "transitions": [
+        "completed",
+        "active"
+      ],
+      "auto_rules": []
+    },
+    {
+      "key": "completed",
+      "label": "Completed",
+      "icon": "check-circle-2",
+      "spin": false,
+      "transitions": [
+        "archived"
+      ],
+      "auto_rules": []
+    },
+    {
+      "key": "surpassed",
+      "label": "Surpassed",
+      "icon": "fast-forward",
+      "spin": false,
+      "transitions": [
+        "archived"
+      ],
+      "auto_rules": []
+    },
+    {
+      "key": "archived",
+      "label": "Archived",
+      "icon": "archive",
+      "spin": false,
+      "transitions": [],
+      "auto_rules": []
+    },
+    {
+      "key": "recurring",
+      "label": "Recurring",
+      "icon": "repeat",
+      "spin": false,
+      "transitions": [
+        "archived"
+      ],
+      "auto_rules": []
+    }
   ],
   "delivery": {
     "types": [
-      { "key": "milestone", "label": "Milestone", "path": ".orqa/delivery/milestones", "gate_field": "gate" },
-      { "key": "epic", "label": "Epic", "path": ".orqa/delivery/epics", "parent": { "type": "milestone", "relationship": "delivers" } },
-      { "key": "task", "label": "Task", "path": ".orqa/delivery/tasks", "parent": { "type": "epic", "relationship": "delivers" } }
+      {
+        "key": "milestone",
+        "label": "Milestone",
+        "path": ".orqa/delivery/milestones",
+        "parent": null,
+        "gate_field": "gate"
+      },
+      {
+        "key": "epic",
+        "label": "Epic",
+        "path": ".orqa/delivery/epics",
+        "parent": {
+          "type": "milestone",
+          "relationship": "delivers"
+        },
+        "gate_field": null
+      },
+      {
+        "key": "task",
+        "label": "Task",
+        "path": ".orqa/delivery/tasks",
+        "parent": {
+          "type": "epic",
+          "relationship": "delivers"
+        },
+        "gate_field": null
+      }
     ]
   },
   "relationships": [
-    { "key": "depends-on", "inverse": "depended-on-by", "label": "Depends On", "inverse_label": "Depended On By" }
+    {
+      "key": "depends-on",
+      "inverse": "depended-on-by",
+      "label": "Depends On",
+      "inverse_label": "Depended On By"
+    }
   ],
   "plugins": {
-    "@orqastudio/plugin-software-project": { "installed": true, "enabled": true, "path": "plugins/software" },
-    "@orqastudio/plugin-cli": { "installed": true, "enabled": true, "path": "plugins/cli" },
-    "@orqastudio/plugin-claude": { "installed": true, "enabled": true, "path": "plugins/claude" },
-    "@orqastudio/plugin-svelte": { "installed": true, "enabled": true, "path": "plugins/svelte" },
-    "@orqastudio/plugin-tauri": { "installed": true, "enabled": true, "path": "plugins/tauri" },
-    "@orqastudio/plugin-rust": { "installed": true, "enabled": true, "path": "plugins/rust" },
-    "@orqastudio/plugin-typescript": { "installed": true, "enabled": true, "path": "plugins/typescript" },
-    "@orqastudio/plugin-coding-standards": { "installed": true, "enabled": true, "path": "plugins/coding-standards" }
-  },
-  "artifactLinks": {
-    "displayModes": {},
-    "colors": {
-      "EPIC": "#3b82f6",
-      "TASK": "#06b6d4",
-      "RULE": "#a78bfa",
-      "AD": "#8b5cf6",
-      "IDEA": "#c084fc",
-      "IMPL": "#67e8f9",
-      "KNOW": "#2dd4bf",
-      "PILLAR": "#818cf8",
-      "RES": "#6366f1",
-      "MS": "#38bdf8",
-      "DOC": "#94a3b8",
-      "AGENT": "#f472b6"
+    "@orqastudio/plugin-claude": {
+      "installed": true,
+      "enabled": true,
+      "path": "plugins/claude",
+      "relationships": null,
+      "config": null
+    },
+    "@orqastudio/plugin-svelte": {
+      "installed": true,
+      "enabled": true,
+      "path": "plugins/svelte",
+      "relationships": null,
+      "config": null
+    },
+    "@orqastudio/plugin-rust": {
+      "installed": true,
+      "enabled": true,
+      "path": "plugins/rust",
+      "relationships": null,
+      "config": null
+    },
+    "@orqastudio/plugin-software-project": {
+      "installed": true,
+      "enabled": true,
+      "path": "plugins/software",
+      "relationships": null,
+      "config": null
+    },
+    "@orqastudio/plugin-cli": {
+      "installed": true,
+      "enabled": true,
+      "path": "plugins/cli",
+      "relationships": null,
+      "config": null
+    },
+    "@orqastudio/plugin-tauri": {
+      "installed": true,
+      "enabled": true,
+      "path": "plugins/tauri",
+      "relationships": null,
+      "config": null
+    },
+    "@orqastudio/plugin-coding-standards": {
+      "installed": true,
+      "enabled": true,
+      "path": "plugins/coding-standards",
+      "relationships": null,
+      "config": null
+    },
+    "@orqastudio/plugin-typescript": {
+      "installed": true,
+      "enabled": true,
+      "path": "plugins/typescript",
+      "relationships": null,
+      "config": null
     }
   }
 }

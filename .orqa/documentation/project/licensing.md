@@ -4,7 +4,7 @@ title: Licensing & Ethics
 description: What the OrqaStudio license means for you — whether you're a user, contributor, charity, or business.
 category: concept
 created: 2026-03-18
-updated: 2026-03-18
+updated: 2026-03-21
 relationships:
   - target: AD-fc646168
     type: documents
@@ -120,3 +120,17 @@ We acknowledge this is not an OSI-approved license. OSI-approved licenses don't 
 | A business (evaluation) | Yes | Free |
 | A business (production) | After 4 years, or with commercial license | Contact us |
 | Hosting as a paid service | No (before change date) | Not available |
+
+## License by Component
+
+| Component type | License |
+|---------------|---------|
+| App (`app/`) | BSL-1.1 with Ethical Use Addendum |
+| Libraries (`libs/`) | BSL-1.1 with Ethical Use Addendum |
+| Plugins — first-party (`plugins/`) | BSL-1.1 with Ethical Use Addendum |
+| Connectors (`connectors/`) | Apache-2.0 |
+| Templates (`templates/`) | BSL-1.1 with Ethical Use Addendum |
+| Dev tools (`tools/`) | BSL-1.1 with Ethical Use Addendum |
+| Registries (`registry/`) | MIT |
+
+The Ethical Use Addendum is uniform across all BSL repos — there is no BSL variant without it. After the change date, the Addendum remains permanently attached to the Apache 2.0 conversion.
