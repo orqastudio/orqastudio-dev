@@ -3,7 +3,7 @@ id: IDEA-a3f2c17e
 type: idea
 title: "Inference-time decision tree — self-navigating knowledge discovery"
 description: "Instead of pre-injecting knowledge into agents, inject a thinking framework (decision tree) that the agent works through as part of its inference process. The agent asks itself structured questions after each prompt, self-navigates to the right knowledge articles, and only loads what it determines it needs. Lighter context, higher precision, self-documenting reasoning."
-status: captured
+status: exploring
 created: 2026-03-21
 updated: 2026-03-21
 relationships:
@@ -16,6 +16,12 @@ relationships:
   - target: PERSONA-cda6edd6
     type: benefits
     rationale: "Alex (Lead) — the orchestrator serves Alex's coordination needs"
+  - target: AD-e7c4a1f3
+    type: crystallises
+    rationale: "This idea crystallised into the inference-time decision tree architecture decision"
+  - target: EPIC-b2d9f506
+    type: crystallises
+    rationale: "This idea crystallised into the implementation epic"
 ---
 
 ## The Shift: From Pre-Injection to Self-Navigation
