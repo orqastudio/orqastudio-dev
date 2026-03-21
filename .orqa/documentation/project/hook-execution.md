@@ -11,10 +11,7 @@ tags:
   - enforcement
   - governance
   - plugin
-relationships:
-  - target: KNOW-bcfeb64e
-    type: references
-    rationale: Rule enforcement knowledge describes the enforcement entry format hooks evaluate
+relationships: []
 ---
 
 # Hook Execution Semantics
